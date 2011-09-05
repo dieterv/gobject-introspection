@@ -150,3 +150,46 @@ _join = os.path.join
 def msysjoin(a, *p):
     path = _join(a, *p).replace('\\', '/')
     return path
+
+def msyspaths2windows(args):
+    """"
+    Converts POSIX path names to Windows path names. Normally, this
+    conversion is done for us by MSYS when spawning a non-MSYS binary from
+    an MSYS binary, but we're completely sidestepping the usual argv handling
+    due to the 8192 character command line length limit imposed by CMD.EXE...
+
+    Note: Let's hope none of the split args itself is larger than the limit.
+    Note: This function is known to be extremely slow, but at least it's results
+    are correct.
+    """
+
+    # Split args on space character, unless the space is inside double quotes
+    splitargs = []
+    tmparg = ''
+    quotes = False
+
+    for char in args:
+        if char == '"':
+            if quotes:
+                quotes = False
+            else:
+                quotes = True
+
+        if char == ' ' and not quotes:
+            if tmparg != '': # Prevent empty arguments, keeps things tidy
+                splitargs.append(tmparg)
+                tmparg = ''
+        else:
+            tmparg += char
+
+    if tmparg != '': # Don't forget to append the last argument
+        splitargs.append(tmparg)
+
+    # Now we can safely convert paths
+    realargs = []
+
+    for arg in splitargs:
+        output = subprocess.check_output(["cmd", "//C", "echo", arg.strip().replace('"', '\\"')])
+        realargs.append(output.strip())
+
+    return realargs

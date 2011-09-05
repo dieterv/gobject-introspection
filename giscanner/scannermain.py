@@ -61,6 +61,11 @@ def get_windows_option_group(parser):
     group.add_option("-m", help="some machine dependent option",
                      action="append", dest='m_option',
                      default=[])
+    parser.add_option("", "--args-file",
+                      action="store", dest="args_file", default=None,
+                      help="""File holding real arguments for this process. This option is
+used to work around the 8192 character command line length limit imposed by CMD.EXE when
+building various packages' (notably GTK+) introspection support under MSYS/MinGW""")
 
     return group
 
@@ -387,6 +392,17 @@ def scanner_main(args):
 
     parser = _get_option_parser()
     (options, args) = parser.parse_args(args)
+
+    if os.environ.get('MSYSTEM') == 'MINGW32' and options.args_file:
+        # Read real arguments from file
+        f = open(options.args_file, "rb")
+        realargs = f.read().strip()
+        f.close()
+
+        realargs = utils.msyspaths2windows(realargs)
+        realargs.insert(0, args[0])
+
+        (options, args) = parser.parse_args(realargs)
 
     if options.passthrough_gir:
         passthrough_gir(options.passthrough_gir, sys.stdout)
