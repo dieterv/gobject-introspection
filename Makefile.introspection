@@ -130,8 +130,9 @@ $(if $(or $(findstring --header-only,$($(_gir_name)_SCANNERFLAGS)),
 # needs to be added manually.
 $(1): $$($(_gir_name)_FILES)
 	@ $(MKDIR_P) $(dir $(1))
-	$(_gir_silent_scanner_prefix) $(INTROSPECTION_SCANNER_ENV) $(INTROSPECTION_SCANNER) $(_gir_silent_scanner_opts) \
-	$(INTROSPECTION_SCANNER_ARGS) \
+
+	echo  $(_gir_silent_scanner_opts) \
+	  $(INTROSPECTION_SCANNER_ARGS) \
 	  --namespace=$(_gir_namespace) \
 	  --nsversion=$(_gir_version) \
 	  $(_gir_libtool) \
@@ -144,7 +145,13 @@ $(1): $$($(_gir_name)_FILES)
 	  $($(_gir_name)_CFLAGS) \
 	  $($(_gir_name)_LDFLAGS) \
 	  $$^ \
-	  --output $(1)
+	  --output $(1) > g-ir-scanner.args
+
+	$(_gir_silent_scanner_prefix) \
+	PATH=.:.libs:$(PATH) \
+    $(INTROSPECTION_SCANNER_ENV) \
+	$(INTROSPECTION_SCANNER) \
+	--args-file=g-ir-scanner.args
 endef
 
 $(foreach gir,$(INTROSPECTION_GIRS),$(eval $(call introspection-scanner,$(gir))))
@@ -155,7 +162,9 @@ $(foreach gir,$(INTROSPECTION_GIRS),$(eval $(call introspection-scanner,$(gir)))
 # $(2): typelib filename (output)
 #
 define introspection-compiler
-$(_gir_silent_compiler) $(INTROSPECTION_COMPILER) $(INTROSPECTION_COMPILER_ARGS) --includedir=. $(1) -o $(2)
+$(_gir_silent_compiler) \
+PATH=.:.libs:$(PATH) \
+$(INTROSPECTION_COMPILER) $(INTROSPECTION_COMPILER_ARGS) --includedir=. $(1) -o $(2)
 endef
 
 # Simple rule to compile a typelib.
