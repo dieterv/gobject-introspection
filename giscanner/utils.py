@@ -102,6 +102,7 @@ def extract_libtool(la_file):
     #        in a way which is compatible with both libtool 2.2
     #        and pre-2.2. Johan 2008-10-21
     libname = libname.replace('.libs/.libs', '.libs')
+    libname = libname.replace('.libs\\.libs', '.libs')
     return libname
 
 # Returns arguments for invoking libtool, if applicable, otherwise None
