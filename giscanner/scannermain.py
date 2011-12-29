@@ -373,6 +373,15 @@ def write_output(data, options):
         _error("while writing output: %s" % (e.strerror, ))
 
 def scanner_main(args):
+    if os.environ.get('MSYSTEM') == 'MINGW32':
+        # These workarounds will probably go away when MSYS grows itself a
+        # Python port that can be used during build-time. But let's not hope
+        # for that to happen any time soon...
+
+        # Monkeypatch subprocess.Popen so 'sh.exe' is automatically inserted
+        # on each Popen/call/check_call invocation
+        subprocess.Popen = utils.MsysPopen
+
     parser = _get_option_parser()
     (options, args) = parser.parse_args(args)
 

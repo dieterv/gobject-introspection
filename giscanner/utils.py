@@ -139,3 +139,9 @@ def files_are_identical(path1, path2):
     f1.close()
     f2.close()
     return buf1 == buf2
+
+_Popen = subprocess.Popen
+class MsysPopen(_Popen):
+    def __init__(self, args, **kwargs):
+        newargs = ['sh.exe', '-c', ' '.join(args)]
+        return _Popen.__init__(self, newargs, **kwargs)
