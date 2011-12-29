@@ -382,6 +382,9 @@ def scanner_main(args):
         # on each Popen/call/check_call invocation
         subprocess.Popen = utils.MsysPopen
 
+        # Monkeypatch os.path.join so '\\' separators are replaced with '/'
+        os.path.join = utils.msysjoin
+
     parser = _get_option_parser()
     (options, args) = parser.parse_args(args)
 

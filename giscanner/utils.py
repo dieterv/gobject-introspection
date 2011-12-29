@@ -145,3 +145,8 @@ class MsysPopen(_Popen):
     def __init__(self, args, **kwargs):
         newargs = ['sh.exe', '-c', ' '.join(args)]
         return _Popen.__init__(self, newargs, **kwargs)
+
+_join = os.path.join
+def msysjoin(a, *p):
+    path = _join(a, *p).replace('\\', '/')
+    return path
