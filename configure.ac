@@ -40,7 +40,7 @@ AM_PROG_CC_C_O
 
 # Initialize libtool
 LT_PREREQ([2.2])
-LT_INIT
+LT_INIT([win32-dll])
 
 PKG_PROG_PKG_CONFIG
 
@@ -82,19 +82,12 @@ fi
 AC_CHECK_LIB([dl], [dlopen])
 
 AC_MSG_CHECKING(for the suffix of shared libraries)
-# libtool variables are immediately available since 2.0, prior to that we need
-# to call libtool --config explicitly
-if test "x$shrext_cmds" = x; then
-    shrext_cmds=`SED=$SED ./libtool --config | grep '^shrext_cmds='`
-    eval $shrext_cmds
-fi
-eval std_shrext=$shrext_cmds
 # chop the initial dot
-SHLIB_SUFFIX=${std_shrext#.}
+SHLIB_SUFFIX=${shrext_cmds#.}
 AC_MSG_RESULT(.$SHLIB_SUFFIX)
 # any reason it may fail?
 if test "x$SHLIB_SUFFIX" = x; then
-        AC_MSG_ERROR(Cannot determine shared library suffix from libtool)
+  AC_MSG_ERROR(Cannot determine shared library suffix from libtool)
 fi
 AC_DEFINE_UNQUOTED([SHLIB_SUFFIX], "$SHLIB_SUFFIX", [Define to the platform's shared library suffix])
 
@@ -288,7 +281,7 @@ AC_MSG_CHECKING([for glib source directory to use for documentation])
 AC_ARG_WITH(glib-src,
 	[  --with-glib-src=PATH    Source directory for glib - needed to add docs to gir],
 	GLIBSRC=$withval
-) 
+)
 AM_CONDITIONAL(WITH_GLIBSRC, test x"$GLIBSRC" != x)
 AC_SUBST(GLIBSRC)
 AC_MSG_RESULT([$GLIBSRC])
