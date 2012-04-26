@@ -21,6 +21,7 @@
 
 import os
 import sys
+import re
 import subprocess
 import shutil
 import tempfile
@@ -274,6 +275,10 @@ class DumpCompiler(object):
             if library.endswith(".la"): # explicitly specified libtool library
                 args.append(library)
             else:
+                if os.name == 'nt':
+                    lt_dll_pat = re.compile(r'^lib(.*)-[0-9][0-9]*$')
+                    if lt_dll_pat.match(library):
+                        library = lt_dll_pat.sub(r'\1', library)
                 args.append('-l' + library)
 
         for library_path in self._options.library_paths:
@@ -297,6 +302,10 @@ class DumpCompiler(object):
             if library.endswith(".la"): # explicitly specified libtool library
                 args.append(library)
             else:
+                if os.name == 'nt':
+                    lt_dll_pat = re.compile(r'^lib(.*)-[0-9][0-9]*$')
+                    if lt_dll_pat.match(library):
+                        library = lt_dll_pat.sub(r'\1', library)
                 args.append('-l' + library)
 
 def compile_introspection_binary(options, get_type_functions,
