@@ -256,6 +256,8 @@ class DumpCompiler(object):
                 subprocess.list2cmdline(args), )
             sys.stdout.flush()
         try:
+            if os.name == 'nt':
+                os.mkdir(os.path.join(os.path.dirname(output), '.libs'))
             subprocess.check_call(args)
         except subprocess.CalledProcessError, e:
             raise LinkerError(e)
