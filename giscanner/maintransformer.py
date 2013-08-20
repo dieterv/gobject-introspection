@@ -21,11 +21,10 @@ import re
 
 from . import ast
 from . import message
-from .annotationparser import (TAG_VFUNC, TAG_SINCE, TAG_DEPRECATED, TAG_RETURNS,
+from .annotationparser import (TAG_STABILITY, TAG_VFUNC, TAG_SINCE, TAG_DEPRECATED, TAG_RETURNS,
                                TAG_ATTRIBUTES, TAG_RENAME_TO, TAG_TYPE,
                                TAG_UNREF_FUNC, TAG_REF_FUNC, TAG_SET_VALUE_FUNC,
-                               TAG_GET_VALUE_FUNC, TAG_VALUE, TAG_TRANSFER,
-                               TAG_STABILITY)
+                               TAG_GET_VALUE_FUNC, TAG_VALUE)
 from .annotationparser import (OPT_ALLOW_NONE, OPT_ARRAY, OPT_ATTRIBUTE,
                                OPT_ELEMENT_TYPE, OPT_IN, OPT_INOUT,
                                OPT_INOUT_ALT, OPT_OUT, OPT_SCOPE,
@@ -35,7 +34,9 @@ from .annotationparser import (OPT_ALLOW_NONE, OPT_ARRAY, OPT_ATTRIBUTE,
                                OPT_ARRAY_LENGTH, OPT_ARRAY_ZERO_TERMINATED,
                                OPT_CONSTRUCTOR, OPT_METHOD,
                                OPT_TRANSFER_NONE, OPT_TRANSFER_FLOATING)
-from .utils import to_underscores_noprefix
+from .annotationparser import AnnotationParser
+from .transformer import TransformerException
+from .utils import to_underscores, to_underscores_noprefix
 
 
 class MainTransformer(object):
@@ -136,7 +137,7 @@ class MainTransformer(object):
     def _apply_annotation_rename_to(self, node, chain, block):
         if not block:
             return
-        rename_to = block.tags.get(TAG_RENAME_TO)
+        rename_to = block.get(TAG_RENAME_TO)
         if not rename_to:
             return
         rename_to = rename_to.value
@@ -205,7 +206,7 @@ class MainTransformer(object):
         if isinstance(node, ast.Function):
             self._apply_annotations_function(node, chain)
         if isinstance(node, ast.Callback):
-            self._apply_annotations_callable(node, chain, block=self._get_block(node))
+            self._apply_annotations_callable(node, chain, block = self._get_block(node))
         if isinstance(node, (ast.Class, ast.Interface, ast.Union, ast.Enum,
                              ast.Bitfield, ast.Callback)):
             self._apply_annotations_annotated(node, self._get_block(node))
@@ -219,7 +220,7 @@ class MainTransformer(object):
             section_name = 'SECTION:' + name.lower()
             block = self._blocks.get(section_name)
             if block:
-                node.doc = block.comment if block.comment else ''
+                node.doc = block.comment
         if isinstance(node, (ast.Class, ast.Interface)):
             for prop in node.properties:
                 self._apply_annotations_property(node, prop)
@@ -228,13 +229,13 @@ class MainTransformer(object):
         if isinstance(node, ast.Class):
             block = self._get_block(node)
             if block:
-                tag = block.tags.get(TAG_UNREF_FUNC)
+                tag = block.get(TAG_UNREF_FUNC)
                 node.unref_func = tag.value if tag else None
-                tag = block.tags.get(TAG_REF_FUNC)
+                tag = block.get(TAG_REF_FUNC)
                 node.ref_func = tag.value if tag else None
-                tag = block.tags.get(TAG_SET_VALUE_FUNC)
+                tag = block.get(TAG_SET_VALUE_FUNC)
                 node.set_value_func = tag.value if tag else None
-                tag = block.tags.get(TAG_GET_VALUE_FUNC)
+                tag = block.get(TAG_GET_VALUE_FUNC)
                 node.get_value_func = tag.value if tag else None
         if isinstance(node, ast.Constant):
             self._apply_annotations_constant(node)
@@ -319,7 +320,7 @@ class MainTransformer(object):
         block = self._blocks.get(func.symbol)
         if block:
             if isinstance(param, ast.Parameter):
-                tag = block.params.get(param.argname)
+                tag = block.tags.get(param.argname)
             elif isinstance(param, ast.Return):
                 tag = block.tags.get(TAG_RETURNS)
             else:
@@ -595,19 +596,17 @@ class MainTransformer(object):
         if block is None:
             return
 
-        node.doc = block.comment if block.comment else ''
+        node.doc = block.comment
 
-        since_tag = block.tags.get(TAG_SINCE)
+        since_tag = block.get(TAG_SINCE)
         if since_tag is not None:
             node.version = since_tag.value
 
-        deprecated_tag = block.tags.get(TAG_DEPRECATED)
+        deprecated_tag = block.get(TAG_DEPRECATED)
         if deprecated_tag is not None:
             value = deprecated_tag.value
             if ': ' in value:
-                colon = value.find(': ')
-                version = value[:colon]
-                desc = value[colon + 2:]
+                version, desc = value.split(': ', 1)
             else:
                 desc = value
                 version = None
@@ -615,18 +614,10 @@ class MainTransformer(object):
             if version is not None:
                 node.deprecated_version = version
 
-        stability_tag = block.tags.get(TAG_STABILITY)
-        if stability_tag is not None:
-            stability = stability_tag.value.capitalize()
-            if stability in ["Stable", "Unstable", "Private", "Internal"]:
-                node.stability = stability
-            else:
-                message.warn('unknown value "%s" for Stability tag' % (
-                    stability_tag.value), stability_tag.position)
-
-        annos_tag = block.tags.get(TAG_ATTRIBUTES)
+        annos_tag = block.get(TAG_ATTRIBUTES)
         if annos_tag is not None:
-            for key, value in annos_tag.options.items():
+            options = AnnotationParser.parse_options(annos_tag, annos_tag.value)
+            for key, value in options.iteritems():
                 if value:
                     node.attributes.append((key, value.one()))
 
@@ -686,7 +677,7 @@ class MainTransformer(object):
 
     def _apply_annotations_return(self, parent, return_, block):
         if block:
-            tag = block.tags.get(TAG_RETURNS)
+            tag = block.get(TAG_RETURNS)
         else:
             tag = None
         self._apply_annotations_param_ret_common(parent, return_, tag)
@@ -697,7 +688,7 @@ class MainTransformer(object):
             declparams.add(parent.instance_parameter.argname)
         for param in params:
             if block:
-                tag = block.params.get(param.argname)
+                tag = block.get(param.argname)
             else:
                 tag = None
             self._apply_annotations_param(parent, param, tag)
@@ -722,7 +713,7 @@ class MainTransformer(object):
             else:
                 text = ', should be one of %s' % (', '.join(repr(p) for p in unused), )
 
-            tag = block.params.get(doc_name)
+            tag = block.get(doc_name)
             message.warn(
                 '%s: unknown parameter %r in documentation comment%s' % (
                 block.name, doc_name, text),
@@ -750,7 +741,7 @@ class MainTransformer(object):
     def _apply_annotations_field(self, parent, block, field):
         if not block:
             return
-        tag = block.params.get(field.name)
+        tag = block.get(field.name)
         if not tag:
             return
         t = tag.options.get(OPT_TYPE)
@@ -768,7 +759,7 @@ class MainTransformer(object):
         self._apply_annotations_annotated(prop, block)
         if not block:
             return
-        transfer_tag = block.tags.get(TAG_TRANSFER)
+        transfer_tag = block.get(OPT_TRANSFER)
         if transfer_tag is not None:
             transfer = transfer_tag.value
             if transfer == OPT_TRANSFER_FLOATING:
@@ -776,7 +767,7 @@ class MainTransformer(object):
             prop.transfer = transfer
         else:
             prop.transfer = self._get_transfer_default(parent, prop)
-        type_tag = block.tags.get(TAG_TYPE)
+        type_tag = block.get(TAG_TYPE)
         if type_tag:
             prop.type = self._resolve_toplevel(type_tag.value, prop.type, prop, parent)
 
@@ -791,17 +782,12 @@ class MainTransformer(object):
             # We're only attempting to name the signal parameters if
             # the number of parameters (@foo) is the same or greater
             # than the number of signal parameters
-            if len(block.params) > len(signal.parameters):
-                names = block.params.items()
+            if len(block.tags) > len(signal.parameters):
+                names = block.tags.items()
                 # Resolve real parameter names early, so that in later
                 # phase we can refer to them while resolving annotations.
                 for i, param in enumerate(signal.parameters):
                     param.argname, tag = names[i + 1]
-            elif len(signal.parameters) != 0:
-                # Only warn about missing params if there are actually parameters
-                # besides implicit self.
-                message.warn("incorrect number of parameters in comment block, "
-                             "parameter annotations will be ignored.", block.position)
 
         for i, param in enumerate(signal.parameters):
             if names:
@@ -817,13 +803,10 @@ class MainTransformer(object):
         self._apply_annotations_return(signal, signal.retval, block)
 
     def _apply_annotations_constant(self, node):
-        block = self._get_block(node)
-        if block is None:
+        block = self._blocks.get(node.ctype)
+        if not block:
             return
-
-        self._apply_annotations_annotated(node, block)
-
-        tag = block.tags.get(TAG_VALUE)
+        tag = block.get(TAG_VALUE)
         if tag:
             node.value = tag.value
 
@@ -832,7 +815,7 @@ class MainTransformer(object):
             return
 
         for m in node.members:
-            tag = block.params.get(m.symbol, None)
+            tag = block.get(m.symbol)
             if tag is not None:
                 m.doc = tag.comment
 
@@ -845,7 +828,7 @@ class MainTransformer(object):
             # Handle virtual invokers
             parent = chain[-1] if chain else None
             if (block and parent):
-                virtual_annotation = block.tags.get(TAG_VFUNC)
+                virtual_annotation = block.get(TAG_VFUNC)
                 if virtual_annotation:
                     invoker_name = virtual_annotation.value
                     matched = False
@@ -1293,7 +1276,7 @@ method or constructor of some type."""
         params = node.parameters
 
         # First, do defaults for well-known callback types
-        for param in params:
+        for i, param in enumerate(params):
             argnode = self._transformer.lookup_typenode(param.type)
             if isinstance(argnode, ast.Callback):
                 if param.type.target_giname in ('Gio.AsyncReadyCallback',
@@ -1302,7 +1285,7 @@ method or constructor of some type."""
                     param.transfer = ast.PARAM_TRANSFER_NONE
 
         callback_param = None
-        for param in params:
+        for i, param in enumerate(params):
             argnode = self._transformer.lookup_typenode(param.type)
             is_destroynotify = False
             if isinstance(argnode, ast.Callback):

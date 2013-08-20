@@ -173,7 +173,6 @@ in contrast to the other create_type() functions."""
             data = ''
         return '%s(%sctype=%s)' % (self.__class__.__name__, data, self.ctype)
 
-
 class TypeUnknown(Type):
     def __init__(self):
         Type.__init__(self, _target_unknown=True)

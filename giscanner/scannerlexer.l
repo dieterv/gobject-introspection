@@ -46,7 +46,6 @@ char linebuf[2000];
 extern int yylex (GISourceScanner *scanner);
 #define YY_DECL int yylex (GISourceScanner *scanner)
 static int yywrap (void);
-static void parse_gtk_doc_comment (GISourceScanner *scanner);
 static void parse_comment (GISourceScanner *scanner);
 static void parse_trigraph (GISourceScanner *scanner);
 static void process_linemarks (GISourceScanner *scanner);
@@ -72,13 +71,11 @@ stringtext				([^\\\"])|(\\.)
 						++lineno;
 					}
 "\\\n"					{ ++lineno; }
-
 [\t\f\v\r ]+				{ /* Ignore whitespace. */ }
 
-"/**"					{ parse_gtk_doc_comment(scanner); }
 "/*"					{ parse_comment(scanner); }
 "/*"[\t ]?<[\t ,=A-Za-z0-9_]+>[\t ]?"*/" { parse_trigraph(scanner); }
-"//".*					{ /* Ignore C++ style comments. */ }
+"//".*					{ }
 
 "#define "[a-zA-Z_][a-zA-Z_0-9]*"("	{ yyless (yyleng - 1); return FUNCTION_MACRO; }
 "#define "[a-zA-Z_][a-zA-Z_0-9]*	{ return OBJECT_MACRO; }
@@ -223,45 +220,33 @@ yywrap (void)
   return 1;
 }
 
+
 static void
-parse_gtk_doc_comment (GISourceScanner *scanner)
+parse_comment (GISourceScanner *scanner)
 {
-  GString *string = NULL;
+  GString *string;
   int c1, c2;
   GISourceComment *comment;
   int comment_lineno;
-  int skip = FALSE;
-
-  if (!g_list_find_custom (scanner->filenames,
-                           scanner->current_filename,
-                           (GCompareFunc)g_strcmp0)) {
-      skip = TRUE;
-  } else {
-      string = g_string_new (yytext);
-  }
 
   c1 = input();
   c2 = input();
+
+  string = g_string_new ("");
 
   comment_lineno = lineno;
 
   while (c2 != EOF && !(c1 == '*' && c2 == '/'))
     {
-      if (!skip)
-        g_string_append_c (string, c1);
+      g_string_append_c (string, c1);
 
       if (c1 == '\n')
         lineno++;
 
       c1 = c2;
       c2 = input();
+
     }
-
-  if (skip) {
-      return;
-  }
-
-  g_string_append (string, "*/");
 
   comment = g_slice_new (GISourceComment);
   comment->comment = g_string_free (string, FALSE);
@@ -270,26 +255,6 @@ parse_gtk_doc_comment (GISourceScanner *scanner)
 
   scanner->comments = g_slist_prepend (scanner->comments,
                                        comment);
-}
-
-static void
-parse_comment (GISourceScanner *scanner)
-{
-  int c1, c2;
-
-  c1 = input();
-  c2 = input();
-
-  while (c2 != EOF && !(c1 == '*' && c2 == '/'))
-    {
-      if (c1 == '\n')
-        lineno++;
-
-      c1 = c2;
-      c2 = input();
-    }
-
-  return;
 }
 
 static int
