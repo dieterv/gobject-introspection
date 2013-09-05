@@ -1943,10 +1943,22 @@ class GtkDocCommentBlockWriter(object):
     Serialized :class:`GtkDocCommentBlock` objects into GTK-Doc comment blocks.
     '''
 
-    def __init__(self, indent=True):
+    def __init__(self, indent=True, linemarkers=False, linemarkers_prefix=[]):
         #: :const:`True` if the original indentation preceding the "``*``" needs to be retained,
         #: :const:`False` otherwise. Default value is :const:`True`.
         self.indent = indent
+
+        #: :const:`True` if serialized comment blocks should be preceded by linemarkers
+        #: pointing to the source file and line number of the original GTK-Doc comment block.
+        #: Note that these are not C pre-processor style linemarkers on purpose (prevents
+        #: g-ir-scanner from tripping up over non-existing locations in the generated
+        #: "gir/[gio|glib|gobject]-2.0.c" files). Default value is :const:`False`.
+        self.linemarkers = linemarkers
+
+        #: list of path prefixes that will be stripped from the generated linemarkers. This
+        #: can be used if you intend to share the generated information but you do not want
+        #: the linemarkers to point to an absolute path that only exists on your computer.
+        self.linemarkers_prefix = [os.path.abspath(p) for p in linemarkers_prefix]
 
     def _serialize_annotations(self, annotations):
         '''
@@ -2122,6 +2134,17 @@ class GtkDocCommentBlockWriter(object):
             # Restore comment block start and end tokens
             lines.insert(0, '%s/**\n' % (start_indent, ))
             lines.append('%s*/\n' % (line_indent, ))
+
+            # Insert linemarker. Note these are not C pre-processor linemarkers on purpose.
+            if self.linemarkers:
+                filename = block.position.filename
+
+                for p in self.linemarkers_prefix:
+                    if filename.startswith(os.path.abspath(p)):
+                        filename = os.path.relpath(filename, p)
+                        break
+
+                lines.insert(0, '/* %s:%s */\n' % (filename, block.position.line))
 
             # Restore code before and after comment block start and end tokens
             if block.code_before:

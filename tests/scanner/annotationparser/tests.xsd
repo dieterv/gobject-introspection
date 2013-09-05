@@ -38,6 +38,8 @@
     <xs:simpleContent>
       <xs:extension base="t:PreservedStringtype">
         <xs:attribute name="indent" type="xs:boolean" default="true" />
+        <xs:attribute name="linemarkers" type="xs:boolean" default="false" />
+        <xs:attribute name="linemarkersprefix" type="xs:string" />
       </xs:extension>
     </xs:simpleContent>
   </xs:complexType>

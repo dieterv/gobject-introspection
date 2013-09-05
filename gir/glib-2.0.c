@@ -2,6 +2,7 @@
 /* THIS FILE IS GENERATED DO NOT EDIT */
 /************************************************************/
 
+/* glib/docs.c:1633 */
 /**
  * ABS:
  * @a: a numeric value
@@ -17,6 +18,7 @@
  */
 
 
+/* glib/docs.c:1647 */
 /**
  * CLAMP:
  * @x: the value to clamp
@@ -35,6 +37,7 @@
  */
 
 
+/* glib/ggettext.c:536 */
 /**
  * C_:
  * @Context: a message context, must be a string literal
@@ -59,6 +62,7 @@
  */
 
 
+/* glib/docs.c:1601 */
 /**
  * FALSE:
  *
@@ -66,6 +70,7 @@
  */
 
 
+/* glib/garray.c:95 */
 /**
  * GArray:
  * @data: a pointer to the element data. The data may be moved as
@@ -77,6 +82,7 @@
  */
 
 
+/* glib/gasyncqueue.c:90 */
 /**
  * GAsyncQueue:
  *
@@ -86,6 +92,7 @@
  */
 
 
+/* glib/garray.c:1500 */
 /**
  * GByteArray:
  * @data: a pointer to the element data. The data may be moved as
@@ -97,6 +104,7 @@
  */
 
 
+/* glib/gbytes.c:38 */
 /**
  * GBytes:
  *
@@ -129,6 +137,7 @@
  */
 
 
+/* glib/glist.c:1164 */
 /**
  * GCompareDataFunc:
  * @a: a value.
@@ -145,6 +154,7 @@
  */
 
 
+/* glib/glist.c:1132 */
 /**
  * GCompareFunc:
  * @a: a value.
@@ -160,6 +170,7 @@
  */
 
 
+/* glib/gthread.c:391 */
 /**
  * GCond:
  *
@@ -236,6 +247,7 @@
  */
 
 
+/* glib/gdataset.c:122 */
 /**
  * GData:
  *
@@ -245,6 +257,7 @@
  */
 
 
+/* glib/gdataset.c:1050 */
 /**
  * GDataForeachFunc:
  * @key_id: the #GQuark id to identifying the data element.
@@ -257,6 +270,7 @@
  */
 
 
+/* glib/gdate.c:128 */
 /**
  * GDate:
  * @julian_days: the Julian representation of the date
@@ -280,6 +294,7 @@
  */
 
 
+/* glib/gdate.c:172 */
 /**
  * GDateDMY:
  * @G_DATE_DAY: a day
@@ -291,6 +306,7 @@
  */
 
 
+/* glib/gdate.c:182 */
 /**
  * GDateDay:
  *
@@ -299,6 +315,7 @@
  */
 
 
+/* glib/gdate.c:189 */
 /**
  * GDateMonth:
  * @G_DATE_BAD_MONTH: invalid value
@@ -320,6 +337,7 @@
  */
 
 
+/* glib/gdate.c:217 */
 /**
  * GDateWeekday:
  * @G_DATE_BAD_WEEKDAY: invalid value
@@ -336,6 +354,7 @@
  */
 
 
+/* glib/gdate.c:209 */
 /**
  * GDateYear:
  *
@@ -345,6 +364,7 @@
  */
 
 
+/* glib/gdataset.c:130 */
 /**
  * GDestroyNotify:
  * @data: the data element.
@@ -355,6 +375,7 @@
  */
 
 
+/* glib/gdir.c:52 */
 /**
  * GDir:
  *
@@ -362,6 +383,7 @@
  */
 
 
+/* glib/docs.c:1467 */
 /**
  * GDoubleIEEE754:
  * @v_double: the double value
@@ -373,6 +395,7 @@
  */
 
 
+/* glib/gdataset.c:805 */
 /**
  * GDuplicateFunc:
  * @data: the data to duplicate
@@ -387,6 +410,7 @@
  */
 
 
+/* glib/ghash.c:167 */
 /**
  * GEqualFunc:
  * @a: a value
@@ -400,6 +424,7 @@
  */
 
 
+/* glib/gscanner.c:158 */
 /**
  * GErrorType:
  * @G_ERR_UNKNOWN: unknown error
@@ -416,6 +441,7 @@
  */
 
 
+/* glib/gfileutils.c:90 */
 /**
  * GFileError:
  * @G_FILE_ERROR_EXIST: Operation not permitted; only the owner of
@@ -501,6 +527,7 @@
  */
 
 
+/* glib/gfileutils.c:182 */
 /**
  * GFileTest:
  * @G_FILE_TEST_IS_REGULAR: %TRUE if the file is a regular file
@@ -516,6 +543,7 @@
  */
 
 
+/* glib/docs.c:1457 */
 /**
  * GFloatIEEE754:
  * @v_float: the double value
@@ -527,6 +555,7 @@
  */
 
 
+/* glib/gutils.c:2138 */
 /**
  * GFormatSizeFlags:
  * @G_FORMAT_SIZE_DEFAULT: behave the same as g_format_size()
@@ -541,6 +570,7 @@
  */
 
 
+/* glib/glist.c:932 */
 /**
  * GFunc:
  * @data: the element's data.
@@ -552,6 +582,7 @@
  */
 
 
+/* glib/ghash.c:140 */
 /**
  * GHFunc:
  * @key: a key
@@ -564,6 +595,7 @@
  */
 
 
+/* glib/ghash.c:151 */
 /**
  * GHRFunc:
  * @key: a key
@@ -581,6 +613,7 @@
  */
 
 
+/* glib/ghash.c:103 */
 /**
  * GHashFunc:
  * @key: a key
@@ -619,6 +652,7 @@
  */
 
 
+/* glib/ghash.c:95 */
 /**
  * GHashTable:
  *
@@ -628,6 +662,7 @@
  */
 
 
+/* glib/ghash.c:179 */
 /**
  * GHashTableIter:
  *
@@ -638,6 +673,7 @@
  */
 
 
+/* glib/ghook.c:146 */
 /**
  * GHook:
  * @data: data which is passed to func when this hook is invoked
@@ -657,6 +693,7 @@
  */
 
 
+/* glib/ghook.c:172 */
 /**
  * GHookCheckFunc:
  * @data: the data field of the #GHook is passed to the hook function here
@@ -668,6 +705,7 @@
  */
 
 
+/* glib/ghook.c:586 */
 /**
  * GHookCheckMarshaller:
  * @hook: a #GHook
@@ -679,6 +717,7 @@
  */
 
 
+/* glib/ghook.c:972 */
 /**
  * GHookCompareFunc:
  * @new_hook: the #GHook being inserted
@@ -691,6 +730,7 @@
  */
 
 
+/* glib/ghook.c:66 */
 /**
  * GHookFinalizeFunc:
  * @hook_list: a #GHookList
@@ -701,6 +741,7 @@
  */
 
 
+/* glib/ghook.c:795 */
 /**
  * GHookFindFunc:
  * @hook: a #GHook
@@ -712,6 +753,7 @@
  */
 
 
+/* glib/ghook.c:75 */
 /**
  * GHookFlagMask:
  * @G_HOOK_FLAG_ACTIVE: set if the hook has not been destroyed
@@ -723,6 +765,7 @@
  */
 
 
+/* glib/ghook.c:164 */
 /**
  * GHookFunc:
  * @data: the data field of the #GHook is passed to the hook function here
@@ -732,6 +775,7 @@
  */
 
 
+/* glib/ghook.c:51 */
 /**
  * GHookList:
  * @seq_id: the next free #GHook id
@@ -748,6 +792,7 @@
  */
 
 
+/* glib/ghook.c:638 */
 /**
  * GHookMarshaller:
  * @hook: a #GHook
@@ -757,6 +802,7 @@
  */
 
 
+/* glib/docs.c:1140 */
 /**
  * GINT16_FROM_BE:
  * @val: a #gint16 value in big-endian byte order
@@ -767,6 +813,7 @@
  */
 
 
+/* glib/docs.c:1149 */
 /**
  * GINT16_FROM_LE:
  * @val: a #gint16 value in little-endian byte order
@@ -777,6 +824,7 @@
  */
 
 
+/* glib/docs.c:1158 */
 /**
  * GINT16_TO_BE:
  * @val: a #gint16 value in host byte order
@@ -787,6 +835,7 @@
  */
 
 
+/* glib/docs.c:1167 */
 /**
  * GINT16_TO_LE:
  * @val: a #gint16 value in host byte order
@@ -797,6 +846,7 @@
  */
 
 
+/* glib/docs.c:1212 */
 /**
  * GINT32_FROM_BE:
  * @val: a #gint32 value in big-endian byte order
@@ -807,6 +857,7 @@
  */
 
 
+/* glib/docs.c:1221 */
 /**
  * GINT32_FROM_LE:
  * @val: a #gint32 value in little-endian byte order
@@ -817,6 +868,7 @@
  */
 
 
+/* glib/docs.c:1230 */
 /**
  * GINT32_TO_BE:
  * @val: a #gint32 value in host byte order
@@ -827,6 +879,7 @@
  */
 
 
+/* glib/docs.c:1239 */
 /**
  * GINT32_TO_LE:
  * @val: a #gint32 value in host byte order
@@ -837,6 +890,7 @@
  */
 
 
+/* glib/docs.c:1284 */
 /**
  * GINT64_FROM_BE:
  * @val: a #gint64 value in big-endian byte order
@@ -847,6 +901,7 @@
  */
 
 
+/* glib/docs.c:1293 */
 /**
  * GINT64_FROM_LE:
  * @val: a #gint64 value in little-endian byte order
@@ -857,6 +912,7 @@
  */
 
 
+/* glib/docs.c:1302 */
 /**
  * GINT64_TO_BE:
  * @val: a #gint64 value in host byte order
@@ -867,6 +923,7 @@
  */
 
 
+/* glib/docs.c:1311 */
 /**
  * GINT64_TO_LE:
  * @val: a #gint64 value in host byte order
@@ -877,6 +934,7 @@
  */
 
 
+/* glib/docs.c:924 */
 /**
  * GINT_FROM_BE:
  * @val: a #gint value in big-endian byte order
@@ -887,6 +945,7 @@
  */
 
 
+/* glib/docs.c:933 */
 /**
  * GINT_FROM_LE:
  * @val: a #gint value in little-endian byte order
@@ -897,6 +956,7 @@
  */
 
 
+/* glib/docs.c:942 */
 /**
  * GINT_TO_BE:
  * @val: a #gint value in host byte order
@@ -907,6 +967,7 @@
  */
 
 
+/* glib/docs.c:951 */
 /**
  * GINT_TO_LE:
  * @val: a #gint value in host byte order
@@ -917,6 +978,7 @@
  */
 
 
+/* glib/docs.c:767 */
 /**
  * GINT_TO_POINTER:
  * @i: integer to stuff into a pointer
@@ -930,6 +992,7 @@
  */
 
 
+/* glib/giochannel.c:101 */
 /**
  * GIOChannel:
  *
@@ -939,6 +1002,7 @@
  */
 
 
+/* glib/giochannel.c:2573 */
 /**
  * GIOChannelError:
  * @G_IO_CHANNEL_ERROR_FBIG: File too large.
@@ -955,6 +1019,7 @@
  */
 
 
+/* glib/giochannel.c:700 */
 /**
  * GIOCondition:
  * @G_IO_IN: There is data to read.
@@ -970,6 +1035,7 @@
  */
 
 
+/* glib/giochannel.c:154 */
 /**
  * GIOError:
  * @G_IO_ERROR_NONE: no error
@@ -982,6 +1048,7 @@
  */
 
 
+/* glib/giochannel.c:947 */
 /**
  * GIOFlags:
  * @G_IO_FLAG_APPEND: turns on append mode, corresponds to <literal>O_APPEND</literal>
@@ -1009,6 +1076,7 @@
  */
 
 
+/* glib/giochannel.c:687 */
 /**
  * GIOFunc:
  * @source: the #GIOChannel event source
@@ -1024,6 +1092,7 @@
  */
 
 
+/* glib/giochannel.c:109 */
 /**
  * GIOFuncs:
  * @io_read: reads raw bytes from the channel.  This is called from
@@ -1060,6 +1129,7 @@
  */
 
 
+/* glib/giochannel.c:144 */
 /**
  * GIOStatus:
  * @G_IO_STATUS_ERROR: An error occurred.
@@ -1071,6 +1141,7 @@
  */
 
 
+/* glib/gkeyfile.c:427 */
 /**
  * GKeyFile:
  *
@@ -1079,6 +1150,7 @@
  */
 
 
+/* glib/gkeyfile.c:169 */
 /**
  * GKeyFileError:
  * @G_KEY_FILE_ERROR_UNKNOWN_ENCODING: the text being parsed was in
@@ -1093,6 +1165,7 @@
  */
 
 
+/* glib/gkeyfile.c:182 */
 /**
  * GKeyFileFlags:
  * @G_KEY_FILE_NONE: No flags, default behaviour
@@ -1109,6 +1182,7 @@
  */
 
 
+/* glib/gversion.c:83 */
 /**
  * GLIB_CHECK_VERSION:
  * @major: the major version to check for
@@ -1133,6 +1207,7 @@
  */
 
 
+/* glib/docs.c:2082 */
 /**
  * GLIB_DISABLE_DEPRECATION_WARNINGS:
  *
@@ -1142,6 +1217,7 @@
  */
 
 
+/* glib/gversion.c:53 */
 /**
  * GLIB_MAJOR_VERSION:
  *
@@ -1153,6 +1229,7 @@
  */
 
 
+/* glib/gversion.c:73 */
 /**
  * GLIB_MICRO_VERSION:
  *
@@ -1164,6 +1241,7 @@
  */
 
 
+/* glib/gversion.c:63 */
 /**
  * GLIB_MINOR_VERSION:
  *
@@ -1175,6 +1253,7 @@
  */
 
 
+/* glib/docs.c:996 */
 /**
  * GLONG_FROM_BE:
  * @val: a #glong value in big-endian byte order
@@ -1185,6 +1264,7 @@
  */
 
 
+/* glib/docs.c:1005 */
 /**
  * GLONG_FROM_LE:
  * @val: a #glong value in little-endian byte order
@@ -1195,6 +1275,7 @@
  */
 
 
+/* glib/docs.c:1014 */
 /**
  * GLONG_TO_BE:
  * @val: a #glong value in host byte order
@@ -1205,6 +1286,7 @@
  */
 
 
+/* glib/docs.c:1023 */
 /**
  * GLONG_TO_LE:
  * @val: a #glong value in host byte order
@@ -1215,6 +1297,7 @@
  */
 
 
+/* glib/glist.c:86 */
 /**
  * GList:
  * @data: holds the element's data, which can be a pointer to any kind
@@ -1228,6 +1311,7 @@
  */
 
 
+/* glib/gmessages.c:121 */
 /**
  * GLogFunc:
  * @log_domain: the log domain of the message
@@ -1240,6 +1324,7 @@
  */
 
 
+/* glib/gmessages.c:132 */
 /**
  * GLogLevelFlags:
  * @G_LOG_FLAG_RECURSION: internal flag
@@ -1262,6 +1347,7 @@
  */
 
 
+/* glib/gmappedfile.c:73 */
 /**
  * GMappedFile:
  *
@@ -1271,6 +1357,7 @@
  */
 
 
+/* glib/gmarkup.c:2572 */
 /**
  * GMarkupCollectType:
  * @G_MARKUP_COLLECT_INVALID: used to terminate the list of attributes
@@ -1304,6 +1391,7 @@
  */
 
 
+/* glib/gthread.c:235 */
 /**
  * GMutex:
  *
@@ -1364,6 +1452,7 @@
  */
 
 
+/* glib/gnode.c:79 */
 /**
  * GNode:
  * @data: contains the actual data of the node.
@@ -1381,6 +1470,7 @@
  */
 
 
+/* glib/gnode.c:1215 */
 /**
  * GNodeForeachFunc:
  * @node: a #GNode.
@@ -1392,6 +1482,7 @@
  */
 
 
+/* glib/gnode.c:839 */
 /**
  * GNodeTraverseFunc:
  * @node: a #GNode.
@@ -1406,6 +1497,7 @@
  */
 
 
+/* glib/gthread.c:537 */
 /**
  * GOnce:
  * @status: the status of the #GOnce
@@ -1420,6 +1512,7 @@
  */
 
 
+/* glib/gthread.c:562 */
 /**
  * GOnceStatus:
  * @G_ONCE_STATUS_NOTCALLED: the function has not been called yet.
@@ -1433,6 +1526,7 @@
  */
 
 
+/* glib/docs.c:779 */
 /**
  * GPOINTER_TO_INT:
  * @p: pointer containing an integer
@@ -1447,6 +1541,7 @@
  */
 
 
+/* glib/docs.c:814 */
 /**
  * GPOINTER_TO_SIZE:
  * @p: pointer to extract a #gsize from
@@ -1456,6 +1551,7 @@
  */
 
 
+/* glib/docs.c:799 */
 /**
  * GPOINTER_TO_UINT:
  * @p: pointer to extract an unsigned integer from
@@ -1465,6 +1561,7 @@
  */
 
 
+/* glib/gpattern.c:56 */
 /**
  * GPatternSpec:
  *
@@ -1474,6 +1571,7 @@
  */
 
 
+/* glib/gthread-posix.c:882 */
 /**
  * GPrivate:
  *
@@ -1497,6 +1595,7 @@
  */
 
 
+/* glib/garray.c:844 */
 /**
  * GPtrArray:
  * @pdata: points to the array of pointers, which may be moved when the
@@ -1507,6 +1606,7 @@
  */
 
 
+/* glib/gquark.c:88 */
 /**
  * GQuark:
  *
@@ -1515,6 +1615,7 @@
  */
 
 
+/* glib/gthread.c:317 */
 /**
  * GRWLock:
  *
@@ -1588,6 +1689,7 @@
  */
 
 
+/* glib/grand.c:105 */
 /**
  * GRand:
  *
@@ -1596,6 +1698,7 @@
  */
 
 
+/* glib/gthread.c:296 */
 /**
  * GRecMutex:
  *
@@ -1616,6 +1719,7 @@
  */
 
 
+/* glib/docs.c:1068 */
 /**
  * GSIZE_FROM_BE:
  * @val: a #gsize value in big-endian byte order
@@ -1626,6 +1730,7 @@
  */
 
 
+/* glib/docs.c:1077 */
 /**
  * GSIZE_FROM_LE:
  * @val: a #gsize value in little-endian byte order
@@ -1636,6 +1741,7 @@
  */
 
 
+/* glib/docs.c:1086 */
 /**
  * GSIZE_TO_BE:
  * @val: a #gsize value in host byte order
@@ -1646,6 +1752,7 @@
  */
 
 
+/* glib/docs.c:1095 */
 /**
  * GSIZE_TO_LE:
  * @val: a #gsize value in host byte order
@@ -1656,6 +1763,7 @@
  */
 
 
+/* glib/docs.c:807 */
 /**
  * GSIZE_TO_POINTER:
  * @s: #gsize to stuff into the pointer
@@ -1664,6 +1772,7 @@
  */
 
 
+/* glib/gslist.c:86 */
 /**
  * GSList:
  * @data: holds the element's data, which can be a pointer to any kind
@@ -1677,6 +1786,7 @@
  */
 
 
+/* glib/docs.c:1104 */
 /**
  * GSSIZE_FROM_BE:
  * @val: a #gssize value in big-endian byte order
@@ -1687,6 +1797,7 @@
  */
 
 
+/* glib/docs.c:1113 */
 /**
  * GSSIZE_FROM_LE:
  * @val: a #gssize value in little-endian byte order
@@ -1697,6 +1808,7 @@
  */
 
 
+/* glib/docs.c:1122 */
 /**
  * GSSIZE_TO_BE:
  * @val: a #gssize value in host byte order
@@ -1707,6 +1819,7 @@
  */
 
 
+/* glib/docs.c:1131 */
 /**
  * GSSIZE_TO_LE:
  * @val: a #gssize value in host byte order
@@ -1717,6 +1830,7 @@
  */
 
 
+/* glib/gscanner.c:173 */
 /**
  * GScanner:
  * @user_data: unused
@@ -1752,6 +1866,7 @@
  */
 
 
+/* glib/gscanner.c:207 */
 /**
  * GScannerConfig:
  * @cset_skip_characters: specifies which characters should be skipped
@@ -1819,6 +1934,7 @@
  */
 
 
+/* glib/gscanner.c:66 */
 /**
  * GScannerMsgFunc:
  * @scanner: a #GScanner
@@ -1830,6 +1946,7 @@
  */
 
 
+/* glib/giochannel.c:1086 */
 /**
  * GSeekType:
  * @G_SEEK_CUR: the current position in the file.
@@ -1841,6 +1958,7 @@
  */
 
 
+/* glib/gsequence.c:94 */
 /**
  * GSequence:
  *
@@ -1849,6 +1967,7 @@
  */
 
 
+/* glib/gsequence.c:70 */
 /**
  * GSequenceIter:
  *
@@ -1857,6 +1976,7 @@
  */
 
 
+/* glib/gsequence.c:77 */
 /**
  * GSequenceIterCompareFunc:
  * @a: a #GSequenceIter
@@ -1873,6 +1993,7 @@
  */
 
 
+/* glib/gshell.c:50 */
 /**
  * GShellError:
  * @G_SHELL_ERROR_BAD_QUOTING: Mismatched or otherwise mangled quoting.
@@ -1883,6 +2004,7 @@
  */
 
 
+/* glib/gstdio.c:432 */
 /**
  * GStatBuf:
  *
@@ -1893,6 +2015,7 @@
  */
 
 
+/* glib/gstring.c:66 */
 /**
  * GString:
  * @str: points to the character data. It may move as text is added.
@@ -1907,6 +2030,7 @@
  */
 
 
+/* glib/gstringchunk.c:72 */
 /**
  * GStringChunk:
  *
@@ -1915,6 +2039,7 @@
  */
 
 
+/* glib/gtestutils.c:522 */
 /**
  * GTestCase:
  *
@@ -1922,6 +2047,7 @@
  */
 
 
+/* glib/gtestutils.c:1803 */
 /**
  * GTestDataFunc:
  * @user_data: the data provided when registering the test
@@ -1933,6 +2059,7 @@
  */
 
 
+/* glib/gtestutils.c:3184 */
 /**
  * GTestFileType:
  * @G_TEST_DIST: a file that was included in the distribution tarball
@@ -1959,6 +2086,7 @@
  */
 
 
+/* glib/gtestutils.c:1574 */
 /**
  * GTestFixtureFunc:
  * @fixture: the test fixture
@@ -1979,6 +2107,7 @@
  */
 
 
+/* glib/gtestutils.c:1768 */
 /**
  * GTestFunc:
  *
@@ -1988,6 +2117,7 @@
  */
 
 
+/* glib/gtestutils.c:224 */
 /**
  * GTestSubprocessFlags:
  * @G_TEST_SUBPROCESS_INHERIT_STDIN: If this flag is given, the child
@@ -2009,6 +2139,7 @@
  */
 
 
+/* glib/gtestutils.c:528 */
 /**
  * GTestSuite:
  *
@@ -2016,6 +2147,7 @@
  */
 
 
+/* glib/gtestutils.c:202 */
 /**
  * GTestTrapFlags:
  * @G_TEST_TRAP_SILENCE_STDOUT: Redirect stdout of the test child to
@@ -2039,6 +2171,7 @@
  */
 
 
+/* glib/gthread.c:468 */
 /**
  * GThread:
  *
@@ -2058,6 +2191,7 @@
  */
 
 
+/* glib/gthread.c:509 */
 /**
  * GThreadError:
  * @G_THREAD_ERROR_AGAIN: a thread couldn't be created due to resource
@@ -2067,6 +2201,7 @@
  */
 
 
+/* glib/gthread.c:486 */
 /**
  * GThreadFunc:
  * @data: data passed to the thread
@@ -2078,6 +2213,7 @@
  */
 
 
+/* glib/gthreadpool.c:79 */
 /**
  * GThreadPool:
  * @func: the function to execute in the threads of this pool
@@ -2090,6 +2226,7 @@
  */
 
 
+/* glib/gdate.c:150 */
 /**
  * GTime:
  *
@@ -2113,6 +2250,7 @@
  */
 
 
+/* glib/gdate.c:114 */
 /**
  * GTimeVal:
  * @tv_sec: seconds
@@ -2128,6 +2266,7 @@
  */
 
 
+/* glib/gtimezone.c:76 */
 /**
  * GTimeZone:
  *
@@ -2138,6 +2277,7 @@
  */
 
 
+/* glib/gtimer.c:70 */
 /**
  * GTimer:
  *
@@ -2145,6 +2285,7 @@
  */
 
 
+/* glib/gscanner.c:110 */
 /**
  * GTokenType:
  * @G_TOKEN_EOF: the end of the file
@@ -2176,6 +2317,7 @@
  */
 
 
+/* glib/gscanner.c:140 */
 /**
  * GTokenValue:
  * @v_symbol: token symbol value
@@ -2195,6 +2337,7 @@
  */
 
 
+/* glib/gtrashstack.c:43 */
 /**
  * GTrashStack:
  * @next: pointer to the previous element of the stack,
@@ -2206,6 +2349,7 @@
  */
 
 
+/* glib/gnode.c:823 */
 /**
  * GTraverseFlags:
  * @G_TRAVERSE_LEAVES: only leaf nodes should be visited. This name has
@@ -2224,6 +2368,7 @@
  */
 
 
+/* glib/gtree.c:943 */
 /**
  * GTraverseFunc:
  * @key: a key of a #GTree node.
@@ -2239,6 +2384,7 @@
  */
 
 
+/* glib/gtree.c:956 */
 /**
  * GTraverseType:
  * @G_IN_ORDER: vists a node's left child first, then the node itself,
@@ -2260,6 +2406,7 @@
  */
 
 
+/* glib/gtree.c:73 */
 /**
  * GTree:
  *
@@ -2270,6 +2417,7 @@
  */
 
 
+/* glib/docs.c:1176 */
 /**
  * GUINT16_FROM_BE:
  * @val: a #guint16 value in big-endian byte order
@@ -2280,6 +2428,7 @@
  */
 
 
+/* glib/docs.c:1185 */
 /**
  * GUINT16_FROM_LE:
  * @val: a #guint16 value in little-endian byte order
@@ -2290,6 +2439,7 @@
  */
 
 
+/* glib/docs.c:1356 */
 /**
  * GUINT16_SWAP_BE_PDP:
  * @val: a #guint16 value in big-endian or pdp-endian byte order
@@ -2301,6 +2451,7 @@
  */
 
 
+/* glib/docs.c:1366 */
 /**
  * GUINT16_SWAP_LE_BE:
  * @val: a #guint16 value in little-endian or big-endian byte order
@@ -2312,6 +2463,7 @@
  */
 
 
+/* glib/docs.c:1376 */
 /**
  * GUINT16_SWAP_LE_PDP:
  * @val: a #guint16 value in little-endian or pdp-endian byte order
@@ -2323,6 +2475,7 @@
  */
 
 
+/* glib/docs.c:1194 */
 /**
  * GUINT16_TO_BE:
  * @val: a #guint16 value in host byte order
@@ -2333,6 +2486,7 @@
  */
 
 
+/* glib/docs.c:1203 */
 /**
  * GUINT16_TO_LE:
  * @val: a #guint16 value in host byte order
@@ -2343,6 +2497,7 @@
  */
 
 
+/* glib/docs.c:1248 */
 /**
  * GUINT32_FROM_BE:
  * @val: a #guint32 value in big-endian byte order
@@ -2353,6 +2508,7 @@
  */
 
 
+/* glib/docs.c:1257 */
 /**
  * GUINT32_FROM_LE:
  * @val: a #guint32 value in little-endian byte order
@@ -2363,6 +2519,7 @@
  */
 
 
+/* glib/docs.c:1386 */
 /**
  * GUINT32_SWAP_BE_PDP:
  * @val: a #guint32 value in big-endian or pdp-endian byte order
@@ -2374,6 +2531,7 @@
  */
 
 
+/* glib/docs.c:1396 */
 /**
  * GUINT32_SWAP_LE_BE:
  * @val: a #guint32 value in little-endian or big-endian byte order
@@ -2385,6 +2543,7 @@
  */
 
 
+/* glib/docs.c:1406 */
 /**
  * GUINT32_SWAP_LE_PDP:
  * @val: a #guint32 value in little-endian or pdp-endian byte order
@@ -2396,6 +2555,7 @@
  */
 
 
+/* glib/docs.c:1266 */
 /**
  * GUINT32_TO_BE:
  * @val: a #guint32 value in host byte order
@@ -2406,6 +2566,7 @@
  */
 
 
+/* glib/docs.c:1275 */
 /**
  * GUINT32_TO_LE:
  * @val: a #guint32 value in host byte order
@@ -2416,6 +2577,7 @@
  */
 
 
+/* glib/docs.c:1320 */
 /**
  * GUINT64_FROM_BE:
  * @val: a #guint64 value in big-endian byte order
@@ -2426,6 +2588,7 @@
  */
 
 
+/* glib/docs.c:1329 */
 /**
  * GUINT64_FROM_LE:
  * @val: a #guint64 value in little-endian byte order
@@ -2436,6 +2599,7 @@
  */
 
 
+/* glib/docs.c:1416 */
 /**
  * GUINT64_SWAP_LE_BE:
  * @val: a #guint64 value in little-endian or big-endian byte order
@@ -2447,6 +2611,7 @@
  */
 
 
+/* glib/docs.c:1338 */
 /**
  * GUINT64_TO_BE:
  * @val: a #guint64 value in host byte order
@@ -2457,6 +2622,7 @@
  */
 
 
+/* glib/docs.c:1347 */
 /**
  * GUINT64_TO_LE:
  * @val: a #guint64 value in host byte order
@@ -2467,6 +2633,7 @@
  */
 
 
+/* glib/docs.c:960 */
 /**
  * GUINT_FROM_BE:
  * @val: a #guint value in big-endian byte order
@@ -2477,6 +2644,7 @@
  */
 
 
+/* glib/docs.c:969 */
 /**
  * GUINT_FROM_LE:
  * @val: a #guint value in little-endian byte order
@@ -2487,6 +2655,7 @@
  */
 
 
+/* glib/docs.c:978 */
 /**
  * GUINT_TO_BE:
  * @val: a #guint value in host byte order
@@ -2497,6 +2666,7 @@
  */
 
 
+/* glib/docs.c:987 */
 /**
  * GUINT_TO_LE:
  * @val: a #guint value in host byte order
@@ -2507,6 +2677,7 @@
  */
 
 
+/* glib/docs.c:792 */
 /**
  * GUINT_TO_POINTER:
  * @u: unsigned integer to stuff into the pointer
@@ -2515,6 +2686,7 @@
  */
 
 
+/* glib/docs.c:1032 */
 /**
  * GULONG_FROM_BE:
  * @val: a #gulong value in big-endian byte order
@@ -2525,6 +2697,7 @@
  */
 
 
+/* glib/docs.c:1041 */
 /**
  * GULONG_FROM_LE:
  * @val: a #gulong value in little-endian byte order
@@ -2535,6 +2708,7 @@
  */
 
 
+/* glib/docs.c:1050 */
 /**
  * GULONG_TO_BE:
  * @val: a #gulong value in host byte order
@@ -2545,6 +2719,7 @@
  */
 
 
+/* glib/docs.c:1059 */
 /**
  * GULONG_TO_LE:
  * @val: a #gulong value in host byte order
@@ -2555,6 +2730,7 @@
  */
 
 
+/* glib/gvariant-core.c:48 */
 /**
  * GVariant:
  *
@@ -2565,6 +2741,7 @@
  */
 
 
+/* glib/gvariant.c:3124 */
 /**
  * GVariantBuilder:
  *
@@ -2578,6 +2755,7 @@
  */
 
 
+/* glib/gvariant.c:2145 */
 /**
  * GVariantClass:
  * @G_VARIANT_CLASS_BOOLEAN: The #GVariant is a boolean.
@@ -2607,6 +2785,7 @@
  */
 
 
+/* glib/gvariant.c:2894 */
 /**
  * GVariantIter: (skip)
  *
@@ -2615,6 +2794,7 @@
  */
 
 
+/* glib/gvariant-parser.c:51 */
 /**
  * GVariantParseError:
  * @G_VARIANT_PARSE_ERROR_FAILED: generic error (unused)
@@ -2640,6 +2820,7 @@
  */
 
 
+/* glib/gstrfuncs.c:267 */
 /**
  * G_ASCII_DTOSTR_BUF_SIZE:
  *
@@ -2656,6 +2837,7 @@
  */
 
 
+/* glib/gatomic.c:69 */
 /**
  * G_ATOMIC_LOCK_FREE:
  *
@@ -2670,6 +2852,7 @@
  */
 
 
+/* glib/docs.c:1764 */
 /**
  * G_BEGIN_DECLS:
  *
@@ -2679,6 +2862,7 @@
  */
 
 
+/* glib/docs.c:874 */
 /**
  * G_BIG_ENDIAN:
  *
@@ -2687,6 +2871,7 @@
  */
 
 
+/* glib/docs.c:859 */
 /**
  * G_BYTE_ORDER:
  *
@@ -2696,6 +2881,7 @@
  */
 
 
+/* glib/docs.c:1696 */
 /**
  * G_CONST_RETURN:
  *
@@ -2715,6 +2901,7 @@
  */
 
 
+/* glib/gscanner.c:84 */
 /**
  * G_CSET_A_2_Z:
  *
@@ -2724,6 +2911,7 @@
  */
 
 
+/* glib/gscanner.c:92 */
 /**
  * G_CSET_LATINC:
  *
@@ -2734,6 +2922,7 @@
  */
 
 
+/* glib/gscanner.c:101 */
 /**
  * G_CSET_LATINS:
  *
@@ -2744,6 +2933,7 @@
  */
 
 
+/* glib/gscanner.c:76 */
 /**
  * G_CSET_a_2_z:
  *
@@ -2753,6 +2943,7 @@
  */
 
 
+/* glib/gdate.c:232 */
 /**
  * G_DATE_BAD_DAY:
  *
@@ -2760,6 +2951,7 @@
  */
 
 
+/* glib/gdate.c:238 */
 /**
  * G_DATE_BAD_JULIAN:
  *
@@ -2767,6 +2959,7 @@
  */
 
 
+/* glib/gdate.c:244 */
 /**
  * G_DATE_BAD_YEAR:
  *
@@ -2774,6 +2967,7 @@
  */
 
 
+/* glib/gquark.c:95 */
 /**
  * G_DEFINE_QUARK:
  * @QN: the name to return a #GQuark for
@@ -2789,6 +2983,7 @@
  */
 
 
+/* glib/docs.c:2047 */
 /**
  * G_DEPRECATED:
  *
@@ -2801,6 +2996,7 @@
  */
 
 
+/* glib/docs.c:2058 */
 /**
  * G_DEPRECATED_FOR:
  * @f: the name of the function that this function was deprecated for
@@ -2814,6 +3010,7 @@
  */
 
 
+/* glib/docs.c:1556 */
 /**
  * G_DIR_SEPARATOR:
  *
@@ -2822,6 +3019,7 @@
  */
 
 
+/* glib/docs.c:1563 */
 /**
  * G_DIR_SEPARATOR_S:
  *
@@ -2830,6 +3028,7 @@
  */
 
 
+/* glib/docs.c:1477 */
 /**
  * G_E:
  *
@@ -2837,6 +3036,7 @@
  */
 
 
+/* glib/docs.c:1772 */
 /**
  * G_END_DECLS:
  *
@@ -2846,6 +3046,7 @@
  */
 
 
+/* glib/gfileutils.c:174 */
 /**
  * G_FILE_ERROR:
  *
@@ -2855,6 +3056,7 @@
  */
 
 
+/* glib/docs.c:273 */
 /**
  * G_GINT16_FORMAT:
  *
@@ -2873,6 +3075,7 @@
  */
 
 
+/* glib/docs.c:255 */
 /**
  * G_GINT16_MODIFIER:
  *
@@ -2892,6 +3095,7 @@
  */
 
 
+/* glib/docs.c:352 */
 /**
  * G_GINT32_FORMAT:
  *
@@ -2900,6 +3104,7 @@
  */
 
 
+/* glib/docs.c:342 */
 /**
  * G_GINT32_MODIFIER:
  *
@@ -2911,6 +3116,7 @@
  */
 
 
+/* glib/docs.c:473 */
 /**
  * G_GINT64_CONSTANT:
  * @val: a literal integer value, e.g. 0x1d636b02300a7aa7
@@ -2920,6 +3126,7 @@
  */
 
 
+/* glib/docs.c:424 */
 /**
  * G_GINT64_FORMAT:
  *
@@ -2937,6 +3144,7 @@
  */
 
 
+/* glib/docs.c:408 */
 /**
  * G_GINT64_MODIFIER:
  *
@@ -2954,6 +3162,7 @@
  */
 
 
+/* glib/docs.c:692 */
 /**
  * G_GINTPTR_FORMAT:
  *
@@ -2964,6 +3173,7 @@
  */
 
 
+/* glib/docs.c:682 */
 /**
  * G_GINTPTR_MODIFIER:
  *
@@ -2975,6 +3185,7 @@
  */
 
 
+/* glib/docs.c:1943 */
 /**
  * G_GNUC_ALLOC_SIZE:
  * @x: the index of the argument specifying the allocation size
@@ -2993,6 +3204,7 @@
  */
 
 
+/* glib/docs.c:1960 */
 /**
  * G_GNUC_ALLOC_SIZE2:
  * @x: the index of the argument specifying one factor of the allocation size
@@ -3012,6 +3224,7 @@
  */
 
 
+/* glib/docs.c:2014 */
 /**
  * G_GNUC_BEGIN_IGNORE_DEPRECATIONS:
  *
@@ -3033,6 +3246,7 @@
  */
 
 
+/* glib/docs.c:1891 */
 /**
  * G_GNUC_CONST:
  *
@@ -3055,6 +3269,7 @@
  */
 
 
+/* glib/docs.c:1978 */
 /**
  * G_GNUC_DEPRECATED:
  *
@@ -3072,6 +3287,7 @@
  */
 
 
+/* glib/docs.c:1994 */
 /**
  * G_GNUC_DEPRECATED_FOR:
  * @f: the intended replacement for the deprecated symbol,
@@ -3093,6 +3309,7 @@
  */
 
 
+/* glib/docs.c:2034 */
 /**
  * G_GNUC_END_IGNORE_DEPRECATIONS:
  *
@@ -3107,6 +3324,7 @@
  */
 
 
+/* glib/docs.c:1882 */
 /**
  * G_GNUC_EXTENSION:
  *
@@ -3117,6 +3335,7 @@
  */
 
 
+/* glib/docs.c:2161 */
 /**
  * G_GNUC_FORMAT:
  * @arg_idx: the index of the argument
@@ -3141,6 +3360,7 @@
  */
 
 
+/* glib/docs.c:2215 */
 /**
  * G_GNUC_FUNCTION:
  *
@@ -3152,6 +3372,7 @@
  */
 
 
+/* glib/docs.c:2248 */
 /**
  * G_GNUC_INTERNAL:
  *
@@ -3181,6 +3402,7 @@
  */
 
 
+/* glib/docs.c:1926 */
 /**
  * G_GNUC_MALLOC:
  *
@@ -3199,6 +3421,7 @@
  */
 
 
+/* glib/docs.c:2276 */
 /**
  * G_GNUC_MAY_ALIAS:
  *
@@ -3212,6 +3435,7 @@
  */
 
 
+/* glib/docs.c:2090 */
 /**
  * G_GNUC_NORETURN:
  *
@@ -3226,6 +3450,7 @@
  */
 
 
+/* glib/docs.c:2235 */
 /**
  * G_GNUC_NO_INSTRUMENT:
  *
@@ -3240,6 +3465,7 @@
  */
 
 
+/* glib/docs.c:2184 */
 /**
  * G_GNUC_NULL_TERMINATED:
  *
@@ -3257,6 +3483,7 @@
  */
 
 
+/* glib/docs.c:2225 */
 /**
  * G_GNUC_PRETTY_FUNCTION:
  *
@@ -3268,6 +3495,7 @@
  */
 
 
+/* glib/docs.c:2123 */
 /**
  * G_GNUC_PRINTF:
  * @format_idx: the index of the argument corresponding to the
@@ -3294,6 +3522,7 @@
  */
 
 
+/* glib/docs.c:1912 */
 /**
  * G_GNUC_PURE:
  *
@@ -3309,6 +3538,7 @@
  */
 
 
+/* glib/docs.c:2148 */
 /**
  * G_GNUC_SCANF:
  * @format_idx: the index of the argument corresponding to
@@ -3323,6 +3553,7 @@
  */
 
 
+/* glib/docs.c:2103 */
 /**
  * G_GNUC_UNUSED:
  *
@@ -3344,6 +3575,7 @@
  */
 
 
+/* glib/docs.c:2200 */
 /**
  * G_GNUC_WARN_UNUSED_RESULT:
  *
@@ -3360,6 +3592,7 @@
  */
 
 
+/* glib/docs.c:658 */
 /**
  * G_GOFFSET_CONSTANT:
  * @val: a literal integer value, e.g. 0x1d636b02300a7aa7
@@ -3373,6 +3606,7 @@
  */
 
 
+/* glib/docs.c:649 */
 /**
  * G_GOFFSET_FORMAT:
  *
@@ -3383,6 +3617,7 @@
  */
 
 
+/* glib/docs.c:639 */
 /**
  * G_GOFFSET_MODIFIER:
  *
@@ -3394,6 +3629,7 @@
  */
 
 
+/* glib/docs.c:567 */
 /**
  * G_GSIZE_FORMAT:
  *
@@ -3404,6 +3640,7 @@
  */
 
 
+/* glib/docs.c:557 */
 /**
  * G_GSIZE_MODIFIER:
  *
@@ -3415,6 +3652,7 @@
  */
 
 
+/* glib/docs.c:604 */
 /**
  * G_GSSIZE_FORMAT:
  *
@@ -3425,6 +3663,7 @@
  */
 
 
+/* glib/docs.c:308 */
 /**
  * G_GUINT16_FORMAT:
  *
@@ -3433,6 +3672,7 @@
  */
 
 
+/* glib/docs.c:377 */
 /**
  * G_GUINT32_FORMAT:
  *
@@ -3441,6 +3681,7 @@
  */
 
 
+/* glib/docs.c:481 */
 /**
  * G_GUINT64_CONSTANT:
  * @val: a literal integer value, e.g. 0x1d636b02300a7aa7U
@@ -3452,6 +3693,7 @@
  */
 
 
+/* glib/docs.c:457 */
 /**
  * G_GUINT64_FORMAT:
  *
@@ -3469,6 +3711,7 @@
  */
 
 
+/* glib/docs.c:713 */
 /**
  * G_GUINTPTR_FORMAT:
  *
@@ -3479,6 +3722,7 @@
  */
 
 
+/* glib/ghook.c:101 */
 /**
  * G_HOOK:
  * @hook: a pointer
@@ -3487,6 +3731,7 @@
  */
 
 
+/* glib/ghook.c:118 */
 /**
  * G_HOOK_ACTIVE:
  * @hook: a #GHook
@@ -3498,6 +3743,7 @@
  */
 
 
+/* glib/ghook.c:85 */
 /**
  * G_HOOK_FLAGS:
  * @hook: a #GHook
@@ -3506,6 +3752,7 @@
  */
 
 
+/* glib/ghook.c:92 */
 /**
  * G_HOOK_FLAG_USER_SHIFT:
  *
@@ -3516,6 +3763,7 @@
  */
 
 
+/* glib/ghook.c:128 */
 /**
  * G_HOOK_IN_CALL:
  * @hook: a #GHook
@@ -3526,6 +3774,7 @@
  */
 
 
+/* glib/ghook.c:137 */
 /**
  * G_HOOK_IS_UNLINKED:
  * @hook: a #GHook
@@ -3536,6 +3785,7 @@
  */
 
 
+/* glib/ghook.c:108 */
 /**
  * G_HOOK_IS_VALID:
  * @hook: a #GHook
@@ -3547,6 +3797,7 @@
  */
 
 
+/* glib/docs.c:1451 */
 /**
  * G_IEEE754_DOUBLE_BIAS:
  *
@@ -3554,6 +3805,7 @@
  */
 
 
+/* glib/docs.c:1445 */
 /**
  * G_IEEE754_FLOAT_BIAS:
  *
@@ -3561,6 +3813,7 @@
  */
 
 
+/* glib/docs.c:1735 */
 /**
  * G_INLINE_FUNC:
  *
@@ -3577,6 +3830,7 @@
  */
 
 
+/* glib/giochannel.c:2566 */
 /**
  * G_IO_CHANNEL_ERROR:
  *
@@ -3586,6 +3840,7 @@
  */
 
 
+/* glib/giochannel.c:972 */
 /**
  * G_IO_FLAG_IS_WRITEABLE:
  *
@@ -3597,6 +3852,7 @@
  */
 
 
+/* glib/docs.c:1570 */
 /**
  * G_IS_DIR_SEPARATOR:
  * @c: a character
@@ -3609,6 +3865,7 @@
  */
 
 
+/* glib/gkeyfile.c:197 */
 /**
  * G_KEY_FILE_DESKTOP_GROUP:
  *
@@ -3621,6 +3878,7 @@
  */
 
 
+/* glib/gkeyfile.c:356 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_CATEGORIES:
  *
@@ -3632,6 +3890,7 @@
  */
 
 
+/* glib/gkeyfile.c:257 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_COMMENT:
  *
@@ -3642,6 +3901,7 @@
  */
 
 
+/* glib/gkeyfile.c:316 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_EXEC:
  *
@@ -3653,6 +3913,7 @@
  */
 
 
+/* glib/gkeyfile.c:239 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_GENERIC_NAME:
  *
@@ -3663,6 +3924,7 @@
  */
 
 
+/* glib/gkeyfile.c:276 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_HIDDEN:
  *
@@ -3673,6 +3935,7 @@
  */
 
 
+/* glib/gkeyfile.c:266 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_ICON:
  *
@@ -3684,6 +3947,7 @@
  */
 
 
+/* glib/gkeyfile.c:347 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_MIME_TYPE:
  *
@@ -3694,6 +3958,7 @@
  */
 
 
+/* glib/gkeyfile.c:230 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_NAME:
  *
@@ -3704,6 +3969,7 @@
  */
 
 
+/* glib/gkeyfile.c:295 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_NOT_SHOW_IN:
  *
@@ -3715,6 +3981,7 @@
  */
 
 
+/* glib/gkeyfile.c:248 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_NO_DISPLAY:
  *
@@ -3725,6 +3992,7 @@
  */
 
 
+/* glib/gkeyfile.c:285 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_ONLY_SHOW_IN:
  *
@@ -3736,6 +4004,7 @@
  */
 
 
+/* glib/gkeyfile.c:326 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_PATH:
  *
@@ -3747,6 +4016,7 @@
  */
 
 
+/* glib/gkeyfile.c:366 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_STARTUP_NOTIFY:
  *
@@ -3759,6 +4029,7 @@
  */
 
 
+/* glib/gkeyfile.c:377 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_STARTUP_WM_CLASS:
  *
@@ -3771,6 +4042,7 @@
  */
 
 
+/* glib/gkeyfile.c:336 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_TERMINAL:
  *
@@ -3783,6 +4055,7 @@
  */
 
 
+/* glib/gkeyfile.c:305 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_TRY_EXEC:
  *
@@ -3795,6 +4068,7 @@
  */
 
 
+/* glib/gkeyfile.c:208 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_TYPE:
  *
@@ -3808,6 +4082,7 @@
  */
 
 
+/* glib/gkeyfile.c:388 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_URL:
  *
@@ -3819,6 +4094,7 @@
  */
 
 
+/* glib/gkeyfile.c:220 */
 /**
  * G_KEY_FILE_DESKTOP_KEY_VERSION:
  *
@@ -3830,6 +4106,7 @@
  */
 
 
+/* glib/gkeyfile.c:398 */
 /**
  * G_KEY_FILE_DESKTOP_TYPE_APPLICATION:
  *
@@ -3840,6 +4117,7 @@
  */
 
 
+/* glib/gkeyfile.c:416 */
 /**
  * G_KEY_FILE_DESKTOP_TYPE_DIRECTORY:
  *
@@ -3850,6 +4128,7 @@
  */
 
 
+/* glib/gkeyfile.c:407 */
 /**
  * G_KEY_FILE_DESKTOP_TYPE_LINK:
  *
@@ -3860,6 +4139,7 @@
  */
 
 
+/* glib/gkeyfile.c:160 */
 /**
  * G_KEY_FILE_ERROR:
  *
@@ -3870,6 +4150,7 @@
  */
 
 
+/* glib/docs.c:2288 */
 /**
  * G_LIKELY:
  * @expr: the expression
@@ -3887,6 +4168,7 @@
  */
 
 
+/* glib/docs.c:867 */
 /**
  * G_LITTLE_ENDIAN:
  *
@@ -3895,6 +4177,7 @@
  */
 
 
+/* glib/docs.c:1489 */
 /**
  * G_LN10:
  *
@@ -3902,6 +4185,7 @@
  */
 
 
+/* glib/docs.c:1483 */
 /**
  * G_LN2:
  *
@@ -3909,6 +4193,7 @@
  */
 
 
+/* glib/gthread.c:207 */
 /**
  * G_LOCK:
  * @name: the name of the lock
@@ -3918,6 +4203,7 @@
  */
 
 
+/* glib/gthread.c:157 */
 /**
  * G_LOCK_DEFINE:
  * @name: the name of the lock
@@ -3954,6 +4240,7 @@
  */
 
 
+/* glib/gthread.c:192 */
 /**
  * G_LOCK_DEFINE_STATIC:
  * @name: the name of the lock
@@ -3962,6 +4249,7 @@
  */
 
 
+/* glib/gthread.c:199 */
 /**
  * G_LOCK_EXTERN:
  * @name: the name of the lock
@@ -3971,6 +4259,7 @@
  */
 
 
+/* glib/docs.c:1519 */
 /**
  * G_LOG_2_BASE_10:
  *
@@ -3978,6 +4267,7 @@
  */
 
 
+/* glib/gmessages.c:98 */
 /**
  * G_LOG_DOMAIN:
  *
@@ -3996,6 +4286,7 @@
  */
 
 
+/* glib/gmessages.c:115 */
 /**
  * G_LOG_FATAL_MASK:
  *
@@ -4003,6 +4294,7 @@
  */
 
 
+/* glib/docs.c:529 */
 /**
  * G_MAXDOUBLE:
  *
@@ -4010,6 +4302,7 @@
  */
 
 
+/* glib/docs.c:507 */
 /**
  * G_MAXFLOAT:
  *
@@ -4017,6 +4310,7 @@
  */
 
 
+/* glib/docs.c:106 */
 /**
  * G_MAXINT:
  *
@@ -4024,6 +4318,7 @@
  */
 
 
+/* glib/docs.c:247 */
 /**
  * G_MAXINT16:
  *
@@ -4033,6 +4328,7 @@
  */
 
 
+/* glib/docs.c:334 */
 /**
  * G_MAXINT32:
  *
@@ -4042,6 +4338,7 @@
  */
 
 
+/* glib/docs.c:402 */
 /**
  * G_MAXINT64:
  *
@@ -4049,6 +4346,7 @@
  */
 
 
+/* glib/docs.c:205 */
 /**
  * G_MAXINT8:
  *
@@ -4058,6 +4356,7 @@
  */
 
 
+/* glib/docs.c:170 */
 /**
  * G_MAXLONG:
  *
@@ -4065,6 +4364,7 @@
  */
 
 
+/* glib/docs.c:633 */
 /**
  * G_MAXOFFSET:
  *
@@ -4072,6 +4372,7 @@
  */
 
 
+/* glib/docs.c:138 */
 /**
  * G_MAXSHORT:
  *
@@ -4079,6 +4380,7 @@
  */
 
 
+/* glib/docs.c:549 */
 /**
  * G_MAXSIZE:
  *
@@ -4088,6 +4390,7 @@
  */
 
 
+/* glib/docs.c:596 */
 /**
  * G_MAXSSIZE:
  *
@@ -4097,6 +4400,7 @@
  */
 
 
+/* glib/docs.c:119 */
 /**
  * G_MAXUINT:
  *
@@ -4104,6 +4408,7 @@
  */
 
 
+/* glib/docs.c:300 */
 /**
  * G_MAXUINT16:
  *
@@ -4113,6 +4418,7 @@
  */
 
 
+/* glib/docs.c:369 */
 /**
  * G_MAXUINT32:
  *
@@ -4122,6 +4428,7 @@
  */
 
 
+/* glib/docs.c:451 */
 /**
  * G_MAXUINT64:
  *
@@ -4129,6 +4436,7 @@
  */
 
 
+/* glib/docs.c:220 */
 /**
  * G_MAXUINT8:
  *
@@ -4138,6 +4446,7 @@
  */
 
 
+/* glib/docs.c:183 */
 /**
  * G_MAXULONG:
  *
@@ -4145,6 +4454,7 @@
  */
 
 
+/* glib/docs.c:151 */
 /**
  * G_MAXUSHORT:
  *
@@ -4152,6 +4462,7 @@
  */
 
 
+/* glib/docs.c:520 */
 /**
  * G_MINDOUBLE:
  *
@@ -4162,6 +4473,7 @@
  */
 
 
+/* glib/docs.c:498 */
 /**
  * G_MINFLOAT:
  *
@@ -4172,6 +4484,7 @@
  */
 
 
+/* glib/docs.c:100 */
 /**
  * G_MININT:
  *
@@ -4179,6 +4492,7 @@
  */
 
 
+/* glib/docs.c:239 */
 /**
  * G_MININT16:
  *
@@ -4188,6 +4502,7 @@
  */
 
 
+/* glib/docs.c:326 */
 /**
  * G_MININT32:
  *
@@ -4197,6 +4512,7 @@
  */
 
 
+/* glib/docs.c:396 */
 /**
  * G_MININT64:
  *
@@ -4204,6 +4520,7 @@
  */
 
 
+/* glib/docs.c:197 */
 /**
  * G_MININT8:
  *
@@ -4213,6 +4530,7 @@
  */
 
 
+/* glib/docs.c:164 */
 /**
  * G_MINLONG:
  *
@@ -4220,6 +4538,7 @@
  */
 
 
+/* glib/docs.c:627 */
 /**
  * G_MINOFFSET:
  *
@@ -4227,6 +4546,7 @@
  */
 
 
+/* glib/docs.c:132 */
 /**
  * G_MINSHORT:
  *
@@ -4234,6 +4554,7 @@
  */
 
 
+/* glib/docs.c:588 */
 /**
  * G_MINSSIZE:
  *
@@ -4243,6 +4564,7 @@
  */
 
 
+/* glib/docs.c:1714 */
 /**
  * G_N_ELEMENTS:
  * @arr: the array
@@ -4254,6 +4576,7 @@
  */
 
 
+/* glib/gthread.c:550 */
 /**
  * G_ONCE_INIT:
  *
@@ -4267,6 +4590,7 @@
  */
 
 
+/* glib/docs.c:1542 */
 /**
  * G_OS_BEOS:
  *
@@ -4275,6 +4599,7 @@
  */
 
 
+/* glib/docs.c:1549 */
 /**
  * G_OS_UNIX:
  *
@@ -4283,6 +4608,7 @@
  */
 
 
+/* glib/docs.c:1535 */
 /**
  * G_OS_WIN32:
  *
@@ -4291,6 +4617,7 @@
  */
 
 
+/* glib/docs.c:1812 */
 /**
  * G_PASTE:
  * @identifier1: an identifier
@@ -4318,6 +4645,7 @@
  */
 
 
+/* glib/docs.c:881 */
 /**
  * G_PDP_ENDIAN:
  *
@@ -4326,6 +4654,7 @@
  */
 
 
+/* glib/docs.c:1495 */
 /**
  * G_PI:
  *
@@ -4333,6 +4662,7 @@
  */
 
 
+/* glib/docs.c:1501 */
 /**
  * G_PI_2:
  *
@@ -4340,6 +4670,7 @@
  */
 
 
+/* glib/docs.c:1507 */
 /**
  * G_PI_4:
  *
@@ -4347,6 +4678,7 @@
  */
 
 
+/* glib/gthread-posix.c:904 */
 /**
  * G_PRIVATE_INIT:
  * @notify: a #GDestroyNotify
@@ -4402,6 +4734,7 @@
  */
 
 
+/* glib/docs.c:1581 */
 /**
  * G_SEARCHPATH_SEPARATOR:
  *
@@ -4410,6 +4743,7 @@
  */
 
 
+/* glib/docs.c:1588 */
 /**
  * G_SEARCHPATH_SEPARATOR_S:
  *
@@ -4418,6 +4752,7 @@
  */
 
 
+/* glib/gshell.c:42 */
 /**
  * G_SHELL_ERROR:
  *
@@ -4427,6 +4762,7 @@
  */
 
 
+/* glib/docs.c:1513 */
 /**
  * G_SQRT2:
  *
@@ -4434,6 +4770,7 @@
  */
 
 
+/* glib/docs.c:1838 */
 /**
  * G_STATIC_ASSERT:
  * @expr: a constant expression
@@ -4457,6 +4794,7 @@
  */
 
 
+/* glib/docs.c:1860 */
 /**
  * G_STATIC_ASSERT_EXPR:
  * @expr: a constant expression
@@ -4480,6 +4818,7 @@
  */
 
 
+/* glib/docs.c:1757 */
 /**
  * G_STMT_END:
  *
@@ -4488,6 +4827,7 @@
  */
 
 
+/* glib/docs.c:1750 */
 /**
  * G_STMT_START:
  *
@@ -4496,6 +4836,7 @@
  */
 
 
+/* glib/docs.c:2328 */
 /**
  * G_STRFUNC:
  *
@@ -4505,6 +4846,7 @@
  */
 
 
+/* glib/docs.c:1793 */
 /**
  * G_STRINGIFY:
  * @macro_or_string: a macro or a string
@@ -4525,6 +4867,7 @@
  */
 
 
+/* glib/docs.c:2322 */
 /**
  * G_STRLOC:
  *
@@ -4532,6 +4875,7 @@
  */
 
 
+/* glib/docs.c:1664 */
 /**
  * G_STRUCT_MEMBER:
  * @member_type: the type of the struct field
@@ -4545,6 +4889,7 @@
  */
 
 
+/* glib/docs.c:1676 */
 /**
  * G_STRUCT_MEMBER_P:
  * @struct_p: a pointer to a struct
@@ -4556,6 +4901,7 @@
  */
 
 
+/* glib/docs.c:1686 */
 /**
  * G_STRUCT_OFFSET:
  * @struct_type: a structure type, e.g. <structname>GtkWidget</structname>
@@ -4567,6 +4913,7 @@
  */
 
 
+/* glib/gstrfuncs.c:292 */
 /**
  * G_STR_DELIMITERS:
  *
@@ -4574,6 +4921,7 @@
  */
 
 
+/* glib/gthread.c:517 */
 /**
  * G_THREAD_ERROR:
  *
@@ -4581,6 +4929,7 @@
  */
 
 
+/* glib/gthread.c:215 */
 /**
  * G_TRYLOCK:
  * @name: the name of the lock
@@ -4592,6 +4941,7 @@
  */
 
 
+/* glib/docs.c:2070 */
 /**
  * G_UNAVAILABLE:
  * @maj: the major version that introduced the symbol
@@ -4605,6 +4955,7 @@
  */
 
 
+/* glib/docs.c:2305 */
 /**
  * G_UNLIKELY:
  * @expr: the expression
@@ -4622,6 +4973,7 @@
  */
 
 
+/* glib/gthread.c:225 */
 /**
  * G_UNLOCK:
  * @name: the name of the lock
@@ -4631,6 +4983,7 @@
  */
 
 
+/* glib/gdate.c:107 */
 /**
  * G_USEC_PER_SEC:
  *
@@ -4639,6 +4992,7 @@
  */
 
 
+/* glib/gvariant-parser.c:44 */
 /**
  * G_VARIANT_PARSE_ERROR:
  *
@@ -4648,6 +5002,7 @@
  */
 
 
+/* glib/docs.c:1780 */
 /**
  * G_VA_COPY:
  * @ap1: the <type>va_list</type> variable to place a copy of @ap2 in
@@ -4662,6 +5017,7 @@
  */
 
 
+/* glib/docs.c:2356 */
 /**
  * G_WIN32_DLLMAIN_FOR_DLL_NAME:
  * @static: empty or "static"
@@ -4677,6 +5033,7 @@
  */
 
 
+/* glib/docs.c:2370 */
 /**
  * G_WIN32_HAVE_WIDECHAR_API:
  *
@@ -4692,6 +5049,7 @@
  */
 
 
+/* glib/docs.c:2385 */
 /**
  * G_WIN32_IS_NT_BASED:
  *
@@ -4704,6 +5062,7 @@
  */
 
 
+/* glib/docs.c:1623 */
 /**
  * MAX:
  * @a: a numeric value
@@ -4715,6 +5074,7 @@
  */
 
 
+/* glib/docs.c:2348 */
 /**
  * MAXPATHLEN:
  *
@@ -4724,6 +5084,7 @@
  */
 
 
+/* glib/docs.c:1613 */
 /**
  * MIN:
  * @a: a numeric value
@@ -4735,6 +5096,7 @@
  */
 
 
+/* glib/ggettext.c:587 */
 /**
  * NC_:
  * @Context: a message context, must be a string literal
@@ -4772,6 +5134,7 @@
  */
 
 
+/* glib/docs.c:1607 */
 /**
  * NULL:
  *
@@ -4779,6 +5142,7 @@
  */
 
 
+/* glib/ggettext.c:560 */
 /**
  * N_:
  * @String: the string to be translated
@@ -4807,6 +5171,7 @@
  */
 
 
+/* glib/ggettext.c:506 */
 /**
  * Q_:
  * @String: the string to be translated, with a '|'-separated prefix
@@ -4837,6 +5202,7 @@
  */
 
 
+/* glib/garray.c:47 */
 /**
  * SECTION:arrays
  * @title: Arrays
@@ -4882,6 +5248,7 @@
  */
 
 
+/* glib/garray.c:1459 */
 /**
  * SECTION:arrays_byte
  * @title: Byte Arrays
@@ -4924,6 +5291,7 @@
  */
 
 
+/* glib/garray.c:794 */
 /**
  * SECTION:arrays_pointer
  * @title: Pointer Arrays
@@ -4973,6 +5341,7 @@
  */
 
 
+/* glib/gasyncqueue.c:41 */
 /**
  * SECTION:async_queues
  * @title: Asynchronous Queues
@@ -5023,6 +5392,7 @@
  */
 
 
+/* glib/gatomic.c:26 */
 /**
  * SECTION:atomic_operations
  * @title: Atomic Operations
@@ -5067,6 +5437,7 @@
  */
 
 
+/* glib/gbase64.c:35 */
 /**
  * SECTION:base64
  * @title: Base64 Encoding
@@ -5089,6 +5460,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:59 */
 /**
  * SECTION:bookmarkfile
  * @title: Bookmark file parser
@@ -5134,6 +5506,7 @@
  */
 
 
+/* glib/docs.c:824 */
 /**
  * SECTION:byte_order
  * @title: Byte Order Macros
@@ -5170,6 +5543,7 @@
  */
 
 
+/* glib/gchecksum.c:35 */
 /**
  * SECTION:checksum
  * @title: Data Checksums
@@ -5193,6 +5567,7 @@
  */
 
 
+/* glib/gconvert.c:65 */
 /**
  * SECTION:conversions
  * @title: Character Set Conversion
@@ -5315,6 +5690,7 @@
  */
 
 
+/* glib/gdataset.c:88 */
 /**
  * SECTION:datalist
  * @title: Keyed Data Lists
@@ -5350,6 +5726,7 @@
  */
 
 
+/* glib/gdataset.c:49 */
 /**
  * SECTION:datasets
  * @title: Datasets
@@ -5390,6 +5767,7 @@
  */
 
 
+/* glib/gdate.c:61 */
 /**
  * SECTION:date
  * @title: Date and Time Functions
@@ -5437,6 +5815,7 @@
  */
 
 
+/* glib/gdatetime.c:83 */
 /**
  * SECTION:date-time
  * @title: GDateTime
@@ -5471,6 +5850,7 @@
  */
 
 
+/* glib/gerror.c:27 */
 /**
  * SECTION:error_reporting
  * @Title: Error Reporting
@@ -5800,6 +6180,7 @@
  */
 
 
+/* glib/gfileutils.c:62 */
 /**
  * SECTION:fileutils
  * @title: File Utilities
@@ -5829,6 +6210,7 @@
  */
 
 
+/* glib/ghostutils.c:35 */
 /**
  * SECTION:ghostutils
  * @short_description: Internet hostname utilities
@@ -5848,6 +6230,7 @@
  */
 
 
+/* glib/gregex.c:41 */
 /**
  * SECTION:gregex
  * @title: Perl-compatible regular expressions
@@ -5921,6 +6304,7 @@
  */
 
 
+/* glib/glib-unix.c:36 */
 /**
  * SECTION:gunix
  * @title: UNIX-specific utilities and integration
@@ -5937,6 +6321,7 @@
  */
 
 
+/* glib/gurifuncs.c:36 */
 /**
  * SECTION:gurifuncs
  * @title: URI Functions
@@ -5949,6 +6334,7 @@
  */
 
 
+/* glib/gvariant.c:39 */
 /**
  * SECTION:gvariant
  * @title: GVariant
@@ -6204,6 +6590,7 @@
  */
 
 
+/* glib/gvarianttype.c:33 */
 /**
  * SECTION:gvarianttype
  * @title: GVariantType
@@ -6657,6 +7044,7 @@
  */
 
 
+/* glib/ghash.c:43 */
 /**
  * SECTION:hash_tables
  * @title: Hash Tables
@@ -6710,6 +7098,7 @@
  */
 
 
+/* glib/ghmac.c:39 */
 /**
  * SECTION:hmac
  * @title: Secure HMAC Digests
@@ -6728,6 +7117,7 @@
  */
 
 
+/* glib/ghook.c:41 */
 /**
  * SECTION:hooks
  * @title: Hook Functions
@@ -6739,6 +7129,7 @@
  */
 
 
+/* glib/ggettext.c:464 */
 /**
  * SECTION:i18n
  * @title: Internationalization
@@ -6772,6 +7163,7 @@
  */
 
 
+/* glib/giochannel.c:50 */
 /**
  * SECTION:iochannels
  * @title: IO Channels
@@ -6824,6 +7216,7 @@
  */
 
 
+/* glib/gkeyfile.c:72 */
 /**
  * SECTION:keyfile
  * @title: Key-value file parser
@@ -6913,6 +7306,7 @@
  */
 
 
+/* glib/glist.c:39 */
 /**
  * SECTION:linked_lists_double
  * @title: Doubly-Linked Lists
@@ -6961,6 +7355,7 @@
  */
 
 
+/* glib/gslist.c:38 */
 /**
  * SECTION:linked_lists_single
  * @title: Singly-Linked Lists
@@ -7010,6 +7405,7 @@
  */
 
 
+/* glib/docs.c:1527 */
 /**
  * SECTION:macros
  * @title: Standard Macros
@@ -7019,6 +7415,7 @@
  */
 
 
+/* glib/docs.c:1726 */
 /**
  * SECTION:macros_misc
  * @title: Miscellaneous Macros
@@ -7029,6 +7426,7 @@
  */
 
 
+/* glib/gmain.c:104 */
 /**
  * SECTION:main
  * @title: The Main Event Loop
@@ -7110,6 +7508,7 @@
  */
 
 
+/* glib/gmarkup.c:41 */
 /**
  * SECTION:markup
  * @Title: Simple XML Subset Parser
@@ -7157,6 +7556,7 @@
  */
 
 
+/* glib/gmem.c:66 */
 /**
  * SECTION:memory
  * @Short_Description: general memory-handling
@@ -7179,6 +7579,7 @@
  */
 
 
+/* glib/gslice.c:58 */
 /**
  * SECTION:memory_slices
  * @title: Memory Slices
@@ -7261,6 +7662,7 @@
  */
 
 
+/* glib/gmessages.c:85 */
 /**
  * SECTION:messages
  * @title: Message Logging
@@ -7275,6 +7677,7 @@
  */
 
 
+/* glib/gutils.c:81 */
 /**
  * SECTION:misc_utils
  * @title: Miscellaneous Utility Functions
@@ -7284,6 +7687,7 @@
  */
 
 
+/* glib/docs.c:1428 */
 /**
  * SECTION:numerical
  * @title: Numerical Definitions
@@ -7302,6 +7706,7 @@
  */
 
 
+/* glib/goption.c:22 */
 /**
  * SECTION:option
  * @Short_description: parses commandline options
@@ -7416,6 +7821,7 @@
  */
 
 
+/* glib/gpattern.c:32 */
 /**
  * SECTION:patterns
  * @title: Glob-style pattern matching
@@ -7441,6 +7847,7 @@
  */
 
 
+/* glib/gquark.c:57 */
 /**
  * SECTION:quarks
  * @title: Quarks
@@ -7473,6 +7880,7 @@
  */
 
 
+/* glib/gqueue.c:27 */
 /**
  * SECTION:queue
  * @Title: Double-ended Queues
@@ -7500,6 +7908,7 @@
  */
 
 
+/* glib/grand.c:62 */
 /**
  * SECTION:random_numbers
  * @title: Random Numbers
@@ -7544,6 +7953,7 @@
  */
 
 
+/* glib/gscanner.c:57 */
 /**
  * SECTION:scanner
  * @title: Lexical Scanner
@@ -7554,6 +7964,7 @@
  */
 
 
+/* glib/gsequence.c:28 */
 /**
  * SECTION:sequence
  * @title: Sequences
@@ -7597,6 +8008,7 @@
  */
 
 
+/* glib/gshell.c:36 */
 /**
  * SECTION:shell
  * @title: Shell-related Utilities
@@ -7604,6 +8016,7 @@
  */
 
 
+/* glib/gspawn.c:58 */
 /**
  * SECTION:spawn
  * @Short_description: process launching
@@ -7611,6 +8024,7 @@
  */
 
 
+/* glib/gstringchunk.c:43 */
 /**
  * SECTION:string_chunks
  * @title: String Chunks
@@ -7641,6 +8055,7 @@
  */
 
 
+/* glib/gstrfuncs.c:60 */
 /**
  * SECTION:string_utils
  * @title: String Utility Functions
@@ -7675,6 +8090,7 @@
  */
 
 
+/* glib/gstring.c:47 */
 /**
  * SECTION:strings
  * @title: Strings
@@ -7695,6 +8111,7 @@
  */
 
 
+/* glib/gtestutils.c:64 */
 /**
  * SECTION:testing
  * @title: Testing
@@ -7748,6 +8165,7 @@
  */
 
 
+/* glib/gthreadpool.c:37 */
 /**
  * SECTION:thread_pools
  * @title: Thread Pools
@@ -7786,6 +8204,7 @@
  */
 
 
+/* glib/gthread.c:63 */
 /**
  * SECTION:threads
  * @title: Threads
@@ -7879,6 +8298,7 @@
  */
 
 
+/* glib/gtimer.c:59 */
 /**
  * SECTION:timers
  * @title: Timers
@@ -7891,6 +8311,7 @@
  */
 
 
+/* glib/gtimezone.c:48 */
 /**
  * SECTION:timezone
  * @title: GTimeZone
@@ -7920,6 +8341,7 @@
  */
 
 
+/* glib/gtrashstack.c:29 */
 /**
  * SECTION:trash_stack
  * @title: Trash Stacks
@@ -7935,6 +8357,7 @@
  */
 
 
+/* glib/gtree.c:39 */
 /**
  * SECTION:trees-binary
  * @title: Balanced Binary Trees
@@ -7964,6 +8387,7 @@
  */
 
 
+/* glib/gnode.c:42 */
 /**
  * SECTION:trees-nary
  * @title: N-ary Trees
@@ -8002,6 +8426,7 @@
  */
 
 
+/* glib/docs.c:724 */
 /**
  * SECTION:type_conversion
  * @title: Type Conversion Macros
@@ -8046,6 +8471,7 @@
  */
 
 
+/* glib/docs.c:30 */
 /**
  * SECTION:types
  * @title: Basic Types
@@ -8072,6 +8498,7 @@
  */
 
 
+/* glib/gunidecomp.c:22 */
 /**
  * SECTION:unicode
  * @Title: Unicode Manipulation
@@ -8096,6 +8523,7 @@
  */
 
 
+/* glib/gversion.c:31 */
 /**
  * SECTION:version
  * @Title: Version Information
@@ -8119,6 +8547,7 @@
  */
 
 
+/* glib/gmessages.c:31 */
 /**
  * SECTION:warnings
  * @Title: Message Output and Debugging Functions
@@ -8138,6 +8567,7 @@
  */
 
 
+/* glib/docs.c:2338 */
 /**
  * SECTION:windows
  * @title: Windows Compatibility Functions
@@ -8149,6 +8579,7 @@
  */
 
 
+/* glib/docs.c:1595 */
 /**
  * TRUE:
  *
@@ -8156,6 +8587,7 @@
  */
 
 
+/* glib/ggettext.c:496 */
 /**
  * _:
  * @String: the string to be translated
@@ -8167,6 +8599,7 @@
  */
 
 
+/* glib/ggettext.c:49 */
 /**
  * _glib_get_locale_dir:
  *
@@ -8177,6 +8610,7 @@
  */
 
 
+/* glib/gstdio.c:58 */
 /**
  * g_access:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -8202,6 +8636,7 @@
  */
 
 
+/* glib/garray.c:400 */
 /**
  * g_array_append_val:
  * @a: a #GArray.
@@ -8218,6 +8653,7 @@
  */
 
 
+/* glib/garray.c:390 */
 /**
  * g_array_append_vals:
  * @array: a #GArray.
@@ -8230,6 +8666,7 @@
  */
 
 
+/* glib/garray.c:317 */
 /**
  * g_array_free:
  * @array: a #GArray.
@@ -8251,6 +8688,7 @@
  */
 
 
+/* glib/garray.c:297 */
 /**
  * g_array_get_element_size:
  * @array: A #GArray.
@@ -8262,6 +8700,7 @@
  */
 
 
+/* glib/garray.c:116 */
 /**
  * g_array_index:
  * @a: a #GArray.
@@ -8285,6 +8724,7 @@
  */
 
 
+/* glib/garray.c:502 */
 /**
  * g_array_insert_val:
  * @a: a #GArray.
@@ -8301,6 +8741,7 @@
  */
 
 
+/* glib/garray.c:491 */
 /**
  * g_array_insert_vals:
  * @array: a #GArray.
@@ -8314,6 +8755,7 @@
  */
 
 
+/* glib/garray.c:151 */
 /**
  * g_array_new:
  * @zero_terminated: %TRUE if the array should have an extra element at
@@ -8328,6 +8770,7 @@
  */
 
 
+/* glib/garray.c:450 */
 /**
  * g_array_prepend_val:
  * @a: a #GArray.
@@ -8348,6 +8791,7 @@
  */
 
 
+/* glib/garray.c:435 */
 /**
  * g_array_prepend_vals:
  * @array: a #GArray.
@@ -8365,6 +8809,7 @@
  */
 
 
+/* glib/garray.c:246 */
 /**
  * g_array_ref:
  * @array: A #GArray.
@@ -8377,6 +8822,7 @@
  */
 
 
+/* glib/garray.c:576 */
 /**
  * g_array_remove_index:
  * @array: a #GArray.
@@ -8389,6 +8835,7 @@
  */
 
 
+/* glib/garray.c:614 */
 /**
  * g_array_remove_index_fast:
  * @array: a @GArray.
@@ -8403,6 +8850,7 @@
  */
 
 
+/* glib/garray.c:654 */
 /**
  * g_array_remove_range:
  * @array: a @GArray.
@@ -8417,6 +8865,7 @@
  */
 
 
+/* glib/garray.c:218 */
 /**
  * g_array_set_clear_func:
  * @array: A #GArray
@@ -8436,6 +8885,7 @@
  */
 
 
+/* glib/garray.c:541 */
 /**
  * g_array_set_size:
  * @array: a #GArray.
@@ -8448,6 +8898,7 @@
  */
 
 
+/* glib/garray.c:173 */
 /**
  * g_array_sized_new:
  * @zero_terminated: %TRUE if the array should have an extra element at
@@ -8466,6 +8917,7 @@
  */
 
 
+/* glib/garray.c:700 */
 /**
  * g_array_sort:
  * @array: a #GArray.
@@ -8480,6 +8932,7 @@
  */
 
 
+/* glib/garray.c:728 */
 /**
  * g_array_sort_with_data:
  * @array: a #GArray.
@@ -8497,6 +8950,7 @@
  */
 
 
+/* glib/garray.c:276 */
 /**
  * g_array_unref:
  * @array: A #GArray.
@@ -8510,6 +8964,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1677 */
 /**
  * g_ascii_digit_value:
  * @c: an ASCII character.
@@ -8524,6 +8979,7 @@
  */
 
 
+/* glib/gstrfuncs.c:859 */
 /**
  * g_ascii_dtostr:
  * @buffer: A buffer to place the resulting string in
@@ -8543,6 +8999,7 @@
  */
 
 
+/* glib/gstrfuncs.c:885 */
 /**
  * g_ascii_formatd:
  * @buffer: A buffer to place the resulting string in
@@ -8563,6 +9020,7 @@
  */
 
 
+/* glib/gstrfuncs.c:93 */
 /**
  * g_ascii_isalnum:
  * @c: any character
@@ -8580,6 +9038,7 @@
  */
 
 
+/* glib/gstrfuncs.c:109 */
 /**
  * g_ascii_isalpha:
  * @c: any character
@@ -8597,6 +9056,7 @@
  */
 
 
+/* glib/gstrfuncs.c:125 */
 /**
  * g_ascii_iscntrl:
  * @c: any character
@@ -8614,6 +9074,7 @@
  */
 
 
+/* glib/gstrfuncs.c:141 */
 /**
  * g_ascii_isdigit:
  * @c: any character
@@ -8629,6 +9090,7 @@
  */
 
 
+/* glib/gstrfuncs.c:155 */
 /**
  * g_ascii_isgraph:
  * @c: any character
@@ -8646,6 +9108,7 @@
  */
 
 
+/* glib/gstrfuncs.c:171 */
 /**
  * g_ascii_islower:
  * @c: any character
@@ -8664,6 +9127,7 @@
  */
 
 
+/* glib/gstrfuncs.c:188 */
 /**
  * g_ascii_isprint:
  * @c: any character
@@ -8681,6 +9145,7 @@
  */
 
 
+/* glib/gstrfuncs.c:204 */
 /**
  * g_ascii_ispunct:
  * @c: any character
@@ -8698,6 +9163,7 @@
  */
 
 
+/* glib/gstrfuncs.c:220 */
 /**
  * g_ascii_isspace:
  * @c: any character
@@ -8715,6 +9181,7 @@
  */
 
 
+/* glib/gstrfuncs.c:236 */
 /**
  * g_ascii_isupper:
  * @c: any character
@@ -8733,6 +9200,7 @@
  */
 
 
+/* glib/gstrfuncs.c:253 */
 /**
  * g_ascii_isxdigit:
  * @c: any character
@@ -8748,6 +9216,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1719 */
 /**
  * g_ascii_strcasecmp:
  * @s1: string to compare with @s2.
@@ -8772,6 +9241,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1465 */
 /**
  * g_ascii_strdown:
  * @str: a string.
@@ -8787,6 +9257,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1762 */
 /**
  * g_ascii_strncasecmp:
  * @s1: string to compare with @s2.
@@ -8809,6 +9280,7 @@
  */
 
 
+/* glib/gstrfuncs.c:658 */
 /**
  * g_ascii_strtod:
  * @nptr: the string to convert to a numeric value.
@@ -8843,6 +9315,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1175 */
 /**
  * g_ascii_strtoll:
  * @nptr: the string to convert to a numeric value.
@@ -8873,6 +9346,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1128 */
 /**
  * g_ascii_strtoull:
  * @nptr: the string to convert to a numeric value.
@@ -8903,6 +9377,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1496 */
 /**
  * g_ascii_strup:
  * @str: a string.
@@ -8918,6 +9393,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1629 */
 /**
  * g_ascii_tolower:
  * @c: any character.
@@ -8938,6 +9414,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1653 */
 /**
  * g_ascii_toupper:
  * @c: any character.
@@ -8958,6 +9435,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1697 */
 /**
  * g_ascii_xdigit_value:
  * @c: an ASCII character.
@@ -8972,6 +9450,7 @@
  */
 
 
+/* glib/gtestutils.c:328 */
 /**
  * g_assert:
  * @expr: the expression to check
@@ -8985,6 +9464,7 @@
  */
 
 
+/* glib/gtestutils.c:469 */
 /**
  * g_assert_cmpfloat:
  * @n1: an floating point number
@@ -9003,6 +9483,7 @@
  */
 
 
+/* glib/gtestutils.c:454 */
 /**
  * g_assert_cmphex:
  * @n1: an unsigned integer
@@ -9019,6 +9500,7 @@
  */
 
 
+/* glib/gtestutils.c:420 */
 /**
  * g_assert_cmpint:
  * @n1: an integer
@@ -9037,6 +9519,7 @@
  */
 
 
+/* glib/gtestutils.c:396 */
 /**
  * g_assert_cmpstr:
  * @s1: a string (may be %NULL)
@@ -9062,6 +9545,7 @@
  */
 
 
+/* glib/gtestutils.c:437 */
 /**
  * g_assert_cmpuint:
  * @n1: an unsigned integer
@@ -9080,6 +9564,7 @@
  */
 
 
+/* glib/gtestutils.c:500 */
 /**
  * g_assert_error:
  * @err: a #GError, possibly %NULL
@@ -9103,6 +9588,7 @@
  */
 
 
+/* glib/gtestutils.c:366 */
 /**
  * g_assert_false:
  * @expr: the expression to check
@@ -9119,6 +9605,7 @@
  */
 
 
+/* glib/gtestutils.c:486 */
 /**
  * g_assert_no_error:
  * @err: a #GError, possibly %NULL
@@ -9134,6 +9621,7 @@
  */
 
 
+/* glib/gtestutils.c:340 */
 /**
  * g_assert_not_reached:
  *
@@ -9146,6 +9634,7 @@
  */
 
 
+/* glib/gtestutils.c:381 */
 /**
  * g_assert_null:
  * @expr: the expression to check
@@ -9162,6 +9651,7 @@
  */
 
 
+/* glib/gtestutils.c:351 */
 /**
  * g_assert_true:
  * @expr: the expression to check
@@ -9178,6 +9668,7 @@
  */
 
 
+/* glib/gasyncqueue.c:658 */
 /**
  * g_async_queue_length:
  * @queue: a #GAsyncQueue.
@@ -9195,6 +9686,7 @@
  */
 
 
+/* glib/gasyncqueue.c:687 */
 /**
  * g_async_queue_length_unlocked:
  * @queue: a #GAsyncQueue
@@ -9214,6 +9706,7 @@
  */
 
 
+/* glib/gasyncqueue.c:241 */
 /**
  * g_async_queue_lock:
  * @queue: a #GAsyncQueue
@@ -9230,6 +9723,7 @@
  */
 
 
+/* glib/gasyncqueue.c:113 */
 /**
  * g_async_queue_new:
  *
@@ -9239,6 +9733,7 @@
  */
 
 
+/* glib/gasyncqueue.c:126 */
 /**
  * g_async_queue_new_full:
  * @item_free_func: function to free queue elements
@@ -9252,6 +9747,7 @@
  */
 
 
+/* glib/gasyncqueue.c:438 */
 /**
  * g_async_queue_pop:
  * @queue: a #GAsyncQueue
@@ -9263,6 +9759,7 @@
  */
 
 
+/* glib/gasyncqueue.c:461 */
 /**
  * g_async_queue_pop_unlocked:
  * @queue: a #GAsyncQueue
@@ -9276,6 +9773,7 @@
  */
 
 
+/* glib/gasyncqueue.c:281 */
 /**
  * g_async_queue_push:
  * @queue: a #GAsyncQueue
@@ -9285,6 +9783,7 @@
  */
 
 
+/* glib/gasyncqueue.c:321 */
 /**
  * g_async_queue_push_sorted:
  * @queue: a #GAsyncQueue
@@ -9307,6 +9806,7 @@
  */
 
 
+/* glib/gasyncqueue.c:362 */
 /**
  * g_async_queue_push_sorted_unlocked:
  * @queue: a #GAsyncQueue
@@ -9334,6 +9834,7 @@
  */
 
 
+/* glib/gasyncqueue.c:300 */
 /**
  * g_async_queue_push_unlocked:
  * @queue: a #GAsyncQueue
@@ -9345,6 +9846,7 @@
  */
 
 
+/* glib/gasyncqueue.c:154 */
 /**
  * g_async_queue_ref:
  * @queue: a #GAsyncQueue
@@ -9356,6 +9858,7 @@
  */
 
 
+/* glib/gasyncqueue.c:173 */
 /**
  * g_async_queue_ref_unlocked:
  * @queue: a #GAsyncQueue
@@ -9368,6 +9871,7 @@
  */
 
 
+/* glib/gasyncqueue.c:712 */
 /**
  * g_async_queue_sort:
  * @queue: a #GAsyncQueue
@@ -9401,6 +9905,7 @@
  */
 
 
+/* glib/gasyncqueue.c:756 */
 /**
  * g_async_queue_sort_unlocked:
  * @queue: a #GAsyncQueue
@@ -9421,6 +9926,7 @@
  */
 
 
+/* glib/gasyncqueue.c:575 */
 /**
  * g_async_queue_timed_pop:
  * @queue: a #GAsyncQueue
@@ -9440,6 +9946,7 @@
  */
 
 
+/* glib/gasyncqueue.c:618 */
 /**
  * g_async_queue_timed_pop_unlocked:
  * @queue: a #GAsyncQueue
@@ -9461,6 +9968,7 @@
  */
 
 
+/* glib/gasyncqueue.c:524 */
 /**
  * g_async_queue_timeout_pop:
  * @queue: a #GAsyncQueue
@@ -9476,6 +9984,7 @@
  */
 
 
+/* glib/gasyncqueue.c:551 */
 /**
  * g_async_queue_timeout_pop_unlocked:
  * @queue: a #GAsyncQueue
@@ -9493,6 +10002,7 @@
  */
 
 
+/* glib/gasyncqueue.c:480 */
 /**
  * g_async_queue_try_pop:
  * @queue: a #GAsyncQueue
@@ -9505,6 +10015,7 @@
  */
 
 
+/* glib/gasyncqueue.c:504 */
 /**
  * g_async_queue_try_pop_unlocked:
  * @queue: a #GAsyncQueue
@@ -9519,6 +10030,7 @@
  */
 
 
+/* glib/gasyncqueue.c:263 */
 /**
  * g_async_queue_unlock:
  * @queue: a #GAsyncQueue
@@ -9531,6 +10043,7 @@
  */
 
 
+/* glib/gasyncqueue.c:213 */
 /**
  * g_async_queue_unref:
  * @queue: a #GAsyncQueue.
@@ -9544,6 +10057,7 @@
  */
 
 
+/* glib/gasyncqueue.c:191 */
 /**
  * g_async_queue_unref_and_unlock:
  * @queue: a #GAsyncQueue
@@ -9559,6 +10073,7 @@
  */
 
 
+/* glib/gutils.c:221 */
 /**
  * g_atexit:
  * @func: (scope async): the function to call on normal program termination.
@@ -9598,6 +10113,7 @@
  */
 
 
+/* glib/gatomic.c:206 */
 /**
  * g_atomic_int_add:
  * @atomic: a pointer to a #gint or #guint
@@ -9618,6 +10134,7 @@
  */
 
 
+/* glib/gatomic.c:232 */
 /**
  * g_atomic_int_and:
  * @atomic: a pointer to a #gint or #guint
@@ -9636,6 +10153,7 @@
  */
 
 
+/* glib/gatomic.c:178 */
 /**
  * g_atomic_int_compare_and_exchange:
  * @atomic: a pointer to a #gint or #guint
@@ -9657,6 +10175,7 @@
  */
 
 
+/* glib/gatomic.c:157 */
 /**
  * g_atomic_int_dec_and_test:
  * @atomic: a pointer to a #gint or #guint
@@ -9673,6 +10192,7 @@
  */
 
 
+/* glib/gatomic.c:903 */
 /**
  * g_atomic_int_exchange_and_add:
  * @atomic: a pointer to a #gint
@@ -9688,6 +10208,7 @@
  */
 
 
+/* glib/gatomic.c:100 */
 /**
  * g_atomic_int_get:
  * @atomic: a pointer to a #gint or #guint
@@ -9702,6 +10223,7 @@
  */
 
 
+/* glib/gatomic.c:138 */
 /**
  * g_atomic_int_inc:
  * @atomic: a pointer to a #gint or #guint
@@ -9717,6 +10239,7 @@
  */
 
 
+/* glib/gatomic.c:256 */
 /**
  * g_atomic_int_or:
  * @atomic: a pointer to a #gint or #guint
@@ -9735,6 +10258,7 @@
  */
 
 
+/* glib/gatomic.c:119 */
 /**
  * g_atomic_int_set:
  * @atomic: a pointer to a #gint or #guint
@@ -9749,6 +10273,7 @@
  */
 
 
+/* glib/gatomic.c:280 */
 /**
  * g_atomic_int_xor:
  * @atomic: a pointer to a #gint or #guint
@@ -9767,6 +10292,7 @@
  */
 
 
+/* glib/gatomic.c:372 */
 /**
  * g_atomic_pointer_add:
  * @atomic: a pointer to a #gpointer-sized value
@@ -9784,6 +10310,7 @@
  */
 
 
+/* glib/gatomic.c:395 */
 /**
  * g_atomic_pointer_and:
  * @atomic: a pointer to a #gpointer-sized value
@@ -9802,6 +10329,7 @@
  */
 
 
+/* glib/gatomic.c:343 */
 /**
  * g_atomic_pointer_compare_and_exchange:
  * @atomic: a pointer to a #gpointer-sized value
@@ -9823,6 +10351,7 @@
  */
 
 
+/* glib/gatomic.c:305 */
 /**
  * g_atomic_pointer_get:
  * @atomic: a pointer to a #gpointer-sized value
@@ -9837,6 +10366,7 @@
  */
 
 
+/* glib/gatomic.c:419 */
 /**
  * g_atomic_pointer_or:
  * @atomic: a pointer to a #gpointer-sized value
@@ -9855,6 +10385,7 @@
  */
 
 
+/* glib/gatomic.c:324 */
 /**
  * g_atomic_pointer_set:
  * @atomic: a pointer to a #gpointer-sized value
@@ -9869,6 +10400,7 @@
  */
 
 
+/* glib/gatomic.c:443 */
 /**
  * g_atomic_pointer_xor:
  * @atomic: a pointer to a #gpointer-sized value
@@ -9887,6 +10419,7 @@
  */
 
 
+/* glib/gbase64.c:387 */
 /**
  * g_base64_decode:
  * @text: zero-terminated string with base64 text to decode
@@ -9904,6 +10437,7 @@
  */
 
 
+/* glib/gbase64.c:426 */
 /**
  * g_base64_decode_inplace:
  * @text: (inout) (array length=out_len) (element-type guint8): zero-terminated
@@ -9919,6 +10453,7 @@
  */
 
 
+/* glib/gbase64.c:297 */
 /**
  * g_base64_decode_step:
  * @in: (array length=len) (element-type guint8): binary input data
@@ -9941,6 +10476,7 @@
  */
 
 
+/* glib/gbase64.c:239 */
 /**
  * g_base64_encode:
  * @data: (array length=len) (element-type guint8): the binary data to encode
@@ -9956,6 +10492,7 @@
  */
 
 
+/* glib/gbase64.c:182 */
 /**
  * g_base64_encode_close:
  * @break_lines: whether to break long lines
@@ -9974,6 +10511,7 @@
  */
 
 
+/* glib/gbase64.c:59 */
 /**
  * g_base64_encode_step:
  * @in: (array length=len) (element-type guint8): the binary data to encode
@@ -10008,6 +10546,7 @@
  */
 
 
+/* glib/gfileutils.c:2223 */
 /**
  * g_basename:
  * @file_name: the name of the file
@@ -10025,6 +10564,7 @@
  */
 
 
+/* glib/gbitlock.c:184 */
 /**
  * g_bit_lock:
  * @address: a pointer to an integer
@@ -10048,6 +10588,7 @@
  */
 
 
+/* glib/gutils.c:541 */
 /**
  * g_bit_nth_lsf:
  * @mask: a #gulong containing flags
@@ -10062,6 +10603,7 @@
  */
 
 
+/* glib/gutils.c:554 */
 /**
  * g_bit_nth_msf:
  * @mask: a #gulong containing flags
@@ -10077,6 +10619,7 @@
  */
 
 
+/* glib/gutils.c:568 */
 /**
  * g_bit_storage:
  * @number: a #guint
@@ -10088,6 +10631,7 @@
  */
 
 
+/* glib/gbitlock.c:255 */
 /**
  * g_bit_trylock:
  * @address: a pointer to an integer
@@ -10111,6 +10655,7 @@
  */
 
 
+/* glib/gbitlock.c:302 */
 /**
  * g_bit_unlock:
  * @address: a pointer to an integer
@@ -10128,6 +10673,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2985 */
 /**
  * g_bookmark_file_add_application:
  * @bookmark: a #GBookmarkFile
@@ -10163,6 +10709,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2753 */
 /**
  * g_bookmark_file_add_group:
  * @bookmark: a #GBookmarkFile
@@ -10178,6 +10725,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:1619 */
 /**
  * g_bookmark_file_free:
  * @bookmark: a #GBookmarkFile
@@ -10188,6 +10736,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2506 */
 /**
  * g_bookmark_file_get_added:
  * @bookmark: a #GBookmarkFile
@@ -10204,6 +10753,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:3337 */
 /**
  * g_bookmark_file_get_app_info:
  * @bookmark: a #GBookmarkFile
@@ -10233,6 +10783,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:3438 */
 /**
  * g_bookmark_file_get_applications:
  * @bookmark: a #GBookmarkFile
@@ -10252,6 +10803,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2255 */
 /**
  * g_bookmark_file_get_description:
  * @bookmark: a #GBookmarkFile
@@ -10269,6 +10821,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2913 */
 /**
  * g_bookmark_file_get_groups:
  * @bookmark: a #GBookmarkFile
@@ -10290,6 +10843,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:3658 */
 /**
  * g_bookmark_file_get_icon:
  * @bookmark: a #GBookmarkFile
@@ -10309,6 +10863,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2421 */
 /**
  * g_bookmark_file_get_is_private:
  * @bookmark: a #GBookmarkFile
@@ -10327,6 +10882,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2335 */
 /**
  * g_bookmark_file_get_mime_type:
  * @bookmark: a #GBookmarkFile
@@ -10346,6 +10902,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2584 */
 /**
  * g_bookmark_file_get_modified:
  * @bookmark: a #GBookmarkFile
@@ -10362,6 +10919,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:3512 */
 /**
  * g_bookmark_file_get_size:
  * @bookmark: a #GBookmarkFile
@@ -10373,6 +10931,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2168 */
 /**
  * g_bookmark_file_get_title:
  * @bookmark: a #GBookmarkFile
@@ -10392,6 +10951,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2079 */
 /**
  * g_bookmark_file_get_uris:
  * @bookmark: a #GBookmarkFile
@@ -10407,6 +10967,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2663 */
 /**
  * g_bookmark_file_get_visited:
  * @bookmark: a #GBookmarkFile
@@ -10423,6 +10984,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:3108 */
 /**
  * g_bookmark_file_has_application:
  * @bookmark: a #GBookmarkFile
@@ -10441,6 +11003,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2701 */
 /**
  * g_bookmark_file_has_group:
  * @bookmark: a #GBookmarkFile
@@ -10459,6 +11022,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2058 */
 /**
  * g_bookmark_file_has_item:
  * @bookmark: a #GBookmarkFile
@@ -10471,6 +11035,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:1638 */
 /**
  * g_bookmark_file_load_from_data:
  * @bookmark: an empty #GBookmarkFile struct
@@ -10487,6 +11052,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:1807 */
 /**
  * g_bookmark_file_load_from_data_dirs:
  * @bookmark: a #GBookmarkFile
@@ -10506,6 +11072,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:1682 */
 /**
  * g_bookmark_file_load_from_file:
  * @bookmark: an empty #GBookmarkFile struct
@@ -10521,6 +11088,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:3530 */
 /**
  * g_bookmark_file_move_item:
  * @bookmark: a #GBookmarkFile
@@ -10540,6 +11108,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:1594 */
 /**
  * g_bookmark_file_new:
  *
@@ -10554,6 +11123,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:3058 */
 /**
  * g_bookmark_file_remove_application:
  * @bookmark: a #GBookmarkFile
@@ -10575,6 +11145,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2796 */
 /**
  * g_bookmark_file_remove_group:
  * @bookmark: a #GBookmarkFile
@@ -10595,6 +11166,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2017 */
 /**
  * g_bookmark_file_remove_item:
  * @bookmark: a #GBookmarkFile
@@ -10608,6 +11180,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2470 */
 /**
  * g_bookmark_file_set_added:
  * @bookmark: a #GBookmarkFile
@@ -10622,6 +11195,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:3150 */
 /**
  * g_bookmark_file_set_app_info:
  * @bookmark: a #GBookmarkFile
@@ -10667,6 +11241,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2211 */
 /**
  * g_bookmark_file_set_description:
  * @bookmark: a #GBookmarkFile
@@ -10683,6 +11258,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2863 */
 /**
  * g_bookmark_file_set_groups:
  * @bookmark: a #GBookmarkFile
@@ -10699,6 +11275,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:3609 */
 /**
  * g_bookmark_file_set_icon:
  * @bookmark: a #GBookmarkFile
@@ -10716,6 +11293,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2385 */
 /**
  * g_bookmark_file_set_is_private:
  * @bookmark: a #GBookmarkFile
@@ -10730,6 +11308,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2296 */
 /**
  * g_bookmark_file_set_mime_type:
  * @bookmark: a #GBookmarkFile
@@ -10744,6 +11323,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2544 */
 /**
  * g_bookmark_file_set_modified:
  * @bookmark: a #GBookmarkFile
@@ -10763,6 +11343,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2123 */
 /**
  * g_bookmark_file_set_title:
  * @bookmark: a #GBookmarkFile
@@ -10780,6 +11361,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:2622 */
 /**
  * g_bookmark_file_set_visited:
  * @bookmark: a #GBookmarkFile
@@ -10800,6 +11382,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:1889 */
 /**
  * g_bookmark_file_to_data:
  * @bookmark: a #GBookmarkFile
@@ -10814,6 +11397,7 @@
  */
 
 
+/* glib/gbookmarkfile.c:1923 */
 /**
  * g_bookmark_file_to_file:
  * @bookmark: a #GBookmarkFile
@@ -10828,6 +11412,7 @@
  */
 
 
+/* glib/gfileutils.c:1998 */
 /**
  * g_build_filename:
  * @first_element: the first element in the path
@@ -10854,6 +11439,7 @@
  */
 
 
+/* glib/gfileutils.c:1972 */
 /**
  * g_build_filenamev:
  * @args: (array zero-terminated=1): %NULL-terminated array of strings containing the path elements.
@@ -10867,6 +11453,7 @@
  */
 
 
+/* glib/gfileutils.c:1803 */
 /**
  * g_build_path:
  * @separator: a string used to separator the elements of the path.
@@ -10905,6 +11492,7 @@
  */
 
 
+/* glib/gfileutils.c:1779 */
 /**
  * g_build_pathv:
  * @separator: a string used to separator the elements of the path.
@@ -10919,6 +11507,7 @@
  */
 
 
+/* glib/garray.c:1650 */
 /**
  * g_byte_array_append:
  * @array: a #GByteArray.
@@ -10932,6 +11521,7 @@
  */
 
 
+/* glib/garray.c:1568 */
 /**
  * g_byte_array_free:
  * @array: a #GByteArray.
@@ -10947,6 +11537,7 @@
  */
 
 
+/* glib/garray.c:1587 */
 /**
  * g_byte_array_free_to_bytes:
  * @array: (transfer full): a #GByteArray
@@ -10966,6 +11557,7 @@
  */
 
 
+/* glib/garray.c:1510 */
 /**
  * g_byte_array_new:
  *
@@ -10975,6 +11567,7 @@
  */
 
 
+/* glib/garray.c:1522 */
 /**
  * g_byte_array_new_take:
  * @data: (transfer full) (array length=len): byte data for the array
@@ -10988,6 +11581,7 @@
  */
 
 
+/* glib/garray.c:1670 */
 /**
  * g_byte_array_prepend:
  * @array: a #GByteArray.
@@ -11001,6 +11595,7 @@
  */
 
 
+/* glib/garray.c:1616 */
 /**
  * g_byte_array_ref:
  * @array: A #GByteArray.
@@ -11013,6 +11608,7 @@
  */
 
 
+/* glib/garray.c:1707 */
 /**
  * g_byte_array_remove_index:
  * @array: a #GByteArray.
@@ -11025,6 +11621,7 @@
  */
 
 
+/* glib/garray.c:1725 */
 /**
  * g_byte_array_remove_index_fast:
  * @array: a #GByteArray.
@@ -11039,6 +11636,7 @@
  */
 
 
+/* glib/garray.c:1745 */
 /**
  * g_byte_array_remove_range:
  * @array: a @GByteArray.
@@ -11053,6 +11651,7 @@
  */
 
 
+/* glib/garray.c:1690 */
 /**
  * g_byte_array_set_size:
  * @array: a #GByteArray.
@@ -11064,6 +11663,7 @@
  */
 
 
+/* glib/garray.c:1552 */
 /**
  * g_byte_array_sized_new:
  * @reserved_size: number of bytes preallocated.
@@ -11077,6 +11677,7 @@
  */
 
 
+/* glib/garray.c:1770 */
 /**
  * g_byte_array_sort:
  * @array: a #GByteArray.
@@ -11095,6 +11696,7 @@
  */
 
 
+/* glib/garray.c:1793 */
 /**
  * g_byte_array_sort_with_data:
  * @array: a #GByteArray.
@@ -11106,6 +11708,7 @@
  */
 
 
+/* glib/garray.c:1633 */
 /**
  * g_byte_array_unref:
  * @array: A #GByteArray.
@@ -11119,6 +11722,7 @@
  */
 
 
+/* glib/gbytes.c:359 */
 /**
  * g_bytes_compare:
  * @bytes1: (type GLib.Bytes): a pointer to a #GBytes
@@ -11134,6 +11738,7 @@
  */
 
 
+/* glib/gbytes.c:302 */
 /**
  * g_bytes_equal:
  * @bytes1: (type GLib.Bytes): a pointer to a #GBytes
@@ -11150,6 +11755,7 @@
  */
 
 
+/* glib/gbytes.c:215 */
 /**
  * g_bytes_get_data:
  * @bytes: a #GBytes
@@ -11165,6 +11771,7 @@
  */
 
 
+/* glib/gbytes.c:239 */
 /**
  * g_bytes_get_size:
  * @bytes: a #GBytes
@@ -11178,6 +11785,7 @@
  */
 
 
+/* glib/gbytes.c:331 */
 /**
  * g_bytes_hash:
  * @bytes: (type GLib.Bytes): a pointer to a #GBytes key
@@ -11192,6 +11800,7 @@
  */
 
 
+/* glib/gbytes.c:78 */
 /**
  * g_bytes_new:
  * @data: (transfer none) (array length=size) (element-type guint8):
@@ -11207,6 +11816,7 @@
  */
 
 
+/* glib/gbytes.c:186 */
 /**
  * g_bytes_new_from_bytes:
  * @bytes: a #GBytes
@@ -11224,6 +11834,7 @@
  */
 
 
+/* glib/gbytes.c:128 */
 /**
  * g_bytes_new_static: (skip)
  * @data: (transfer full) (array length=size) (element-type guint8):
@@ -11239,6 +11850,7 @@
  */
 
 
+/* glib/gbytes.c:99 */
 /**
  * g_bytes_new_take:
  * @data: (transfer full) (array length=size) (element-type guint8):
@@ -11261,6 +11873,7 @@
  */
 
 
+/* glib/gbytes.c:149 */
 /**
  * g_bytes_new_with_free_func:
  * @data: (array length=size): the data to be used for the bytes
@@ -11281,6 +11894,7 @@
  */
 
 
+/* glib/gbytes.c:259 */
 /**
  * g_bytes_ref:
  * @bytes: a #GBytes
@@ -11292,6 +11906,7 @@
  */
 
 
+/* glib/gbytes.c:279 */
 /**
  * g_bytes_unref:
  * @bytes: (allow-none): a #GBytes
@@ -11303,6 +11918,7 @@
  */
 
 
+/* glib/gbytes.c:460 */
 /**
  * g_bytes_unref_to_array:
  * @bytes: (transfer full): a #GBytes
@@ -11320,6 +11936,7 @@
  */
 
 
+/* glib/gbytes.c:413 */
 /**
  * g_bytes_unref_to_data:
  * @bytes: (transfer full): a #GBytes
@@ -11339,6 +11956,7 @@
  */
 
 
+/* glib/gstdio.c:393 */
 /**
  * g_chdir:
  * @path: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -11353,6 +11971,7 @@
  */
 
 
+/* glib/gchecksum.c:1484 */
 /**
  * g_checksum_copy:
  * @checksum: the #GChecksum to copy
@@ -11367,6 +11986,7 @@
  */
 
 
+/* glib/gchecksum.c:1512 */
 /**
  * g_checksum_free:
  * @checksum: a #GChecksum
@@ -11377,6 +11997,7 @@
  */
 
 
+/* glib/gchecksum.c:1637 */
 /**
  * g_checksum_get_digest: (skip)
  * @checksum: a #GChecksum
@@ -11394,6 +12015,7 @@
  */
 
 
+/* glib/gchecksum.c:1582 */
 /**
  * g_checksum_get_string:
  * @checksum: a #GChecksum
@@ -11412,6 +12034,7 @@
  */
 
 
+/* glib/gchecksum.c:1409 */
 /**
  * g_checksum_new:
  * @checksum_type: the desired type of checksum
@@ -11436,6 +12059,7 @@
  */
 
 
+/* glib/gchecksum.c:1448 */
 /**
  * g_checksum_reset:
  * @checksum: the #GChecksum to reset
@@ -11446,6 +12070,7 @@
  */
 
 
+/* glib/gchecksum.c:1371 */
 /**
  * g_checksum_type_get_length:
  * @checksum_type: a #GChecksumType
@@ -11458,6 +12083,7 @@
  */
 
 
+/* glib/gchecksum.c:1531 */
 /**
  * g_checksum_update:
  * @checksum: a #GChecksum
@@ -11472,6 +12098,7 @@
  */
 
 
+/* glib/gmain.c:5178 */
 /**
  * g_child_watch_add:
  * @pid: process id to watch. On POSIX the pid of a child process. On
@@ -11503,6 +12130,7 @@
  */
 
 
+/* glib/gmain.c:5116 */
 /**
  * g_child_watch_add_full: (rename-to g_child_watch_add)
  * @priority: the priority of the idle source. Typically this will be in the
@@ -11541,6 +12169,7 @@
  */
 
 
+/* glib/gmain.c:5062 */
 /**
  * g_child_watch_source_new:
  * @pid: process to watch. On POSIX the pid of a child process. On
@@ -11571,6 +12200,7 @@
  */
 
 
+/* glib/gstdio.c:113 */
 /**
  * g_chmod:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -11592,6 +12222,7 @@
  */
 
 
+/* glib/gerror.c:631 */
 /**
  * g_clear_error:
  * @err: a #GError return location
@@ -11601,6 +12232,7 @@
  */
 
 
+/* glib/gmem.c:201 */
 /**
  * g_clear_pointer: (skip)
  * @pp: a pointer to a variable, struct member etc. holding a pointer
@@ -11624,6 +12256,7 @@
  */
 
 
+/* glib/gstdio.c:839 */
 /**
  * g_close:
  * @fd: A file descriptor
@@ -11641,6 +12274,7 @@
  */
 
 
+/* glib/gchecksum.c:1781 */
 /**
  * g_compute_checksum_for_bytes:
  * @checksum_type: a #GChecksumType
@@ -11658,6 +12292,7 @@
  */
 
 
+/* glib/gchecksum.c:1713 */
 /**
  * g_compute_checksum_for_data:
  * @checksum_type: a #GChecksumType
@@ -11676,6 +12311,7 @@
  */
 
 
+/* glib/gchecksum.c:1752 */
 /**
  * g_compute_checksum_for_string:
  * @checksum_type: a #GChecksumType
@@ -11692,6 +12328,7 @@
  */
 
 
+/* glib/ghmac.c:326 */
 /**
  * g_compute_hmac_for_data:
  * @digest_type: a #GChecksumType to use for the HMAC
@@ -11712,6 +12349,7 @@
  */
 
 
+/* glib/ghmac.c:368 */
 /**
  * g_compute_hmac_for_string:
  * @digest_type: a #GChecksumType to use for the HMAC
@@ -11731,6 +12369,7 @@
  */
 
 
+/* glib/gthread-posix.c:775 */
 /**
  * g_cond_broadcast:
  * @cond: a #GCond
@@ -11742,6 +12381,7 @@
  */
 
 
+/* glib/gthread-posix.c:707 */
 /**
  * g_cond_clear:
  * @cond: an initialised #GCond
@@ -11758,6 +12398,7 @@
  */
 
 
+/* glib/gthread-posix.c:683 */
 /**
  * g_cond_init:
  * @cond: an uninitialized #GCond
@@ -11778,6 +12419,7 @@
  */
 
 
+/* glib/gthread-posix.c:757 */
 /**
  * g_cond_signal:
  * @cond: a #GCond
@@ -11789,6 +12431,7 @@
  */
 
 
+/* glib/gthread-posix.c:727 */
 /**
  * g_cond_wait:
  * @cond: a #GCond
@@ -11811,6 +12454,7 @@
  */
 
 
+/* glib/gthread-posix.c:793 */
 /**
  * g_cond_wait_until:
  * @cond: a #GCond
@@ -11871,6 +12515,7 @@
  */
 
 
+/* glib/gconvert.c:524 */
 /**
  * g_convert:
  * @str: the string to convert
@@ -11908,6 +12553,7 @@
  */
 
 
+/* glib/gconvert.c:597 */
 /**
  * g_convert_with_fallback:
  * @str: the string to convert
@@ -11947,6 +12593,7 @@
  */
 
 
+/* glib/gconvert.c:368 */
 /**
  * g_convert_with_iconv:
  * @str: the string to convert
@@ -11989,6 +12636,7 @@
  */
 
 
+/* glib/gstdio.c:221 */
 /**
  * g_creat:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -12020,6 +12668,7 @@
  */
 
 
+/* glib/gmessages.c:173 */
 /**
  * g_critical:
  * @...: format string, followed by parameters to insert
@@ -12038,6 +12687,7 @@
  */
 
 
+/* glib/gdataset.c:249 */
 /**
  * g_datalist_clear:
  * @datalist: a datalist.
@@ -12048,6 +12698,7 @@
  */
 
 
+/* glib/gdataset.c:1096 */
 /**
  * g_datalist_foreach:
  * @datalist: a datalist.
@@ -12063,6 +12714,7 @@
  */
 
 
+/* glib/gdataset.c:1007 */
 /**
  * g_datalist_get_data:
  * @datalist: a datalist.
@@ -12075,6 +12727,7 @@
  */
 
 
+/* glib/gdataset.c:1217 */
 /**
  * g_datalist_get_flags:
  * @datalist: pointer to the location that holds a list
@@ -12087,6 +12740,7 @@
  */
 
 
+/* glib/gdataset.c:818 */
 /**
  * g_datalist_id_dup_data:
  * @datalist: location of a datalist
@@ -12115,6 +12769,7 @@
  */
 
 
+/* glib/gdataset.c:789 */
 /**
  * g_datalist_id_get_data:
  * @datalist: a datalist.
@@ -12126,6 +12781,7 @@
  */
 
 
+/* glib/gdataset.c:642 */
 /**
  * g_datalist_id_remove_data:
  * @dl: a datalist.
@@ -12135,6 +12791,7 @@
  */
 
 
+/* glib/gdataset.c:716 */
 /**
  * g_datalist_id_remove_no_notify:
  * @datalist: a datalist.
@@ -12147,6 +12804,7 @@
  */
 
 
+/* glib/gdataset.c:887 */
 /**
  * g_datalist_id_replace_data:
  * @datalist: location of a datalist
@@ -12176,6 +12834,7 @@
  */
 
 
+/* glib/gdataset.c:622 */
 /**
  * g_datalist_id_set_data:
  * @dl: a datalist.
@@ -12189,6 +12848,7 @@
  */
 
 
+/* glib/gdataset.c:591 */
 /**
  * g_datalist_id_set_data_full:
  * @datalist: a datalist.
@@ -12208,6 +12868,7 @@
  */
 
 
+/* glib/gdataset.c:1151 */
 /**
  * g_datalist_init:
  * @datalist: a pointer to a pointer to a datalist.
@@ -12217,6 +12878,7 @@
  */
 
 
+/* glib/gdataset.c:649 */
 /**
  * g_datalist_remove_data:
  * @dl: a datalist.
@@ -12227,6 +12889,7 @@
  */
 
 
+/* glib/gdataset.c:726 */
 /**
  * g_datalist_remove_no_notify:
  * @dl: a datalist.
@@ -12236,6 +12899,7 @@
  */
 
 
+/* glib/gdataset.c:633 */
 /**
  * g_datalist_set_data:
  * @dl: a datalist.
@@ -12247,6 +12911,7 @@
  */
 
 
+/* glib/gdataset.c:608 */
 /**
  * g_datalist_set_data_full:
  * @dl: a datalist.
@@ -12263,6 +12928,7 @@
  */
 
 
+/* glib/gdataset.c:1166 */
 /**
  * g_datalist_set_flags:
  * @datalist: pointer to the location that holds a list
@@ -12283,6 +12949,7 @@
  */
 
 
+/* glib/gdataset.c:1194 */
 /**
  * g_datalist_unset_flags:
  * @datalist: pointer to the location that holds a list
@@ -12298,6 +12965,7 @@
  */
 
 
+/* glib/gdataset.c:323 */
 /**
  * g_dataset_destroy:
  * @dataset_location: the location identifying the dataset.
@@ -12307,6 +12975,7 @@
  */
 
 
+/* glib/gdataset.c:1061 */
 /**
  * g_dataset_foreach:
  * @dataset_location: the location identifying the dataset.
@@ -12320,6 +12989,7 @@
  */
 
 
+/* glib/gdataset.c:757 */
 /**
  * g_dataset_get_data:
  * @l: the location identifying the dataset.
@@ -12332,6 +13002,7 @@
  */
 
 
+/* glib/gdataset.c:747 */
 /**
  * g_dataset_id_get_data:
  * @dataset_location: the location identifying the dataset.
@@ -12344,6 +13015,7 @@
  */
 
 
+/* glib/gdataset.c:537 */
 /**
  * g_dataset_id_remove_data:
  * @l: the location identifying the dataset.
@@ -12354,6 +13026,7 @@
  */
 
 
+/* glib/gdataset.c:677 */
 /**
  * g_dataset_id_remove_no_notify:
  * @dataset_location: the location identifying the dataset.
@@ -12366,6 +13039,7 @@
  */
 
 
+/* glib/gdataset.c:519 */
 /**
  * g_dataset_id_set_data:
  * @l: the location identifying the dataset.
@@ -12378,6 +13052,7 @@
  */
 
 
+/* glib/gdataset.c:492 */
 /**
  * g_dataset_id_set_data_full:
  * @dataset_location: the location identifying the dataset.
@@ -12395,6 +13070,7 @@
  */
 
 
+/* glib/gdataset.c:545 */
 /**
  * g_dataset_remove_data:
  * @l: the location identifying the dataset.
@@ -12405,6 +13081,7 @@
  */
 
 
+/* glib/gdataset.c:687 */
 /**
  * g_dataset_remove_no_notify:
  * @l: the location identifying the dataset.
@@ -12414,6 +13091,7 @@
  */
 
 
+/* glib/gdataset.c:529 */
 /**
  * g_dataset_set_data:
  * @l: the location identifying the dataset.
@@ -12424,6 +13102,7 @@
  */
 
 
+/* glib/gdataset.c:507 */
 /**
  * g_dataset_set_data_full:
  * @l: the location identifying the dataset.
@@ -12438,6 +13117,7 @@
  */
 
 
+/* glib/gdate.c:1552 */
 /**
  * g_date_add_days:
  * @date: a #GDate to increment
@@ -12449,6 +13129,7 @@
  */
 
 
+/* glib/gdate.c:1601 */
 /**
  * g_date_add_months:
  * @date: a #GDate to increment
@@ -12462,6 +13143,7 @@
  */
 
 
+/* glib/gdate.c:1693 */
 /**
  * g_date_add_years:
  * @date: a #GDate to increment
@@ -12474,6 +13156,7 @@
  */
 
 
+/* glib/gdate.c:1983 */
 /**
  * g_date_clamp:
  * @date: a #GDate to clamp
@@ -12488,6 +13171,7 @@
  */
 
 
+/* glib/gdate.c:821 */
 /**
  * g_date_clear:
  * @date: pointer to one or more dates to clear
@@ -12500,6 +13184,7 @@
  */
 
 
+/* glib/gdate.c:1877 */
 /**
  * g_date_compare:
  * @lhs: first date to compare
@@ -12513,6 +13198,7 @@
  */
 
 
+/* glib/gdate.c:800 */
 /**
  * g_date_days_between:
  * @date1: the first date
@@ -12526,6 +13212,7 @@
  */
 
 
+/* glib/gdate.c:330 */
 /**
  * g_date_free:
  * @date: a #GDate to free
@@ -12534,6 +13221,7 @@
  */
 
 
+/* glib/gdate.c:624 */
 /**
  * g_date_get_day:
  * @date: a #GDate to extract the day of the month from
@@ -12544,6 +13232,7 @@
  */
 
 
+/* glib/gdate.c:669 */
 /**
  * g_date_get_day_of_year:
  * @date: a #GDate to extract day of year from
@@ -12555,6 +13244,7 @@
  */
 
 
+/* glib/gdate.c:1781 */
 /**
  * g_date_get_days_in_month:
  * @month: month
@@ -12567,6 +13257,7 @@
  */
 
 
+/* glib/gdate.c:764 */
 /**
  * g_date_get_iso8601_week_of_year:
  * @date: a valid #GDate
@@ -12579,6 +13270,7 @@
  */
 
 
+/* glib/gdate.c:645 */
 /**
  * g_date_get_julian:
  * @date: a #GDate to extract the Julian day from
@@ -12592,6 +13284,7 @@
  */
 
 
+/* glib/gdate.c:695 */
 /**
  * g_date_get_monday_week_of_year:
  * @date: a #GDate
@@ -12604,6 +13297,7 @@
  */
 
 
+/* glib/gdate.c:1805 */
 /**
  * g_date_get_monday_weeks_in_year:
  * @year: a year
@@ -12620,6 +13314,7 @@
  */
 
 
+/* glib/gdate.c:582 */
 /**
  * g_date_get_month:
  * @date: a #GDate to get the month from
@@ -12630,6 +13325,7 @@
  */
 
 
+/* glib/gdate.c:729 */
 /**
  * g_date_get_sunday_week_of_year:
  * @date: a #GDate
@@ -12642,6 +13338,7 @@
  */
 
 
+/* glib/gdate.c:1841 */
 /**
  * g_date_get_sunday_weeks_in_year:
  * @year: year to count weeks in
@@ -12658,6 +13355,7 @@
  */
 
 
+/* glib/gdate.c:561 */
 /**
  * g_date_get_weekday:
  * @date: a #GDate
@@ -12668,6 +13366,7 @@
  */
 
 
+/* glib/gdate.c:603 */
 /**
  * g_date_get_year:
  * @date: a #GDate
@@ -12678,6 +13377,7 @@
  */
 
 
+/* glib/gdate.c:1502 */
 /**
  * g_date_is_first_of_month:
  * @date: a #GDate to check
@@ -12689,6 +13389,7 @@
  */
 
 
+/* glib/gdate.c:1525 */
 /**
  * g_date_is_last_of_month:
  * @date: a #GDate to check
@@ -12700,6 +13401,7 @@
  */
 
 
+/* glib/gdate.c:1759 */
 /**
  * g_date_is_leap_year:
  * @year: year to check
@@ -12715,6 +13417,7 @@
  */
 
 
+/* glib/gdate.c:250 */
 /**
  * g_date_new:
  *
@@ -12727,6 +13430,7 @@
  */
 
 
+/* glib/gdate.c:268 */
 /**
  * g_date_new_dmy:
  * @day: day of the month
@@ -12741,6 +13445,7 @@
  */
 
 
+/* glib/gdate.c:302 */
 /**
  * g_date_new_julian:
  * @julian_day: days since January 1, Year 1
@@ -12753,6 +13458,7 @@
  */
 
 
+/* glib/gdate.c:2018 */
 /**
  * g_date_order:
  * @date1: the first date
@@ -12763,6 +13469,7 @@
  */
 
 
+/* glib/gdate.c:1401 */
 /**
  * g_date_set_day:
  * @date: a #GDate
@@ -12773,6 +13480,7 @@
  */
 
 
+/* glib/gdate.c:1453 */
 /**
  * g_date_set_dmy:
  * @date: a #GDate
@@ -12787,6 +13495,7 @@
  */
 
 
+/* glib/gdate.c:1483 */
 /**
  * g_date_set_julian:
  * @date: a #GDate
@@ -12796,6 +13505,7 @@
  */
 
 
+/* glib/gdate.c:1375 */
 /**
  * g_date_set_month:
  * @date: a #GDate
@@ -12806,6 +13516,7 @@
  */
 
 
+/* glib/gdate.c:1107 */
 /**
  * g_date_set_parse:
  * @date: a #GDate to fill in
@@ -12825,6 +13536,7 @@
  */
 
 
+/* glib/gdate.c:1338 */
 /**
  * g_date_set_time:
  * @date: a #GDate.
@@ -12837,6 +13549,7 @@
  */
 
 
+/* glib/gdate.c:1278 */
 /**
  * g_date_set_time_t:
  * @date: a #GDate
@@ -12855,6 +13568,7 @@
  */
 
 
+/* glib/gdate.c:1355 */
 /**
  * g_date_set_time_val:
  * @date: a #GDate
@@ -12870,6 +13584,7 @@
  */
 
 
+/* glib/gdate.c:1427 */
 /**
  * g_date_set_year:
  * @date: a #GDate
@@ -12880,6 +13595,7 @@
  */
 
 
+/* glib/gdate.c:2419 */
 /**
  * g_date_strftime:
  * @s: destination buffer
@@ -12905,6 +13621,7 @@
  */
 
 
+/* glib/gdate.c:1576 */
 /**
  * g_date_subtract_days:
  * @date: a #GDate to decrement
@@ -12916,6 +13633,7 @@
  */
 
 
+/* glib/gdate.c:1644 */
 /**
  * g_date_subtract_months:
  * @date: a #GDate to decrement
@@ -12928,6 +13646,7 @@
  */
 
 
+/* glib/gdate.c:1725 */
 /**
  * g_date_subtract_years:
  * @date: a #GDate to decrement
@@ -12941,6 +13660,7 @@
  */
 
 
+/* glib/gdatetime.c:1059 */
 /**
  * g_date_time_add:
  * @datetime: a #GDateTime
@@ -12954,6 +13674,7 @@
  */
 
 
+/* glib/gdatetime.c:1179 */
 /**
  * g_date_time_add_days:
  * @datetime: a #GDateTime
@@ -12968,6 +13689,7 @@
  */
 
 
+/* glib/gdatetime.c:1262 */
 /**
  * g_date_time_add_full:
  * @datetime: a #GDateTime
@@ -12987,6 +13709,7 @@
  */
 
 
+/* glib/gdatetime.c:1204 */
 /**
  * g_date_time_add_hours:
  * @datetime: a #GDateTime
@@ -13000,6 +13723,7 @@
  */
 
 
+/* glib/gdatetime.c:1223 */
 /**
  * g_date_time_add_minutes:
  * @datetime: a #GDateTime
@@ -13013,6 +13737,7 @@
  */
 
 
+/* glib/gdatetime.c:1114 */
 /**
  * g_date_time_add_months:
  * @datetime: a #GDateTime
@@ -13027,6 +13752,7 @@
  */
 
 
+/* glib/gdatetime.c:1243 */
 /**
  * g_date_time_add_seconds:
  * @datetime: a #GDateTime
@@ -13040,6 +13766,7 @@
  */
 
 
+/* glib/gdatetime.c:1157 */
 /**
  * g_date_time_add_weeks:
  * @datetime: a #GDateTime
@@ -13054,6 +13781,7 @@
  */
 
 
+/* glib/gdatetime.c:1079 */
 /**
  * g_date_time_add_years:
  * @datetime: a #GDateTime
@@ -13068,6 +13796,7 @@
  */
 
 
+/* glib/gdatetime.c:1363 */
 /**
  * g_date_time_compare:
  * @dt1: first #GDateTime to compare
@@ -13082,6 +13811,7 @@
  */
 
 
+/* glib/gdatetime.c:1394 */
 /**
  * g_date_time_difference:
  * @end: a #GDateTime
@@ -13097,6 +13827,7 @@
  */
 
 
+/* glib/gdatetime.c:1435 */
 /**
  * g_date_time_equal:
  * @dt1: a #GDateTime
@@ -13112,6 +13843,7 @@
  */
 
 
+/* glib/gdatetime.c:2523 */
 /**
  * g_date_time_format:
  * @datetime: A #GDateTime
@@ -13397,6 +14129,7 @@
  */
 
 
+/* glib/gdatetime.c:1598 */
 /**
  * g_date_time_get_day_of_month:
  * @datetime: a #GDateTime
@@ -13409,6 +14142,7 @@
  */
 
 
+/* glib/gdatetime.c:1746 */
 /**
  * g_date_time_get_day_of_week:
  * @datetime: a #GDateTime
@@ -13421,6 +14155,7 @@
  */
 
 
+/* glib/gdatetime.c:1766 */
 /**
  * g_date_time_get_day_of_year:
  * @datetime: a #GDateTime
@@ -13433,6 +14168,7 @@
  */
 
 
+/* glib/gdatetime.c:1790 */
 /**
  * g_date_time_get_hour:
  * @datetime: a #GDateTime
@@ -13444,6 +14180,7 @@
  */
 
 
+/* glib/gdatetime.c:1844 */
 /**
  * g_date_time_get_microsecond:
  * @datetime: a #GDateTime
@@ -13455,6 +14192,7 @@
  */
 
 
+/* glib/gdatetime.c:1808 */
 /**
  * g_date_time_get_minute:
  * @datetime: a #GDateTime
@@ -13466,6 +14204,7 @@
  */
 
 
+/* glib/gdatetime.c:1575 */
 /**
  * g_date_time_get_month:
  * @datetime: a #GDateTime
@@ -13478,6 +14217,7 @@
  */
 
 
+/* glib/gdatetime.c:1826 */
 /**
  * g_date_time_get_second:
  * @datetime: a #GDateTime
@@ -13489,6 +14229,7 @@
  */
 
 
+/* glib/gdatetime.c:1862 */
 /**
  * g_date_time_get_seconds:
  * @datetime: a #GDateTime
@@ -13501,6 +14242,7 @@
  */
 
 
+/* glib/gdatetime.c:1966 */
 /**
  * g_date_time_get_timezone_abbreviation:
  * @datetime: a #GDateTime
@@ -13519,6 +14261,7 @@
  */
 
 
+/* glib/gdatetime.c:1936 */
 /**
  * g_date_time_get_utc_offset:
  * @datetime: a #GDateTime
@@ -13538,6 +14281,7 @@
  */
 
 
+/* glib/gdatetime.c:1634 */
 /**
  * g_date_time_get_week_numbering_year:
  * @datetime: a #GDateTime
@@ -13579,6 +14323,7 @@
  */
 
 
+/* glib/gdatetime.c:1710 */
 /**
  * g_date_time_get_week_of_year:
  * @datetime: a #GDateTime
@@ -13604,6 +14349,7 @@
  */
 
 
+/* glib/gdatetime.c:1553 */
 /**
  * g_date_time_get_year:
  * @datetime: A #GDateTime
@@ -13615,6 +14361,7 @@
  */
 
 
+/* glib/gdatetime.c:1457 */
 /**
  * g_date_time_get_ymd:
  * @datetime: a #GDateTime.
@@ -13628,6 +14375,7 @@
  */
 
 
+/* glib/gdatetime.c:1419 */
 /**
  * g_date_time_hash:
  * @datetime: a #GDateTime
@@ -13639,6 +14387,7 @@
  */
 
 
+/* glib/gdatetime.c:1991 */
 /**
  * g_date_time_is_daylight_savings:
  * @datetime: a #GDateTime
@@ -13651,6 +14400,7 @@
  */
 
 
+/* glib/gdatetime.c:896 */
 /**
  * g_date_time_new:
  * @tz: a #GTimeZone
@@ -13695,6 +14445,7 @@
  */
 
 
+/* glib/gdatetime.c:828 */
 /**
  * g_date_time_new_from_timeval_local:
  * @tv: a #GTimeVal
@@ -13717,6 +14468,7 @@
  */
 
 
+/* glib/gdatetime.c:862 */
 /**
  * g_date_time_new_from_timeval_utc:
  * @tv: a #GTimeVal
@@ -13737,6 +14489,7 @@
  */
 
 
+/* glib/gdatetime.c:763 */
 /**
  * g_date_time_new_from_unix_local:
  * @t: the Unix time
@@ -13758,6 +14511,7 @@
  */
 
 
+/* glib/gdatetime.c:796 */
 /**
  * g_date_time_new_from_unix_utc:
  * @t: the Unix time
@@ -13778,6 +14532,7 @@
  */
 
 
+/* glib/gdatetime.c:983 */
 /**
  * g_date_time_new_local:
  * @year: the year component of the date
@@ -13798,6 +14553,7 @@
  */
 
 
+/* glib/gdatetime.c:683 */
 /**
  * g_date_time_new_now:
  * @tz: a #GTimeZone
@@ -13818,6 +14574,7 @@
  */
 
 
+/* glib/gdatetime.c:712 */
 /**
  * g_date_time_new_now_local:
  *
@@ -13832,6 +14589,7 @@
  */
 
 
+/* glib/gdatetime.c:738 */
 /**
  * g_date_time_new_now_utc:
  *
@@ -13845,6 +14603,7 @@
  */
 
 
+/* glib/gdatetime.c:1020 */
 /**
  * g_date_time_new_utc:
  * @year: the year component of the date
@@ -13865,6 +14624,7 @@
  */
 
 
+/* glib/gdatetime.c:439 */
 /**
  * g_date_time_ref:
  * @datetime: a #GDateTime
@@ -13876,6 +14636,7 @@
  */
 
 
+/* glib/gdatetime.c:2037 */
 /**
  * g_date_time_to_local:
  * @datetime: a #GDateTime
@@ -13891,6 +14652,7 @@
  */
 
 
+/* glib/gdatetime.c:1902 */
 /**
  * g_date_time_to_timeval:
  * @datetime: a #GDateTime
@@ -13915,6 +14677,7 @@
  */
 
 
+/* glib/gdatetime.c:2011 */
 /**
  * g_date_time_to_timezone:
  * @datetime: a #GDateTime
@@ -13935,6 +14698,7 @@
  */
 
 
+/* glib/gdatetime.c:1882 */
 /**
  * g_date_time_to_unix:
  * @datetime: a #GDateTime
@@ -13950,6 +14714,7 @@
  */
 
 
+/* glib/gdatetime.c:2064 */
 /**
  * g_date_time_to_utc:
  * @datetime: a #GDateTime
@@ -13965,6 +14730,7 @@
  */
 
 
+/* glib/gdatetime.c:460 */
 /**
  * g_date_time_unref:
  * @datetime: a #GDateTime
@@ -13978,6 +14744,7 @@
  */
 
 
+/* glib/gdate.c:1937 */
 /**
  * g_date_to_struct_tm:
  * @date: a #GDate to set the <structname>struct tm</structname> from
@@ -13989,6 +14756,7 @@
  */
 
 
+/* glib/gdate.c:344 */
 /**
  * g_date_valid:
  * @date: a #GDate to check
@@ -14001,6 +14769,7 @@
  */
 
 
+/* glib/gdate.c:404 */
 /**
  * g_date_valid_day:
  * @day: day to check
@@ -14012,6 +14781,7 @@
  */
 
 
+/* glib/gdate.c:450 */
 /**
  * g_date_valid_dmy:
  * @day: day
@@ -14026,6 +14796,7 @@
  */
 
 
+/* glib/gdate.c:435 */
 /**
  * g_date_valid_julian:
  * @julian_date: Julian day to check
@@ -14037,6 +14808,7 @@
  */
 
 
+/* glib/gdate.c:374 */
 /**
  * g_date_valid_month:
  * @month: month
@@ -14048,6 +14820,7 @@
  */
 
 
+/* glib/gdate.c:420 */
 /**
  * g_date_valid_weekday:
  * @weekday: weekday
@@ -14059,6 +14832,7 @@
  */
 
 
+/* glib/gdate.c:389 */
 /**
  * g_date_valid_year:
  * @year: year
@@ -14070,6 +14844,7 @@
  */
 
 
+/* glib/ggettext.c:405 */
 /**
  * g_dcgettext:
  * @domain: (allow-none): the translation domain to use, or %NULL to use
@@ -14087,6 +14862,7 @@
  */
 
 
+/* glib/gmessages.c:205 */
 /**
  * g_debug:
  * @...: format string, followed by parameters to insert
@@ -14098,6 +14874,7 @@
  */
 
 
+/* glib/ggettext.c:354 */
 /**
  * g_dgettext:
  * @domain: (allow-none): the translation domain to use, or %NULL to use
@@ -14140,6 +14917,7 @@
  */
 
 
+/* glib/gdir.c:351 */
 /**
  * g_dir_close:
  * @dir: a #GDir* created by g_dir_open()
@@ -14148,6 +14926,7 @@
  */
 
 
+/* glib/gfileutils.c:1639 */
 /**
  * g_dir_make_tmp:
  * @tmpl: (type filename) (allow-none): Template for directory name,
@@ -14174,6 +14953,7 @@
  */
 
 
+/* glib/gdir.c:121 */
 /**
  * g_dir_open:
  * @path: the path to the directory you are interested in. On Unix
@@ -14193,6 +14973,7 @@
  */
 
 
+/* glib/gdir.c:228 */
 /**
  * g_dir_read_name:
  * @dir: a #GDir* created by g_dir_open()
@@ -14218,6 +14999,7 @@
  */
 
 
+/* glib/gdir.c:332 */
 /**
  * g_dir_rewind:
  * @dir: a #GDir* created by g_dir_open()
@@ -14227,6 +15009,7 @@
  */
 
 
+/* glib/ghash.c:1758 */
 /**
  * g_direct_equal:
  * @v1: (allow-none): a key
@@ -14244,6 +15027,7 @@
  */
 
 
+/* glib/ghash.c:1738 */
 /**
  * g_direct_hash:
  * @v: (allow-none): a #gpointer key
@@ -14260,6 +15044,7 @@
  */
 
 
+/* glib/gfileutils.c:2331 */
 /**
  * g_dirname:
  * @file_name: the name of the file
@@ -14274,6 +15059,7 @@
  */
 
 
+/* glib/ggettext.c:432 */
 /**
  * g_dngettext:
  * @domain: (allow-none): the translation domain to use, or %NULL to use
@@ -14294,6 +15080,7 @@
  */
 
 
+/* glib/ghash.c:1866 */
 /**
  * g_double_equal:
  * @v1: a pointer to a #gdouble key
@@ -14310,6 +15097,7 @@
  */
 
 
+/* glib/ghash.c:1888 */
 /**
  * g_double_hash:
  * @v: a pointer to a #gdouble key
@@ -14324,6 +15112,7 @@
  */
 
 
+/* glib/ggettext.c:187 */
 /**
  * g_dpgettext:
  * @domain: (allow-none): the translation domain to use, or %NULL to use
@@ -14351,6 +15140,7 @@
  */
 
 
+/* glib/ggettext.c:251 */
 /**
  * g_dpgettext2:
  * @domain: (allow-none): the translation domain to use, or %NULL to use
@@ -14374,6 +15164,7 @@
  */
 
 
+/* glib/genviron.c:73 */
 /**
  * g_environ_getenv:
  * @envp: (allow-none) (array zero-terminated=1) (transfer none): an environment
@@ -14400,6 +15191,7 @@
  */
 
 
+/* glib/genviron.c:113 */
 /**
  * g_environ_setenv:
  * @envp: (allow-none) (array zero-terminated=1) (transfer full): an environment
@@ -14422,6 +15214,7 @@
  */
 
 
+/* glib/genviron.c:202 */
 /**
  * g_environ_unsetenv:
  * @envp: (allow-none) (array zero-terminated=1) (transfer full): an environment
@@ -14438,6 +15231,7 @@
  */
 
 
+/* glib/gmessages.c:190 */
 /**
  * g_error:
  * @...: format string, followed by parameters to insert
@@ -14453,6 +15247,7 @@
  */
 
 
+/* glib/gerror.c:481 */
 /**
  * g_error_copy:
  * @error: a #GError
@@ -14463,6 +15258,7 @@
  */
 
 
+/* glib/gerror.c:465 */
 /**
  * g_error_free:
  * @error: a #GError
@@ -14471,6 +15267,7 @@
  */
 
 
+/* glib/gerror.c:508 */
 /**
  * g_error_matches:
  * @error: (allow-none): a #GError or %NULL
@@ -14485,6 +15282,7 @@
  */
 
 
+/* glib/gerror.c:402 */
 /**
  * g_error_new:
  * @domain: error domain
@@ -14499,6 +15297,7 @@
  */
 
 
+/* glib/gerror.c:433 */
 /**
  * g_error_new_literal:
  * @domain: error domain
@@ -14514,6 +15313,7 @@
  */
 
 
+/* glib/gerror.c:363 */
 /**
  * g_error_new_valist:
  * @domain: error domain
@@ -14529,6 +15329,7 @@
  */
 
 
+/* glib/gfileutils.c:464 */
 /**
  * g_file_error_from_errno:
  * @err_no: an "errno" value
@@ -14546,6 +15347,7 @@
  */
 
 
+/* glib/gfileutils.c:937 */
 /**
  * g_file_get_contents:
  * @filename: (type filename): name of a file to read contents from, in the GLib file name encoding
@@ -14569,6 +15371,7 @@
  */
 
 
+/* glib/gfileutils.c:1585 */
 /**
  * g_file_open_tmp:
  * @tmpl: (type filename) (allow-none): Template for file name, as in
@@ -14601,6 +15404,7 @@
  */
 
 
+/* glib/gfileutils.c:2040 */
 /**
  * g_file_read_link:
  * @filename: the symbolic link
@@ -14616,6 +15420,7 @@
  */
 
 
+/* glib/gfileutils.c:1159 */
 /**
  * g_file_set_contents:
  * @filename: (type filename): name of a file to write @contents to, in the GLib file name
@@ -14660,6 +15465,7 @@
  */
 
 
+/* glib/gfileutils.c:268 */
 /**
  * g_file_test:
  * @filename: a filename to test in the GLib file name encoding
@@ -14711,6 +15517,7 @@
  */
 
 
+/* glib/gconvert.c:1847 */
 /**
  * g_filename_display_basename:
  * @filename: an absolute pathname in the GLib file name encoding
@@ -14738,6 +15545,7 @@
  */
 
 
+/* glib/gconvert.c:1887 */
 /**
  * g_filename_display_name:
  * @filename: a pathname hopefully in the GLib file name encoding
@@ -14764,6 +15572,7 @@
  */
 
 
+/* glib/gconvert.c:1538 */
 /**
  * g_filename_from_uri:
  * @uri: a uri describing a filename (escaped, encoded in ASCII).
@@ -14781,6 +15590,7 @@
  */
 
 
+/* glib/gconvert.c:1197 */
 /**
  * g_filename_from_utf8:
  * @utf8string: a UTF-8 encoded string.
@@ -14809,6 +15619,7 @@
  */
 
 
+/* glib/gconvert.c:1697 */
 /**
  * g_filename_to_uri:
  * @filename: an absolute filename specified in the GLib file name encoding,
@@ -14826,6 +15637,7 @@
  */
 
 
+/* glib/gconvert.c:1125 */
 /**
  * g_filename_to_utf8:
  * @opsysstring: a string in the encoding for filenames
@@ -14853,6 +15665,7 @@
  */
 
 
+/* glib/gutils.c:359 */
 /**
  * g_find_program_in_path:
  * @program: a program name in the GLib file name encoding
@@ -14879,6 +15692,7 @@
  */
 
 
+/* glib/gstdio.c:678 */
 /**
  * g_fopen:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -14904,6 +15718,7 @@
  */
 
 
+/* glib/gutils.c:2111 */
 /**
  * g_format_size:
  * @size: a size in bytes
@@ -14926,6 +15741,7 @@
  */
 
 
+/* glib/gutils.c:2286 */
 /**
  * g_format_size_for_display:
  * @size: a size in bytes
@@ -14948,6 +15764,7 @@
  */
 
 
+/* glib/gutils.c:2152 */
 /**
  * g_format_size_full:
  * @size: a size in bytes
@@ -14964,6 +15781,7 @@
  */
 
 
+/* glib/gprintf.c:57 */
 /**
  * g_fprintf:
  * @file: the stream to write to.
@@ -14979,6 +15797,7 @@
  */
 
 
+/* glib/gmem.c:186 */
 /**
  * g_free:
  * @mem: the memory to free
@@ -14988,6 +15807,7 @@
  */
 
 
+/* glib/gstdio.c:740 */
 /**
  * g_freopen:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -15006,6 +15826,7 @@
  */
 
 
+/* glib/gutils.c:1131 */
 /**
  * g_get_application_name:
  *
@@ -15022,6 +15843,7 @@
  */
 
 
+/* glib/gcharset.c:155 */
 /**
  * g_get_charset:
  * @charset: return location for character set name
@@ -15048,6 +15870,7 @@
  */
 
 
+/* glib/gcharset.c:213 */
 /**
  * g_get_codeset:
  *
@@ -15058,6 +15881,7 @@
  */
 
 
+/* glib/gfileutils.c:2460 */
 /**
  * g_get_current_dir:
  *
@@ -15071,6 +15895,7 @@
  */
 
 
+/* glib/gmain.c:2430 */
 /**
  * g_get_current_time:
  * @result: #GTimeVal structure in which to store current time.
@@ -15081,6 +15906,7 @@
  */
 
 
+/* glib/genviron.c:414 */
 /**
  * g_get_environ:
  *
@@ -15101,6 +15927,7 @@
  */
 
 
+/* glib/gconvert.c:983 */
 /**
  * g_get_filename_charsets:
  * @charsets: return location for the %NULL-terminated list of encoding names
@@ -15136,6 +15963,7 @@
  */
 
 
+/* glib/gutils.c:847 */
 /**
  * g_get_home_dir:
  *
@@ -15169,6 +15997,7 @@
  */
 
 
+/* glib/gutils.c:1018 */
 /**
  * g_get_host_name:
  *
@@ -15190,6 +16019,7 @@
  */
 
 
+/* glib/gcharset.c:533 */
 /**
  * g_get_language_names:
  *
@@ -15211,6 +16041,7 @@
  */
 
 
+/* glib/gcharset.c:431 */
 /**
  * g_get_locale_variants:
  * @locale: a locale identifier
@@ -15233,6 +16064,7 @@
  */
 
 
+/* glib/gmain.c:2515 */
 /**
  * g_get_monotonic_time:
  *
@@ -15258,6 +16090,7 @@
  */
 
 
+/* glib/gthread.c:1011 */
 /**
  * g_get_num_processors:
  *
@@ -15271,6 +16104,7 @@
  */
 
 
+/* glib/gutils.c:1064 */
 /**
  * g_get_prgname:
  *
@@ -15285,6 +16119,7 @@
  */
 
 
+/* glib/gutils.c:826 */
 /**
  * g_get_real_name:
  *
@@ -15298,6 +16133,7 @@
  */
 
 
+/* glib/gmain.c:2471 */
 /**
  * g_get_real_time:
  *
@@ -15316,6 +16152,7 @@
  */
 
 
+/* glib/gutils.c:2022 */
 /**
  * g_get_system_config_dirs:
  *
@@ -15340,6 +16177,7 @@
  */
 
 
+/* glib/gutils.c:1955 */
 /**
  * g_get_system_data_dirs:
  *
@@ -15379,6 +16217,7 @@
  */
 
 
+/* glib/gutils.c:954 */
 /**
  * g_get_tmp_dir:
  *
@@ -15400,6 +16239,7 @@
  */
 
 
+/* glib/gutils.c:1313 */
 /**
  * g_get_user_cache_dir:
  *
@@ -15422,6 +16262,7 @@
  */
 
 
+/* glib/gutils.c:1281 */
 /**
  * g_get_user_config_dir:
  *
@@ -15444,6 +16285,7 @@
  */
 
 
+/* glib/gutils.c:1195 */
 /**
  * g_get_user_data_dir:
  *
@@ -15466,6 +16308,7 @@
  */
 
 
+/* glib/gutils.c:806 */
 /**
  * g_get_user_name:
  *
@@ -15478,6 +16321,7 @@
  */
 
 
+/* glib/gutils.c:1369 */
 /**
  * g_get_user_runtime_dir:
  *
@@ -15501,6 +16345,7 @@
  */
 
 
+/* glib/gutils.c:1756 */
 /**
  * g_get_user_special_dir:
  * @directory: the logical id of special directory
@@ -15523,6 +16368,7 @@
  */
 
 
+/* glib/genviron.c:233 */
 /**
  * g_getenv:
  * @variable: the environment variable to get, in the GLib file name
@@ -15543,6 +16389,7 @@
  */
 
 
+/* glib/ghash.c:1203 */
 /**
  * g_hash_table_add:
  * @hash_table: a #GHashTable
@@ -15560,6 +16407,7 @@
  */
 
 
+/* glib/ghash.c:1225 */
 /**
  * g_hash_table_contains:
  * @hash_table: a #GHashTable
@@ -15571,6 +16419,7 @@
  */
 
 
+/* glib/ghash.c:1035 */
 /**
  * g_hash_table_destroy:
  * @hash_table: a #GHashTable
@@ -15584,6 +16433,7 @@
  */
 
 
+/* glib/ghash.c:1534 */
 /**
  * g_hash_table_find:
  * @hash_table: a #GHashTable
@@ -15611,6 +16461,7 @@
  */
 
 
+/* glib/ghash.c:1486 */
 /**
  * g_hash_table_foreach:
  * @hash_table: a #GHashTable
@@ -15629,6 +16480,7 @@
  */
 
 
+/* glib/ghash.c:1431 */
 /**
  * g_hash_table_foreach_remove:
  * @hash_table: a #GHashTable
@@ -15648,6 +16500,7 @@
  */
 
 
+/* glib/ghash.c:1459 */
 /**
  * g_hash_table_foreach_steal:
  * @hash_table: a #GHashTable
@@ -15666,6 +16519,7 @@
  */
 
 
+/* glib/ghash.c:188 */
 /**
  * g_hash_table_freeze:
  * @hash_table: a #GHashTable
@@ -15675,6 +16529,7 @@
  */
 
 
+/* glib/ghash.c:1616 */
 /**
  * g_hash_table_get_keys:
  * @hash_table: a #GHashTable
@@ -15690,6 +16545,7 @@
  */
 
 
+/* glib/ghash.c:1648 */
 /**
  * g_hash_table_get_values:
  * @hash_table: a #GHashTable
@@ -15705,6 +16561,7 @@
  */
 
 
+/* glib/ghash.c:1158 */
 /**
  * g_hash_table_insert:
  * @hash_table: a #GHashTable
@@ -15722,6 +16579,7 @@
  */
 
 
+/* glib/ghash.c:759 */
 /**
  * g_hash_table_iter_get_hash_table:
  * @iter: an initialized #GHashTableIter
@@ -15733,6 +16591,7 @@
  */
 
 
+/* glib/ghash.c:672 */
 /**
  * g_hash_table_iter_init:
  * @iter: an uninitialized #GHashTableIter
@@ -15756,6 +16615,7 @@
  */
 
 
+/* glib/ghash.c:709 */
 /**
  * g_hash_table_iter_next:
  * @iter: an initialized #GHashTableIter
@@ -15771,6 +16631,7 @@
  */
 
 
+/* glib/ghash.c:795 */
 /**
  * g_hash_table_iter_remove:
  * @iter: an initialized #GHashTableIter
@@ -15789,6 +16650,7 @@
  */
 
 
+/* glib/ghash.c:926 */
 /**
  * g_hash_table_iter_replace:
  * @iter: an initialized #GHashTableIter
@@ -15805,6 +16667,7 @@
  */
 
 
+/* glib/ghash.c:968 */
 /**
  * g_hash_table_iter_steal:
  * @iter: an initialized #GHashTableIter
@@ -15819,6 +16682,7 @@
  */
 
 
+/* glib/ghash.c:1055 */
 /**
  * g_hash_table_lookup:
  * @hash_table: a #GHashTable
@@ -15833,6 +16697,7 @@
  */
 
 
+/* glib/ghash.c:1083 */
 /**
  * g_hash_table_lookup_extended:
  * @hash_table: a #GHashTable
@@ -15853,6 +16718,7 @@
  */
 
 
+/* glib/ghash.c:597 */
 /**
  * g_hash_table_new:
  * @hash_func: a function to create a hash value from a key
@@ -15877,6 +16743,7 @@
  */
 
 
+/* glib/ghash.c:627 */
 /**
  * g_hash_table_new_full:
  * @hash_func: a function to create a hash value from a key
@@ -15897,6 +16764,7 @@
  */
 
 
+/* glib/ghash.c:987 */
 /**
  * g_hash_table_ref:
  * @hash_table: a valid #GHashTable
@@ -15909,6 +16777,7 @@
  */
 
 
+/* glib/ghash.c:1286 */
 /**
  * g_hash_table_remove:
  * @hash_table: a #GHashTable
@@ -15925,6 +16794,7 @@
  */
 
 
+/* glib/ghash.c:1324 */
 /**
  * g_hash_table_remove_all:
  * @hash_table: a #GHashTable
@@ -15940,6 +16810,7 @@
  */
 
 
+/* glib/ghash.c:1181 */
 /**
  * g_hash_table_replace:
  * @hash_table: a #GHashTable
@@ -15956,6 +16827,7 @@
  */
 
 
+/* glib/ghash.c:1600 */
 /**
  * g_hash_table_size:
  * @hash_table: a #GHashTable
@@ -15966,6 +16838,7 @@
  */
 
 
+/* glib/ghash.c:1307 */
 /**
  * g_hash_table_steal:
  * @hash_table: a #GHashTable
@@ -15978,6 +16851,7 @@
  */
 
 
+/* glib/ghash.c:1351 */
 /**
  * g_hash_table_steal_all:
  * @hash_table: a #GHashTable
@@ -15989,6 +16863,7 @@
  */
 
 
+/* glib/ghash.c:196 */
 /**
  * g_hash_table_thaw:
  * @hash_table: a #GHashTable
@@ -15998,6 +16873,7 @@
  */
 
 
+/* glib/ghash.c:1008 */
 /**
  * g_hash_table_unref:
  * @hash_table: a valid #GHashTable
@@ -16011,6 +16887,7 @@
  */
 
 
+/* glib/ghmac.c:156 */
 /**
  * g_hmac_copy:
  * @hmac: the #GHmac to copy
@@ -16025,6 +16902,7 @@
  */
 
 
+/* glib/ghmac.c:293 */
 /**
  * g_hmac_get_digest:
  * @hmac: a #GHmac
@@ -16042,6 +16920,7 @@
  */
 
 
+/* glib/ghmac.c:257 */
 /**
  * g_hmac_get_string:
  * @hmac: a #GHmac
@@ -16060,6 +16939,7 @@
  */
 
 
+/* glib/ghmac.c:64 */
 /**
  * g_hmac_new:
  * @digest_type: the desired type of digest
@@ -16086,6 +16966,7 @@
  */
 
 
+/* glib/ghmac.c:185 */
 /**
  * g_hmac_ref:
  * @hmac: a valid #GHmac
@@ -16099,6 +16980,7 @@
  */
 
 
+/* glib/ghmac.c:207 */
 /**
  * g_hmac_unref:
  * @hmac: a #GHmac
@@ -16114,6 +16996,7 @@
  */
 
 
+/* glib/ghmac.c:233 */
 /**
  * g_hmac_update:
  * @hmac: a #GHmac
@@ -16129,6 +17012,7 @@
  */
 
 
+/* glib/ghook.c:259 */
 /**
  * g_hook_alloc:
  * @hook_list: a #GHookList
@@ -16139,6 +17023,7 @@
  */
 
 
+/* glib/ghook.c:433 */
 /**
  * g_hook_append:
  * @hook_list: a #GHookList
@@ -16148,6 +17033,7 @@
  */
 
 
+/* glib/ghook.c:1034 */
 /**
  * g_hook_compare_ids:
  * @new_hook: a #GHook
@@ -16160,6 +17046,7 @@
  */
 
 
+/* glib/ghook.c:333 */
 /**
  * g_hook_destroy:
  * @hook_list: a #GHookList
@@ -16171,6 +17058,7 @@
  */
 
 
+/* glib/ghook.c:310 */
 /**
  * g_hook_destroy_link:
  * @hook_list: a #GHookList
@@ -16181,6 +17069,7 @@
  */
 
 
+/* glib/ghook.c:805 */
 /**
  * g_hook_find:
  * @hook_list: a #GHookList
@@ -16197,6 +17086,7 @@
  */
 
 
+/* glib/ghook.c:859 */
 /**
  * g_hook_find_data:
  * @hook_list: a #GHookList
@@ -16211,6 +17101,7 @@
  */
 
 
+/* glib/ghook.c:895 */
 /**
  * g_hook_find_func:
  * @hook_list: a #GHookList
@@ -16225,6 +17116,7 @@
  */
 
 
+/* glib/ghook.c:932 */
 /**
  * g_hook_find_func_data:
  * @hook_list: a #GHookList
@@ -16240,6 +17132,7 @@
  */
 
 
+/* glib/ghook.c:684 */
 /**
  * g_hook_first_valid:
  * @hook_list: a #GHookList
@@ -16256,6 +17149,7 @@
  */
 
 
+/* glib/ghook.c:287 */
 /**
  * g_hook_free:
  * @hook_list: a #GHookList
@@ -16266,6 +17160,7 @@
  */
 
 
+/* glib/ghook.c:766 */
 /**
  * g_hook_get:
  * @hook_list: a #GHookList
@@ -16277,6 +17172,7 @@
  */
 
 
+/* glib/ghook.c:457 */
 /**
  * g_hook_insert_before:
  * @hook_list: a #GHookList
@@ -16287,6 +17183,7 @@
  */
 
 
+/* glib/ghook.c:983 */
 /**
  * g_hook_insert_sorted:
  * @hook_list: a #GHookList
@@ -16297,6 +17194,7 @@
  */
 
 
+/* glib/ghook.c:222 */
 /**
  * g_hook_list_clear:
  * @hook_list: a #GHookList
@@ -16305,6 +17203,7 @@
  */
 
 
+/* glib/ghook.c:196 */
 /**
  * g_hook_list_init:
  * @hook_list: a #GHookList
@@ -16316,6 +17215,7 @@
  */
 
 
+/* glib/ghook.c:510 */
 /**
  * g_hook_list_invoke:
  * @hook_list: a #GHookList
@@ -16327,6 +17227,7 @@
  */
 
 
+/* glib/ghook.c:546 */
 /**
  * g_hook_list_invoke_check:
  * @hook_list: a #GHookList
@@ -16339,6 +17240,7 @@
  */
 
 
+/* glib/ghook.c:646 */
 /**
  * g_hook_list_marshal:
  * @hook_list: a #GHookList
@@ -16352,6 +17254,7 @@
  */
 
 
+/* glib/ghook.c:596 */
 /**
  * g_hook_list_marshal_check:
  * @hook_list: a #GHookList
@@ -16366,6 +17269,7 @@
  */
 
 
+/* glib/ghook.c:722 */
 /**
  * g_hook_next_valid:
  * @hook_list: a #GHookList
@@ -16383,6 +17287,7 @@
  */
 
 
+/* glib/ghook.c:441 */
 /**
  * g_hook_prepend:
  * @hook_list: a #GHookList
@@ -16392,6 +17297,7 @@
  */
 
 
+/* glib/ghook.c:411 */
 /**
  * g_hook_ref:
  * @hook_list: a #GHookList
@@ -16403,6 +17309,7 @@
  */
 
 
+/* glib/ghook.c:361 */
 /**
  * g_hook_unref:
  * @hook_list: a #GHookList
@@ -16414,6 +17321,7 @@
  */
 
 
+/* glib/ghostutils.c:650 */
 /**
  * g_hostname_is_ascii_encoded:
  * @hostname: a hostname
@@ -16433,6 +17341,7 @@
  */
 
 
+/* glib/ghostutils.c:683 */
 /**
  * g_hostname_is_ip_address:
  * @hostname: a hostname (or IP address in string form)
@@ -16445,6 +17354,7 @@
  */
 
 
+/* glib/ghostutils.c:480 */
 /**
  * g_hostname_is_non_ascii:
  * @hostname: a hostname
@@ -16462,6 +17372,7 @@
  */
 
 
+/* glib/ghostutils.c:410 */
 /**
  * g_hostname_to_ascii:
  * @hostname: a valid UTF-8 or ASCII hostname
@@ -16476,6 +17387,7 @@
  */
 
 
+/* glib/ghostutils.c:587 */
 /**
  * g_hostname_to_unicode:
  * @hostname: a valid UTF-8 or ASCII hostname
@@ -16494,6 +17406,7 @@
  */
 
 
+/* glib/docs.c:888 */
 /**
  * g_htonl:
  * @val: a 32-bit integer value in host byte order
@@ -16504,6 +17417,7 @@
  */
 
 
+/* glib/docs.c:897 */
 /**
  * g_htons:
  * @val: a 16-bit integer value in host byte order
@@ -16514,6 +17428,7 @@
  */
 
 
+/* glib/gconvert.c:279 */
 /**
  * g_iconv:
  * @converter: conversion descriptor from g_iconv_open()
@@ -16533,6 +17448,7 @@
  */
 
 
+/* glib/gconvert.c:308 */
 /**
  * g_iconv_close:
  * @converter: a conversion descriptor from g_iconv_open()
@@ -16550,6 +17466,7 @@
  */
 
 
+/* glib/gconvert.c:230 */
 /**
  * g_iconv_open:
  * @to_codeset: destination codeset
@@ -16567,6 +17484,7 @@
  */
 
 
+/* glib/gmain.c:5315 */
 /**
  * g_idle_add:
  * @function: function to call
@@ -16586,6 +17504,7 @@
  */
 
 
+/* glib/gmain.c:5273 */
 /**
  * g_idle_add_full: (rename-to g_idle_add)
  * @priority: the priority of the idle source. Typically this will be in the
@@ -16606,6 +17525,7 @@
  */
 
 
+/* glib/gmain.c:5339 */
 /**
  * g_idle_remove_by_data:
  * @data: the data for the idle source's callback.
@@ -16616,6 +17536,7 @@
  */
 
 
+/* glib/gmain.c:5249 */
 /**
  * g_idle_source_new:
  *
@@ -16631,6 +17552,7 @@
  */
 
 
+/* glib/ghash.c:1824 */
 /**
  * g_int64_equal:
  * @v1: a pointer to a #gint64 key
@@ -16647,6 +17569,7 @@
  */
 
 
+/* glib/ghash.c:1846 */
 /**
  * g_int64_hash:
  * @v: a pointer to a #gint64 key
@@ -16662,6 +17585,7 @@
  */
 
 
+/* glib/ghash.c:1780 */
 /**
  * g_int_equal:
  * @v1: a pointer to a #gint key
@@ -16681,6 +17605,7 @@
  */
 
 
+/* glib/ghash.c:1804 */
 /**
  * g_int_hash:
  * @v: a pointer to a #gint key
@@ -16697,6 +17622,7 @@
  */
 
 
+/* glib/gquark.c:333 */
 /**
  * g_intern_static_string:
  * @string: (allow-none): a static string
@@ -16711,6 +17637,7 @@
  */
 
 
+/* glib/gquark.c:304 */
 /**
  * g_intern_string:
  * @string: (allow-none): a string
@@ -16724,6 +17651,7 @@
  */
 
 
+/* glib/giochannel.c:675 */
 /**
  * g_io_add_watch:
  * @channel: a #GIOChannel
@@ -16738,6 +17666,7 @@
  */
 
 
+/* glib/giochannel.c:631 */
 /**
  * g_io_add_watch_full: (rename-to g_io_add_watch)
  * @channel: a #GIOChannel
@@ -16758,6 +17687,7 @@
  */
 
 
+/* glib/giochannel.c:451 */
 /**
  * g_io_channel_close:
  * @channel: A #GIOChannel
@@ -16770,6 +17700,7 @@
  */
 
 
+/* glib/giochannel.c:754 */
 /**
  * g_io_channel_error_from_errno:
  * @en: an <literal>errno</literal> error number, e.g. <literal>EINVAL</literal>
@@ -16781,6 +17712,7 @@
  */
 
 
+/* glib/giochannel.c:2561 */
 /**
  * g_io_channel_error_quark:
  *
@@ -16788,6 +17720,7 @@
  */
 
 
+/* glib/giochannel.c:1183 */
 /**
  * g_io_channel_flush:
  * @channel: a #GIOChannel
@@ -16801,6 +17734,7 @@
  */
 
 
+/* glib/giochannel.c:722 */
 /**
  * g_io_channel_get_buffer_condition:
  * @channel: A #GIOChannel
@@ -16813,6 +17747,7 @@
  */
 
 
+/* glib/giochannel.c:865 */
 /**
  * g_io_channel_get_buffer_size:
  * @channel: a #GIOChannel
@@ -16823,6 +17758,7 @@
  */
 
 
+/* glib/giochannel.c:1269 */
 /**
  * g_io_channel_get_buffered:
  * @channel: a #GIOChannel
@@ -16833,6 +17769,7 @@
  */
 
 
+/* glib/giochannel.c:1052 */
 /**
  * g_io_channel_get_close_on_unref:
  * @channel: a #GIOChannel.
@@ -16847,6 +17784,7 @@
  */
 
 
+/* glib/giochannel.c:1461 */
 /**
  * g_io_channel_get_encoding:
  * @channel: a #GIOChannel
@@ -16860,6 +17798,7 @@
  */
 
 
+/* glib/giochannel.c:995 */
 /**
  * g_io_channel_get_flags:
  * @channel: a #GIOChannel
@@ -16878,6 +17817,7 @@
  */
 
 
+/* glib/giochannel.c:913 */
 /**
  * g_io_channel_get_line_term:
  * @channel: a #GIOChannel
@@ -16892,6 +17832,7 @@
  */
 
 
+/* glib/giochannel.c:188 */
 /**
  * g_io_channel_init:
  * @channel: a #GIOChannel
@@ -16904,6 +17845,7 @@
  */
 
 
+/* glib/giochannel.c:435 */
 /**
  * g_io_channel_new_file:
  * @filename: A string containing the name of a file
@@ -16921,6 +17863,7 @@
  */
 
 
+/* glib/giochannel.c:300 */
 /**
  * g_io_channel_read:
  * @channel: a #GIOChannel
@@ -16936,6 +17879,7 @@
  */
 
 
+/* glib/giochannel.c:1997 */
 /**
  * g_io_channel_read_chars:
  * @channel: a #GIOChannel
@@ -16957,6 +17901,7 @@
  */
 
 
+/* glib/giochannel.c:1652 */
 /**
  * g_io_channel_read_line:
  * @channel: a #GIOChannel
@@ -16978,6 +17923,7 @@
  */
 
 
+/* glib/giochannel.c:1704 */
 /**
  * g_io_channel_read_line_string:
  * @channel: a #GIOChannel
@@ -16994,6 +17940,7 @@
  */
 
 
+/* glib/giochannel.c:1916 */
 /**
  * g_io_channel_read_to_end:
  * @channel: a #GIOChannel
@@ -17013,6 +17960,7 @@
  */
 
 
+/* glib/giochannel.c:2117 */
 /**
  * g_io_channel_read_unichar:
  * @channel: a #GIOChannel
@@ -17027,6 +17975,7 @@
  */
 
 
+/* glib/giochannel.c:217 */
 /**
  * g_io_channel_ref:
  * @channel: a #GIOChannel
@@ -17037,6 +17986,7 @@
  */
 
 
+/* glib/giochannel.c:382 */
 /**
  * g_io_channel_seek:
  * @channel: a #GIOChannel
@@ -17054,6 +18004,7 @@
  */
 
 
+/* glib/giochannel.c:1072 */
 /**
  * g_io_channel_seek_position:
  * @channel: a #GIOChannel
@@ -17070,6 +18021,7 @@
  */
 
 
+/* glib/giochannel.c:843 */
 /**
  * g_io_channel_set_buffer_size:
  * @channel: a #GIOChannel
@@ -17079,6 +18031,7 @@
  */
 
 
+/* glib/giochannel.c:1225 */
 /**
  * g_io_channel_set_buffered:
  * @channel: a #GIOChannel
@@ -17106,6 +18059,7 @@
  */
 
 
+/* glib/giochannel.c:1032 */
 /**
  * g_io_channel_set_close_on_unref:
  * @channel: a #GIOChannel
@@ -17119,6 +18073,7 @@
  */
 
 
+/* glib/giochannel.c:1285 */
 /**
  * g_io_channel_set_encoding:
  * @channel: a #GIOChannel
@@ -17173,6 +18128,7 @@
  */
 
 
+/* glib/giochannel.c:937 */
 /**
  * g_io_channel_set_flags:
  * @channel: a #GIOChannel
@@ -17185,6 +18141,7 @@
  */
 
 
+/* glib/giochannel.c:881 */
 /**
  * g_io_channel_set_line_term:
  * @channel: a #GIOChannel
@@ -17201,6 +18158,7 @@
  */
 
 
+/* glib/giochannel.c:484 */
 /**
  * g_io_channel_shutdown:
  * @channel: a #GIOChannel
@@ -17215,6 +18173,7 @@
  */
 
 
+/* glib/giounix.c:640 */
 /**
  * g_io_channel_unix_get_fd:
  * @channel: a #GIOChannel, created with g_io_channel_unix_new().
@@ -17228,6 +18187,7 @@
  */
 
 
+/* glib/giounix.c:584 */
 /**
  * g_io_channel_unix_new:
  * @fd: a file descriptor.
@@ -17257,6 +18217,7 @@
  */
 
 
+/* glib/giochannel.c:235 */
 /**
  * g_io_channel_unref:
  * @channel: a #GIOChannel
@@ -17265,6 +18226,7 @@
  */
 
 
+/* glib/giowin32.c:2047 */
 /**
  * g_io_channel_win32_new_fd:
  * @fd: a C library file descriptor.
@@ -17296,6 +18258,7 @@
  */
 
 
+/* glib/giowin32.c:1973 */
 /**
  * g_io_channel_win32_new_messages:
  * @hwnd: a window handle.
@@ -17309,6 +18272,7 @@
  */
 
 
+/* glib/giowin32.c:2098 */
 /**
  * g_io_channel_win32_new_socket:
  * @socket: a Winsock socket
@@ -17326,6 +18290,7 @@
  */
 
 
+/* glib/giochannel.c:346 */
 /**
  * g_io_channel_write:
  * @channel: a #GIOChannel
@@ -17340,6 +18305,7 @@
  */
 
 
+/* glib/giochannel.c:2178 */
 /**
  * g_io_channel_write_chars:
  * @channel: a #GIOChannel
@@ -17365,6 +18331,7 @@
  */
 
 
+/* glib/giochannel.c:2516 */
 /**
  * g_io_channel_write_unichar:
  * @channel: a #GIOChannel
@@ -17379,6 +18346,7 @@
  */
 
 
+/* glib/giochannel.c:603 */
 /**
  * g_io_create_watch:
  * @channel: a #GIOChannel to watch
@@ -17400,6 +18368,7 @@
  */
 
 
+/* glib/gkeyfile.c:1066 */
 /**
  * g_key_file_free: (skip)
  * @key_file: a #GKeyFile
@@ -17412,6 +18381,7 @@
  */
 
 
+/* glib/gkeyfile.c:2265 */
 /**
  * g_key_file_get_boolean:
  * @key_file: a #GKeyFile
@@ -17433,6 +18403,7 @@
  */
 
 
+/* glib/gkeyfile.c:2358 */
 /**
  * g_key_file_get_boolean_list:
  * @key_file: a #GKeyFile
@@ -17457,6 +18428,7 @@
  */
 
 
+/* glib/gkeyfile.c:3431 */
 /**
  * g_key_file_get_comment:
  * @key_file: a #GKeyFile
@@ -17474,6 +18446,7 @@
  */
 
 
+/* glib/gkeyfile.c:2846 */
 /**
  * g_key_file_get_double:
  * @key_file: a #GKeyFile
@@ -17495,6 +18468,7 @@
  */
 
 
+/* glib/gkeyfile.c:2940 */
 /**
  * g_key_file_get_double_list:
  * @key_file: a #GKeyFile
@@ -17519,6 +18493,7 @@
  */
 
 
+/* glib/gkeyfile.c:1594 */
 /**
  * g_key_file_get_groups:
  * @key_file: a #GKeyFile
@@ -17534,6 +18509,7 @@
  */
 
 
+/* glib/gkeyfile.c:2575 */
 /**
  * g_key_file_get_int64:
  * @key_file: a non-%NULL #GKeyFile
@@ -17551,6 +18527,7 @@
  */
 
 
+/* glib/gkeyfile.c:2480 */
 /**
  * g_key_file_get_integer:
  * @key_file: a #GKeyFile
@@ -17572,6 +18549,7 @@
  */
 
 
+/* glib/gkeyfile.c:2727 */
 /**
  * g_key_file_get_integer_list:
  * @key_file: a #GKeyFile
@@ -17596,6 +18574,7 @@
  */
 
 
+/* glib/gkeyfile.c:1495 */
 /**
  * g_key_file_get_keys:
  * @key_file: a #GKeyFile
@@ -17615,6 +18594,7 @@
  */
 
 
+/* glib/gkeyfile.c:2053 */
 /**
  * g_key_file_get_locale_string:
  * @key_file: a #GKeyFile
@@ -17638,6 +18618,7 @@
  */
 
 
+/* glib/gkeyfile.c:2140 */
 /**
  * g_key_file_get_locale_string_list:
  * @key_file: a #GKeyFile
@@ -17665,6 +18646,7 @@
  */
 
 
+/* glib/gkeyfile.c:1573 */
 /**
  * g_key_file_get_start_group:
  * @key_file: a #GKeyFile
@@ -17676,6 +18658,7 @@
  */
 
 
+/* glib/gkeyfile.c:1765 */
 /**
  * g_key_file_get_string:
  * @key_file: a #GKeyFile
@@ -17698,6 +18681,7 @@
  */
 
 
+/* glib/gkeyfile.c:1877 */
 /**
  * g_key_file_get_string_list:
  * @key_file: a #GKeyFile
@@ -17720,6 +18704,7 @@
  */
 
 
+/* glib/gkeyfile.c:2651 */
 /**
  * g_key_file_get_uint64:
  * @key_file: a non-%NULL #GKeyFile
@@ -17737,6 +18722,7 @@
  */
 
 
+/* glib/gkeyfile.c:1654 */
 /**
  * g_key_file_get_value:
  * @key_file: a #GKeyFile
@@ -17758,6 +18744,7 @@
  */
 
 
+/* glib/gkeyfile.c:3496 */
 /**
  * g_key_file_has_group:
  * @key_file: a #GKeyFile
@@ -17771,6 +18758,7 @@
  */
 
 
+/* glib/gkeyfile.c:3553 */
 /**
  * g_key_file_has_key: (skip)
  * @key_file: a #GKeyFile
@@ -17795,6 +18783,7 @@
  */
 
 
+/* glib/gkeyfile.c:858 */
 /**
  * g_key_file_load_from_data:
  * @key_file: an empty #GKeyFile struct
@@ -17811,6 +18800,7 @@
  */
 
 
+/* glib/gkeyfile.c:988 */
 /**
  * g_key_file_load_from_data_dirs:
  * @key_file: an empty #GKeyFile struct
@@ -17831,6 +18821,7 @@
  */
 
 
+/* glib/gkeyfile.c:914 */
 /**
  * g_key_file_load_from_dirs:
  * @key_file: an empty #GKeyFile struct
@@ -17852,6 +18843,7 @@
  */
 
 
+/* glib/gkeyfile.c:809 */
 /**
  * g_key_file_load_from_file:
  * @key_file: an empty #GKeyFile struct
@@ -17868,6 +18860,7 @@
  */
 
 
+/* glib/gkeyfile.c:609 */
 /**
  * g_key_file_new:
  *
@@ -17881,6 +18874,7 @@
  */
 
 
+/* glib/gkeyfile.c:1046 */
 /**
  * g_key_file_ref: (skip)
  * @key_file: a #GKeyFile
@@ -17892,6 +18886,7 @@
  */
 
 
+/* glib/gkeyfile.c:3463 */
 /**
  * g_key_file_remove_comment:
  * @key_file: a #GKeyFile
@@ -17909,6 +18904,7 @@
  */
 
 
+/* glib/gkeyfile.c:3741 */
 /**
  * g_key_file_remove_group:
  * @key_file: a #GKeyFile
@@ -17923,6 +18919,7 @@
  */
 
 
+/* glib/gkeyfile.c:3804 */
 /**
  * g_key_file_remove_key:
  * @key_file: a #GKeyFile
@@ -17937,6 +18934,7 @@
  */
 
 
+/* glib/gkeyfile.c:4376 */
 /**
  * g_key_file_save_to_file:
  * @key_file: a #GKeyFile
@@ -17954,6 +18952,7 @@
  */
 
 
+/* glib/gkeyfile.c:2331 */
 /**
  * g_key_file_set_boolean:
  * @key_file: a #GKeyFile
@@ -17968,6 +18967,7 @@
  */
 
 
+/* glib/gkeyfile.c:2436 */
 /**
  * g_key_file_set_boolean_list:
  * @key_file: a #GKeyFile
@@ -17984,6 +18984,7 @@
  */
 
 
+/* glib/gkeyfile.c:3201 */
 /**
  * g_key_file_set_comment:
  * @key_file: a #GKeyFile
@@ -18002,6 +19003,7 @@
  */
 
 
+/* glib/gkeyfile.c:2914 */
 /**
  * g_key_file_set_double:
  * @key_file: a #GKeyFile
@@ -18016,6 +19018,7 @@
  */
 
 
+/* glib/gkeyfile.c:3016 */
 /**
  * g_key_file_set_double_list:
  * @key_file: a #GKeyFile
@@ -18031,6 +19034,7 @@
  */
 
 
+/* glib/gkeyfile.c:2624 */
 /**
  * g_key_file_set_int64:
  * @key_file: a #GKeyFile
@@ -18045,6 +19049,7 @@
  */
 
 
+/* glib/gkeyfile.c:2548 */
 /**
  * g_key_file_set_integer:
  * @key_file: a #GKeyFile
@@ -18059,6 +19064,7 @@
  */
 
 
+/* glib/gkeyfile.c:2803 */
 /**
  * g_key_file_set_integer_list:
  * @key_file: a #GKeyFile
@@ -18074,6 +19080,7 @@
  */
 
 
+/* glib/gkeyfile.c:633 */
 /**
  * g_key_file_set_list_separator:
  * @key_file: a #GKeyFile
@@ -18087,6 +19094,7 @@
  */
 
 
+/* glib/gkeyfile.c:2019 */
 /**
  * g_key_file_set_locale_string:
  * @key_file: a #GKeyFile
@@ -18102,6 +19110,7 @@
  */
 
 
+/* glib/gkeyfile.c:2215 */
 /**
  * g_key_file_set_locale_string_list:
  * @key_file: a #GKeyFile
@@ -18119,6 +19128,7 @@
  */
 
 
+/* glib/gkeyfile.c:1846 */
 /**
  * g_key_file_set_string:
  * @key_file: a #GKeyFile
@@ -18136,6 +19146,7 @@
  */
 
 
+/* glib/gkeyfile.c:1976 */
 /**
  * g_key_file_set_string_list:
  * @key_file: a #GKeyFile
@@ -18152,6 +19163,7 @@
  */
 
 
+/* glib/gkeyfile.c:2700 */
 /**
  * g_key_file_set_uint64:
  * @key_file: a #GKeyFile
@@ -18166,6 +19178,7 @@
  */
 
 
+/* glib/gkeyfile.c:1712 */
 /**
  * g_key_file_set_value:
  * @key_file: a #GKeyFile
@@ -18184,6 +19197,7 @@
  */
 
 
+/* glib/gkeyfile.c:1426 */
 /**
  * g_key_file_to_data:
  * @key_file: a #GKeyFile
@@ -18202,6 +19216,7 @@
  */
 
 
+/* glib/gkeyfile.c:1085 */
 /**
  * g_key_file_unref:
  * @key_file: a #GKeyFile
@@ -18213,6 +19228,7 @@
  */
 
 
+/* glib/glist.c:121 */
 /**
  * g_list_alloc:
  *
@@ -18224,6 +19240,7 @@
  */
 
 
+/* glib/glist.c:191 */
 /**
  * g_list_append:
  * @list: a pointer to a #GList
@@ -18260,6 +19277,7 @@
  */
 
 
+/* glib/glist.c:395 */
 /**
  * g_list_concat:
  * @list1: a #GList
@@ -18273,6 +19291,7 @@
  */
 
 
+/* glib/glist.c:567 */
 /**
  * g_list_copy:
  * @list: a #GList
@@ -18290,6 +19309,7 @@
  */
 
 
+/* glib/glist.c:588 */
 /**
  * g_list_copy_deep:
  * @list: a #GList
@@ -18320,6 +19340,7 @@
  */
 
 
+/* glib/glist.c:546 */
 /**
  * g_list_delete_link:
  * @list: a #GList
@@ -18333,6 +19354,7 @@
  */
 
 
+/* glib/glist.c:737 */
 /**
  * g_list_find:
  * @list: a #GList
@@ -18346,6 +19368,7 @@
  */
 
 
+/* glib/glist.c:762 */
 /**
  * g_list_find_custom:
  * @list: a #GList
@@ -18364,6 +19387,7 @@
  */
 
 
+/* glib/glist.c:875 */
 /**
  * g_list_first:
  * @list: a #GList
@@ -18375,6 +19399,7 @@
  */
 
 
+/* glib/glist.c:924 */
 /**
  * g_list_foreach:
  * @list: a #GList
@@ -18385,6 +19410,7 @@
  */
 
 
+/* glib/glist.c:136 */
 /**
  * g_list_free:
  * @list: a #GList
@@ -18400,6 +19426,7 @@
  */
 
 
+/* glib/glist.c:162 */
 /**
  * g_list_free1:
  *
@@ -18407,6 +19434,7 @@
  */
 
 
+/* glib/glist.c:155 */
 /**
  * g_list_free_1:
  * @list: a #GList element
@@ -18416,6 +19444,7 @@
  */
 
 
+/* glib/glist.c:173 */
 /**
  * g_list_free_full:
  * @list: a pointer to a #GList
@@ -18428,6 +19457,7 @@
  */
 
 
+/* glib/glist.c:825 */
 /**
  * g_list_index:
  * @list: a #GList
@@ -18441,6 +19471,7 @@
  */
 
 
+/* glib/glist.c:296 */
 /**
  * g_list_insert:
  * @list: a pointer to a #GList
@@ -18455,6 +19486,7 @@
  */
 
 
+/* glib/glist.c:335 */
 /**
  * g_list_insert_before:
  * @list: a pointer to a #GList
@@ -18468,6 +19500,7 @@
  */
 
 
+/* glib/glist.c:1006 */
 /**
  * g_list_insert_sorted:
  * @list: a pointer to a #GList
@@ -18483,6 +19516,7 @@
  */
 
 
+/* glib/glist.c:1027 */
 /**
  * g_list_insert_sorted_with_data:
  * @list: a pointer to a #GList
@@ -18500,6 +19534,7 @@
  */
 
 
+/* glib/glist.c:854 */
 /**
  * g_list_last:
  * @list: a #GList
@@ -18511,6 +19546,7 @@
  */
 
 
+/* glib/glist.c:896 */
 /**
  * g_list_length:
  * @list: a #GList
@@ -18526,6 +19562,7 @@
  */
 
 
+/* glib/glist.c:108 */
 /**
  * g_list_next:
  * @list: an element in a #GList.
@@ -18536,6 +19573,7 @@
  */
 
 
+/* glib/glist.c:677 */
 /**
  * g_list_nth:
  * @list: a #GList
@@ -18548,6 +19586,7 @@
  */
 
 
+/* glib/glist.c:717 */
 /**
  * g_list_nth_data:
  * @list: a #GList
@@ -18560,6 +19599,7 @@
  */
 
 
+/* glib/glist.c:697 */
 /**
  * g_list_nth_prev:
  * @list: a #GList
@@ -18572,6 +19612,7 @@
  */
 
 
+/* glib/glist.c:796 */
 /**
  * g_list_position:
  * @list: a #GList
@@ -18585,6 +19626,7 @@
  */
 
 
+/* glib/glist.c:252 */
 /**
  * g_list_prepend:
  * @list: a pointer to a #GList
@@ -18608,6 +19650,7 @@
  */
 
 
+/* glib/glist.c:98 */
 /**
  * g_list_previous:
  * @list: an element in a #GList.
@@ -18619,6 +19662,7 @@
  */
 
 
+/* glib/glist.c:455 */
 /**
  * g_list_remove:
  * @list: a #GList
@@ -18632,6 +19676,7 @@
  */
 
 
+/* glib/glist.c:488 */
 /**
  * g_list_remove_all:
  * @list: a #GList
@@ -18646,6 +19691,7 @@
  */
 
 
+/* glib/glist.c:528 */
 /**
  * g_list_remove_link:
  * @list: a #GList
@@ -18659,6 +19705,7 @@
  */
 
 
+/* glib/glist.c:651 */
 /**
  * g_list_reverse:
  * @list: a #GList
@@ -18670,6 +19717,7 @@
  */
 
 
+/* glib/glist.c:1118 */
 /**
  * g_list_sort:
  * @list: a #GList
@@ -18686,6 +19734,7 @@
  */
 
 
+/* glib/glist.c:1153 */
 /**
  * g_list_sort_with_data:
  * @list: a #GList
@@ -18699,6 +19748,7 @@
  */
 
 
+/* glib/genviron.c:375 */
 /**
  * g_listenv:
  *
@@ -18717,6 +19767,7 @@
  */
 
 
+/* glib/gconvert.c:923 */
 /**
  * g_locale_from_utf8:
  * @utf8string: a UTF-8 encoded string
@@ -18744,6 +19795,7 @@
  */
 
 
+/* glib/gconvert.c:881 */
 /**
  * g_locale_to_utf8:
  * @opsysstring: a string in the encoding of the current locale. On Windows
@@ -18772,6 +19824,7 @@
  */
 
 
+/* glib/gmessages.c:1003 */
 /**
  * g_log:
  * @log_domain: the log domain, usually #G_LOG_DOMAIN
@@ -18787,6 +19840,7 @@
  */
 
 
+/* glib/gmessages.c:1276 */
 /**
  * g_log_default_handler:
  * @log_domain: the log domain of the message
@@ -18826,6 +19880,7 @@
  */
 
 
+/* glib/gmessages.c:610 */
 /**
  * g_log_remove_handler:
  * @log_domain: the log domain
@@ -18836,6 +19891,7 @@
  */
 
 
+/* glib/gmessages.c:386 */
 /**
  * g_log_set_always_fatal:
  * @fatal_mask: the mask containing bits set for each level
@@ -18854,6 +19910,7 @@
  */
 
 
+/* glib/gmessages.c:548 */
 /**
  * g_log_set_default_handler:
  * @log_func: the log handler function
@@ -18869,6 +19926,7 @@
  */
 
 
+/* glib/gmessages.c:424 */
 /**
  * g_log_set_fatal_mask:
  * @log_domain: the log domain
@@ -18881,6 +19939,7 @@
  */
 
 
+/* glib/gmessages.c:464 */
 /**
  * g_log_set_handler:
  * @log_domain: (allow-none): the log domain, or %NULL for the default ""
@@ -18931,6 +19990,7 @@
  */
 
 
+/* glib/gmessages.c:851 */
 /**
  * g_logv:
  * @log_domain: the log domain
@@ -18945,6 +20005,7 @@
  */
 
 
+/* glib/gstdio.c:508 */
 /**
  * g_lstat:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -18965,6 +20026,7 @@
  */
 
 
+/* glib/gmain.c:3091 */
 /**
  * g_main_context_acquire:
  * @context: a #GMainContext
@@ -18985,6 +20047,7 @@
  */
 
 
+/* glib/gmain.c:4056 */
 /**
  * g_main_context_add_poll:
  * @context: (allow-none): a #GMainContext (or %NULL for the default context)
@@ -19000,6 +20063,7 @@
  */
 
 
+/* glib/gmain.c:3470 */
 /**
  * g_main_context_check:
  * @context: a #GMainContext
@@ -19014,6 +20078,7 @@
  */
 
 
+/* glib/gmain.c:632 */
 /**
  * g_main_context_default:
  *
@@ -19026,6 +20091,7 @@
  */
 
 
+/* glib/gmain.c:3620 */
 /**
  * g_main_context_dispatch:
  * @context: a #GMainContext
@@ -19034,6 +20100,7 @@
  */
 
 
+/* glib/gmain.c:2083 */
 /**
  * g_main_context_find_source_by_funcs_user_data:
  * @context: (allow-none): a #GMainContext (if %NULL, the default context will be used).
@@ -19048,6 +20115,7 @@
  */
 
 
+/* glib/gmain.c:2046 */
 /**
  * g_main_context_find_source_by_id:
  * @context: (allow-none): a #GMainContext (if %NULL, the default context will be used)
@@ -19059,6 +20127,7 @@
  */
 
 
+/* glib/gmain.c:2133 */
 /**
  * g_main_context_find_source_by_user_data:
  * @context: a #GMainContext
@@ -19072,6 +20141,7 @@
  */
 
 
+/* glib/gmain.c:4280 */
 /**
  * g_main_context_get_poll_func:
  * @context: a #GMainContext
@@ -19082,6 +20152,7 @@
  */
 
 
+/* glib/gmain.c:769 */
 /**
  * g_main_context_get_thread_default:
  *
@@ -19103,6 +20174,7 @@
  */
 
 
+/* glib/gmain.c:5353 */
 /**
  * g_main_context_invoke:
  * @context: (allow-none): a #GMainContext, or %NULL
@@ -19135,6 +20207,7 @@
  */
 
 
+/* glib/gmain.c:5393 */
 /**
  * g_main_context_invoke_full:
  * @context: (allow-none): a #GMainContext, or %NULL
@@ -19157,6 +20230,7 @@
  */
 
 
+/* glib/gmain.c:4349 */
 /**
  * g_main_context_is_owner:
  * @context: a #GMainContext
@@ -19171,6 +20245,7 @@
  */
 
 
+/* glib/gmain.c:3736 */
 /**
  * g_main_context_iteration:
  * @context: (allow-none): a #GMainContext (if %NULL, the default context will be used)
@@ -19193,6 +20268,7 @@
  */
 
 
+/* glib/gmain.c:569 */
 /**
  * g_main_context_new:
  *
@@ -19202,6 +20278,7 @@
  */
 
 
+/* glib/gmain.c:3713 */
 /**
  * g_main_context_pending:
  * @context: (allow-none): a #GMainContext (if %NULL, the default context will be used)
@@ -19212,6 +20289,7 @@
  */
 
 
+/* glib/gmain.c:740 */
 /**
  * g_main_context_pop_thread_default:
  * @context: (allow-none): a #GMainContext object, or %NULL
@@ -19223,6 +20301,7 @@
  */
 
 
+/* glib/gmain.c:3246 */
 /**
  * g_main_context_prepare:
  * @context: a #GMainContext
@@ -19237,6 +20316,7 @@
  */
 
 
+/* glib/gmain.c:681 */
 /**
  * g_main_context_push_thread_default:
  * @context: (allow-none): a #GMainContext, or %NULL for the global default context
@@ -19274,6 +20354,7 @@
  */
 
 
+/* glib/gmain.c:3404 */
 /**
  * g_main_context_query:
  * @context: a #GMainContext
@@ -19291,6 +20372,7 @@
  */
 
 
+/* glib/gmain.c:473 */
 /**
  * g_main_context_ref:
  * @context: a #GMainContext
@@ -19301,6 +20383,7 @@
  */
 
 
+/* glib/gmain.c:801 */
 /**
  * g_main_context_ref_thread_default:
  *
@@ -19317,6 +20400,7 @@
  */
 
 
+/* glib/gmain.c:3137 */
 /**
  * g_main_context_release:
  * @context: a #GMainContext
@@ -19328,6 +20412,7 @@
  */
 
 
+/* glib/gmain.c:4128 */
 /**
  * g_main_context_remove_poll:
  * @context: a #GMainContext
@@ -19338,6 +20423,7 @@
  */
 
 
+/* glib/gmain.c:4248 */
 /**
  * g_main_context_set_poll_func:
  * @context: a #GMainContext
@@ -19353,6 +20439,7 @@
  */
 
 
+/* glib/gmain.c:499 */
 /**
  * g_main_context_unref:
  * @context: a #GMainContext
@@ -19362,6 +20449,7 @@
  */
 
 
+/* glib/gmain.c:3178 */
 /**
  * g_main_context_wait:
  * @context: a #GMainContext
@@ -19379,6 +20467,7 @@
  */
 
 
+/* glib/gmain.c:4305 */
 /**
  * g_main_context_wakeup:
  * @context: a #GMainContext
@@ -19414,6 +20503,7 @@
  */
 
 
+/* glib/gmain.c:2843 */
 /**
  * g_main_current_source:
  *
@@ -19424,6 +20514,7 @@
  */
 
 
+/* glib/gmain.c:2720 */
 /**
  * g_main_depth:
  *
@@ -19542,6 +20633,7 @@
  */
 
 
+/* glib/gmain.c:3949 */
 /**
  * g_main_loop_get_context:
  * @loop: a #GMainLoop.
@@ -19552,6 +20644,7 @@
  */
 
 
+/* glib/gmain.c:3932 */
 /**
  * g_main_loop_is_running:
  * @loop: a #GMainLoop.
@@ -19562,6 +20655,7 @@
  */
 
 
+/* glib/gmain.c:3771 */
 /**
  * g_main_loop_new:
  * @context: (allow-none): a #GMainContext  (if %NULL, the default context will be used).
@@ -19575,6 +20669,7 @@
  */
 
 
+/* glib/gmain.c:3907 */
 /**
  * g_main_loop_quit:
  * @loop: a #GMainLoop
@@ -19587,6 +20682,7 @@
  */
 
 
+/* glib/gmain.c:3801 */
 /**
  * g_main_loop_ref:
  * @loop: a #GMainLoop
@@ -19597,6 +20693,7 @@
  */
 
 
+/* glib/gmain.c:3840 */
 /**
  * g_main_loop_run:
  * @loop: a #GMainLoop
@@ -19608,6 +20705,7 @@
  */
 
 
+/* glib/gmain.c:3820 */
 /**
  * g_main_loop_unref:
  * @loop: a #GMainLoop
@@ -19617,6 +20715,7 @@
  */
 
 
+/* glib/gmem.c:88 */
 /**
  * g_malloc:
  * @n_bytes: the number of bytes to allocate
@@ -19628,6 +20727,7 @@
  */
 
 
+/* glib/gmem.c:118 */
 /**
  * g_malloc0:
  * @n_bytes: the number of bytes to allocate
@@ -19639,6 +20739,7 @@
  */
 
 
+/* glib/gmem.c:348 */
 /**
  * g_malloc0_n:
  * @n_blocks: the number of blocks to allocate
@@ -19652,6 +20753,7 @@
  */
 
 
+/* glib/gmem.c:324 */
 /**
  * g_malloc_n:
  * @n_blocks: the number of blocks to allocate
@@ -19665,6 +20767,7 @@
  */
 
 
+/* glib/gmappedfile.c:349 */
 /**
  * g_mapped_file_free:
  * @file: a #GMappedFile
@@ -19677,6 +20780,7 @@
  */
 
 
+/* glib/gmappedfile.c:406 */
 /**
  * g_mapped_file_get_bytes:
  * @file: a #GMappedFile
@@ -19691,6 +20795,7 @@
  */
 
 
+/* glib/gmappedfile.c:326 */
 /**
  * g_mapped_file_get_contents:
  * @file: a #GMappedFile
@@ -19707,6 +20812,7 @@
  */
 
 
+/* glib/gmappedfile.c:308 */
 /**
  * g_mapped_file_get_length:
  * @file: a #GMappedFile
@@ -19718,6 +20824,7 @@
  */
 
 
+/* glib/gmappedfile.c:214 */
 /**
  * g_mapped_file_new:
  * @filename: The path of the file to load, in the GLib filename encoding
@@ -19747,6 +20854,7 @@
  */
 
 
+/* glib/gmappedfile.c:277 */
 /**
  * g_mapped_file_new_from_fd:
  * @fd: The file descriptor of the file to load
@@ -19771,6 +20879,7 @@
  */
 
 
+/* glib/gmappedfile.c:365 */
 /**
  * g_mapped_file_ref:
  * @file: a #GMappedFile
@@ -19783,6 +20892,7 @@
  */
 
 
+/* glib/gmappedfile.c:386 */
 /**
  * g_mapped_file_unref:
  * @file: a #GMappedFile
@@ -19796,6 +20906,7 @@
  */
 
 
+/* glib/gmarkup.c:2604 */
 /**
  * g_markup_collect_attributes:
  * @element_name: the current tag name
@@ -19846,6 +20957,7 @@
  */
 
 
+/* glib/gmarkup.c:2189 */
 /**
  * g_markup_escape_text:
  * @text: some valid UTF-8 text
@@ -19870,6 +20982,7 @@
  */
 
 
+/* glib/gmarkup.c:1723 */
 /**
  * g_markup_parse_context_end_parse:
  * @context: a #GMarkupParseContext
@@ -19885,6 +20998,7 @@
  */
 
 
+/* glib/gmarkup.c:321 */
 /**
  * g_markup_parse_context_free:
  * @context: a #GMarkupParseContext
@@ -19896,6 +21010,7 @@
  */
 
 
+/* glib/gmarkup.c:1850 */
 /**
  * g_markup_parse_context_get_element:
  * @context: a #GMarkupParseContext
@@ -19911,6 +21026,7 @@
  */
 
 
+/* glib/gmarkup.c:1875 */
 /**
  * g_markup_parse_context_get_element_stack:
  * @context: a #GMarkupParseContext
@@ -19932,6 +21048,7 @@
  */
 
 
+/* glib/gmarkup.c:1902 */
 /**
  * g_markup_parse_context_get_position:
  * @context: a #GMarkupParseContext
@@ -19945,6 +21062,7 @@
  */
 
 
+/* glib/gmarkup.c:1927 */
 /**
  * g_markup_parse_context_get_user_data:
  * @context: a #GMarkupParseContext
@@ -19962,6 +21080,7 @@
  */
 
 
+/* glib/gmarkup.c:202 */
 /**
  * g_markup_parse_context_new:
  * @parser: a #GMarkupParser
@@ -19980,6 +21099,7 @@
  */
 
 
+/* glib/gmarkup.c:1041 */
 /**
  * g_markup_parse_context_parse:
  * @context: a #GMarkupParseContext
@@ -20002,6 +21122,7 @@
  */
 
 
+/* glib/gmarkup.c:2092 */
 /**
  * g_markup_parse_context_pop:
  * @context: a #GMarkupParseContext
@@ -20025,6 +21146,7 @@
  */
 
 
+/* glib/gmarkup.c:1949 */
 /**
  * g_markup_parse_context_push:
  * @context: a #GMarkupParseContext
@@ -20150,6 +21272,7 @@
  */
 
 
+/* glib/gmarkup.c:273 */
 /**
  * g_markup_parse_context_ref:
  * @context: a #GMarkupParseContext
@@ -20161,6 +21284,7 @@
  */
 
 
+/* glib/gmarkup.c:294 */
 /**
  * g_markup_parse_context_unref:
  * @context: a #GMarkupParseContext
@@ -20172,6 +21296,7 @@
  */
 
 
+/* glib/gmarkup.c:2497 */
 /**
  * g_markup_printf_escaped:
  * @format: printf() style format string
@@ -20202,6 +21327,7 @@
  */
 
 
+/* glib/gmarkup.c:2355 */
 /**
  * g_markup_vprintf_escaped:
  * @format: printf() style format string
@@ -20217,6 +21343,7 @@
  */
 
 
+/* glib/gregex.c:895 */
 /**
  * g_match_info_expand_references:
  * @match_info: (allow-none): a #GMatchInfo or %NULL
@@ -20246,6 +21373,7 @@
  */
 
 
+/* glib/gregex.c:958 */
 /**
  * g_match_info_fetch:
  * @match_info: #GMatchInfo structure
@@ -20274,6 +21402,7 @@
  */
 
 
+/* glib/gregex.c:1173 */
 /**
  * g_match_info_fetch_all:
  * @match_info: a #GMatchInfo structure
@@ -20302,6 +21431,7 @@
  */
 
 
+/* glib/gregex.c:1097 */
 /**
  * g_match_info_fetch_named:
  * @match_info: #GMatchInfo structure
@@ -20322,6 +21452,7 @@
  */
 
 
+/* glib/gregex.c:1134 */
 /**
  * g_match_info_fetch_named_pos:
  * @match_info: #GMatchInfo structure
@@ -20344,6 +21475,7 @@
  */
 
 
+/* glib/gregex.c:1009 */
 /**
  * g_match_info_fetch_pos:
  * @match_info: #GMatchInfo structure
@@ -20374,6 +21506,7 @@
  */
 
 
+/* glib/gregex.c:678 */
 /**
  * g_match_info_free:
  * @match_info: (allow-none): a #GMatchInfo, or %NULL
@@ -20385,6 +21518,7 @@
  */
 
 
+/* glib/gregex.c:812 */
 /**
  * g_match_info_get_match_count:
  * @match_info: a #GMatchInfo structure
@@ -20403,6 +21537,7 @@
  */
 
 
+/* glib/gregex.c:601 */
 /**
  * g_match_info_get_regex:
  * @match_info: a #GMatchInfo
@@ -20416,6 +21551,7 @@
  */
 
 
+/* glib/gregex.c:620 */
 /**
  * g_match_info_get_string:
  * @match_info: a #GMatchInfo
@@ -20429,6 +21565,7 @@
  */
 
 
+/* glib/gregex.c:845 */
 /**
  * g_match_info_is_partial_match:
  * @match_info: a #GMatchInfo structure
@@ -20472,6 +21609,7 @@
  */
 
 
+/* glib/gregex.c:793 */
 /**
  * g_match_info_matches:
  * @match_info: a #GMatchInfo structure
@@ -20484,6 +21622,7 @@
  */
 
 
+/* glib/gregex.c:696 */
 /**
  * g_match_info_next:
  * @match_info: a #GMatchInfo structure
@@ -20501,6 +21640,7 @@
  */
 
 
+/* glib/gregex.c:639 */
 /**
  * g_match_info_ref:
  * @match_info: a #GMatchInfo
@@ -20512,6 +21652,7 @@
  */
 
 
+/* glib/gregex.c:657 */
 /**
  * g_match_info_unref:
  * @match_info: a #GMatchInfo
@@ -20523,6 +21664,7 @@
  */
 
 
+/* glib/glib-init.c:34 */
 /**
  * g_mem_gc_friendly:
  *
@@ -20531,6 +21673,7 @@
  */
 
 
+/* glib/gmem.c:480 */
 /**
  * g_mem_is_system_malloc:
  *
@@ -20546,6 +21689,7 @@
  */
 
 
+/* glib/gmem.c:644 */
 /**
  * g_mem_profile:
  *
@@ -20562,6 +21706,7 @@
  */
 
 
+/* glib/gmem.c:499 */
 /**
  * g_mem_set_vtable:
  * @vtable: table of memory allocation routines.
@@ -20576,6 +21721,7 @@
  */
 
 
+/* glib/gstrfuncs.c:373 */
 /**
  * g_memdup:
  * @mem: the memory to copy.
@@ -20589,6 +21735,7 @@
  */
 
 
+/* glib/gutils.c:176 */
 /**
  * g_memmove:
  * @dest: the destination address to copy the bytes to.
@@ -20605,6 +21752,7 @@
  */
 
 
+/* glib/gmessages.c:153 */
 /**
  * g_message:
  * @...: format string, followed by parameters to insert
@@ -20614,6 +21762,7 @@
  */
 
 
+/* glib/gstdio.c:350 */
 /**
  * g_mkdir:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -20631,6 +21780,7 @@
  */
 
 
+/* glib/gfileutils.c:196 */
 /**
  * g_mkdir_with_parents:
  * @pathname: a pathname in the GLib file name encoding
@@ -20645,6 +21795,7 @@
  */
 
 
+/* glib/gfileutils.c:1414 */
 /**
  * g_mkdtemp:
  * @tmpl: (type filename): template directory name
@@ -20668,6 +21819,7 @@
  */
 
 
+/* glib/gfileutils.c:1381 */
 /**
  * g_mkdtemp_full:
  * @tmpl: (type filename): template directory name
@@ -20692,6 +21844,7 @@
  */
 
 
+/* glib/gfileutils.c:1478 */
 /**
  * g_mkstemp:
  * @tmpl: (type filename): template filename
@@ -20715,6 +21868,7 @@
  */
 
 
+/* glib/gfileutils.c:1442 */
 /**
  * g_mkstemp_full:
  * @tmpl: (type filename): template filename
@@ -20742,6 +21896,7 @@
  */
 
 
+/* glib/gthread-posix.c:175 */
 /**
  * g_mutex_clear:
  * @mutex: an initialized #GMutex
@@ -20758,6 +21913,7 @@
  */
 
 
+/* glib/gthread-posix.c:138 */
 /**
  * g_mutex_init:
  * @mutex: an uninitialized #GMutex
@@ -20791,6 +21947,7 @@
  */
 
 
+/* glib/gthread-posix.c:195 */
 /**
  * g_mutex_lock:
  * @mutex: a #GMutex
@@ -20806,6 +21963,7 @@
  */
 
 
+/* glib/gthread-posix.c:236 */
 /**
  * g_mutex_trylock:
  * @mutex: a #GMutex
@@ -20824,6 +21982,7 @@
  */
 
 
+/* glib/gthread-posix.c:217 */
 /**
  * g_mutex_unlock:
  * @mutex: a #GMutex
@@ -20836,6 +21995,7 @@
  */
 
 
+/* glib/gnode.c:1130 */
 /**
  * g_node_child_index:
  * @node: a #GNode
@@ -20849,6 +22009,7 @@
  */
 
 
+/* glib/gnode.c:1097 */
 /**
  * g_node_child_position:
  * @node: a #GNode
@@ -20862,6 +22023,7 @@
  */
 
 
+/* glib/gnode.c:1204 */
 /**
  * g_node_children_foreach:
  * @node: a #GNode
@@ -20875,6 +22037,7 @@
  */
 
 
+/* glib/gnode.c:210 */
 /**
  * g_node_copy:
  * @node: a #GNode
@@ -20886,6 +22049,7 @@
  */
 
 
+/* glib/gnode.c:171 */
 /**
  * g_node_copy_deep:
  * @node: a #GNode
@@ -20900,6 +22064,7 @@
  */
 
 
+/* glib/gnode.c:437 */
 /**
  * g_node_depth:
  * @node: a #GNode
@@ -20913,6 +22078,7 @@
  */
 
 
+/* glib/gnode.c:129 */
 /**
  * g_node_destroy:
  * @root: the root of the tree/subtree to destroy
@@ -20922,6 +22088,7 @@
  */
 
 
+/* glib/gnode.c:905 */
 /**
  * g_node_find:
  * @root: the root #GNode of the tree to search
@@ -20937,6 +22104,7 @@
  */
 
 
+/* glib/gnode.c:1056 */
 /**
  * g_node_find_child:
  * @node: a #GNode
@@ -20950,6 +22118,7 @@
  */
 
 
+/* glib/gnode.c:1161 */
 /**
  * g_node_first_sibling:
  * @node: a #GNode
@@ -20961,6 +22130,7 @@
  */
 
 
+/* glib/gnode.c:389 */
 /**
  * g_node_get_root:
  * @node: a #GNode
@@ -20971,6 +22141,7 @@
  */
 
 
+/* glib/gnode.c:237 */
 /**
  * g_node_insert:
  * @parent: the #GNode to place @node under
@@ -20984,6 +22155,7 @@
  */
 
 
+/* glib/gnode.c:324 */
 /**
  * g_node_insert_after:
  * @parent: the #GNode to place @node under
@@ -20997,6 +22169,7 @@
  */
 
 
+/* glib/gnode.c:267 */
 /**
  * g_node_insert_before:
  * @parent: the #GNode to place @node under
@@ -21010,6 +22183,7 @@
  */
 
 
+/* glib/gnode.c:408 */
 /**
  * g_node_is_ancestor:
  * @node: a #GNode
@@ -21023,6 +22197,7 @@
  */
 
 
+/* glib/gnode.c:985 */
 /**
  * g_node_last_child:
  * @node: a #GNode (must not be %NULL)
@@ -21033,6 +22208,7 @@
  */
 
 
+/* glib/gnode.c:1184 */
 /**
  * g_node_last_sibling:
  * @node: a #GNode
@@ -21044,6 +22220,7 @@
  */
 
 
+/* glib/gnode.c:489 */
 /**
  * g_node_max_height:
  * @root: a #GNode
@@ -21058,6 +22235,7 @@
  */
 
 
+/* glib/gnode.c:1031 */
 /**
  * g_node_n_children:
  * @node: a #GNode
@@ -21068,6 +22246,7 @@
  */
 
 
+/* glib/gnode.c:961 */
 /**
  * g_node_n_nodes:
  * @root: a #GNode
@@ -21080,6 +22259,7 @@
  */
 
 
+/* glib/gnode.c:99 */
 /**
  * g_node_new:
  * @data: the data of the new node
@@ -21091,6 +22271,7 @@
  */
 
 
+/* glib/gnode.c:1006 */
 /**
  * g_node_nth_child:
  * @node: a #GNode
@@ -21104,6 +22285,7 @@
  */
 
 
+/* glib/gnode.c:371 */
 /**
  * g_node_prepend:
  * @parent: the #GNode to place the new #GNode under
@@ -21115,6 +22297,7 @@
  */
 
 
+/* glib/gnode.c:462 */
 /**
  * g_node_reverse_children:
  * @node: a #GNode.
@@ -21124,6 +22307,7 @@
  */
 
 
+/* glib/gnode.c:805 */
 /**
  * g_node_traverse:
  * @root: the root #GNode of the tree to traverse
@@ -21144,6 +22328,7 @@
  */
 
 
+/* glib/gnode.c:147 */
 /**
  * g_node_unlink:
  * @node: the #GNode to unlink, which becomes the root of a new tree
@@ -21152,6 +22337,7 @@
  */
 
 
+/* glib/docs.c:906 */
 /**
  * g_ntohl:
  * @val: a 32-bit integer value in network byte order
@@ -21162,6 +22348,7 @@
  */
 
 
+/* glib/docs.c:915 */
 /**
  * g_ntohs:
  * @val: a 16-bit integer value in network byte order
@@ -21172,6 +22359,7 @@
  */
 
 
+/* glib/gutils.c:2083 */
 /**
  * g_nullify_pointer:
  * @nullify_location: the memory address of the pointer.
@@ -21180,6 +22368,7 @@
  */
 
 
+/* glib/gbacktrace.c:96 */
 /**
  * g_on_error_query:
  * @prg_name: the program name, needed by <command>gdb</command>
@@ -21232,6 +22421,7 @@
  */
 
 
+/* glib/gbacktrace.c:215 */
 /**
  * g_on_error_stack_trace:
  * @prg_name: the program name, needed by <command>gdb</command>
@@ -21247,6 +22437,7 @@
  */
 
 
+/* glib/gthread.c:574 */
 /**
  * g_once:
  * @once: a #GOnce structure
@@ -21284,6 +22475,7 @@
  */
 
 
+/* glib/gthread.c:636 */
 /**
  * g_once_init_enter:
  * @location: location of a static initializable variable containing 0
@@ -21317,6 +22509,7 @@
  */
 
 
+/* glib/gthread.c:690 */
 /**
  * g_once_init_leave:
  * @location: location of a static initializable variable containing 0
@@ -21332,6 +22525,7 @@
  */
 
 
+/* glib/gstdio.c:159 */
 /**
  * g_open:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -21363,6 +22557,7 @@
  */
 
 
+/* glib/goption.c:445 */
 /**
  * g_option_context_add_group:
  * @context: a #GOptionContext
@@ -21378,6 +22573,7 @@
  */
 
 
+/* glib/goption.c:532 */
 /**
  * g_option_context_add_main_entries:
  * @context: a #GOptionContext
@@ -21393,6 +22589,7 @@
  */
 
 
+/* glib/goption.c:324 */
 /**
  * g_option_context_free:
  * @context: a #GOptionContext
@@ -21407,6 +22604,7 @@
  */
 
 
+/* glib/goption.c:2450 */
 /**
  * g_option_context_get_description:
  * @context: a #GOptionContext
@@ -21418,6 +22616,7 @@
  */
 
 
+/* glib/goption.c:702 */
 /**
  * g_option_context_get_help:
  * @context: a #GOptionContext
@@ -21437,6 +22636,7 @@
  */
 
 
+/* glib/goption.c:382 */
 /**
  * g_option_context_get_help_enabled:
  * @context: a #GOptionContext
@@ -21449,6 +22649,7 @@
  */
 
 
+/* glib/goption.c:426 */
 /**
  * g_option_context_get_ignore_unknown_options:
  * @context: a #GOptionContext
@@ -21461,6 +22662,7 @@
  */
 
 
+/* glib/goption.c:512 */
 /**
  * g_option_context_get_main_group:
  * @context: a #GOptionContext
@@ -21474,6 +22676,7 @@
  */
 
 
+/* glib/goption.c:2406 */
 /**
  * g_option_context_get_summary:
  * @context: a #GOptionContext
@@ -21485,6 +22688,7 @@
  */
 
 
+/* glib/goption.c:277 */
 /**
  * g_option_context_new:
  * @parameter_string: (allow-none): a string which is displayed in
@@ -21518,6 +22722,7 @@
  */
 
 
+/* glib/goption.c:1721 */
 /**
  * g_option_context_parse:
  * @context: a #GOptionContext
@@ -21554,6 +22759,7 @@
  */
 
 
+/* glib/goption.c:2424 */
 /**
  * g_option_context_set_description:
  * @context: a #GOptionContext
@@ -21571,6 +22777,7 @@
  */
 
 
+/* glib/goption.c:359 */
 /**
  * g_option_context_set_help_enabled:
  * @context: a #GOptionContext
@@ -21587,6 +22794,7 @@
  */
 
 
+/* glib/goption.c:401 */
 /**
  * g_option_context_set_ignore_unknown_options:
  * @context: a #GOptionContext
@@ -21605,6 +22813,7 @@
  */
 
 
+/* glib/goption.c:483 */
 /**
  * g_option_context_set_main_group:
  * @context: a #GOptionContext
@@ -21619,6 +22828,7 @@
  */
 
 
+/* glib/goption.c:2379 */
 /**
  * g_option_context_set_summary:
  * @context: a #GOptionContext
@@ -21637,6 +22847,7 @@
  */
 
 
+/* glib/goption.c:2320 */
 /**
  * g_option_context_set_translate_func:
  * @context: a #GOptionContext
@@ -21660,6 +22871,7 @@
  */
 
 
+/* glib/goption.c:2357 */
 /**
  * g_option_context_set_translation_domain:
  * @context: a #GOptionContext
@@ -21672,6 +22884,7 @@
  */
 
 
+/* glib/goption.c:2152 */
 /**
  * g_option_group_add_entries:
  * @group: a #GOptionGroup
@@ -21683,6 +22896,7 @@
  */
 
 
+/* glib/goption.c:2122 */
 /**
  * g_option_group_free:
  * @group: a #GOptionGroup
@@ -21694,6 +22908,7 @@
  */
 
 
+/* glib/goption.c:2080 */
 /**
  * g_option_group_new:
  * @name: the name for the option group, this is used to provide
@@ -21716,6 +22931,7 @@
  */
 
 
+/* glib/goption.c:2235 */
 /**
  * g_option_group_set_error_hook:
  * @group: a #GOptionGroup
@@ -21731,6 +22947,7 @@
  */
 
 
+/* glib/goption.c:2208 */
 /**
  * g_option_group_set_parse_hooks:
  * @group: a #GOptionGroup
@@ -21749,6 +22966,7 @@
  */
 
 
+/* glib/goption.c:2258 */
 /**
  * g_option_group_set_translate_func:
  * @group: a #GOptionGroup
@@ -21768,6 +22986,7 @@
  */
 
 
+/* glib/goption.c:2298 */
 /**
  * g_option_group_set_translation_domain:
  * @group: a #GOptionGroup
@@ -21780,6 +22999,7 @@
  */
 
 
+/* glib/glib-init.c:67 */
 /**
  * g_parse_debug_string:
  * @string: (allow-none): a list of debug options separated by colons, spaces, or
@@ -21805,6 +23025,7 @@
  */
 
 
+/* glib/gfileutils.c:2268 */
 /**
  * g_path_get_basename:
  * @file_name: the name of the file
@@ -21821,6 +23042,7 @@
  */
 
 
+/* glib/gfileutils.c:2345 */
 /**
  * g_path_get_dirname:
  * @file_name: the name of the file
@@ -21834,6 +23056,7 @@
  */
 
 
+/* glib/gfileutils.c:2104 */
 /**
  * g_path_is_absolute:
  * @file_name: a file name
@@ -21867,6 +23090,7 @@
  */
 
 
+/* glib/gfileutils.c:2153 */
 /**
  * g_path_skip_root:
  * @file_name: a file name
@@ -21879,6 +23103,7 @@
  */
 
 
+/* glib/gpattern.c:164 */
 /**
  * g_pattern_match:
  * @pspec: a #GPatternSpec
@@ -21910,6 +23135,7 @@
  */
 
 
+/* glib/gpattern.c:420 */
 /**
  * g_pattern_match_simple:
  * @pattern: the UTF-8 encoded pattern
@@ -21924,6 +23150,7 @@
  */
 
 
+/* glib/gpattern.c:399 */
 /**
  * g_pattern_match_string:
  * @pspec: a #GPatternSpec
@@ -21937,6 +23164,7 @@
  */
 
 
+/* glib/gpattern.c:377 */
 /**
  * g_pattern_spec_equal:
  * @pspec1: a #GPatternSpec
@@ -21949,6 +23177,7 @@
  */
 
 
+/* glib/gpattern.c:362 */
 /**
  * g_pattern_spec_free:
  * @pspec: a #GPatternSpec
@@ -21957,6 +23186,7 @@
  */
 
 
+/* glib/gpattern.c:246 */
 /**
  * g_pattern_spec_new:
  * @pattern: a zero-terminated UTF-8 encoded string
@@ -21967,6 +23197,7 @@
  */
 
 
+/* glib/gbitlock.c:383 */
 /**
  * g_pointer_bit_lock:
  * @address: a pointer to a #gpointer-sized value
@@ -21982,6 +23213,7 @@
  */
 
 
+/* glib/gbitlock.c:452 */
 /**
  * g_pointer_bit_trylock:
  * @address: a pointer to a #gpointer-sized value
@@ -21998,6 +23230,7 @@
  */
 
 
+/* glib/gbitlock.c:499 */
 /**
  * g_pointer_bit_unlock:
  * @address: a pointer to a #gpointer-sized value
@@ -22013,6 +23246,7 @@
  */
 
 
+/* glib/gpoll.c:97 */
 /**
  * g_poll:
  * @fds: file descriptors to poll
@@ -22044,6 +23278,7 @@
  */
 
 
+/* glib/gerror.c:664 */
 /**
  * g_prefix_error:
  * @err: (allow-none): a return location for a #GError, or %NULL
@@ -22065,6 +23300,7 @@
  */
 
 
+/* glib/gmessages.c:1423 */
 /**
  * g_print:
  * @format: the message format. See the printf() documentation
@@ -22081,6 +23317,7 @@
  */
 
 
+/* glib/gmessages.c:1502 */
 /**
  * g_printerr:
  * @format: the message format. See the printf() documentation
@@ -22095,6 +23332,7 @@
  */
 
 
+/* glib/gprintf.c:30 */
 /**
  * g_printf:
  * @format: a standard printf() format string, but notice
@@ -22109,6 +23347,7 @@
  */
 
 
+/* glib/gmessages.c:1552 */
 /**
  * g_printf_string_upper_bound:
  * @format: the format string. See the printf() documentation
@@ -22121,6 +23360,7 @@
  */
 
 
+/* glib/gthread-posix.c:1003 */
 /**
  * g_private_get:
  * @key: a #GPrivate
@@ -22135,6 +23375,7 @@
  */
 
 
+/* glib/gthread-posix.c:1043 */
 /**
  * g_private_replace:
  * @key: a #GPrivate
@@ -22151,6 +23392,7 @@
  */
 
 
+/* glib/gthread-posix.c:1022 */
 /**
  * g_private_set:
  * @key: a #GPrivate
@@ -22164,6 +23406,7 @@
  */
 
 
+/* glib/gerror.c:602 */
 /**
  * g_propagate_error:
  * @dest: error return location
@@ -22174,6 +23417,7 @@
  */
 
 
+/* glib/gerror.c:698 */
 /**
  * g_propagate_prefixed_error:
  * @dest: error return location
@@ -22190,6 +23434,7 @@
  */
 
 
+/* glib/garray.c:1356 */
 /**
  * g_ptr_array_add:
  * @array: a #GPtrArray.
@@ -22200,6 +23445,7 @@
  */
 
 
+/* glib/garray.c:1436 */
 /**
  * g_ptr_array_foreach:
  * @array: a #GPtrArray
@@ -22212,6 +23458,7 @@
  */
 
 
+/* glib/garray.c:1034 */
 /**
  * g_ptr_array_free:
  * @array: a #GPtrArray.
@@ -22233,6 +23480,7 @@
  */
 
 
+/* glib/garray.c:861 */
 /**
  * g_ptr_array_index:
  * @array: a #GPtrArray.
@@ -22244,6 +23492,7 @@
  */
 
 
+/* glib/garray.c:874 */
 /**
  * g_ptr_array_new:
  *
@@ -22253,6 +23502,7 @@
  */
 
 
+/* glib/garray.c:938 */
 /**
  * g_ptr_array_new_full:
  * @reserved_size: number of pointers preallocated.
@@ -22271,6 +23521,7 @@
  */
 
 
+/* glib/garray.c:915 */
 /**
  * g_ptr_array_new_with_free_func:
  * @element_free_func: (allow-none): A function to free elements with destroy @array or %NULL.
@@ -22285,6 +23536,7 @@
  */
 
 
+/* glib/garray.c:988 */
 /**
  * g_ptr_array_ref:
  * @array: a #GPtrArray
@@ -22297,6 +23549,7 @@
  */
 
 
+/* glib/garray.c:1282 */
 /**
  * g_ptr_array_remove:
  * @array: a #GPtrArray.
@@ -22315,6 +23568,7 @@
  */
 
 
+/* glib/garray.c:1319 */
 /**
  * g_ptr_array_remove_fast:
  * @array: a #GPtrArray.
@@ -22333,6 +23587,7 @@
  */
 
 
+/* glib/garray.c:1155 */
 /**
  * g_ptr_array_remove_index:
  * @array: a #GPtrArray.
@@ -22347,6 +23602,7 @@
  */
 
 
+/* glib/garray.c:1195 */
 /**
  * g_ptr_array_remove_index_fast:
  * @array: a #GPtrArray.
@@ -22362,6 +23618,7 @@
  */
 
 
+/* glib/garray.c:1235 */
 /**
  * g_ptr_array_remove_range:
  * @array: a @GPtrArray.
@@ -22377,6 +23634,7 @@
  */
 
 
+/* glib/garray.c:966 */
 /**
  * g_ptr_array_set_free_func:
  * @array: A #GPtrArray.
@@ -22390,6 +23648,7 @@
  */
 
 
+/* glib/garray.c:1118 */
 /**
  * g_ptr_array_set_size:
  * @array: a #GPtrArray.
@@ -22402,6 +23661,7 @@
  */
 
 
+/* glib/garray.c:887 */
 /**
  * g_ptr_array_sized_new:
  * @reserved_size: number of pointers preallocated.
@@ -22415,6 +23675,7 @@
  */
 
 
+/* glib/garray.c:1377 */
 /**
  * g_ptr_array_sort:
  * @array: a #GPtrArray.
@@ -22433,6 +23694,7 @@
  */
 
 
+/* glib/garray.c:1407 */
 /**
  * g_ptr_array_sort_with_data:
  * @array: a #GPtrArray.
@@ -22450,6 +23712,7 @@
  */
 
 
+/* glib/garray.c:1013 */
 /**
  * g_ptr_array_unref:
  * @array: A #GPtrArray.
@@ -22463,6 +23726,7 @@
  */
 
 
+/* glib/gqsort.c:285 */
 /**
  * g_qsort_with_data:
  * @pbase: start of array to sort
@@ -22478,6 +23742,7 @@
  */
 
 
+/* glib/gquark.c:210 */
 /**
  * g_quark_from_static_string:
  * @string: (allow-none): a string.
@@ -22500,6 +23765,7 @@
  */
 
 
+/* glib/gquark.c:184 */
 /**
  * g_quark_from_string:
  * @string: (allow-none): a string.
@@ -22513,6 +23779,7 @@
  */
 
 
+/* glib/gquark.c:245 */
 /**
  * g_quark_to_string:
  * @quark: a #GQuark.
@@ -22523,6 +23790,7 @@
  */
 
 
+/* glib/gquark.c:109 */
 /**
  * g_quark_try_string:
  * @string: (allow-none): a string.
@@ -22538,6 +23806,7 @@
  */
 
 
+/* glib/gqueue.c:133 */
 /**
  * g_queue_clear:
  * @queue: a #GQueue
@@ -22549,6 +23818,7 @@
  */
 
 
+/* glib/gqueue.c:202 */
 /**
  * g_queue_copy:
  * @queue: a #GQueue
@@ -22562,6 +23832,7 @@
  */
 
 
+/* glib/gqueue.c:822 */
 /**
  * g_queue_delete_link:
  * @queue: a #GQueue
@@ -22575,6 +23846,7 @@
  */
 
 
+/* glib/gqueue.c:260 */
 /**
  * g_queue_find:
  * @queue: a #GQueue
@@ -22587,6 +23859,7 @@
  */
 
 
+/* glib/gqueue.c:280 */
 /**
  * g_queue_find_custom:
  * @queue: a #GQueue
@@ -22605,6 +23878,7 @@
  */
 
 
+/* glib/gqueue.c:230 */
 /**
  * g_queue_foreach:
  * @queue: a #GQueue
@@ -22618,6 +23892,7 @@
  */
 
 
+/* glib/gqueue.c:72 */
 /**
  * g_queue_free:
  * @queue: a #GQueue.
@@ -22634,6 +23909,7 @@
  */
 
 
+/* glib/gqueue.c:95 */
 /**
  * g_queue_free_full:
  * @queue: a pointer to a #GQueue
@@ -22646,6 +23922,7 @@
  */
 
 
+/* glib/gqueue.c:167 */
 /**
  * g_queue_get_length:
  * @queue: a #GQueue
@@ -22657,6 +23934,7 @@
  */
 
 
+/* glib/gqueue.c:906 */
 /**
  * g_queue_index:
  * @queue: a #GQueue
@@ -22669,6 +23947,7 @@
  */
 
 
+/* glib/gqueue.c:113 */
 /**
  * g_queue_init:
  * @queue: an uninitialized #GQueue
@@ -22682,6 +23961,7 @@
  */
 
 
+/* glib/gqueue.c:1013 */
 /**
  * g_queue_insert_after:
  * @queue: a #GQueue
@@ -22696,6 +23976,7 @@
  */
 
 
+/* glib/gqueue.c:989 */
 /**
  * g_queue_insert_before:
  * @queue: a #GQueue
@@ -22710,6 +23991,7 @@
  */
 
 
+/* glib/gqueue.c:1039 */
 /**
  * g_queue_insert_sorted:
  * @queue: a #GQueue
@@ -22727,6 +24009,7 @@
  */
 
 
+/* glib/gqueue.c:151 */
 /**
  * g_queue_is_empty:
  * @queue: a #GQueue.
@@ -22737,6 +24020,7 @@
  */
 
 
+/* glib/gqueue.c:775 */
 /**
  * g_queue_link_index:
  * @queue: a #GQueue
@@ -22750,6 +24034,7 @@
  */
 
 
+/* glib/gqueue.c:59 */
 /**
  * g_queue_new:
  *
@@ -22759,6 +24044,7 @@
  */
 
 
+/* glib/gqueue.c:844 */
 /**
  * g_queue_peek_head:
  * @queue: a #GQueue.
@@ -22770,6 +24056,7 @@
  */
 
 
+/* glib/gqueue.c:571 */
 /**
  * g_queue_peek_head_link:
  * @queue: a #GQueue
@@ -22781,6 +24068,7 @@
  */
 
 
+/* glib/gqueue.c:878 */
 /**
  * g_queue_peek_nth:
  * @queue: a #GQueue
@@ -22794,6 +24082,7 @@
  */
 
 
+/* glib/gqueue.c:733 */
 /**
  * g_queue_peek_nth_link:
  * @queue: a #GQueue
@@ -22807,6 +24096,7 @@
  */
 
 
+/* glib/gqueue.c:861 */
 /**
  * g_queue_peek_tail:
  * @queue: a #GQueue.
@@ -22818,6 +24108,7 @@
  */
 
 
+/* glib/gqueue.c:589 */
 /**
  * g_queue_peek_tail_link:
  * @queue: a #GQueue
@@ -22829,6 +24120,7 @@
  */
 
 
+/* glib/gqueue.c:504 */
 /**
  * g_queue_pop_head:
  * @queue: a #GQueue.
@@ -22840,6 +24132,7 @@
  */
 
 
+/* glib/gqueue.c:537 */
 /**
  * g_queue_pop_head_link:
  * @queue: a #GQueue.
@@ -22851,6 +24144,7 @@
  */
 
 
+/* glib/gqueue.c:640 */
 /**
  * g_queue_pop_nth:
  * @queue: a #GQueue
@@ -22863,6 +24157,7 @@
  */
 
 
+/* glib/gqueue.c:705 */
 /**
  * g_queue_pop_nth_link:
  * @queue: a #GQueue
@@ -22875,6 +24170,7 @@
  */
 
 
+/* glib/gqueue.c:607 */
 /**
  * g_queue_pop_tail:
  * @queue: a #GQueue.
@@ -22886,6 +24182,7 @@
  */
 
 
+/* glib/gqueue.c:671 */
 /**
  * g_queue_pop_tail_link:
  * @queue: a #GQueue.
@@ -22897,6 +24194,7 @@
  */
 
 
+/* glib/gqueue.c:333 */
 /**
  * g_queue_push_head:
  * @queue: a #GQueue.
@@ -22906,6 +24204,7 @@
  */
 
 
+/* glib/gqueue.c:380 */
 /**
  * g_queue_push_head_link:
  * @queue: a #GQueue.
@@ -22916,6 +24215,7 @@
  */
 
 
+/* glib/gqueue.c:352 */
 /**
  * g_queue_push_nth:
  * @queue: a #GQueue
@@ -22930,6 +24230,7 @@
  */
 
 
+/* glib/gqueue.c:453 */
 /**
  * g_queue_push_nth_link:
  * @queue: a #GQueue
@@ -22944,6 +24245,7 @@
  */
 
 
+/* glib/gqueue.c:406 */
 /**
  * g_queue_push_tail:
  * @queue: a #GQueue.
@@ -22953,6 +24255,7 @@
  */
 
 
+/* glib/gqueue.c:427 */
 /**
  * g_queue_push_tail_link:
  * @queue: a #GQueue.
@@ -22963,6 +24266,7 @@
  */
 
 
+/* glib/gqueue.c:926 */
 /**
  * g_queue_remove:
  * @queue: a #GQueue
@@ -22975,6 +24279,7 @@
  */
 
 
+/* glib/gqueue.c:953 */
 /**
  * g_queue_remove_all:
  * @queue: a #GQueue
@@ -22987,6 +24292,7 @@
  */
 
 
+/* glib/gqueue.c:185 */
 /**
  * g_queue_reverse:
  * @queue: a #GQueue
@@ -22997,6 +24303,7 @@
  */
 
 
+/* glib/gqueue.c:308 */
 /**
  * g_queue_sort:
  * @queue: a #GQueue
@@ -23012,6 +24319,7 @@
  */
 
 
+/* glib/gqueue.c:796 */
 /**
  * g_queue_unlink:
  * @queue: a #GQueue
@@ -23026,6 +24334,7 @@
  */
 
 
+/* glib/grand.c:404 */
 /**
  * g_rand_boolean:
  * @rand_: a #GRand.
@@ -23037,6 +24346,7 @@
  */
 
 
+/* glib/grand.c:278 */
 /**
  * g_rand_copy:
  * @rand_: a #GRand.
@@ -23050,6 +24360,7 @@
  */
 
 
+/* glib/grand.c:541 */
 /**
  * g_rand_double:
  * @rand_: a #GRand.
@@ -23061,6 +24372,7 @@
  */
 
 
+/* glib/grand.c:566 */
 /**
  * g_rand_double_range:
  * @rand_: a #GRand.
@@ -23074,6 +24386,7 @@
  */
 
 
+/* glib/grand.c:264 */
 /**
  * g_rand_free:
  * @rand_: a #GRand.
@@ -23082,6 +24395,7 @@
  */
 
 
+/* glib/grand.c:413 */
 /**
  * g_rand_int:
  * @rand_: a #GRand.
@@ -23093,6 +24407,7 @@
  */
 
 
+/* glib/grand.c:460 */
 /**
  * g_rand_int_range:
  * @rand_: a #GRand.
@@ -23106,6 +24421,7 @@
  */
 
 
+/* glib/grand.c:197 */
 /**
  * g_rand_new:
  *
@@ -23117,6 +24433,7 @@
  */
 
 
+/* glib/grand.c:162 */
 /**
  * g_rand_new_with_seed:
  * @seed: a value to initialize the random number generator.
@@ -23127,6 +24444,7 @@
  */
 
 
+/* glib/grand.c:178 */
 /**
  * g_rand_new_with_seed_array:
  * @seed: an array of seeds to initialize the random number generator.
@@ -23139,6 +24457,7 @@
  */
 
 
+/* glib/grand.c:303 */
 /**
  * g_rand_set_seed:
  * @rand_: a #GRand.
@@ -23148,6 +24467,7 @@
  */
 
 
+/* glib/grand.c:346 */
 /**
  * g_rand_set_seed_array:
  * @rand_: a #GRand.
@@ -23164,6 +24484,7 @@
  */
 
 
+/* glib/grand.c:587 */
 /**
  * g_random_boolean:
  *
@@ -23173,6 +24494,7 @@
  */
 
 
+/* glib/grand.c:638 */
 /**
  * g_random_double:
  *
@@ -23182,6 +24504,7 @@
  */
 
 
+/* glib/grand.c:658 */
 /**
  * g_random_double_range:
  * @begin: lower closed bound of the interval.
@@ -23193,6 +24516,7 @@
  */
 
 
+/* glib/grand.c:594 */
 /**
  * g_random_int:
  *
@@ -23203,6 +24527,7 @@
  */
 
 
+/* glib/grand.c:615 */
 /**
  * g_random_int_range:
  * @begin: lower closed bound of the interval.
@@ -23215,6 +24540,7 @@
  */
 
 
+/* glib/grand.c:680 */
 /**
  * g_random_set_seed:
  * @seed: a value to reinitialize the global random number generator.
@@ -23224,6 +24550,7 @@
  */
 
 
+/* glib/gmem.c:148 */
 /**
  * g_realloc:
  * @mem: the memory to reallocate
@@ -23239,6 +24566,7 @@
  */
 
 
+/* glib/gmem.c:372 */
 /**
  * g_realloc_n:
  * @mem: the memory to reallocate
@@ -23253,6 +24581,7 @@
  */
 
 
+/* glib/gthread-posix.c:345 */
 /**
  * g_rec_mutex_clear:
  * @rec_mutex: an initialized #GRecMutex
@@ -23270,6 +24599,7 @@
  */
 
 
+/* glib/gthread-posix.c:306 */
 /**
  * g_rec_mutex_init:
  * @rec_mutex: an uninitialized #GRecMutex
@@ -23305,6 +24635,7 @@
  */
 
 
+/* glib/gthread-posix.c:366 */
 /**
  * g_rec_mutex_lock:
  * @rec_mutex: a #GRecMutex
@@ -23320,6 +24651,7 @@
  */
 
 
+/* glib/gthread-posix.c:404 */
 /**
  * g_rec_mutex_trylock:
  * @rec_mutex: a #GRecMutex
@@ -23333,6 +24665,7 @@
  */
 
 
+/* glib/gthread-posix.c:385 */
 /**
  * g_rec_mutex_unlock:
  * @rec_mutex: a #GRecMutex
@@ -23348,6 +24681,7 @@
  */
 
 
+/* glib/gregex.c:2950 */
 /**
  * g_regex_check_replacement:
  * @replacement: the replacement string
@@ -23370,6 +24704,7 @@
  */
 
 
+/* glib/gregex.c:2995 */
 /**
  * g_regex_escape_nul:
  * @string: the string to escape
@@ -23386,6 +24721,7 @@
  */
 
 
+/* glib/gregex.c:3063 */
 /**
  * g_regex_escape_string:
  * @string: (array length=length): the string to escape
@@ -23404,6 +24740,7 @@
  */
 
 
+/* glib/gregex.c:1480 */
 /**
  * g_regex_get_capture_count:
  * @regex: a #GRegex
@@ -23415,6 +24752,7 @@
  */
 
 
+/* glib/gregex.c:1545 */
 /**
  * g_regex_get_compile_flags:
  * @regex: a #GRegex
@@ -23426,6 +24764,7 @@
  */
 
 
+/* glib/gregex.c:1501 */
 /**
  * g_regex_get_has_cr_or_lf:
  * @regex: a #GRegex structure
@@ -23437,6 +24776,7 @@
  */
 
 
+/* glib/gregex.c:1563 */
 /**
  * g_regex_get_match_flags:
  * @regex: a #GRegex
@@ -23448,6 +24788,7 @@
  */
 
 
+/* glib/gregex.c:1457 */
 /**
  * g_regex_get_max_backref:
  * @regex: a #GRegex
@@ -23461,6 +24802,7 @@
  */
 
 
+/* glib/gregex.c:1522 */
 /**
  * g_regex_get_max_lookbehind:
  * @regex: a #GRegex structure
@@ -23474,6 +24816,7 @@
  */
 
 
+/* glib/gregex.c:1438 */
 /**
  * g_regex_get_pattern:
  * @regex: a #GRegex structure
@@ -23486,6 +24829,7 @@
  */
 
 
+/* glib/gregex.c:1930 */
 /**
  * g_regex_get_string_number:
  * @regex: #GRegex structure
@@ -23499,6 +24843,7 @@
  */
 
 
+/* glib/gregex.c:1620 */
 /**
  * g_regex_match:
  * @regex: a #GRegex structure from g_regex_new()
@@ -23551,6 +24896,7 @@
  */
 
 
+/* glib/gregex.c:1775 */
 /**
  * g_regex_match_all:
  * @regex: a #GRegex structure from g_regex_new()
@@ -23579,6 +24925,7 @@
  */
 
 
+/* glib/gregex.c:1812 */
 /**
  * g_regex_match_all_full:
  * @regex: a #GRegex structure from g_regex_new()
@@ -23632,6 +24979,7 @@
  */
 
 
+/* glib/gregex.c:1681 */
 /**
  * g_regex_match_full:
  * @regex: a #GRegex structure from g_regex_new()
@@ -23698,6 +25046,7 @@
  */
 
 
+/* glib/gregex.c:1581 */
 /**
  * g_regex_match_simple:
  * @pattern: the regular expression
@@ -23721,6 +25070,7 @@
  */
 
 
+/* glib/gregex.c:1269 */
 /**
  * g_regex_new:
  * @pattern: the regular expression
@@ -23737,6 +25087,7 @@
  */
 
 
+/* glib/gregex.c:1226 */
 /**
  * g_regex_ref:
  * @regex: a #GRegex
@@ -23748,6 +25099,7 @@
  */
 
 
+/* glib/gregex.c:2684 */
 /**
  * g_regex_replace:
  * @regex: a #GRegex structure
@@ -23810,6 +25162,7 @@
  */
 
 
+/* glib/gregex.c:2838 */
 /**
  * g_regex_replace_eval:
  * @regex: a #GRegex structure from g_regex_new()
@@ -23872,6 +25225,7 @@
  */
 
 
+/* glib/gregex.c:2795 */
 /**
  * g_regex_replace_literal:
  * @regex: a #GRegex structure
@@ -23896,6 +25250,7 @@
  */
 
 
+/* glib/gregex.c:2016 */
 /**
  * g_regex_split:
  * @regex: a #GRegex structure
@@ -23926,6 +25281,7 @@
  */
 
 
+/* glib/gregex.c:2054 */
 /**
  * g_regex_split_full:
  * @regex: a #GRegex structure
@@ -23965,6 +25321,7 @@
  */
 
 
+/* glib/gregex.c:1958 */
 /**
  * g_regex_split_simple:
  * @pattern: the regular expression
@@ -24006,6 +25363,7 @@
  */
 
 
+/* glib/gregex.c:1244 */
 /**
  * g_regex_unref:
  * @regex: a #GRegex
@@ -24017,6 +25375,7 @@
  */
 
 
+/* glib/gutils.c:1700 */
 /**
  * g_reload_user_special_dirs_cache:
  *
@@ -24033,6 +25392,7 @@
  */
 
 
+/* glib/gstdio.c:583 */
 /**
  * g_remove:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -24060,6 +25420,7 @@
  */
 
 
+/* glib/gstdio.c:278 */
 /**
  * g_rename:
  * @oldfilename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -24077,6 +25438,7 @@
  */
 
 
+/* glib/gstdio.c:637 */
 /**
  * g_rmdir:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -24093,6 +25455,7 @@
  */
 
 
+/* glib/gthread-posix.c:503 */
 /**
  * g_rw_lock_clear:
  * @rw_lock: an initialized #GRWLock
@@ -24109,6 +25472,7 @@
  */
 
 
+/* glib/gthread-posix.c:466 */
 /**
  * g_rw_lock_init:
  * @rw_lock: an uninitialized #GRWLock
@@ -24142,6 +25506,7 @@
  */
 
 
+/* glib/gthread-posix.c:577 */
 /**
  * g_rw_lock_reader_lock:
  * @rw_lock: a #GRWLock
@@ -24157,6 +25522,7 @@
  */
 
 
+/* glib/gthread-posix.c:596 */
 /**
  * g_rw_lock_reader_trylock:
  * @rw_lock: a #GRWLock
@@ -24170,6 +25536,7 @@
  */
 
 
+/* glib/gthread-posix.c:617 */
 /**
  * g_rw_lock_reader_unlock:
  * @rw_lock: a #GRWLock
@@ -24183,6 +25550,7 @@
  */
 
 
+/* glib/gthread-posix.c:523 */
 /**
  * g_rw_lock_writer_lock:
  * @rw_lock: a #GRWLock
@@ -24195,6 +25563,7 @@
  */
 
 
+/* glib/gthread-posix.c:539 */
 /**
  * g_rw_lock_writer_trylock:
  * @rw_lock: a #GRWLock
@@ -24208,6 +25577,7 @@
  */
 
 
+/* glib/gthread-posix.c:560 */
 /**
  * g_rw_lock_writer_unlock:
  * @rw_lock: a #GRWLock
@@ -24221,6 +25591,7 @@
  */
 
 
+/* glib/gscanner.c:661 */
 /**
  * g_scanner_add_symbol:
  * @scanner: a #GScanner
@@ -24233,6 +25604,7 @@
  */
 
 
+/* glib/gscanner.c:1040 */
 /**
  * g_scanner_cur_line:
  * @scanner: a #GScanner
@@ -24245,6 +25617,7 @@
  */
 
 
+/* glib/gscanner.c:1058 */
 /**
  * g_scanner_cur_position:
  * @scanner: a #GScanner
@@ -24257,6 +25630,7 @@
  */
 
 
+/* glib/gscanner.c:998 */
 /**
  * g_scanner_cur_token:
  * @scanner: a #GScanner
@@ -24268,6 +25642,7 @@
  */
 
 
+/* glib/gscanner.c:1015 */
 /**
  * g_scanner_cur_value:
  * @scanner: a #GScanner
@@ -24279,6 +25654,7 @@
  */
 
 
+/* glib/gscanner.c:505 */
 /**
  * g_scanner_destroy:
  * @scanner: a #GScanner
@@ -24287,6 +25663,7 @@
  */
 
 
+/* glib/gscanner.c:1076 */
 /**
  * g_scanner_eof:
  * @scanner: a #GScanner
@@ -24299,6 +25676,7 @@
  */
 
 
+/* glib/gscanner.c:542 */
 /**
  * g_scanner_error:
  * @scanner: a #GScanner
@@ -24309,6 +25687,7 @@
  */
 
 
+/* glib/gscanner.c:885 */
 /**
  * g_scanner_foreach_symbol:
  * @scanner: a #GScanner
@@ -24321,6 +25700,7 @@
  */
 
 
+/* glib/gscanner.c:755 */
 /**
  * g_scanner_freeze_symbol_table:
  * @scanner: a #GScanner
@@ -24331,6 +25711,7 @@
  */
 
 
+/* glib/gscanner.c:962 */
 /**
  * g_scanner_get_next_token:
  * @scanner: a #GScanner
@@ -24344,6 +25725,7 @@
  */
 
 
+/* glib/gscanner.c:1094 */
 /**
  * g_scanner_input_file:
  * @scanner: a #GScanner
@@ -24353,6 +25735,7 @@
  */
 
 
+/* glib/gscanner.c:1125 */
 /**
  * g_scanner_input_text:
  * @scanner: a #GScanner
@@ -24363,6 +25746,7 @@
  */
 
 
+/* glib/gscanner.c:773 */
 /**
  * g_scanner_lookup_symbol:
  * @scanner: a #GScanner
@@ -24377,6 +25761,7 @@
  */
 
 
+/* glib/gscanner.c:391 */
 /**
  * g_scanner_new:
  * @config_templ: the initial scanner settings
@@ -24392,6 +25777,7 @@
  */
 
 
+/* glib/gscanner.c:925 */
 /**
  * g_scanner_peek_next_token:
  * @scanner: a #GScanner
@@ -24412,6 +25798,7 @@
  */
 
 
+/* glib/gscanner.c:717 */
 /**
  * g_scanner_remove_symbol:
  * @scanner: a #GScanner
@@ -24423,6 +25810,7 @@
  */
 
 
+/* glib/gscanner.c:672 */
 /**
  * g_scanner_scope_add_symbol:
  * @scanner: a #GScanner
@@ -24434,6 +25822,7 @@
  */
 
 
+/* glib/gscanner.c:896 */
 /**
  * g_scanner_scope_foreach_symbol:
  * @scanner: a #GScanner
@@ -24448,6 +25837,7 @@
  */
 
 
+/* glib/gscanner.c:808 */
 /**
  * g_scanner_scope_lookup_symbol:
  * @scanner: a #GScanner
@@ -24462,6 +25852,7 @@
  */
 
 
+/* glib/gscanner.c:727 */
 /**
  * g_scanner_scope_remove_symbol:
  * @scanner: a #GScanner
@@ -24472,6 +25863,7 @@
  */
 
 
+/* glib/gscanner.c:841 */
 /**
  * g_scanner_set_scope:
  * @scanner: a #GScanner
@@ -24483,6 +25875,7 @@
  */
 
 
+/* glib/gscanner.c:1201 */
 /**
  * g_scanner_sync_file_offset:
  * @scanner: a #GScanner
@@ -24494,6 +25887,7 @@
  */
 
 
+/* glib/gscanner.c:764 */
 /**
  * g_scanner_thaw_symbol_table:
  * @scanner: a #GScanner
@@ -24504,6 +25898,7 @@
  */
 
 
+/* glib/gscanner.c:1292 */
 /**
  * g_scanner_unexp_token:
  * @scanner: a #GScanner
@@ -24533,6 +25928,7 @@
  */
 
 
+/* glib/gscanner.c:575 */
 /**
  * g_scanner_warn:
  * @scanner: a #GScanner
@@ -24543,6 +25939,7 @@
  */
 
 
+/* glib/gsequence.c:434 */
 /**
  * g_sequence_append:
  * @seq: a #GSequence
@@ -24555,6 +25952,7 @@
  */
 
 
+/* glib/gsequence.c:332 */
 /**
  * g_sequence_foreach:
  * @seq: a #GSequence
@@ -24568,6 +25966,7 @@
  */
 
 
+/* glib/gsequence.c:290 */
 /**
  * g_sequence_foreach_range:
  * @begin: a #GSequenceIter
@@ -24582,6 +25981,7 @@
  */
 
 
+/* glib/gsequence.c:268 */
 /**
  * g_sequence_free:
  * @seq: a #GSequence
@@ -24594,6 +25994,7 @@
  */
 
 
+/* glib/gsequence.c:1187 */
 /**
  * g_sequence_get:
  * @iter: a #GSequenceIter
@@ -24605,6 +26006,7 @@
  */
 
 
+/* glib/gsequence.c:1277 */
 /**
  * g_sequence_get_begin_iter:
  * @seq: a #GSequence
@@ -24616,6 +26018,7 @@
  */
 
 
+/* glib/gsequence.c:1259 */
 /**
  * g_sequence_get_end_iter:
  * @seq: a #GSequence
@@ -24627,6 +26030,7 @@
  */
 
 
+/* glib/gsequence.c:1310 */
 /**
  * g_sequence_get_iter_at_pos:
  * @seq: a #GSequence
@@ -24640,6 +26044,7 @@
  */
 
 
+/* glib/gsequence.c:1243 */
 /**
  * g_sequence_get_length:
  * @seq: a #GSequence
@@ -24651,6 +26056,7 @@
  */
 
 
+/* glib/gsequence.c:490 */
 /**
  * g_sequence_insert_before:
  * @iter: a #GSequenceIter
@@ -24663,6 +26069,7 @@
  */
 
 
+/* glib/gsequence.c:682 */
 /**
  * g_sequence_insert_sorted:
  * @seq: a #GSequence
@@ -24684,6 +26091,7 @@
  */
 
 
+/* glib/gsequence.c:971 */
 /**
  * g_sequence_insert_sorted_iter:
  * @seq: a #GSequence
@@ -24710,6 +26118,7 @@
  */
 
 
+/* glib/gsequence.c:395 */
 /**
  * g_sequence_iter_compare:
  * @a: a #GSequenceIter
@@ -24726,6 +26135,7 @@
  */
 
 
+/* glib/gsequence.c:1399 */
 /**
  * g_sequence_iter_get_position:
  * @iter: a #GSequenceIter
@@ -24737,6 +26147,7 @@
  */
 
 
+/* glib/gsequence.c:1162 */
 /**
  * g_sequence_iter_get_sequence:
  * @iter: a #GSequenceIter
@@ -24748,6 +26159,7 @@
  */
 
 
+/* glib/gsequence.c:1381 */
 /**
  * g_sequence_iter_is_begin:
  * @iter: a #GSequenceIter
@@ -24759,6 +26171,7 @@
  */
 
 
+/* glib/gsequence.c:1363 */
 /**
  * g_sequence_iter_is_end:
  * @iter: a #GSequenceIter
@@ -24770,6 +26183,7 @@
  */
 
 
+/* glib/gsequence.c:1456 */
 /**
  * g_sequence_iter_move:
  * @iter: a #GSequenceIter
@@ -24786,6 +26200,7 @@
  */
 
 
+/* glib/gsequence.c:1417 */
 /**
  * g_sequence_iter_next:
  * @iter: a #GSequenceIter
@@ -24798,6 +26213,7 @@
  */
 
 
+/* glib/gsequence.c:1436 */
 /**
  * g_sequence_iter_prev:
  * @iter: a #GSequenceIter
@@ -24811,6 +26227,7 @@
  */
 
 
+/* glib/gsequence.c:805 */
 /**
  * g_sequence_lookup:
  * @seq: a #GSequence
@@ -24844,6 +26261,7 @@
  */
 
 
+/* glib/gsequence.c:1102 */
 /**
  * g_sequence_lookup_iter:
  * @seq: a #GSequence
@@ -24874,6 +26292,7 @@
  */
 
 
+/* glib/gsequence.c:1333 */
 /**
  * g_sequence_move:
  * @src: a #GSequenceIter pointing to the item to move
@@ -24889,6 +26308,7 @@
  */
 
 
+/* glib/gsequence.c:570 */
 /**
  * g_sequence_move_range:
  * @dest: a #GSequenceIter
@@ -24908,6 +26328,7 @@
  */
 
 
+/* glib/gsequence.c:241 */
 /**
  * g_sequence_new:
  * @data_destroy: (allow-none): a #GDestroyNotify function, or %NULL
@@ -24921,6 +26342,7 @@
  */
 
 
+/* glib/gsequence.c:461 */
 /**
  * g_sequence_prepend:
  * @seq: a #GSequence
@@ -24933,6 +26355,7 @@
  */
 
 
+/* glib/gsequence.c:358 */
 /**
  * g_sequence_range_get_midpoint:
  * @begin: a #GSequenceIter
@@ -24951,6 +26374,7 @@
  */
 
 
+/* glib/gsequence.c:518 */
 /**
  * g_sequence_remove:
  * @iter: a #GSequenceIter
@@ -24965,6 +26389,7 @@
  */
 
 
+/* glib/gsequence.c:546 */
 /**
  * g_sequence_remove_range:
  * @begin: a #GSequenceIter
@@ -24979,6 +26404,7 @@
  */
 
 
+/* glib/gsequence.c:756 */
 /**
  * g_sequence_search:
  * @seq: a #GSequence
@@ -25011,6 +26437,7 @@
  */
 
 
+/* glib/gsequence.c:1039 */
 /**
  * g_sequence_search_iter:
  * @seq: a #GSequence
@@ -25044,6 +26471,7 @@
  */
 
 
+/* glib/gsequence.c:1206 */
 /**
  * g_sequence_set:
  * @iter: a #GSequenceIter
@@ -25057,6 +26485,7 @@
  */
 
 
+/* glib/gsequence.c:651 */
 /**
  * g_sequence_sort:
  * @seq: a #GSequence
@@ -25074,6 +26503,7 @@
  */
 
 
+/* glib/gsequence.c:721 */
 /**
  * g_sequence_sort_changed:
  * @iter: A #GSequenceIter
@@ -25094,6 +26524,7 @@
  */
 
 
+/* glib/gsequence.c:909 */
 /**
  * g_sequence_sort_changed_iter:
  * @iter: a #GSequenceIter
@@ -25113,6 +26544,7 @@
  */
 
 
+/* glib/gsequence.c:855 */
 /**
  * g_sequence_sort_iter:
  * @seq: a #GSequence
@@ -25131,6 +26563,7 @@
  */
 
 
+/* glib/gsequence.c:1492 */
 /**
  * g_sequence_swap:
  * @a: a #GSequenceIter
@@ -25143,6 +26576,7 @@
  */
 
 
+/* glib/gutils.c:1161 */
 /**
  * g_set_application_name:
  * @application_name: localized name of the application
@@ -25163,6 +26597,7 @@
  */
 
 
+/* glib/gerror.c:534 */
 /**
  * g_set_error:
  * @err: (allow-none): a return location for a #GError, or %NULL
@@ -25176,6 +26611,7 @@
  */
 
 
+/* glib/gerror.c:569 */
 /**
  * g_set_error_literal:
  * @err: (allow-none): a return location for a #GError, or %NULL
@@ -25193,6 +26629,7 @@
  */
 
 
+/* glib/gutils.c:1111 */
 /**
  * g_set_prgname:
  * @prgname: the name of the program.
@@ -25203,6 +26640,7 @@
  */
 
 
+/* glib/gmessages.c:1396 */
 /**
  * g_set_print_handler:
  * @func: the new print handler
@@ -25219,6 +26657,7 @@
  */
 
 
+/* glib/gmessages.c:1475 */
 /**
  * g_set_printerr_handler:
  * @func: the new error message handler
@@ -25235,6 +26674,7 @@
  */
 
 
+/* glib/genviron.c:259 */
 /**
  * g_setenv:
  * @variable: the environment variable to set, must not contain '='.
@@ -25269,6 +26709,7 @@
  */
 
 
+/* glib/gshell.c:611 */
 /**
  * g_shell_parse_argv:
  * @command_line: command line to parse
@@ -25290,6 +26731,7 @@
  */
 
 
+/* glib/gshell.c:183 */
 /**
  * g_shell_quote:
  * @unquoted_string: a literal string
@@ -25305,6 +26747,7 @@
  */
 
 
+/* glib/gshell.c:233 */
 /**
  * g_shell_unquote:
  * @quoted_string: shell-quoted string
@@ -25336,6 +26779,7 @@
  */
 
 
+/* glib/gslice.c:962 */
 /**
  * g_slice_alloc:
  * @block_size: the number of bytes to allocate
@@ -25355,6 +26799,7 @@
  */
 
 
+/* glib/gslice.c:1025 */
 /**
  * g_slice_alloc0:
  * @block_size: the number of bytes to allocate
@@ -25370,6 +26815,7 @@
  */
 
 
+/* glib/gslice.c:1048 */
 /**
  * g_slice_copy:
  * @block_size: the number of bytes to allocate
@@ -25383,6 +26829,7 @@
  */
 
 
+/* glib/gslice.c:905 */
 /**
  * g_slice_dup:
  * @type: the type to duplicate, typically a structure name
@@ -25403,6 +26850,7 @@
  */
 
 
+/* glib/gslice.c:925 */
 /**
  * g_slice_free:
  * @type: the type of the block to free, typically a structure name
@@ -25422,6 +26870,7 @@
  */
 
 
+/* glib/gslice.c:1070 */
 /**
  * g_slice_free1:
  * @block_size: the size of the block
@@ -25441,6 +26890,7 @@
  */
 
 
+/* glib/gslice.c:943 */
 /**
  * g_slice_free_chain:
  * @type: the type of the @mem_chain blocks
@@ -25461,6 +26911,7 @@
  */
 
 
+/* glib/gslice.c:1129 */
 /**
  * g_slice_free_chain_with_offset:
  * @block_size: the size of the blocks
@@ -25482,6 +26933,7 @@
  */
 
 
+/* glib/gslice.c:869 */
 /**
  * g_slice_new:
  * @type: the type to allocate, typically a structure name
@@ -25501,6 +26953,7 @@
  */
 
 
+/* glib/gslice.c:888 */
 /**
  * g_slice_new0:
  * @type: the type to allocate, typically a structure name
@@ -25519,6 +26972,7 @@
  */
 
 
+/* glib/gslist.c:111 */
 /**
  * g_slist_alloc:
  *
@@ -25530,6 +26984,7 @@
  */
 
 
+/* glib/gslist.c:183 */
 /**
  * g_slist_append:
  * @list: a #GSList
@@ -25566,6 +27021,7 @@
  */
 
 
+/* glib/gslist.c:375 */
 /**
  * g_slist_concat:
  * @list1: a #GSList
@@ -25579,6 +27035,7 @@
  */
 
 
+/* glib/gslist.c:562 */
 /**
  * g_slist_copy:
  * @list: a #GSList
@@ -25596,6 +27053,7 @@
  */
 
 
+/* glib/gslist.c:583 */
 /**
  * g_slist_copy_deep:
  * @list: a #GSList
@@ -25626,6 +27084,7 @@
  */
 
 
+/* glib/gslist.c:535 */
 /**
  * g_slist_delete_link:
  * @list: a #GSList
@@ -25645,6 +27104,7 @@
  */
 
 
+/* glib/gslist.c:710 */
 /**
  * g_slist_find:
  * @list: a #GSList
@@ -25658,6 +27118,7 @@
  */
 
 
+/* glib/gslist.c:736 */
 /**
  * g_slist_find_custom:
  * @list: a #GSList
@@ -25676,6 +27137,7 @@
  */
 
 
+/* glib/gslist.c:880 */
 /**
  * g_slist_foreach:
  * @list: a #GSList
@@ -25686,6 +27148,7 @@
  */
 
 
+/* glib/gslist.c:126 */
 /**
  * g_slist_free:
  * @list: a #GSList
@@ -25701,6 +27164,7 @@
  */
 
 
+/* glib/gslist.c:152 */
 /**
  * g_slist_free1:
  *
@@ -25710,6 +27174,7 @@
  */
 
 
+/* glib/gslist.c:145 */
 /**
  * g_slist_free_1:
  * @list: a #GSList element
@@ -25719,6 +27184,7 @@
  */
 
 
+/* glib/gslist.c:165 */
 /**
  * g_slist_free_full:
  * @list: a pointer to a #GSList
@@ -25731,6 +27197,7 @@
  */
 
 
+/* glib/gslist.c:798 */
 /**
  * g_slist_index:
  * @list: a #GSList
@@ -25744,6 +27211,7 @@
  */
 
 
+/* glib/gslist.c:274 */
 /**
  * g_slist_insert:
  * @list: a #GSList
@@ -25759,6 +27227,7 @@
  */
 
 
+/* glib/gslist.c:325 */
 /**
  * g_slist_insert_before:
  * @slist: a #GSList
@@ -25771,6 +27240,7 @@
  */
 
 
+/* glib/gslist.c:955 */
 /**
  * g_slist_insert_sorted:
  * @list: a #GSList
@@ -25786,6 +27256,7 @@
  */
 
 
+/* glib/gslist.c:976 */
 /**
  * g_slist_insert_sorted_with_data:
  * @list: a #GSList
@@ -25803,6 +27274,7 @@
  */
 
 
+/* glib/gslist.c:827 */
 /**
  * g_slist_last:
  * @list: a #GSList
@@ -25818,6 +27290,7 @@
  */
 
 
+/* glib/gslist.c:852 */
 /**
  * g_slist_length:
  * @list: a #GSList
@@ -25833,6 +27306,7 @@
  */
 
 
+/* glib/gslist.c:98 */
 /**
  * g_slist_next:
  * @slist: an element in a #GSList.
@@ -25843,6 +27317,7 @@
  */
 
 
+/* glib/gslist.c:670 */
 /**
  * g_slist_nth:
  * @list: a #GSList
@@ -25855,6 +27330,7 @@
  */
 
 
+/* glib/gslist.c:690 */
 /**
  * g_slist_nth_data:
  * @list: a #GSList
@@ -25867,6 +27343,7 @@
  */
 
 
+/* glib/gslist.c:769 */
 /**
  * g_slist_position:
  * @list: a #GSList
@@ -25880,6 +27357,7 @@
  */
 
 
+/* glib/gslist.c:240 */
 /**
  * g_slist_prepend:
  * @list: a #GSList
@@ -25903,6 +27381,7 @@
  */
 
 
+/* glib/gslist.c:400 */
 /**
  * g_slist_remove:
  * @list: a #GSList
@@ -25916,6 +27395,7 @@
  */
 
 
+/* glib/gslist.c:437 */
 /**
  * g_slist_remove_all:
  * @list: a #GSList
@@ -25930,6 +27410,7 @@
  */
 
 
+/* glib/gslist.c:510 */
 /**
  * g_slist_remove_link:
  * @list: a #GSList
@@ -25950,6 +27431,7 @@
  */
 
 
+/* glib/gslist.c:644 */
 /**
  * g_slist_reverse:
  * @list: a #GSList
@@ -25960,6 +27442,7 @@
  */
 
 
+/* glib/gslist.c:1062 */
 /**
  * g_slist_sort:
  * @list: a #GSList
@@ -25975,6 +27458,7 @@
  */
 
 
+/* glib/gslist.c:1082 */
 /**
  * g_slist_sort_with_data:
  * @list: a #GSList
@@ -25987,6 +27471,7 @@
  */
 
 
+/* glib/gprintf.c:122 */
 /**
  * g_snprintf:
  * @string: the buffer to hold the output.
@@ -26019,6 +27504,7 @@
  */
 
 
+/* glib/gmain.c:1386 */
 /**
  * g_source_add_child_source:
  * @source: a #GSource
@@ -26043,6 +27529,7 @@
  */
 
 
+/* glib/gmain.c:1312 */
 /**
  * g_source_add_poll:
  * @source: a #GSource
@@ -26061,6 +27548,7 @@
  */
 
 
+/* glib/gmain.c:2263 */
 /**
  * g_source_add_unix_fd:
  * @source: a #GSource
@@ -26083,6 +27571,7 @@
  */
 
 
+/* glib/gmain.c:1145 */
 /**
  * g_source_attach:
  * @source: a #GSource
@@ -26096,6 +27585,7 @@
  */
 
 
+/* glib/gmain.c:1238 */
 /**
  * g_source_destroy:
  * @source: a #GSource
@@ -26106,6 +27596,7 @@
  */
 
 
+/* glib/gmain.c:1834 */
 /**
  * g_source_get_can_recurse:
  * @source: a #GSource
@@ -26117,6 +27608,7 @@
  */
 
 
+/* glib/gmain.c:1287 */
 /**
  * g_source_get_context:
  * @source: a #GSource
@@ -26136,6 +27628,7 @@
  */
 
 
+/* glib/gmain.c:4190 */
 /**
  * g_source_get_current_time:
  * @source: a #GSource
@@ -26148,6 +27641,7 @@
  */
 
 
+/* glib/gmain.c:1261 */
 /**
  * g_source_get_id:
  * @source: a #GSource
@@ -26161,6 +27655,7 @@
  */
 
 
+/* glib/gmain.c:1886 */
 /**
  * g_source_get_name:
  * @source: a #GSource
@@ -26174,6 +27669,7 @@
  */
 
 
+/* glib/gmain.c:1713 */
 /**
  * g_source_get_priority:
  * @source: a #GSource
@@ -26184,6 +27680,7 @@
  */
 
 
+/* glib/gmain.c:1782 */
 /**
  * g_source_get_ready_time:
  * @source: a #GSource
@@ -26198,6 +27695,7 @@
  */
 
 
+/* glib/gmain.c:4207 */
 /**
  * g_source_get_time:
  * @source: a #GSource
@@ -26215,6 +27713,7 @@
  */
 
 
+/* glib/gmain.c:2859 */
 /**
  * g_source_is_destroyed:
  * @source: a #GSource
@@ -26285,6 +27784,7 @@
  */
 
 
+/* glib/gmain.c:2317 */
 /**
  * g_source_modify_unix_fd:
  * @source: a #GSource
@@ -26304,6 +27804,7 @@
  */
 
 
+/* glib/gmain.c:829 */
 /**
  * g_source_new:
  * @source_funcs: structure containing functions that implement
@@ -26323,6 +27824,7 @@
  */
 
 
+/* glib/gmain.c:2398 */
 /**
  * g_source_query_unix_fd:
  * @source: a #GSource
@@ -26341,6 +27843,7 @@
  */
 
 
+/* glib/gmain.c:1933 */
 /**
  * g_source_ref:
  * @source: a #GSource
@@ -26351,6 +27854,7 @@
  */
 
 
+/* glib/gmain.c:2178 */
 /**
  * g_source_remove:
  * @tag: the ID of the source to remove.
@@ -26369,6 +27873,7 @@
  */
 
 
+/* glib/gmain.c:2233 */
 /**
  * g_source_remove_by_funcs_user_data:
  * @funcs: The @source_funcs passed to g_source_new()
@@ -26382,6 +27887,7 @@
  */
 
 
+/* glib/gmain.c:2208 */
 /**
  * g_source_remove_by_user_data:
  * @user_data: the user_data for the callback.
@@ -26394,6 +27900,7 @@
  */
 
 
+/* glib/gmain.c:1454 */
 /**
  * g_source_remove_child_source:
  * @source: a #GSource
@@ -26406,6 +27913,7 @@
  */
 
 
+/* glib/gmain.c:1353 */
 /**
  * g_source_remove_poll:
  * @source: a #GSource
@@ -26416,6 +27924,7 @@
  */
 
 
+/* glib/gmain.c:2354 */
 /**
  * g_source_remove_unix_fd:
  * @source: a #GSource
@@ -26433,6 +27942,7 @@
  */
 
 
+/* glib/gmain.c:1572 */
 /**
  * g_source_set_callback:
  * @source: the source
@@ -26452,6 +27962,7 @@
  */
 
 
+/* glib/gmain.c:1487 */
 /**
  * g_source_set_callback_indirect:
  * @source: the source
@@ -26468,6 +27979,7 @@
  */
 
 
+/* glib/gmain.c:1802 */
 /**
  * g_source_set_can_recurse:
  * @source: a #GSource
@@ -26480,6 +27992,7 @@
  */
 
 
+/* glib/gmain.c:1610 */
 /**
  * g_source_set_funcs:
  * @source: a #GSource
@@ -26492,6 +28005,7 @@
  */
 
 
+/* glib/gmain.c:1852 */
 /**
  * g_source_set_name:
  * @source: a #GSource
@@ -26513,6 +28027,7 @@
  */
 
 
+/* glib/gmain.c:1905 */
 /**
  * g_source_set_name_by_id:
  * @tag: a #GSource ID
@@ -26527,6 +28042,7 @@
  */
 
 
+/* glib/gmain.c:1686 */
 /**
  * g_source_set_priority:
  * @source: a #GSource
@@ -26539,6 +28055,7 @@
  */
 
 
+/* glib/gmain.c:1729 */
 /**
  * g_source_set_ready_time:
  * @source: a #GSource
@@ -26566,6 +28083,7 @@
  */
 
 
+/* glib/gmain.c:2030 */
 /**
  * g_source_unref:
  * @source: a #GSource
@@ -26576,6 +28094,7 @@
  */
 
 
+/* glib/gprimes.c:74 */
 /**
  * g_spaced_primes_closest:
  * @num: a #guint
@@ -26592,6 +28111,7 @@
  */
 
 
+/* glib/gspawn.c:96 */
 /**
  * g_spawn_async:
  * @working_directory: (allow-none): child's current working directory, or %NULL to inherit parent's
@@ -26625,6 +28145,7 @@
  */
 
 
+/* glib/gspawn.c:460 */
 /**
  * g_spawn_async_with_pipes:
  * @working_directory: (allow-none): child's current working directory, or %NULL to inherit parent's, in the GLib file name encoding
@@ -26806,6 +28327,7 @@
  */
 
 
+/* glib/gspawn.c:790 */
 /**
  * g_spawn_check_exit_status:
  * @exit_status: An exit code as returned from g_spawn_sync()
@@ -26856,6 +28378,7 @@
  */
 
 
+/* glib/gspawn.c:1827 */
 /**
  * g_spawn_close_pid:
  * @pid: The process reference to close
@@ -26867,6 +28390,7 @@
  */
 
 
+/* glib/gspawn.c:746 */
 /**
  * g_spawn_command_line_async:
  * @command_line: a command line
@@ -26886,6 +28410,7 @@
  */
 
 
+/* glib/gspawn.c:681 */
 /**
  * g_spawn_command_line_sync:
  * @command_line: a command line
@@ -26921,6 +28446,7 @@
  */
 
 
+/* glib/gspawn.c:209 */
 /**
  * g_spawn_sync:
  * @working_directory: (allow-none): child's current working directory, or %NULL to inherit parent's
@@ -26957,6 +28483,7 @@
  */
 
 
+/* glib/gprintf.c:86 */
 /**
  * g_sprintf:
  * @string: A pointer to a memory buffer to contain the resulting string. It
@@ -26979,6 +28506,7 @@
  */
 
 
+/* glib/gstdio.c:440 */
 /**
  * g_stat:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -27013,6 +28541,7 @@
  */
 
 
+/* glib/gstrfuncs.c:461 */
 /**
  * g_stpcpy:
  * @dest: destination buffer.
@@ -27027,6 +28556,7 @@
  */
 
 
+/* glib/ghash.c:1683 */
 /**
  * g_str_equal:
  * @v1: a key
@@ -27045,6 +28575,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2777 */
 /**
  * g_str_has_prefix:
  * @str: a nul-terminated string
@@ -27057,6 +28588,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2747 */
 /**
  * g_str_has_suffix:
  * @str: a nul-terminated string
@@ -27069,6 +28601,7 @@
  */
 
 
+/* glib/ghash.c:1709 */
 /**
  * g_str_hash:
  * @v: a string key
@@ -27088,6 +28621,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1954 */
 /**
  * g_strcanon:
  * @string: a nul-terminated array of bytes
@@ -27106,6 +28640,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1808 */
 /**
  * g_strcasecmp:
  * @s1: a string.
@@ -27121,6 +28656,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2200 */
 /**
  * g_strchomp:
  * @string: a string to remove the trailing whitespace from
@@ -27137,6 +28673,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2170 */
 /**
  * g_strchug:
  * @string: a string to remove the leading whitespace from
@@ -27154,6 +28691,7 @@
  */
 
 
+/* glib/gtestutils.c:2378 */
 /**
  * g_strcmp0:
  * @str1: (allow-none): a C string or %NULL
@@ -27168,6 +28706,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1989 */
 /**
  * g_strcompress:
  * @source: a string to compress
@@ -27181,6 +28720,7 @@
  */
 
 
+/* glib/gstrfuncs.c:549 */
 /**
  * g_strconcat:
  * @string1: the first string to add, which must not be %NULL
@@ -27201,6 +28741,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1915 */
 /**
  * g_strdelimit:
  * @string: the string to convert
@@ -27221,6 +28762,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1527 */
 /**
  * g_strdown:
  * @string: the string to convert.
@@ -27234,6 +28776,7 @@
  */
 
 
+/* glib/gstrfuncs.c:345 */
 /**
  * g_strdup:
  * @str: the string to duplicate
@@ -27246,6 +28789,7 @@
  */
 
 
+/* glib/gstrfuncs.c:522 */
 /**
  * g_strdup_printf:
  * @format: a standard printf() format string, but notice
@@ -27261,6 +28805,7 @@
  */
 
 
+/* glib/gstrfuncs.c:495 */
 /**
  * g_strdup_vprintf:
  * @format: a standard printf() format string, but notice
@@ -27279,6 +28824,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2427 */
 /**
  * g_strdupv:
  * @str_array: a %NULL-terminated array of strings
@@ -27292,6 +28838,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1234 */
 /**
  * g_strerror:
  * @errnum: the system error number. See the standard C %errno
@@ -27307,6 +28854,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2067 */
 /**
  * g_strescape:
  * @source: a string to escape
@@ -27326,6 +28874,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2406 */
 /**
  * g_strfreev:
  * @str_array: a %NULL-terminated array of strings to free
@@ -27335,6 +28884,7 @@
  */
 
 
+/* glib/gstring.c:586 */
 /**
  * g_string_append:
  * @string: a #GString
@@ -27347,6 +28897,7 @@
  */
 
 
+/* glib/gstring.c:633 */
 /**
  * g_string_append_c:
  * @string: a #GString
@@ -27359,6 +28910,7 @@
  */
 
 
+/* glib/gstring.c:606 */
 /**
  * g_string_append_len:
  * @string: a #GString
@@ -27377,6 +28929,7 @@
  */
 
 
+/* glib/gstring.c:1250 */
 /**
  * g_string_append_printf:
  * @string: a #GString
@@ -27389,6 +28942,7 @@
  */
 
 
+/* glib/gstring.c:653 */
 /**
  * g_string_append_unichar:
  * @string: a #GString
@@ -27401,6 +28955,7 @@
  */
 
 
+/* glib/gstring.c:530 */
 /**
  * g_string_append_uri_escaped:
  * @string: a #GString
@@ -27417,6 +28972,7 @@
  */
 
 
+/* glib/gstring.c:1140 */
 /**
  * g_string_append_vprintf:
  * @string: a #GString
@@ -27432,6 +28988,7 @@
  */
 
 
+/* glib/gstring.c:1010 */
 /**
  * g_string_ascii_down:
  * @string: a GString
@@ -27444,6 +29001,7 @@
  */
 
 
+/* glib/gstring.c:1041 */
 /**
  * g_string_ascii_up:
  * @string: a GString
@@ -27456,6 +29014,7 @@
  */
 
 
+/* glib/gstring.c:326 */
 /**
  * g_string_assign:
  * @string: the destination #GString. Its current contents
@@ -27471,6 +29030,7 @@
  */
 
 
+/* glib/gstringchunk.c:165 */
 /**
  * g_string_chunk_clear:
  * @chunk: a #GStringChunk
@@ -27483,6 +29043,7 @@
  */
 
 
+/* glib/gstringchunk.c:136 */
 /**
  * g_string_chunk_free:
  * @chunk: a #GStringChunk
@@ -27493,6 +29054,7 @@
  */
 
 
+/* glib/gstringchunk.c:198 */
 /**
  * g_string_chunk_insert:
  * @chunk: a #GStringChunk
@@ -27515,6 +29077,7 @@
  */
 
 
+/* glib/gstringchunk.c:227 */
 /**
  * g_string_chunk_insert_const:
  * @chunk: a #GStringChunk
@@ -27539,6 +29102,7 @@
  */
 
 
+/* glib/gstringchunk.c:271 */
 /**
  * g_string_chunk_insert_len:
  * @chunk: a #GStringChunk
@@ -27561,6 +29125,7 @@
  */
 
 
+/* glib/gstringchunk.c:108 */
 /**
  * g_string_chunk_new:
  * @size: the default size of the blocks of memory which are
@@ -27574,6 +29139,7 @@
  */
 
 
+/* glib/gstring.c:1072 */
 /**
  * g_string_down:
  * @string: a #GString
@@ -27587,6 +29153,7 @@
  */
 
 
+/* glib/gstring.c:265 */
 /**
  * g_string_equal:
  * @v: a #GString
@@ -27600,6 +29167,7 @@
  */
 
 
+/* glib/gstring.c:972 */
 /**
  * g_string_erase:
  * @string: a #GString
@@ -27614,6 +29182,7 @@
  */
 
 
+/* glib/gstring.c:200 */
 /**
  * g_string_free:
  * @string: a #GString
@@ -27629,6 +29198,7 @@
  */
 
 
+/* glib/gstring.c:234 */
 /**
  * g_string_free_to_bytes:
  * @string: (transfer full): a #GString
@@ -27647,6 +29217,7 @@
  */
 
 
+/* glib/gstring.c:301 */
 /**
  * g_string_hash:
  * @str: a string to hash
@@ -27657,6 +29228,7 @@
  */
 
 
+/* glib/gstring.c:757 */
 /**
  * g_string_insert:
  * @string: a #GString
@@ -27670,6 +29242,7 @@
  */
 
 
+/* glib/gstring.c:782 */
 /**
  * g_string_insert_c:
  * @string: a #GString
@@ -27682,6 +29255,7 @@
  */
 
 
+/* glib/gstring.c:408 */
 /**
  * g_string_insert_len:
  * @string: a #GString
@@ -27703,6 +29277,7 @@
  */
 
 
+/* glib/gstring.c:819 */
 /**
  * g_string_insert_unichar:
  * @string: a #GString
@@ -27717,6 +29292,7 @@
  */
 
 
+/* glib/gstring.c:138 */
 /**
  * g_string_new:
  * @init: the initial text to copy into the string
@@ -27727,6 +29303,7 @@
  */
 
 
+/* glib/gstring.c:166 */
 /**
  * g_string_new_len:
  * @init: initial contents of the string
@@ -27744,6 +29321,7 @@
  */
 
 
+/* glib/gstring.c:902 */
 /**
  * g_string_overwrite:
  * @string: a #GString
@@ -27757,6 +29335,7 @@
  */
 
 
+/* glib/gstring.c:923 */
 /**
  * g_string_overwrite_len:
  * @string: a #GString
@@ -27772,6 +29351,7 @@
  */
 
 
+/* glib/gstring.c:672 */
 /**
  * g_string_prepend:
  * @string: a #GString
@@ -27784,6 +29364,7 @@
  */
 
 
+/* glib/gstring.c:719 */
 /**
  * g_string_prepend_c:
  * @string: a #GString
@@ -27796,6 +29377,7 @@
  */
 
 
+/* glib/gstring.c:692 */
 /**
  * g_string_prepend_len:
  * @string: a #GString
@@ -27814,6 +29396,7 @@
  */
 
 
+/* glib/gstring.c:738 */
 /**
  * g_string_prepend_unichar:
  * @string: a #GString
@@ -27826,6 +29409,7 @@
  */
 
 
+/* glib/gstring.c:1211 */
 /**
  * g_string_printf:
  * @string: a #GString
@@ -27840,6 +29424,7 @@
  */
 
 
+/* glib/gstring.c:380 */
 /**
  * g_string_set_size:
  * @string: a #GString
@@ -27855,6 +29440,7 @@
  */
 
 
+/* glib/gstring.c:111 */
 /**
  * g_string_sized_new:
  * @dfl_size: the default size of the space allocated to
@@ -27869,6 +29455,7 @@
  */
 
 
+/* glib/gstring.c:1196 */
 /**
  * g_string_sprintf:
  * @string: a #GString
@@ -27885,6 +29472,7 @@
  */
 
 
+/* glib/gstring.c:1237 */
 /**
  * g_string_sprintfa:
  * @string: a #GString
@@ -27899,6 +29487,7 @@
  */
 
 
+/* glib/gstring.c:359 */
 /**
  * g_string_truncate:
  * @string: a #GString
@@ -27910,6 +29499,7 @@
  */
 
 
+/* glib/gstring.c:1106 */
 /**
  * g_string_up:
  * @string: a #GString
@@ -27923,6 +29513,7 @@
  */
 
 
+/* glib/gstring.c:1175 */
 /**
  * g_string_vprintf:
  * @string: a #GString
@@ -27937,6 +29528,7 @@
  */
 
 
+/* glib/ggettext.c:160 */
 /**
  * g_strip_context:
  * @msgid: a string
@@ -27951,6 +29543,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2518 */
 /**
  * g_strjoin:
  * @separator: (allow-none): a string to insert between each of the strings, or %NULL
@@ -27965,6 +29558,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2466 */
 /**
  * g_strjoinv:
  * @separator: (allow-none): a string to insert between each of the strings, or %NULL
@@ -27979,6 +29573,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1402 */
 /**
  * g_strlcat:
  * @dest: destination buffer, already containing one nul-terminated string
@@ -28007,6 +29602,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1343 */
 /**
  * g_strlcpy:
  * @dest: destination buffer
@@ -28032,6 +29628,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1853 */
 /**
  * g_strncasecmp:
  * @s1: a string.
@@ -28062,6 +29659,7 @@
  */
 
 
+/* glib/gstrfuncs.c:401 */
 /**
  * g_strndup:
  * @str: the string to duplicate
@@ -28083,6 +29681,7 @@
  */
 
 
+/* glib/gstrfuncs.c:438 */
 /**
  * g_strnfill:
  * @length: the length of the new string
@@ -28095,6 +29694,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1588 */
 /**
  * g_strreverse:
  * @string: the string to reverse
@@ -28111,6 +29711,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2643 */
 /**
  * g_strrstr:
  * @haystack: a nul-terminated string
@@ -28124,6 +29725,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2692 */
 /**
  * g_strrstr_len:
  * @haystack: a nul-terminated string
@@ -28139,6 +29741,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1276 */
 /**
  * g_strsignal:
  * @signum: the signal number. See the <literal>signal</literal>
@@ -28154,6 +29757,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2233 */
 /**
  * g_strsplit:
  * @string: a string to split
@@ -28179,6 +29783,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2308 */
 /**
  * g_strsplit_set:
  * @string: The string to be tokenized
@@ -28215,6 +29820,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2587 */
 /**
  * g_strstr_len:
  * @haystack: a string
@@ -28232,6 +29838,7 @@
  */
 
 
+/* glib/gstrfuncs.c:282 */
 /**
  * g_strstrip:
  * @string: a string to remove the leading and trailing whitespace from
@@ -28243,6 +29850,7 @@
  */
 
 
+/* glib/gstrfuncs.c:605 */
 /**
  * g_strtod:
  * @nptr: the string to convert to a numeric value.
@@ -28265,6 +29873,7 @@
  */
 
 
+/* glib/gstrfuncs.c:1558 */
 /**
  * g_strup:
  * @string: the string to convert.
@@ -28277,6 +29886,7 @@
  */
 
 
+/* glib/gstrfuncs.c:2807 */
 /**
  * g_strv_length:
  * @str_array: a %NULL-terminated array of strings
@@ -28289,6 +29899,7 @@
  */
 
 
+/* glib/gtestutils.c:3301 */
 /**
  * g_test_add:
  * @testpath: The test path for a new test case.
@@ -28309,6 +29920,7 @@
  */
 
 
+/* glib/gtestutils.c:1813 */
 /**
  * g_test_add_data_func:
  * @testpath: /-separated test case path name for the test.
@@ -28330,6 +29942,7 @@
  */
 
 
+/* glib/gtestutils.c:1844 */
 /**
  * g_test_add_data_func_full:
  * @testpath: /-separated test case path name for the test.
@@ -28344,6 +29957,7 @@
  */
 
 
+/* glib/gtestutils.c:1776 */
 /**
  * g_test_add_func:
  * @testpath: /-separated test case path name for the test.
@@ -28363,6 +29977,7 @@
  */
 
 
+/* glib/gmessages.c:1159 */
 /**
  * g_test_assert_expected_messages:
  *
@@ -28373,6 +29988,7 @@
  */
 
 
+/* glib/gtestutils.c:1436 */
 /**
  * g_test_bug:
  * @bug_uri_snippet: Bug specific bug tracker URI portion.
@@ -28386,6 +30002,7 @@
  */
 
 
+/* glib/gtestutils.c:1411 */
 /**
  * g_test_bug_base:
  * @uri_pattern: the base pattern for bug URIs
@@ -28406,6 +30023,7 @@
  */
 
 
+/* glib/gtestutils.c:3151 */
 /**
  * g_test_build_filename:
  * @file_type: the type of file (built vs. distributed)
@@ -28440,6 +30058,7 @@
  */
 
 
+/* glib/gtestutils.c:1511 */
 /**
  * g_test_create_case:
  * @test_name: the name for the test case
@@ -28469,6 +30088,7 @@
  */
 
 
+/* glib/gtestutils.c:1906 */
 /**
  * g_test_create_suite:
  * @suite_name: a name for the suite
@@ -28480,6 +30100,7 @@
  */
 
 
+/* glib/gmessages.c:1081 */
 /**
  * g_test_expect_message:
  * @log_domain: (allow-none): the log domain of the message
@@ -28520,6 +30141,7 @@
  */
 
 
+/* glib/gtestutils.c:1646 */
 /**
  * g_test_fail:
  *
@@ -28541,6 +30163,7 @@
  */
 
 
+/* glib/gtestutils.c:1719 */
 /**
  * g_test_failed:
  *
@@ -28560,6 +30183,7 @@
  */
 
 
+/* glib/gtestutils.c:3225 */
 /**
  * g_test_get_dir:
  * @file_type: the type of file (built vs. distributed)
@@ -28575,6 +30199,7 @@
  */
 
 
+/* glib/gtestutils.c:3252 */
 /**
  * g_test_get_filename:
  * @file_type: the type of file (built vs. distributed)
@@ -28599,6 +30224,7 @@
  */
 
 
+/* glib/gtestutils.c:1468 */
 /**
  * g_test_get_root:
  *
@@ -28609,6 +30235,7 @@
  */
 
 
+/* glib/gtestutils.c:1671 */
 /**
  * g_test_incomplete:
  * @msg: (allow-none): explanation
@@ -28628,6 +30255,7 @@
  */
 
 
+/* glib/gtestutils.c:1002 */
 /**
  * g_test_init:
  * @argc: Address of the @argc parameter of the main() function.
@@ -28720,6 +30348,7 @@
  */
 
 
+/* glib/gtestutils.c:116 */
 /**
  * g_test_initialized:
  *
@@ -28730,6 +30359,7 @@
  */
 
 
+/* glib/gtestutils.c:3052 */
 /**
  * g_test_log_buffer_free:
  *
@@ -28737,6 +30367,7 @@
  */
 
 
+/* glib/gtestutils.c:3039 */
 /**
  * g_test_log_buffer_new:
  *
@@ -28744,6 +30375,7 @@
  */
 
 
+/* glib/gtestutils.c:3089 */
 /**
  * g_test_log_buffer_pop:
  *
@@ -28751,6 +30383,7 @@
  */
 
 
+/* glib/gtestutils.c:3067 */
 /**
  * g_test_log_buffer_push:
  *
@@ -28758,6 +30391,7 @@
  */
 
 
+/* glib/gtestutils.c:3108 */
 /**
  * g_test_log_msg_free:
  *
@@ -28765,6 +30399,7 @@
  */
 
 
+/* glib/gmessages.c:577 */
 /**
  * g_test_log_set_fatal_handler:
  * @log_func: the log handler function.
@@ -28790,6 +30425,7 @@
  */
 
 
+/* glib/gtestutils.c:1356 */
 /**
  * g_test_maximized_result:
  * @maximized_quantity: the reported value
@@ -28806,6 +30442,7 @@
  */
 
 
+/* glib/gtestutils.c:1387 */
 /**
  * g_test_message:
  * @format: the format string
@@ -28817,6 +30454,7 @@
  */
 
 
+/* glib/gtestutils.c:1325 */
 /**
  * g_test_minimized_result:
  * @minimized_quantity: the reported value
@@ -28833,6 +30471,7 @@
  */
 
 
+/* glib/gtestutils.c:155 */
 /**
  * g_test_perf:
  *
@@ -28842,6 +30481,7 @@
  */
 
 
+/* glib/gtestutils.c:1983 */
 /**
  * g_test_queue_destroy:
  * @destroy_func: Destroy callback for teardown phase.
@@ -28858,6 +30498,7 @@
  */
 
 
+/* glib/gtestutils.c:1966 */
 /**
  * g_test_queue_free:
  * @gfree_pointer: the pointer to be stored.
@@ -28870,6 +30511,7 @@
  */
 
 
+/* glib/gtestutils.c:191 */
 /**
  * g_test_queue_unref:
  * @gobject: the object to unref
@@ -28882,6 +30524,7 @@
  */
 
 
+/* glib/gtestutils.c:126 */
 /**
  * g_test_quick:
  *
@@ -28893,6 +30536,7 @@
  */
 
 
+/* glib/gtestutils.c:182 */
 /**
  * g_test_quiet:
  *
@@ -28903,6 +30547,7 @@
  */
 
 
+/* glib/gtestutils.c:319 */
 /**
  * g_test_rand_bit:
  *
@@ -28913,6 +30558,7 @@
  */
 
 
+/* glib/gtestutils.c:1242 */
 /**
  * g_test_rand_double:
  *
@@ -28924,6 +30570,7 @@
  */
 
 
+/* glib/gtestutils.c:1258 */
 /**
  * g_test_rand_double_range:
  * @range_start: the minimum value returned by this function
@@ -28937,6 +30584,7 @@
  */
 
 
+/* glib/gtestutils.c:1200 */
 /**
  * g_test_rand_int:
  *
@@ -28955,6 +30603,7 @@
  */
 
 
+/* glib/gtestutils.c:1223 */
 /**
  * g_test_rand_int_range:
  * @begin: the minimum value returned by this function
@@ -28968,6 +30617,7 @@
  */
 
 
+/* glib/gtestutils.c:1490 */
 /**
  * g_test_run:
  *
@@ -28984,6 +30634,7 @@
  */
 
 
+/* glib/gtestutils.c:2149 */
 /**
  * g_test_run_suite:
  * @suite: a #GTestSuite
@@ -29000,6 +30651,7 @@
  */
 
 
+/* glib/gtestutils.c:1743 */
 /**
  * g_test_set_nonfatal_assertions:
  *
@@ -29019,6 +30671,7 @@
  */
 
 
+/* glib/gtestutils.c:1696 */
 /**
  * g_test_skip:
  * @msg: (allow-none): explanation
@@ -29036,6 +30689,7 @@
  */
 
 
+/* glib/gtestutils.c:136 */
 /**
  * g_test_slow:
  *
@@ -29047,6 +30701,7 @@
  */
 
 
+/* glib/gtestutils.c:2823 */
 /**
  * g_test_subprocess:
  *
@@ -29059,6 +30714,7 @@
  */
 
 
+/* glib/gtestutils.c:1928 */
 /**
  * g_test_suite_add:
  * @suite: a #GTestSuite
@@ -29070,6 +30726,7 @@
  */
 
 
+/* glib/gtestutils.c:1947 */
 /**
  * g_test_suite_add_suite:
  * @suite: a #GTestSuite
@@ -29081,6 +30738,7 @@
  */
 
 
+/* glib/gtestutils.c:146 */
 /**
  * g_test_thorough:
  *
@@ -29091,6 +30749,7 @@
  */
 
 
+/* glib/gtestutils.c:1294 */
 /**
  * g_test_timer_elapsed:
  *
@@ -29101,6 +30760,7 @@
  */
 
 
+/* glib/gtestutils.c:1310 */
 /**
  * g_test_timer_last:
  *
@@ -29111,6 +30771,7 @@
  */
 
 
+/* glib/gtestutils.c:1277 */
 /**
  * g_test_timer_start:
  *
@@ -29121,6 +30782,7 @@
  */
 
 
+/* glib/gtestutils.c:253 */
 /**
  * g_test_trap_assert_failed:
  *
@@ -29137,6 +30799,7 @@
  */
 
 
+/* glib/gtestutils.c:244 */
 /**
  * g_test_trap_assert_passed:
  *
@@ -29147,6 +30810,7 @@
  */
 
 
+/* glib/gtestutils.c:290 */
 /**
  * g_test_trap_assert_stderr:
  * @serrpattern: a glob-style
@@ -29166,6 +30830,7 @@
  */
 
 
+/* glib/gtestutils.c:308 */
 /**
  * g_test_trap_assert_stderr_unmatched:
  * @serrpattern: a glob-style
@@ -29178,6 +30843,7 @@
  */
 
 
+/* glib/gtestutils.c:268 */
 /**
  * g_test_trap_assert_stdout:
  * @soutpattern: a glob-style
@@ -29190,6 +30856,7 @@
  */
 
 
+/* glib/gtestutils.c:279 */
 /**
  * g_test_trap_assert_stdout_unmatched:
  * @soutpattern: a glob-style
@@ -29202,6 +30869,7 @@
  */
 
 
+/* glib/gtestutils.c:2600 */
 /**
  * g_test_trap_fork:
  * @usec_timeout: Timeout for the forked test in micro seconds.
@@ -29244,6 +30912,7 @@
  */
 
 
+/* glib/gtestutils.c:2840 */
 /**
  * g_test_trap_has_passed:
  *
@@ -29254,6 +30923,7 @@
  */
 
 
+/* glib/gtestutils.c:2855 */
 /**
  * g_test_trap_reached_timeout:
  *
@@ -29264,6 +30934,7 @@
  */
 
 
+/* glib/gtestutils.c:2692 */
 /**
  * g_test_trap_subprocess:
  * @test_path: Test to run in a subprocess
@@ -29336,6 +31007,7 @@
  */
 
 
+/* glib/gtestutils.c:163 */
 /**
  * g_test_undefined:
  *
@@ -29347,6 +31019,7 @@
  */
 
 
+/* glib/gtestutils.c:173 */
 /**
  * g_test_verbose:
  *
@@ -29357,6 +31030,7 @@
  */
 
 
+/* glib/gthread.c:899 */
 /**
  * g_thread_exit:
  * @retval: the return value of this thread
@@ -29379,6 +31053,7 @@
  */
 
 
+/* glib/gthread.c:932 */
 /**
  * g_thread_join:
  * @thread: a #GThread
@@ -29404,6 +31079,7 @@
  */
 
 
+/* glib/gthread.c:803 */
 /**
  * g_thread_new:
  * @name: (allow-none): an (optional) name for the new thread
@@ -29431,6 +31107,7 @@
  */
 
 
+/* glib/gthreadpool.c:723 */
 /**
  * g_thread_pool_free:
  * @pool: a #GThreadPool
@@ -29454,6 +31131,7 @@
  */
 
 
+/* glib/gthreadpool.c:997 */
 /**
  * g_thread_pool_get_max_idle_time:
  *
@@ -29471,6 +31149,7 @@
  */
 
 
+/* glib/gthreadpool.c:647 */
 /**
  * g_thread_pool_get_max_threads:
  * @pool: a #GThreadPool
@@ -29481,6 +31160,7 @@
  */
 
 
+/* glib/gthreadpool.c:864 */
 /**
  * g_thread_pool_get_max_unused_threads:
  *
@@ -29490,6 +31170,7 @@
  */
 
 
+/* glib/gthreadpool.c:673 */
 /**
  * g_thread_pool_get_num_threads:
  * @pool: a #GThreadPool
@@ -29500,6 +31181,7 @@
  */
 
 
+/* glib/gthreadpool.c:877 */
 /**
  * g_thread_pool_get_num_unused_threads:
  *
@@ -29509,6 +31191,7 @@
  */
 
 
+/* glib/gthreadpool.c:425 */
 /**
  * g_thread_pool_new:
  * @func: a function to execute in the threads of the new thread pool
@@ -29546,6 +31229,7 @@
  */
 
 
+/* glib/gthreadpool.c:515 */
 /**
  * g_thread_pool_push:
  * @pool: a #GThreadPool
@@ -29571,6 +31255,7 @@
  */
 
 
+/* glib/gthreadpool.c:956 */
 /**
  * g_thread_pool_set_max_idle_time:
  * @interval: the maximum @interval (in milliseconds)
@@ -29590,6 +31275,7 @@
  */
 
 
+/* glib/gthreadpool.c:573 */
 /**
  * g_thread_pool_set_max_threads:
  * @pool: a #GThreadPool
@@ -29622,6 +31308,7 @@
  */
 
 
+/* glib/gthreadpool.c:825 */
 /**
  * g_thread_pool_set_max_unused_threads:
  * @max_threads: maximal number of unused threads
@@ -29634,6 +31321,7 @@
  */
 
 
+/* glib/gthreadpool.c:908 */
 /**
  * g_thread_pool_set_sort_function:
  * @pool: a #GThreadPool
@@ -29659,6 +31347,7 @@
  */
 
 
+/* glib/gthreadpool.c:890 */
 /**
  * g_thread_pool_stop_unused_threads:
  *
@@ -29668,6 +31357,7 @@
  */
 
 
+/* glib/gthreadpool.c:699 */
 /**
  * g_thread_pool_unprocessed:
  * @pool: a #GThreadPool
@@ -29678,6 +31368,7 @@
  */
 
 
+/* glib/gthread.c:722 */
 /**
  * g_thread_ref:
  * @thread: a #GThread
@@ -29689,6 +31380,7 @@
  */
 
 
+/* glib/gthread.c:976 */
 /**
  * g_thread_self:
  *
@@ -29706,6 +31398,7 @@
  */
 
 
+/* glib/gthread.c:496 */
 /**
  * g_thread_supported:
  *
@@ -29719,6 +31412,7 @@
  */
 
 
+/* glib/gthread.c:845 */
 /**
  * g_thread_try_new:
  * @name: (allow-none): an (optional) name for the new thread
@@ -29737,6 +31431,7 @@
  */
 
 
+/* glib/gthread.c:742 */
 /**
  * g_thread_unref:
  * @thread: a #GThread
@@ -29752,6 +31447,7 @@
  */
 
 
+/* glib/gthread-posix.c:1151 */
 /**
  * g_thread_yield:
  *
@@ -29762,6 +31458,7 @@
  */
 
 
+/* glib/gtimer.c:266 */
 /**
  * g_time_val_add:
  * @time_: a #GTimeVal
@@ -29772,6 +31469,7 @@
  */
 
 
+/* glib/gtimer.c:336 */
 /**
  * g_time_val_from_iso8601:
  * @iso_date: an ISO 8601 encoded date string
@@ -29790,6 +31488,7 @@
  */
 
 
+/* glib/gtimer.c:476 */
 /**
  * g_time_val_to_iso8601:
  * @time_: a #GTimeVal
@@ -29820,6 +31519,7 @@
  */
 
 
+/* glib/gtimezone.c:1636 */
 /**
  * g_time_zone_adjust_time:
  * @tz: a #GTimeZone
@@ -29848,6 +31548,7 @@
  */
 
 
+/* glib/gtimezone.c:1727 */
 /**
  * g_time_zone_find_interval:
  * @tz: a #GTimeZone
@@ -29878,6 +31579,7 @@
  */
 
 
+/* glib/gtimezone.c:1800 */
 /**
  * g_time_zone_get_abbreviation:
  * @tz: a #GTimeZone
@@ -29895,6 +31597,7 @@
  */
 
 
+/* glib/gtimezone.c:1825 */
 /**
  * g_time_zone_get_offset:
  * @tz: a #GTimeZone
@@ -29913,6 +31616,7 @@
  */
 
 
+/* glib/gtimezone.c:1851 */
 /**
  * g_time_zone_is_dst:
  * @tz: a #GTimeZone
@@ -29926,6 +31630,7 @@
  */
 
 
+/* glib/gtimezone.c:1299 */
 /**
  * g_time_zone_new:
  * @identifier: (allow-none): a timezone identifier
@@ -30001,6 +31706,7 @@
  */
 
 
+/* glib/gtimezone.c:1487 */
 /**
  * g_time_zone_new_local:
  *
@@ -30020,6 +31726,7 @@
  */
 
 
+/* glib/gtimezone.c:1466 */
 /**
  * g_time_zone_new_utc:
  *
@@ -30036,6 +31743,7 @@
  */
 
 
+/* glib/gtimezone.c:258 */
 /**
  * g_time_zone_ref:
  * @tz: a #GTimeZone
@@ -30047,6 +31755,7 @@
  */
 
 
+/* glib/gtimezone.c:200 */
 /**
  * g_time_zone_unref:
  * @tz: a #GTimeZone
@@ -30057,6 +31766,7 @@
  */
 
 
+/* glib/gmain.c:4569 */
 /**
  * g_timeout_add:
  * @interval: the time between calls to the function, in milliseconds
@@ -30092,6 +31802,7 @@
  */
 
 
+/* glib/gmain.c:4512 */
 /**
  * g_timeout_add_full: (rename-to g_timeout_add)
  * @priority: the priority of the timeout source. Typically this will be in
@@ -30126,6 +31837,7 @@
  */
 
 
+/* glib/gmain.c:4683 */
 /**
  * g_timeout_add_seconds:
  * @interval: the time between calls to the function, in seconds
@@ -30154,6 +31866,7 @@
  */
 
 
+/* glib/gmain.c:4611 */
 /**
  * g_timeout_add_seconds_full: (rename-to g_timeout_add_seconds)
  * @priority: the priority of the timeout source. Typically this will be in
@@ -30202,6 +31915,7 @@
  */
 
 
+/* glib/gmain.c:4450 */
 /**
  * g_timeout_source_new:
  * @interval: the timeout interval in milliseconds.
@@ -30219,6 +31933,7 @@
  */
 
 
+/* glib/gmain.c:4477 */
 /**
  * g_timeout_source_new_seconds:
  * @interval: the timeout interval in seconds
@@ -30240,6 +31955,7 @@
  */
 
 
+/* glib/gtimer.c:170 */
 /**
  * g_timer_continue:
  * @timer: a #GTimer.
@@ -30252,6 +31968,7 @@
  */
 
 
+/* glib/gtimer.c:104 */
 /**
  * g_timer_destroy:
  * @timer: a #GTimer to destroy.
@@ -30260,6 +31977,7 @@
  */
 
 
+/* glib/gtimer.c:202 */
 /**
  * g_timer_elapsed:
  * @timer: a #GTimer.
@@ -30279,6 +31997,7 @@
  */
 
 
+/* glib/gtimer.c:83 */
 /**
  * g_timer_new:
  *
@@ -30289,6 +32008,7 @@
  */
 
 
+/* glib/gtimer.c:154 */
 /**
  * g_timer_reset:
  * @timer: a #GTimer.
@@ -30299,6 +32019,7 @@
  */
 
 
+/* glib/gtimer.c:118 */
 /**
  * g_timer_start:
  * @timer: a #GTimer.
@@ -30310,6 +32031,7 @@
  */
 
 
+/* glib/gtimer.c:137 */
 /**
  * g_timer_stop:
  * @timer: a #GTimer.
@@ -30319,6 +32041,7 @@
  */
 
 
+/* glib/gtrashstack.c:80 */
 /**
  * g_trash_stack_height:
  * @stack_p: a #GTrashStack
@@ -30332,6 +32055,7 @@
  */
 
 
+/* glib/gtrashstack.c:70 */
 /**
  * g_trash_stack_peek:
  * @stack_p: a #GTrashStack
@@ -30343,6 +32067,7 @@
  */
 
 
+/* glib/gtrashstack.c:61 */
 /**
  * g_trash_stack_pop:
  * @stack_p: a #GTrashStack
@@ -30353,6 +32078,7 @@
  */
 
 
+/* glib/gtrashstack.c:53 */
 /**
  * g_trash_stack_push:
  * @stack_p: a #GTrashStack
@@ -30362,6 +32088,7 @@
  */
 
 
+/* glib/gtree.c:349 */
 /**
  * g_tree_destroy:
  * @tree: a #GTree.
@@ -30375,6 +32102,7 @@
  */
 
 
+/* glib/gtree.c:888 */
 /**
  * g_tree_foreach:
  * @tree: a #GTree.
@@ -30393,6 +32121,7 @@
  */
 
 
+/* glib/gtree.c:1038 */
 /**
  * g_tree_height:
  * @tree: a #GTree.
@@ -30407,6 +32136,7 @@
  */
 
 
+/* glib/gtree.c:369 */
 /**
  * g_tree_insert:
  * @tree: a #GTree.
@@ -30424,6 +32154,7 @@
  */
 
 
+/* glib/gtree.c:825 */
 /**
  * g_tree_lookup:
  * @tree: a #GTree.
@@ -30438,6 +32169,7 @@
  */
 
 
+/* glib/gtree.c:850 */
 /**
  * g_tree_lookup_extended:
  * @tree: a #GTree.
@@ -30454,6 +32186,7 @@
  */
 
 
+/* glib/gtree.c:152 */
 /**
  * g_tree_new:
  * @key_compare_func: the function used to order the nodes in the #GTree.
@@ -30468,6 +32201,7 @@
  */
 
 
+/* glib/gtree.c:193 */
 /**
  * g_tree_new_full:
  * @key_compare_func: qsort()-style comparison function.
@@ -30487,6 +32221,7 @@
  */
 
 
+/* glib/gtree.c:173 */
 /**
  * g_tree_new_with_data:
  * @key_compare_func: qsort()-style comparison function.
@@ -30499,6 +32234,7 @@
  */
 
 
+/* glib/gtree.c:1075 */
 /**
  * g_tree_nnodes:
  * @tree: a #GTree.
@@ -30509,6 +32245,7 @@
  */
 
 
+/* glib/gtree.c:303 */
 /**
  * g_tree_ref:
  * @tree: a #GTree.
@@ -30521,6 +32258,7 @@
  */
 
 
+/* glib/gtree.c:557 */
 /**
  * g_tree_remove:
  * @tree: a #GTree.
@@ -30538,6 +32276,7 @@
  */
 
 
+/* glib/gtree.c:398 */
 /**
  * g_tree_replace:
  * @tree: a #GTree.
@@ -30556,6 +32295,7 @@
  */
 
 
+/* glib/gtree.c:1006 */
 /**
  * g_tree_search:
  * @tree: a #GTree
@@ -30577,6 +32317,7 @@
  */
 
 
+/* glib/gtree.c:589 */
 /**
  * g_tree_steal:
  * @tree: a #GTree.
@@ -30592,6 +32333,7 @@
  */
 
 
+/* glib/gtree.c:927 */
 /**
  * g_tree_traverse:
  * @tree: a #GTree.
@@ -30610,6 +32352,7 @@
  */
 
 
+/* glib/gtree.c:324 */
 /**
  * g_tree_unref:
  * @tree: a #GTree.
@@ -30625,6 +32368,7 @@
  */
 
 
+/* glib/gmem.c:240 */
 /**
  * g_try_malloc:
  * @n_bytes: number of bytes to allocate.
@@ -30636,6 +32380,7 @@
  */
 
 
+/* glib/gmem.c:264 */
 /**
  * g_try_malloc0:
  * @n_bytes: number of bytes to allocate
@@ -30648,6 +32393,7 @@
  */
 
 
+/* glib/gmem.c:419 */
 /**
  * g_try_malloc0_n:
  * @n_blocks: the number of blocks to allocate
@@ -30661,6 +32407,7 @@
  */
 
 
+/* glib/gmem.c:398 */
 /**
  * g_try_malloc_n:
  * @n_blocks: the number of blocks to allocate
@@ -30674,6 +32421,7 @@
  */
 
 
+/* glib/gmem.c:290 */
 /**
  * g_try_realloc:
  * @mem: (allow-none): previously-allocated memory, or %NULL.
@@ -30687,6 +32435,7 @@
  */
 
 
+/* glib/gmem.c:440 */
 /**
  * g_try_realloc_n:
  * @mem: (allow-none): previously-allocated memory, or %NULL.
@@ -30701,6 +32450,7 @@
  */
 
 
+/* glib/gutf8.c:1345 */
 /**
  * g_ucs4_to_utf16:
  * @str: a UCS-4 encoded string
@@ -30726,6 +32476,7 @@
  */
 
 
+/* glib/gutf8.c:863 */
 /**
  * g_ucs4_to_utf8:
  * @str: a UCS-4 encoded string
@@ -30751,6 +32502,7 @@
  */
 
 
+/* glib/gunibreak.c:44 */
 /**
  * g_unichar_break_type:
  * @c: a Unicode character
@@ -30766,6 +32518,7 @@
  */
 
 
+/* glib/gunidecomp.c:73 */
 /**
  * g_unichar_combining_class:
  * @uc: a Unicode character
@@ -30777,6 +32530,7 @@
  */
 
 
+/* glib/gunidecomp.c:646 */
 /**
  * g_unichar_compose:
  * @a: a Unicode character
@@ -30804,6 +32558,7 @@
  */
 
 
+/* glib/gunidecomp.c:573 */
 /**
  * g_unichar_decompose:
  * @ch: a Unicode character
@@ -30838,6 +32593,7 @@
  */
 
 
+/* glib/guniprop.c:679 */
 /**
  * g_unichar_digit_value:
  * @c: a Unicode character
@@ -30850,6 +32606,7 @@
  */
 
 
+/* glib/gunidecomp.c:684 */
 /**
  * g_unichar_fully_decompose:
  * @ch: a Unicode character.
@@ -30881,6 +32638,7 @@
  */
 
 
+/* glib/guniprop.c:1234 */
 /**
  * g_unichar_get_mirror_char:
  * @ch: a Unicode character
@@ -30901,6 +32659,7 @@
  */
 
 
+/* glib/guniprop.c:1297 */
 /**
  * g_unichar_get_script:
  * @ch: a Unicode character
@@ -30918,6 +32677,7 @@
  */
 
 
+/* glib/guniprop.c:99 */
 /**
  * g_unichar_isalnum:
  * @c: a Unicode character
@@ -30930,6 +32690,7 @@
  */
 
 
+/* glib/guniprop.c:115 */
 /**
  * g_unichar_isalpha:
  * @c: a Unicode character
@@ -30942,6 +32703,7 @@
  */
 
 
+/* glib/guniprop.c:132 */
 /**
  * g_unichar_iscntrl:
  * @c: a Unicode character
@@ -30954,6 +32716,7 @@
  */
 
 
+/* glib/guniprop.c:372 */
 /**
  * g_unichar_isdefined:
  * @c: a Unicode character
@@ -30965,6 +32728,7 @@
  */
 
 
+/* glib/guniprop.c:148 */
 /**
  * g_unichar_isdigit:
  * @c: a Unicode character
@@ -30977,6 +32741,7 @@
  */
 
 
+/* glib/guniprop.c:165 */
 /**
  * g_unichar_isgraph:
  * @c: a Unicode character
@@ -30991,6 +32756,7 @@
  */
 
 
+/* glib/guniprop.c:189 */
 /**
  * g_unichar_islower:
  * @c: a Unicode character
@@ -31003,6 +32769,7 @@
  */
 
 
+/* glib/guniprop.c:295 */
 /**
  * g_unichar_ismark:
  * @c: a Unicode character
@@ -31022,6 +32789,7 @@
  */
 
 
+/* glib/guniprop.c:206 */
 /**
  * g_unichar_isprint:
  * @c: a Unicode character
@@ -31035,6 +32803,7 @@
  */
 
 
+/* glib/guniprop.c:228 */
 /**
  * g_unichar_ispunct:
  * @c: a Unicode character
@@ -31047,6 +32816,7 @@
  */
 
 
+/* glib/guniprop.c:256 */
 /**
  * g_unichar_isspace:
  * @c: a Unicode character
@@ -31063,6 +32833,7 @@
  */
 
 
+/* glib/guniprop.c:333 */
 /**
  * g_unichar_istitle:
  * @c: a Unicode character
@@ -31078,6 +32849,7 @@
  */
 
 
+/* glib/guniprop.c:319 */
 /**
  * g_unichar_isupper:
  * @c: a Unicode character
@@ -31088,6 +32860,7 @@
  */
 
 
+/* glib/guniprop.c:457 */
 /**
  * g_unichar_iswide:
  * @c: a Unicode character
@@ -31099,6 +32872,7 @@
  */
 
 
+/* glib/guniprop.c:490 */
 /**
  * g_unichar_iswide_cjk:
  * @c: a Unicode character
@@ -31119,6 +32893,7 @@
  */
 
 
+/* glib/guniprop.c:356 */
 /**
  * g_unichar_isxdigit:
  * @c: a Unicode character.
@@ -31129,6 +32904,7 @@
  */
 
 
+/* glib/guniprop.c:390 */
 /**
  * g_unichar_iszerowidth:
  * @c: a Unicode character
@@ -31148,6 +32924,7 @@
  */
 
 
+/* glib/gutf8.c:442 */
 /**
  * g_unichar_to_utf8:
  * @c: a Unicode character code
@@ -31161,6 +32938,7 @@
  */
 
 
+/* glib/guniprop.c:611 */
 /**
  * g_unichar_tolower:
  * @c: a Unicode character.
@@ -31173,6 +32951,7 @@
  */
 
 
+/* glib/guniprop.c:652 */
 /**
  * g_unichar_totitle:
  * @c: a Unicode character
@@ -31185,6 +32964,7 @@
  */
 
 
+/* glib/guniprop.c:571 */
 /**
  * g_unichar_toupper:
  * @c: a Unicode character
@@ -31197,6 +32977,7 @@
  */
 
 
+/* glib/guniprop.c:719 */
 /**
  * g_unichar_type:
  * @c: a Unicode character
@@ -31207,6 +32988,7 @@
  */
 
 
+/* glib/gutf8.c:1635 */
 /**
  * g_unichar_validate:
  * @ch: a Unicode character
@@ -31219,6 +33001,7 @@
  */
 
 
+/* glib/guniprop.c:697 */
 /**
  * g_unichar_xdigit_value:
  * @c: a Unicode character
@@ -31231,6 +33014,7 @@
  */
 
 
+/* glib/gunidecomp.c:221 */
 /**
  * g_unicode_canonical_decomposition:
  * @ch: a Unicode character.
@@ -31245,6 +33029,7 @@
  */
 
 
+/* glib/gunidecomp.c:100 */
 /**
  * g_unicode_canonical_ordering:
  * @string: a UCS-4 encoded string.
@@ -31257,6 +33042,7 @@
  */
 
 
+/* glib/guniprop.c:1480 */
 /**
  * g_unicode_script_from_iso15924:
  * @iso15924: a Unicode script
@@ -31277,6 +33063,7 @@
  */
 
 
+/* glib/guniprop.c:1449 */
 /**
  * g_unicode_script_to_iso15924:
  * @script: a Unicode script
@@ -31297,6 +33084,7 @@
  */
 
 
+/* glib/glib-unix.c:397 */
 /**
  * g_unix_fd_add:
  * @fd: a file descriptor
@@ -31323,6 +33111,7 @@
  */
 
 
+/* glib/glib-unix.c:352 */
 /**
  * g_unix_fd_add_full:
  * @priority: the priority of the source
@@ -31344,6 +33133,7 @@
  */
 
 
+/* glib/glib-unix.c:322 */
 /**
  * g_unix_fd_source_new:
  * @fd: a file descriptor
@@ -31359,6 +33149,7 @@
  */
 
 
+/* glib/glib-unix.c:65 */
 /**
  * g_unix_open_pipe:
  * @fds: Array of two integers
@@ -31381,6 +33172,7 @@
  */
 
 
+/* glib/glib-unix.c:136 */
 /**
  * g_unix_set_fd_nonblocking:
  * @fd: A file descriptor
@@ -31396,6 +33188,7 @@
  */
 
 
+/* glib/glib-unix.c:270 */
 /**
  * g_unix_signal_add:
  * @signum: Signal number
@@ -31411,6 +33204,7 @@
  */
 
 
+/* glib/glib-unix.c:230 */
 /**
  * g_unix_signal_add_full: (rename-to g_unix_signal_add)
  * @priority: the priority of the signal source. Typically this will be in
@@ -31429,6 +33223,7 @@
  */
 
 
+/* glib/glib-unix.c:187 */
 /**
  * g_unix_signal_source_new:
  * @signum: A signal number
@@ -31464,6 +33259,7 @@
  */
 
 
+/* glib/gstdio.c:539 */
 /**
  * g_unlink:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -31483,6 +33279,7 @@
  */
 
 
+/* glib/genviron.c:330 */
 /**
  * g_unsetenv:
  * @variable: the environment variable to remove, must not contain '='
@@ -31511,6 +33308,7 @@
  */
 
 
+/* glib/gurifuncs.c:218 */
 /**
  * g_uri_escape_string:
  * @unescaped: the unescaped input string.
@@ -31533,6 +33331,7 @@
  */
 
 
+/* glib/gconvert.c:1774 */
 /**
  * g_uri_list_extract_uris:
  * @uri_list: an URI list
@@ -31548,6 +33347,7 @@
  */
 
 
+/* glib/gurifuncs.c:165 */
 /**
  * g_uri_parse_scheme:
  * @uri: a valid URI.
@@ -31564,6 +33364,7 @@
  */
 
 
+/* glib/gurifuncs.c:64 */
 /**
  * g_uri_unescape_segment:
  * @escaped_string: (allow-none): A string, may be %NULL
@@ -31586,6 +33387,7 @@
  */
 
 
+/* glib/gurifuncs.c:139 */
 /**
  * g_uri_unescape_string:
  * @escaped_string: an escaped string to be unescaped.
@@ -31606,6 +33408,7 @@
  */
 
 
+/* glib/gtimer.c:241 */
 /**
  * g_usleep:
  * @microseconds: number of microseconds to pause
@@ -31619,6 +33422,7 @@
  */
 
 
+/* glib/gutf8.c:1090 */
 /**
  * g_utf16_to_ucs4:
  * @str: a UTF-16 encoded string
@@ -31646,6 +33450,7 @@
  */
 
 
+/* glib/gutf8.c:935 */
 /**
  * g_utf16_to_utf8:
  * @str: a UTF-16 encoded string
@@ -31684,6 +33489,7 @@
  */
 
 
+/* glib/guniprop.c:1167 */
 /**
  * g_utf8_casefold:
  * @str: a UTF-8 encoded string
@@ -31706,6 +33512,7 @@
  */
 
 
+/* glib/gunicollate.c:63 */
 /**
  * g_utf8_collate:
  * @str1: a UTF-8 encoded string
@@ -31723,6 +33530,7 @@
  */
 
 
+/* glib/gunicollate.c:354 */
 /**
  * g_utf8_collate_key:
  * @str: a UTF-8 encoded string.
@@ -31744,6 +33552,7 @@
  */
 
 
+/* glib/gunicollate.c:480 */
 /**
  * g_utf8_collate_key_for_filename:
  * @str: a UTF-8 encoded string.
@@ -31768,6 +33577,7 @@
  */
 
 
+/* glib/gutf8.c:155 */
 /**
  * g_utf8_find_next_char:
  * @p: a pointer to a position within a UTF-8 encoded string
@@ -31784,6 +33594,7 @@
  */
 
 
+/* glib/gutf8.c:128 */
 /**
  * g_utf8_find_prev_char:
  * @str: pointer to the beginning of a UTF-8 encoded string
@@ -31801,6 +33612,7 @@
  */
 
 
+/* glib/gutf8.c:295 */
 /**
  * g_utf8_get_char:
  * @p: a pointer to Unicode character encoded as UTF-8
@@ -31815,6 +33627,7 @@
  */
 
 
+/* glib/gutf8.c:650 */
 /**
  * g_utf8_get_char_validated:
  * @p: a pointer to Unicode character encoded as UTF-8
@@ -31834,6 +33647,7 @@
  */
 
 
+/* glib/gunidecomp.c:494 */
 /**
  * g_utf8_normalize:
  * @str: a UTF-8 encoded string.
@@ -31872,6 +33686,7 @@
  */
 
 
+/* glib/gutf8.c:322 */
 /**
  * g_utf8_offset_to_pointer:
  * @str: a UTF-8 encoded string
@@ -31898,6 +33713,7 @@
  */
 
 
+/* glib/gutf8.c:377 */
 /**
  * g_utf8_pointer_to_offset:
  * @str: a UTF-8 encoded string
@@ -31913,6 +33729,7 @@
  */
 
 
+/* glib/gutf8.c:185 */
 /**
  * g_utf8_prev_char:
  * @p: a pointer to a position within a UTF-8 encoded string
@@ -31928,6 +33745,7 @@
  */
 
 
+/* glib/gutf8.c:506 */
 /**
  * g_utf8_strchr:
  * @p: a nul-terminated UTF-8 encoded string
@@ -31944,6 +33762,7 @@
  */
 
 
+/* glib/guniprop.c:1131 */
 /**
  * g_utf8_strdown:
  * @str: a UTF-8 encoded string
@@ -31959,6 +33778,7 @@
  */
 
 
+/* glib/gutf8.c:209 */
 /**
  * g_utf8_strlen:
  * @p: pointer to the start of a UTF-8 encoded string
@@ -31976,6 +33796,7 @@
  */
 
 
+/* glib/gutf8.c:410 */
 /**
  * g_utf8_strncpy:
  * @dest: buffer to fill with characters from @src
@@ -31992,6 +33813,7 @@
  */
 
 
+/* glib/gutf8.c:534 */
 /**
  * g_utf8_strrchr:
  * @p: a nul-terminated UTF-8 encoded string
@@ -32008,6 +33830,7 @@
  */
 
 
+/* glib/gutf8.c:1651 */
 /**
  * g_utf8_strreverse:
  * @str: a UTF-8 encoded string
@@ -32033,6 +33856,7 @@
  */
 
 
+/* glib/guniprop.c:942 */
 /**
  * g_utf8_strup:
  * @str: a UTF-8 encoded string
@@ -32049,6 +33873,7 @@
  */
 
 
+/* glib/gutf8.c:263 */
 /**
  * g_utf8_substring:
  * @str: a UTF-8 encoded string
@@ -32065,6 +33890,7 @@
  */
 
 
+/* glib/gutf8.c:779 */
 /**
  * g_utf8_to_ucs4:
  * @str: a UTF-8 encoded string
@@ -32093,6 +33919,7 @@
  */
 
 
+/* glib/gutf8.c:686 */
 /**
  * g_utf8_to_ucs4_fast:
  * @str: a UTF-8 encoded string
@@ -32112,6 +33939,7 @@
  */
 
 
+/* glib/gutf8.c:1228 */
 /**
  * g_utf8_to_utf16:
  * @str: a UTF-8 encoded string
@@ -32139,6 +33967,7 @@
  */
 
 
+/* glib/gutf8.c:1588 */
 /**
  * g_utf8_validate:
  * @str: (array length=max_len) (element-type guint8): a pointer to character data
@@ -32165,6 +33994,7 @@
  */
 
 
+/* glib/gstdio.c:796 */
 /**
  * g_utime:
  * @filename: a pathname in the GLib file name encoding (UTF-8 on Windows)
@@ -32182,6 +34012,7 @@
  */
 
 
+/* glib/gvariant.c:4886 */
 /**
  * g_variant_builder_add: (skp)
  * @builder: a #GVariantBuilder
@@ -32219,6 +34050,7 @@
  */
 
 
+/* glib/gvariant-parser.c:2510 */
 /**
  * g_variant_builder_add_parsed:
  * @builder: a #GVariantBuilder
@@ -32252,6 +34084,7 @@
  */
 
 
+/* glib/gvariant.c:3443 */
 /**
  * g_variant_builder_add_value:
  * @builder: a #GVariantBuilder
@@ -32272,6 +34105,7 @@
  */
 
 
+/* glib/gvariant.c:3272 */
 /**
  * g_variant_builder_clear: (skip)
  * @builder: a #GVariantBuilder
@@ -32295,6 +34129,7 @@
  */
 
 
+/* glib/gvariant.c:3544 */
 /**
  * g_variant_builder_close:
  * @builder: a #GVariantBuilder
@@ -32310,6 +34145,7 @@
  */
 
 
+/* glib/gvariant.c:3598 */
 /**
  * g_variant_builder_end:
  * @builder: a #GVariantBuilder
@@ -32334,6 +34170,7 @@
  */
 
 
+/* glib/gvariant.c:3320 */
 /**
  * g_variant_builder_init: (skip)
  * @builder: a #GVariantBuilder
@@ -32373,6 +34210,7 @@
  */
 
 
+/* glib/gvariant.c:3190 */
 /**
  * g_variant_builder_new:
  * @type: a container type
@@ -32392,6 +34230,7 @@
  */
 
 
+/* glib/gvariant.c:3496 */
 /**
  * g_variant_builder_open:
  * @builder: a #GVariantBuilder
@@ -32408,6 +34247,7 @@
  */
 
 
+/* glib/gvariant.c:3249 */
 /**
  * g_variant_builder_ref:
  * @builder: a #GVariantBuilder allocated by g_variant_builder_new()
@@ -32422,6 +34262,7 @@
  */
 
 
+/* glib/gvariant.c:3221 */
 /**
  * g_variant_builder_unref:
  * @builder: (transfer full): a #GVariantBuilder allocated by g_variant_builder_new()
@@ -32438,6 +34279,7 @@
  */
 
 
+/* glib/gvariant.c:5282 */
 /**
  * g_variant_byteswap:
  * @value: a #GVariant
@@ -32459,6 +34301,7 @@
  */
 
 
+/* glib/gvariant.c:3818 */
 /**
  * g_variant_check_format_string:
  * @value: a #GVariant
@@ -32485,6 +34328,7 @@
  */
 
 
+/* glib/gvariant.c:2135 */
 /**
  * g_variant_classify:
  * @value: a #GVariant
@@ -32496,6 +34340,7 @@
  */
 
 
+/* glib/gvariant.c:2783 */
 /**
  * g_variant_compare:
  * @one: (type GVariant): a basic-typed #GVariant instance
@@ -32528,6 +34373,7 @@
  */
 
 
+/* glib/gvariant.c:1881 */
 /**
  * g_variant_dup_bytestring:
  * @value: an array-of-bytes #GVariant instance
@@ -32545,6 +34391,7 @@
  */
 
 
+/* glib/gvariant.c:2000 */
 /**
  * g_variant_dup_bytestring_array:
  * @value: an array of array of bytes #GVariant ('aay')
@@ -32566,6 +34413,7 @@
  */
 
 
+/* glib/gvariant.c:1763 */
 /**
  * g_variant_dup_objv:
  * @value: an array of object paths #GVariant
@@ -32587,6 +34435,7 @@
  */
 
 
+/* glib/gvariant.c:1520 */
 /**
  * g_variant_dup_string:
  * @value: a string #GVariant instance
@@ -32604,6 +34453,7 @@
  */
 
 
+/* glib/gvariant.c:1627 */
 /**
  * g_variant_dup_strv:
  * @value: an array of strings #GVariant
@@ -32625,6 +34475,7 @@
  */
 
 
+/* glib/gvariant.c:2717 */
 /**
  * g_variant_equal:
  * @one: (type GVariant): a #GVariant instance
@@ -32640,6 +34491,7 @@
  */
 
 
+/* glib/gvariant.c:4786 */
 /**
  * g_variant_get: (skip)
  * @value: a #GVariant instance
@@ -32667,6 +34519,7 @@
  */
 
 
+/* glib/gvariant.c:351 */
 /**
  * g_variant_get_boolean:
  * @value: a boolean #GVariant instance
@@ -32681,6 +34534,7 @@
  */
 
 
+/* glib/gvariant.c:403 */
 /**
  * g_variant_get_byte:
  * @value: a byte #GVariant instance
@@ -32695,6 +34549,7 @@
  */
 
 
+/* glib/gvariant.c:1838 */
 /**
  * g_variant_get_bytestring:
  * @value: an array-of-bytes #GVariant instance
@@ -32721,6 +34576,7 @@
  */
 
 
+/* glib/gvariant.c:1950 */
 /**
  * g_variant_get_bytestring_array:
  * @value: an array of array of bytes #GVariant ('aay')
@@ -32742,6 +34598,7 @@
  */
 
 
+/* glib/gvariant.c:4936 */
 /**
  * g_variant_get_child: (skip)
  * @value: a container #GVariant
@@ -32763,6 +34620,7 @@
  */
 
 
+/* glib/gvariant-core.c:951 */
 /**
  * g_variant_get_child_value:
  * @value: a container #GVariant
@@ -32786,6 +34644,7 @@
  */
 
 
+/* glib/gvariant-core.c:825 */
 /**
  * g_variant_get_data:
  * @value: a #GVariant instance
@@ -32821,6 +34680,7 @@
  */
 
 
+/* glib/gvariant-core.c:869 */
 /**
  * g_variant_get_data_as_bytes:
  * @value: a #GVariant
@@ -32835,6 +34695,7 @@
  */
 
 
+/* glib/gvariant.c:611 */
 /**
  * g_variant_get_double:
  * @value: a double #GVariant instance
@@ -32849,6 +34710,7 @@
  */
 
 
+/* glib/gvariant.c:1090 */
 /**
  * g_variant_get_fixed_array:
  * @value: a #GVariant array with fixed-sized elements
@@ -32899,6 +34761,7 @@
  */
 
 
+/* glib/gvariant.c:582 */
 /**
  * g_variant_get_handle:
  * @value: a handle #GVariant instance
@@ -32917,6 +34780,7 @@
  */
 
 
+/* glib/gvariant.c:428 */
 /**
  * g_variant_get_int16:
  * @value: a int16 #GVariant instance
@@ -32931,6 +34795,7 @@
  */
 
 
+/* glib/gvariant.c:478 */
 /**
  * g_variant_get_int32:
  * @value: a int32 #GVariant instance
@@ -32945,6 +34810,7 @@
  */
 
 
+/* glib/gvariant.c:528 */
 /**
  * g_variant_get_int64:
  * @value: a int64 #GVariant instance
@@ -32959,6 +34825,7 @@
  */
 
 
+/* glib/gvariant.c:685 */
 /**
  * g_variant_get_maybe:
  * @value: a maybe-typed value
@@ -32971,6 +34838,7 @@
  */
 
 
+/* glib/gvariant.c:5243 */
 /**
  * g_variant_get_normal_form:
  * @value: a #GVariant
@@ -32997,6 +34865,7 @@
  */
 
 
+/* glib/gvariant.c:1713 */
 /**
  * g_variant_get_objv:
  * @value: an array of object paths #GVariant
@@ -33018,6 +34887,7 @@
  */
 
 
+/* glib/gvariant-core.c:795 */
 /**
  * g_variant_get_size:
  * @value: a #GVariant instance
@@ -33039,6 +34909,7 @@
  */
 
 
+/* glib/gvariant.c:1440 */
 /**
  * g_variant_get_string:
  * @value: a string #GVariant instance
@@ -33065,6 +34936,7 @@
  */
 
 
+/* glib/gvariant.c:1577 */
 /**
  * g_variant_get_strv:
  * @value: an array of strings #GVariant
@@ -33086,6 +34958,7 @@
  */
 
 
+/* glib/gvariant.c:2051 */
 /**
  * g_variant_get_type:
  * @value: a #GVariant
@@ -33100,6 +34973,7 @@
  */
 
 
+/* glib/gvariant.c:2076 */
 /**
  * g_variant_get_type_string:
  * @value: a #GVariant
@@ -33113,6 +34987,7 @@
  */
 
 
+/* glib/gvariant.c:453 */
 /**
  * g_variant_get_uint16:
  * @value: a uint16 #GVariant instance
@@ -33127,6 +35002,7 @@
  */
 
 
+/* glib/gvariant.c:503 */
 /**
  * g_variant_get_uint32:
  * @value: a uint32 #GVariant instance
@@ -33141,6 +35017,7 @@
  */
 
 
+/* glib/gvariant.c:553 */
 /**
  * g_variant_get_uint64:
  * @value: a uint64 #GVariant instance
@@ -33155,6 +35032,7 @@
  */
 
 
+/* glib/gvariant.c:4829 */
 /**
  * g_variant_get_va: (skip)
  * @value: a #GVariant
@@ -33192,6 +35070,7 @@
  */
 
 
+/* glib/gvariant.c:733 */
 /**
  * g_variant_get_variant:
  * @value: a variant #GVariant instance
@@ -33204,6 +35083,7 @@
  */
 
 
+/* glib/gvariant.c:2630 */
 /**
  * g_variant_hash:
  * @value: (type GVariant): a basic #GVariant value as a #gconstpointer
@@ -33223,6 +35103,7 @@
  */
 
 
+/* glib/gvariant.c:2118 */
 /**
  * g_variant_is_container:
  * @value: a #GVariant instance
@@ -33234,6 +35115,7 @@
  */
 
 
+/* glib/gvariant-core.c:769 */
 /**
  * g_variant_is_floating:
  * @value: a #GVariant
@@ -33253,6 +35135,7 @@
  */
 
 
+/* glib/gvariant-core.c:1064 */
 /**
  * g_variant_is_normal_form:
  * @value: a #GVariant instance
@@ -33273,6 +35156,7 @@
  */
 
 
+/* glib/gvariant.c:1371 */
 /**
  * g_variant_is_object_path:
  * @string: a normal C nul-terminated string
@@ -33291,6 +35175,7 @@
  */
 
 
+/* glib/gvariant.c:2100 */
 /**
  * g_variant_is_of_type:
  * @value: a #GVariant instance
@@ -33303,6 +35188,7 @@
  */
 
 
+/* glib/gvariant.c:1417 */
 /**
  * g_variant_is_signature:
  * @string: a normal C nul-terminated string
@@ -33319,6 +35205,7 @@
  */
 
 
+/* glib/gvariant.c:2990 */
 /**
  * g_variant_iter_copy:
  * @iter: a #GVariantIter
@@ -33339,6 +35226,7 @@
  */
 
 
+/* glib/gvariant.c:3044 */
 /**
  * g_variant_iter_free:
  * @iter: (transfer full): a heap-allocated #GVariantIter
@@ -33351,6 +35239,7 @@
  */
 
 
+/* glib/gvariant.c:2961 */
 /**
  * g_variant_iter_init: (skip)
  * @iter: a pointer to a #GVariantIter
@@ -33368,6 +35257,7 @@
  */
 
 
+/* glib/gvariant.c:5056 */
 /**
  * g_variant_iter_loop: (skip)
  * @iter: a #GVariantIter
@@ -33447,6 +35337,7 @@
  */
 
 
+/* glib/gvariant.c:3022 */
 /**
  * g_variant_iter_n_children:
  * @iter: a #GVariantIter
@@ -33462,6 +35353,7 @@
  */
 
 
+/* glib/gvariant.c:2930 */
 /**
  * g_variant_iter_new:
  * @value: a container #GVariant
@@ -33480,6 +35372,7 @@
  */
 
 
+/* glib/gvariant.c:4974 */
 /**
  * g_variant_iter_next: (skip)
  * @iter: a #GVariantIter
@@ -33537,6 +35430,7 @@
  */
 
 
+/* glib/gvariant.c:3065 */
 /**
  * g_variant_iter_next_value:
  * @iter: a #GVariantIter
@@ -33576,6 +35470,7 @@
  */
 
 
+/* glib/gvariant.c:943 */
 /**
  * g_variant_lookup: (skip)
  * @dictionary: a dictionary #GVariant
@@ -33600,6 +35495,7 @@
  */
 
 
+/* glib/gvariant.c:998 */
 /**
  * g_variant_lookup_value:
  * @dictionary: a dictionary #GVariant
@@ -33633,6 +35529,7 @@
  */
 
 
+/* glib/gvariant-core.c:906 */
 /**
  * g_variant_n_children:
  * @value: a container #GVariant
@@ -33654,6 +35551,7 @@
  */
 
 
+/* glib/gvariant.c:4681 */
 /**
  * g_variant_new: (skip)
  * @format_string: a #GVariant format string
@@ -33678,6 +35576,7 @@
  */
 
 
+/* glib/gvariant.c:752 */
 /**
  * g_variant_new_array:
  * @child_type: (allow-none): the element type of the new array
@@ -33706,6 +35605,7 @@
  */
 
 
+/* glib/gvariant.c:333 */
 /**
  * g_variant_new_boolean:
  * @value: a #gboolean value
@@ -33717,6 +35617,7 @@
  */
 
 
+/* glib/gvariant.c:393 */
 /**
  * g_variant_new_byte:
  * @value: a #guint8 value
@@ -33728,6 +35629,7 @@
  */
 
 
+/* glib/gvariant.c:1813 */
 /**
  * g_variant_new_bytestring:
  * @string: (array zero-terminated=1) (element-type guint8): a normal
@@ -33745,6 +35647,7 @@
  */
 
 
+/* glib/gvariant.c:1916 */
 /**
  * g_variant_new_bytestring_array:
  * @strv: (array length=length): an array of strings
@@ -33760,6 +35663,7 @@
  */
 
 
+/* glib/gvariant.c:905 */
 /**
  * g_variant_new_dict_entry: (constructor)
  * @key: a basic #GVariant, the key
@@ -33776,6 +35680,7 @@
  */
 
 
+/* glib/gvariant.c:601 */
 /**
  * g_variant_new_double:
  * @value: a #gdouble floating point value
@@ -33787,6 +35692,7 @@
  */
 
 
+/* glib/gvariant.c:1187 */
 /**
  * g_variant_new_fixed_array:
  * @element_type: the #GVariantType of each element
@@ -33814,6 +35720,7 @@
  */
 
 
+/* glib/gvariant-core.c:489 */
 /**
  * g_variant_new_from_bytes:
  * @type: a #GVariantType
@@ -33831,6 +35738,7 @@
  */
 
 
+/* glib/gvariant.c:5340 */
 /**
  * g_variant_new_from_data:
  * @type: a definite #GVariantType
@@ -33870,6 +35778,7 @@
  */
 
 
+/* glib/gvariant.c:568 */
 /**
  * g_variant_new_handle:
  * @value: a #gint32 value
@@ -33885,6 +35794,7 @@
  */
 
 
+/* glib/gvariant.c:418 */
 /**
  * g_variant_new_int16:
  * @value: a #gint16 value
@@ -33896,6 +35806,7 @@
  */
 
 
+/* glib/gvariant.c:468 */
 /**
  * g_variant_new_int32:
  * @value: a #gint32 value
@@ -33907,6 +35818,7 @@
  */
 
 
+/* glib/gvariant.c:518 */
 /**
  * g_variant_new_int64:
  * @value: a #gint64 value
@@ -33918,6 +35830,7 @@
  */
 
 
+/* glib/gvariant.c:627 */
 /**
  * g_variant_new_maybe:
  * @child_type: (allow-none): the #GVariantType of the child, or %NULL
@@ -33939,6 +35852,7 @@
  */
 
 
+/* glib/gvariant.c:1350 */
 /**
  * g_variant_new_object_path:
  * @object_path: a normal C nul-terminated string
@@ -33952,6 +35866,7 @@
  */
 
 
+/* glib/gvariant.c:1676 */
 /**
  * g_variant_new_objv:
  * @strv: (array length=length) (element-type utf8): an array of strings
@@ -33970,6 +35885,7 @@
  */
 
 
+/* glib/gvariant-parser.c:2462 */
 /**
  * g_variant_new_parsed:
  * @format: a text format #GVariant
@@ -34006,6 +35922,7 @@
  */
 
 
+/* glib/gvariant-parser.c:2406 */
 /**
  * g_variant_new_parsed_va:
  * @format: a text format #GVariant
@@ -34033,6 +35950,7 @@
  */
 
 
+/* glib/gvariant.c:1312 */
 /**
  * g_variant_new_printf: (skip)
  * @format_string: a printf-style format string
@@ -34050,6 +35968,7 @@
  */
 
 
+/* glib/gvariant.c:1396 */
 /**
  * g_variant_new_signature:
  * @signature: a normal C nul-terminated string
@@ -34063,6 +35982,7 @@
  */
 
 
+/* glib/gvariant.c:1254 */
 /**
  * g_variant_new_string:
  * @string: a normal utf8 nul-terminated string
@@ -34076,6 +35996,7 @@
  */
 
 
+/* glib/gvariant.c:1543 */
 /**
  * g_variant_new_strv:
  * @strv: (array length=length) (element-type utf8): an array of strings
@@ -34091,6 +36012,7 @@
  */
 
 
+/* glib/gvariant.c:1276 */
 /**
  * g_variant_new_take_string: (skip)
  * @string: a normal utf8 nul-terminated string
@@ -34112,6 +36034,7 @@
  */
 
 
+/* glib/gvariant.c:842 */
 /**
  * g_variant_new_tuple:
  * @children: (array length=n_children): the items to make the tuple out of
@@ -34131,6 +36054,7 @@
  */
 
 
+/* glib/gvariant.c:443 */
 /**
  * g_variant_new_uint16:
  * @value: a #guint16 value
@@ -34142,6 +36066,7 @@
  */
 
 
+/* glib/gvariant.c:493 */
 /**
  * g_variant_new_uint32:
  * @value: a #guint32 value
@@ -34153,6 +36078,7 @@
  */
 
 
+/* glib/gvariant.c:543 */
 /**
  * g_variant_new_uint64:
  * @value: a #guint64 value
@@ -34164,6 +36090,7 @@
  */
 
 
+/* glib/gvariant.c:4723 */
 /**
  * g_variant_new_va: (skip)
  * @format_string: a string that is prefixed with a format string
@@ -34209,6 +36136,7 @@
  */
 
 
+/* glib/gvariant.c:707 */
 /**
  * g_variant_new_variant: (constructor)
  * @value: a #GVariant instance
@@ -34224,6 +36152,7 @@
  */
 
 
+/* glib/gvariant-parser.c:2307 */
 /**
  * g_variant_parse:
  * @type: (allow-none): a #GVariantType, or %NULL
@@ -34267,6 +36196,7 @@
  */
 
 
+/* glib/gvariant.c:2604 */
 /**
  * g_variant_print:
  * @value: a #GVariant
@@ -34285,6 +36215,7 @@
  */
 
 
+/* glib/gvariant.c:2184 */
 /**
  * g_variant_print_string: (skip)
  * @value: a #GVariant
@@ -34302,6 +36233,7 @@
  */
 
 
+/* glib/gvariant-core.c:649 */
 /**
  * g_variant_ref:
  * @value: a #GVariant
@@ -34313,6 +36245,7 @@
  */
 
 
+/* glib/gvariant-core.c:670 */
 /**
  * g_variant_ref_sink:
  * @value: a #GVariant
@@ -34345,6 +36278,7 @@
  */
 
 
+/* glib/gvariant-core.c:1025 */
 /**
  * g_variant_store:
  * @value: the #GVariant to store
@@ -34367,6 +36301,7 @@
  */
 
 
+/* glib/gvariant-core.c:719 */
 /**
  * g_variant_take_ref:
  * @value: a #GVariant
@@ -34408,6 +36343,7 @@
  */
 
 
+/* glib/gvarianttype.c:615 */
 /**
  * g_variant_type_copy:
  * @type: a #GVariantType
@@ -34421,6 +36357,7 @@
  */
 
 
+/* glib/gvarianttype.c:731 */
 /**
  * g_variant_type_dup_string:
  * @type: a #GVariantType
@@ -34435,6 +36372,7 @@
  */
 
 
+/* glib/gvarianttype.c:1148 */
 /**
  * g_variant_type_element:
  * @type: an array or maybe #GVariantType
@@ -34449,6 +36387,7 @@
  */
 
 
+/* glib/gvarianttype.c:1028 */
 /**
  * g_variant_type_equal:
  * @type1: (type GVariantType): a #GVariantType
@@ -34471,6 +36410,7 @@
  */
 
 
+/* glib/gvarianttype.c:1174 */
 /**
  * g_variant_type_first:
  * @type: a tuple or dictionary entry #GVariantType
@@ -34496,6 +36436,7 @@
  */
 
 
+/* glib/gvarianttype.c:595 */
 /**
  * g_variant_type_free:
  * @type: (allow-none): a #GVariantType, or %NULL
@@ -34510,6 +36451,7 @@
  */
 
 
+/* glib/gvarianttype.c:666 */
 /**
  * g_variant_type_get_string_length:
  * @type: a #GVariantType
@@ -34524,6 +36466,7 @@
  */
 
 
+/* glib/gvarianttype.c:995 */
 /**
  * g_variant_type_hash:
  * @type: (type GVariantType): a #GVariantType
@@ -34540,6 +36483,7 @@
  */
 
 
+/* glib/gvarianttype.c:904 */
 /**
  * g_variant_type_is_array:
  * @type: a #GVariantType
@@ -34557,6 +36501,7 @@
  */
 
 
+/* glib/gvarianttype.c:832 */
 /**
  * g_variant_type_is_basic:
  * @type: a #GVariantType
@@ -34577,6 +36522,7 @@
  */
 
 
+/* glib/gvarianttype.c:792 */
 /**
  * g_variant_type_is_container:
  * @type: a #GVariantType
@@ -34596,6 +36542,7 @@
  */
 
 
+/* glib/gvarianttype.c:752 */
 /**
  * g_variant_type_is_definite:
  * @type: a #GVariantType
@@ -34617,6 +36564,7 @@
  */
 
 
+/* glib/gvarianttype.c:954 */
 /**
  * g_variant_type_is_dict_entry:
  * @type: a #GVariantType
@@ -34634,6 +36582,7 @@
  */
 
 
+/* glib/gvarianttype.c:881 */
 /**
  * g_variant_type_is_maybe:
  * @type: a #GVariantType
@@ -34651,6 +36600,7 @@
  */
 
 
+/* glib/gvarianttype.c:1073 */
 /**
  * g_variant_type_is_subtype_of:
  * @type: a #GVariantType
@@ -34668,6 +36618,7 @@
  */
 
 
+/* glib/gvarianttype.c:927 */
 /**
  * g_variant_type_is_tuple:
  * @type: a #GVariantType
@@ -34686,6 +36637,7 @@
  */
 
 
+/* glib/gvarianttype.c:977 */
 /**
  * g_variant_type_is_variant:
  * @type: a #GVariantType
@@ -34698,6 +36650,7 @@
  */
 
 
+/* glib/gvarianttype.c:1282 */
 /**
  * g_variant_type_key:
  * @type: a dictionary entry #GVariantType
@@ -34714,6 +36667,7 @@
  */
 
 
+/* glib/gvarianttype.c:1249 */
 /**
  * g_variant_type_n_items:
  * @type: a tuple or dictionary entry #GVariantType
@@ -34734,6 +36688,7 @@
  */
 
 
+/* glib/gvarianttype.c:643 */
 /**
  * g_variant_type_new:
  * @type_string: a valid GVariant type string
@@ -34750,6 +36705,7 @@
  */
 
 
+/* glib/gvarianttype.c:1417 */
 /**
  * g_variant_type_new_array: (constructor)
  * @element: a #GVariantType
@@ -34765,6 +36721,7 @@
  */
 
 
+/* glib/gvarianttype.c:1477 */
 /**
  * g_variant_type_new_dict_entry: (constructor)
  * @key: a basic #GVariantType
@@ -34781,6 +36738,7 @@
  */
 
 
+/* glib/gvarianttype.c:1447 */
 /**
  * g_variant_type_new_maybe: (constructor)
  * @element: a #GVariantType
@@ -34796,6 +36754,7 @@
  */
 
 
+/* glib/gvarianttype.c:1334 */
 /**
  * g_variant_type_new_tuple:
  * @items: (array length=length): an array of #GVariantTypes, one for each item
@@ -34814,6 +36773,7 @@
  */
 
 
+/* glib/gvarianttype.c:1213 */
 /**
  * g_variant_type_next:
  * @type: a #GVariantType from a previous call
@@ -34836,6 +36796,7 @@
  */
 
 
+/* glib/gvarianttype.c:709 */
 /**
  * g_variant_type_peek_string: (skip)
  * @type: a #GVariantType
@@ -34852,6 +36813,7 @@
  */
 
 
+/* glib/gvarianttype.c:570 */
 /**
  * g_variant_type_string_is_valid:
  * @type_string: a pointer to any string
@@ -34866,6 +36828,7 @@
  */
 
 
+/* glib/gvarianttype.c:499 */
 /**
  * g_variant_type_string_scan:
  * @string: a pointer to any string
@@ -34891,6 +36854,7 @@
  */
 
 
+/* glib/gvarianttype.c:1309 */
 /**
  * g_variant_type_value:
  * @type: a dictionary entry #GVariantType
@@ -34905,6 +36869,7 @@
  */
 
 
+/* glib/gvariant-core.c:614 */
 /**
  * g_variant_unref:
  * @value: a #GVariant
@@ -34916,6 +36881,7 @@
  */
 
 
+/* glib/gprintf.c:281 */
 /**
  * g_vasprintf:
  * @string: the return location for the newly-allocated string.
@@ -34934,6 +36900,7 @@
  */
 
 
+/* glib/gprintf.c:190 */
 /**
  * g_vfprintf:
  * @file: the stream to write to.
@@ -34949,6 +36916,7 @@
  */
 
 
+/* glib/gprintf.c:168 */
 /**
  * g_vprintf:
  * @format: a standard printf() format string, but notice
@@ -34963,6 +36931,7 @@
  */
 
 
+/* glib/gprintf.c:239 */
 /**
  * g_vsnprintf:
  * @string: the buffer to hold the output.
@@ -34995,6 +36964,7 @@
  */
 
 
+/* glib/gprintf.c:214 */
 /**
  * g_vsprintf:
  * @string: the buffer to hold the output.
@@ -35010,6 +36980,7 @@
  */
 
 
+/* glib/gwakeup.c:192 */
 /**
  * g_wakeup_acknowledge:
  * @wakeup: a #GWakeup
@@ -35026,6 +36997,7 @@
  */
 
 
+/* glib/gwakeup.c:249 */
 /**
  * g_wakeup_free:
  * @wakeup: a #GWakeup
@@ -35037,6 +37009,7 @@
  */
 
 
+/* glib/gwakeup.c:172 */
 /**
  * g_wakeup_get_pollfd:
  * @wakeup: a #GWakeup
@@ -35051,6 +37024,7 @@
  */
 
 
+/* glib/gwakeup.c:126 */
 /**
  * g_wakeup_new:
  *
@@ -35063,6 +37037,7 @@
  */
 
 
+/* glib/gwakeup.c:215 */
 /**
  * g_wakeup_signal:
  * @wakeup: a #GWakeup
@@ -35079,6 +37054,7 @@
  */
 
 
+/* glib/gmessages.c:161 */
 /**
  * g_warning:
  * @...: format string, followed by parameters to insert
@@ -35092,6 +37068,7 @@
  */
 
 
+/* glib/gwin32.c:162 */
 /**
  * g_win32_error_message:
  * @error: error code.
@@ -35107,6 +37084,7 @@
  */
 
 
+/* glib/gwin32.c:323 */
 /**
  * g_win32_get_package_installation_directory:
  * @package: (allow-none): You should pass %NULL for this.
@@ -35163,6 +37141,7 @@
  */
 
 
+/* glib/gwin32.c:204 */
 /**
  * g_win32_get_package_installation_directory_of_module:
  * @hmodule: (allow-none): The Win32 handle for a DLL loaded into the current process, or %NULL
@@ -35200,6 +37179,7 @@
  */
 
 
+/* glib/gwin32.c:429 */
 /**
  * g_win32_get_package_installation_subdirectory:
  * @package: (allow-none): You should pass %NULL for this.
@@ -35229,6 +37209,7 @@
  */
 
 
+/* glib/gwin32.c:496 */
 /**
  * g_win32_get_windows_version:
  *
@@ -35247,6 +37228,7 @@
  */
 
 
+/* glib/gwin32.c:72 */
 /**
  * g_win32_getlocale:
  *
@@ -35262,6 +37244,7 @@
  */
 
 
+/* glib/gwin32.c:524 */
 /**
  * g_win32_locale_filename_from_utf8:
  * @utf8filename: a UTF-8 encoded filename.
@@ -35292,6 +37275,7 @@
  */
 
 
+/* glib/docs.c:55 */
 /**
  * gboolean:
  *
@@ -35301,6 +37285,7 @@
  */
 
 
+/* glib/docs.c:81 */
 /**
  * gchar:
  *
@@ -35308,6 +37293,7 @@
  */
 
 
+/* glib/docs.c:71 */
 /**
  * gconstpointer:
  *
@@ -35319,6 +37305,7 @@
  */
 
 
+/* glib/docs.c:513 */
 /**
  * gdouble:
  *
@@ -35327,6 +37314,7 @@
  */
 
 
+/* glib/docs.c:491 */
 /**
  * gfloat:
  *
@@ -35335,6 +37323,7 @@
  */
 
 
+/* glib/docs.c:93 */
 /**
  * gint:
  *
@@ -35343,6 +37332,7 @@
  */
 
 
+/* glib/docs.c:228 */
 /**
  * gint16:
  *
@@ -35355,6 +37345,7 @@
  */
 
 
+/* glib/docs.c:315 */
 /**
  * gint32:
  *
@@ -35367,6 +37358,7 @@
  */
 
 
+/* glib/docs.c:384 */
 /**
  * gint64:
  *
@@ -35380,6 +37372,7 @@
  */
 
 
+/* glib/docs.c:189 */
 /**
  * gint8:
  *
@@ -35389,6 +37382,7 @@
  */
 
 
+/* glib/docs.c:670 */
 /**
  * gintptr:
  *
@@ -35402,6 +37396,7 @@
  */
 
 
+/* glib/glib-private.c:26 */
 /**
  * glib__private__:
  * @arg: Do not use this argument
@@ -35411,6 +37406,7 @@
  */
 
 
+/* glib/gversion.c:112 */
 /**
  * glib_check_version:
  * @required_major: the required major version.
@@ -35440,6 +37436,7 @@
  */
 
 
+/* glib/ggettext.c:118 */
 /**
  * glib_gettext:
  * @str: The string to be translated
@@ -35452,6 +37449,7 @@
  */
 
 
+/* glib/gmem.c:536 */
 /**
  * glib_mem_profiler_table:
  *
@@ -35462,6 +37460,7 @@
  */
 
 
+/* glib/ggettext.c:136 */
 /**
  * glib_pgettext:
  * @msgctxtid: a combined message context and message id, separated
@@ -35479,6 +37478,7 @@
  */
 
 
+/* glib/docs.c:157 */
 /**
  * glong:
  *
@@ -35487,6 +37487,7 @@
  */
 
 
+/* glib/docs.c:613 */
 /**
  * goffset:
  *
@@ -35502,6 +37503,7 @@
  */
 
 
+/* glib/docs.c:63 */
 /**
  * gpointer:
  *
@@ -35511,6 +37513,7 @@
  */
 
 
+/* glib/docs.c:125 */
 /**
  * gshort:
  *
@@ -35519,6 +37522,7 @@
  */
 
 
+/* glib/docs.c:535 */
 /**
  * gsize:
  *
@@ -35534,6 +37538,7 @@
  */
 
 
+/* glib/docs.c:576 */
 /**
  * gssize:
  *
@@ -35547,6 +37552,7 @@
  */
 
 
+/* glib/docs.c:87 */
 /**
  * guchar:
  *
@@ -35554,6 +37560,7 @@
  */
 
 
+/* glib/docs.c:112 */
 /**
  * guint:
  *
@@ -35562,6 +37569,7 @@
  */
 
 
+/* glib/docs.c:290 */
 /**
  * guint16:
  *
@@ -35573,6 +37581,7 @@
  */
 
 
+/* glib/docs.c:359 */
 /**
  * guint32:
  *
@@ -35584,6 +37593,7 @@
  */
 
 
+/* glib/docs.c:440 */
 /**
  * guint64:
  *
@@ -35596,6 +37606,7 @@
  */
 
 
+/* glib/docs.c:213 */
 /**
  * guint8:
  *
@@ -35604,6 +37615,7 @@
  */
 
 
+/* glib/docs.c:701 */
 /**
  * guintptr:
  *
@@ -35617,6 +37629,7 @@
  */
 
 
+/* glib/docs.c:176 */
 /**
  * gulong:
  *
@@ -35625,6 +37638,7 @@
  */
 
 
+/* glib/docs.c:144 */
 /**
  * gushort:
  *

@@ -23,7 +23,7 @@ for d in possible_builddirs:
         break
 assert builddir is not None
 annotation_tool_base_args = [os.path.join(builddir, 'g-ir-annotation-tool'),
-                             '--extract']
+                             '--extract', '--linemarkers']
 
 
 def directory_includes(dirs, srcdir, builddir):
@@ -52,6 +52,8 @@ def extract_annotations(module, srcdir, builddir, outfile):
             sources.append(os.path.join(subdir, sourcename))
 
     return subprocess.check_call(annotation_tool_base_args +
+                                 ['--linemarkers-prefix=%s' % (srcdir, ),
+                                  '--linemarkers-prefix=%s' % (builddir, )] +
                                  module['defines'] +
                                  includes +
                                  sources,

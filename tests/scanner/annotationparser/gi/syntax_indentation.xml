@@ -79,7 +79,8 @@
       <description>Describe section here</description>
     </docblock>
   </parser>
-  <output indent="false">/**
+  <output indent="false" linemarkers="true" linemarkersprefix="/test">/* test.c:1 */
+/**
  * SECTION:test
  *
  * Describe section here

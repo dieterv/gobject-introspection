@@ -82,7 +82,7 @@ class TestCommentBlock(unittest.TestCase):
 
             # Parse GTK-Doc comment block
             commentblock = testcase.find(ns('{}input')).text
-            parsed_docblock = GtkDocCommentBlockParser().parse_comment_block(commentblock, 'test.c', 1)
+            parsed_docblock = GtkDocCommentBlockParser().parse_comment_block(commentblock, '/test/test.c', 1)
             parsed_tree = self.parsed2tree(parsed_docblock).split('\n')
             emitted_messages = [w[w.find(':') + 1:].strip() for w in output.getvalue()]
 
@@ -122,22 +122,34 @@ class TestCommentBlock(unittest.TestCase):
             # Compare serialized with expected comment block
             expected_serialized = testcase.find(ns('{}output'))
             indent = True
+            linemarkers = False
+            linemarkers_prefix = ''
 
             if expected_serialized is None:
                 expected_serialized = ''
             else:
-                if 'indent' in expected_serialized.attrib:
-                    indent = expected_serialized.attrib['indent']
-                    if indent.lower() in ('false', '0'):
-                        indent = False
-                    elif indent.lower() in ('true', '1'):
-                        indent = True
+                def get_boolean_attribute(element, attribute):
+                    value = expected_serialized.attrib[attribute]
+                    if value.lower() in ('false', '0'):
+                        return False
+                    elif value.lower() in ('true', '1'):
+                        return True
                     else:
-                        self.assert_(False, 'Unknown value for "indent" attribute: %s' % (indent))
+                        self.assert_(False, 'Unknown value for "%s" attribute: %s' %
+                                     (attribute, indent))
+
+                if 'indent' in expected_serialized.attrib:
+                    indent = get_boolean_attribute(expected_serialized, 'indent')
+                if 'linemarkers' in expected_serialized.attrib:
+                    linemarkers = get_boolean_attribute(expected_serialized, 'linemarkers')
+                if 'linemarkersprefix' in expected_serialized.attrib:
+                    linemarkers_prefix = expected_serialized.attrib['linemarkersprefix']
 
                 expected_serialized = expected_serialized.text + '\n' or None
 
-            commentblockwriter = GtkDocCommentBlockWriter(indent=indent)
+            commentblockwriter = GtkDocCommentBlockWriter(indent=indent,
+                                                          linemarkers=linemarkers,
+                                                          linemarkers_prefix=[linemarkers_prefix])
             serialized = commentblockwriter.write(parsed_docblock)
 
             msg = 'Serialized comment block does not match expected output:\n\n'

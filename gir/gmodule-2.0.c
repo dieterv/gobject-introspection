@@ -2,6 +2,7 @@
 /* THIS FILE IS GENERATED DO NOT EDIT */
 /************************************************************/
 
+/* gmodule/gmodule.c:133 */
 /**
  * GModule:
  *
@@ -11,6 +12,7 @@
  */
 
 
+/* gmodule/gmodule.c:141 */
 /**
  * GModuleCheckInit:
  * @module: the #GModule corresponding to the module which has just been loaded
@@ -26,6 +28,7 @@
  */
 
 
+/* gmodule/gmodule.c:667 */
 /**
  * GModuleFlags:
  * @G_MODULE_BIND_LAZY: specifies that symbols are only resolved when
@@ -42,6 +45,7 @@
  */
 
 
+/* gmodule/gmodule.c:155 */
 /**
  * GModuleUnload:
  * @module: the #GModule about to be unloaded
@@ -54,6 +58,7 @@
  */
 
 
+/* gmodule/gmodule.c:174 */
 /**
  * G_MODULE_EXPORT:
  *
@@ -63,6 +68,7 @@
  */
 
 
+/* gmodule/gmodule.c:182 */
 /**
  * G_MODULE_IMPORT:
  *
@@ -70,6 +76,7 @@
  */
 
 
+/* gmodule/gmodule.c:166 */
 /**
  * G_MODULE_SUFFIX:
  *
@@ -79,6 +86,7 @@
  */
 
 
+/* gmodule/gmodule.c:51 */
 /**
  * SECTION:modules
  * @title: Dynamic Loading of Modules
@@ -162,6 +170,7 @@
  */
 
 
+/* gmodule/gmodule.c:903 */
 /**
  * g_module_build_path:
  * @directory: (allow-none): the directory where the module is. This can be %NULL
@@ -189,6 +198,7 @@
  */
 
 
+/* gmodule/gmodule.c:718 */
 /**
  * g_module_close:
  * @module: a #GModule to close
@@ -199,6 +209,7 @@
  */
 
 
+/* gmodule/gmodule.c:797 */
 /**
  * g_module_error:
  *
@@ -208,6 +219,7 @@
  */
 
 
+/* gmodule/gmodule.c:782 */
 /**
  * g_module_make_resident:
  * @module: a #GModule to make permanently resident
@@ -217,6 +229,7 @@
  */
 
 
+/* gmodule/gmodule.c:865 */
 /**
  * g_module_name:
  * @module: a #GModule
@@ -229,6 +242,7 @@
  */
 
 
+/* gmodule/gmodule.c:682 */
 /**
  * g_module_open:
  * @file_name: (allow-none): the name of the file containing the module, or %NULL
@@ -253,6 +267,7 @@
  */
 
 
+/* gmodule/gmodule.c:335 */
 /**
  * g_module_supported:
  *
@@ -262,6 +277,7 @@
  */
 
 
+/* gmodule/gmodule.c:810 */
 /**
  * g_module_symbol:
  * @module: a #GModule

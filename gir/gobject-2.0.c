@@ -2,6 +2,7 @@
 /* THIS FILE IS GENERATED DO NOT EDIT */
 /************************************************************/
 
+/* gobject/gbinding.c:682 */
 /**
  * GBinding:flags:
  *
@@ -11,6 +12,7 @@
  */
 
 
+/* gobject/gbinding.c:620 */
 /**
  * GBinding:source:
  *
@@ -20,6 +22,7 @@
  */
 
 
+/* gobject/gbinding.c:650 */
 /**
  * GBinding:source-property:
  *
@@ -30,6 +33,7 @@
  */
 
 
+/* gobject/gbinding.c:635 */
 /**
  * GBinding:target:
  *
@@ -39,6 +43,7 @@
  */
 
 
+/* gobject/gbinding.c:666 */
 /**
  * GBinding:target-property:
  *
@@ -49,6 +54,7 @@
  */
 
 
+/* gobject/gobject.c:464 */
 /**
  * GObject::notify:
  * @gobject: the object which received the signal.
@@ -74,6 +80,7 @@
  */
 
 
+/* gobject/gparam.c:859 */
 /**
  * GParamSpecPool:
  *
@@ -84,6 +91,7 @@
  */
 
 
+/* gobject/gobject.c:4134 */
 /**
  * GWeakRef:
  *
@@ -110,6 +118,7 @@
  */
 
 
+/* gobject/genums.c:34 */
 /**
  * SECTION:enumerations_flags
  * @short_description: Enumeration and flags types
@@ -135,6 +144,7 @@
  */
 
 
+/* gobject/gbinding.c:23 */
 /**
  * SECTION:gbinding
  * @Title: GBinding
@@ -220,6 +230,7 @@
  */
 
 
+/* gobject/gboxed.c:35 */
 /**
  * SECTION:gboxed
  * @short_description: A mechanism to wrap opaque C structures registered
@@ -237,6 +248,7 @@
  */
 
 
+/* gobject/gclosure.c:40 */
 /**
  * SECTION:gclosure
  * @short_description: Functions as first-class objects
@@ -292,6 +304,7 @@
  */
 
 
+/* gobject/gvalue.c:34 */
 /**
  * SECTION:generic_values
  * @short_description: A polymorphic type that can hold values of any
@@ -375,6 +388,7 @@
  */
 
 
+/* gobject/gparam.c:33 */
 /**
  * SECTION:gparamspec
  * @short_description: Metadata for parameter specifications
@@ -396,6 +410,7 @@
  */
 
 
+/* gobject/gtype.c:40 */
 /**
  * SECTION:gtype
  * @short_description: The GLib Runtime type identification and
@@ -440,6 +455,7 @@
  */
 
 
+/* gobject/gtypemodule.c:28 */
 /**
  * SECTION:gtypemodule
  * @short_description: Type loading modules
@@ -485,6 +501,7 @@
  */
 
 
+/* gobject/gtypeplugin.c:25 */
 /**
  * SECTION:gtypeplugin
  * @short_description: An interface for dynamically loadable types
@@ -550,6 +567,7 @@
  */
 
 
+/* gobject/gobject.c:38 */
 /**
  * SECTION:objects
  * @title: GObject
@@ -616,6 +634,7 @@
  */
 
 
+/* gobject/gparamspecs.c:38 */
 /**
  * SECTION:param_value_types
  * @short_description: Standard Parameter and Value Types
@@ -636,6 +655,7 @@
  */
 
 
+/* gobject/gsignal.c:42 */
 /**
  * SECTION:signals
  * @short_description: A means for customization of object behaviour
@@ -701,6 +721,7 @@
  */
 
 
+/* gobject/gvaluearray.c:32 */
 /**
  * SECTION:value_arrays
  * @short_description: A container structure to maintain an array of
@@ -732,6 +753,7 @@
  */
 
 
+/* gobject/gbinding.c:705 */
 /**
  * g_binding_get_flags:
  * @binding: a #GBinding
@@ -743,6 +765,7 @@
  */
 
 
+/* gobject/gbinding.c:723 */
 /**
  * g_binding_get_source:
  * @binding: a #GBinding
@@ -754,6 +777,7 @@
  */
 
 
+/* gobject/gbinding.c:759 */
 /**
  * g_binding_get_source_property:
  * @binding: a #GBinding
@@ -766,6 +790,7 @@
  */
 
 
+/* gobject/gbinding.c:741 */
 /**
  * g_binding_get_target:
  * @binding: a #GBinding
@@ -777,6 +802,7 @@
  */
 
 
+/* gobject/gbinding.c:778 */
 /**
  * g_binding_get_target_property:
  * @binding: a #GBinding
@@ -789,6 +815,7 @@
  */
 
 
+/* gobject/gbinding.c:797 */
 /**
  * g_binding_unbind:
  * @binding: a #GBinding
@@ -805,6 +832,7 @@
  */
 
 
+/* gobject/gboxed.c:326 */
 /**
  * g_boxed_copy:
  * @boxed_type: The type of @src_boxed.
@@ -816,6 +844,7 @@
  */
 
 
+/* gobject/gboxed.c:387 */
 /**
  * g_boxed_free:
  * @boxed_type: The type of @boxed.
@@ -825,6 +854,7 @@
  */
 
 
+/* gobject/gboxed.c:271 */
 /**
  * g_boxed_type_register_static:
  * @name: Name of the new boxed type.
@@ -839,6 +869,7 @@
  */
 
 
+/* gobject/gclosure.c:1845 */
 /**
  * g_cclosure_marshal_BOOLEAN__FLAGS:
  * @closure: the #GClosure to which the marshaller belongs
@@ -855,6 +886,7 @@
  */
 
 
+/* gobject/gclosure.c:1878 */
 /**
  * g_cclosure_marshal_BOOLEAN__OBJECT_BOXED_BOXED:
  * @closure: the #GClosure to which the marshaller belongs
@@ -872,6 +904,7 @@
  */
 
 
+/* gobject/gclosure.c:1860 */
 /**
  * g_cclosure_marshal_BOOL__FLAGS:
  *
@@ -879,6 +912,7 @@
  */
 
 
+/* gobject/gclosure.c:1865 */
 /**
  * g_cclosure_marshal_STRING__OBJECT_POINTER:
  * @closure: the #GClosure to which the marshaller belongs
@@ -894,6 +928,7 @@
  */
 
 
+/* gobject/gclosure.c:1591 */
 /**
  * g_cclosure_marshal_VOID__BOOLEAN:
  * @closure: the #GClosure to which the marshaller belongs
@@ -909,6 +944,7 @@
  */
 
 
+/* gobject/gclosure.c:1773 */
 /**
  * g_cclosure_marshal_VOID__BOXED:
  * @closure: the #GClosure to which the marshaller belongs
@@ -924,6 +960,7 @@
  */
 
 
+/* gobject/gclosure.c:1605 */
 /**
  * g_cclosure_marshal_VOID__CHAR:
  * @closure: the #GClosure to which the marshaller belongs
@@ -939,6 +976,7 @@
  */
 
 
+/* gobject/gclosure.c:1731 */
 /**
  * g_cclosure_marshal_VOID__DOUBLE:
  * @closure: the #GClosure to which the marshaller belongs
@@ -954,6 +992,7 @@
  */
 
 
+/* gobject/gclosure.c:1689 */
 /**
  * g_cclosure_marshal_VOID__ENUM:
  * @closure: the #GClosure to which the marshaller belongs
@@ -969,6 +1008,7 @@
  */
 
 
+/* gobject/gclosure.c:1703 */
 /**
  * g_cclosure_marshal_VOID__FLAGS:
  * @closure: the #GClosure to which the marshaller belongs
@@ -984,6 +1024,7 @@
  */
 
 
+/* gobject/gclosure.c:1717 */
 /**
  * g_cclosure_marshal_VOID__FLOAT:
  * @closure: the #GClosure to which the marshaller belongs
@@ -999,6 +1040,7 @@
  */
 
 
+/* gobject/gclosure.c:1633 */
 /**
  * g_cclosure_marshal_VOID__INT:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1014,6 +1056,7 @@
  */
 
 
+/* gobject/gclosure.c:1661 */
 /**
  * g_cclosure_marshal_VOID__LONG:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1029,6 +1072,7 @@
  */
 
 
+/* gobject/gclosure.c:1801 */
 /**
  * g_cclosure_marshal_VOID__OBJECT:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1044,6 +1088,7 @@
  */
 
 
+/* gobject/gclosure.c:1759 */
 /**
  * g_cclosure_marshal_VOID__PARAM:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1059,6 +1104,7 @@
  */
 
 
+/* gobject/gclosure.c:1787 */
 /**
  * g_cclosure_marshal_VOID__POINTER:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1074,6 +1120,7 @@
  */
 
 
+/* gobject/gclosure.c:1745 */
 /**
  * g_cclosure_marshal_VOID__STRING:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1089,6 +1136,7 @@
  */
 
 
+/* gobject/gclosure.c:1619 */
 /**
  * g_cclosure_marshal_VOID__UCHAR:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1104,6 +1152,7 @@
  */
 
 
+/* gobject/gclosure.c:1647 */
 /**
  * g_cclosure_marshal_VOID__UINT:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1119,6 +1168,7 @@
  */
 
 
+/* gobject/gclosure.c:1831 */
 /**
  * g_cclosure_marshal_VOID__UINT_POINTER:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1134,6 +1184,7 @@
  */
 
 
+/* gobject/gclosure.c:1675 */
 /**
  * g_cclosure_marshal_VOID__ULONG:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1149,6 +1200,7 @@
  */
 
 
+/* gobject/gclosure.c:1815 */
 /**
  * g_cclosure_marshal_VOID__VARIANT:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1166,6 +1218,7 @@
  */
 
 
+/* gobject/gclosure.c:1577 */
 /**
  * g_cclosure_marshal_VOID__VOID:
  * @closure: the #GClosure to which the marshaller belongs
@@ -1181,6 +1234,7 @@
  */
 
 
+/* gobject/gclosure.c:1364 */
 /**
  * g_cclosure_marshal_generic:
  * @closure: A #GClosure.
@@ -1202,6 +1256,7 @@
  */
 
 
+/* gobject/gclosure.c:897 */
 /**
  * g_cclosure_new: (skip)
  * @callback_func: the function to invoke
@@ -1215,6 +1270,7 @@
  */
 
 
+/* gobject/gobject.c:4042 */
 /**
  * g_cclosure_new_object: (skip)
  * @callback_func: the function to invoke
@@ -1230,6 +1286,7 @@
  */
 
 
+/* gobject/gobject.c:4071 */
 /**
  * g_cclosure_new_object_swap: (skip)
  * @callback_func: the function to invoke
@@ -1245,6 +1302,7 @@
  */
 
 
+/* gobject/gclosure.c:925 */
 /**
  * g_cclosure_new_swap: (skip)
  * @callback_func: the function to invoke
@@ -1258,6 +1316,7 @@
  */
 
 
+/* gobject/gobject.c:3214 */
 /**
  * g_clear_object: (skip)
  * @object_ptr: a pointer to a #GObject reference
@@ -1280,6 +1339,7 @@
  */
 
 
+/* gobject/gclosure.c:408 */
 /**
  * g_closure_add_finalize_notifier: (skip)
  * @closure: a #GClosure
@@ -1295,6 +1355,7 @@
  */
 
 
+/* gobject/gclosure.c:444 */
 /**
  * g_closure_add_invalidate_notifier: (skip)
  * @closure: a #GClosure
@@ -1308,6 +1369,7 @@
  */
 
 
+/* gobject/gclosure.c:351 */
 /**
  * g_closure_add_marshal_guards: (skip)
  * @closure: a #GClosure
@@ -1323,6 +1385,7 @@
  */
 
 
+/* gobject/gclosure.c:541 */
 /**
  * g_closure_invalidate:
  * @closure: GClosure to invalidate
@@ -1343,6 +1406,7 @@
  */
 
 
+/* gobject/gclosure.c:728 */
 /**
  * g_closure_invoke:
  * @closure: a #GClosure
@@ -1359,6 +1423,7 @@
  */
 
 
+/* gobject/gobject.c:4013 */
 /**
  * g_closure_new_object:
  * @sizeof_closure: the size of the structure to allocate, must be at least
@@ -1375,6 +1440,7 @@
  */
 
 
+/* gobject/gclosure.c:151 */
 /**
  * g_closure_new_simple:
  * @sizeof_closure: the size of the structure to allocate, must be at least
@@ -1422,6 +1488,7 @@
  */
 
 
+/* gobject/gclosure.c:518 */
 /**
  * g_closure_ref:
  * @closure: #GClosure to increment the reference count on
@@ -1433,6 +1500,7 @@
  */
 
 
+/* gobject/gclosure.c:700 */
 /**
  * g_closure_remove_finalize_notifier: (skip)
  * @closure: a #GClosure
@@ -1446,6 +1514,7 @@
  */
 
 
+/* gobject/gclosure.c:672 */
 /**
  * g_closure_remove_invalidate_notifier: (skip)
  * @closure: a #GClosure
@@ -1459,6 +1528,7 @@
  */
 
 
+/* gobject/gclosure.c:853 */
 /**
  * g_closure_set_marshal: (skip)
  * @closure: a #GClosure
@@ -1473,6 +1543,7 @@
  */
 
 
+/* gobject/gclosure.c:309 */
 /**
  * g_closure_set_meta_marshal: (skip)
  * @closure: a #GClosure
@@ -1497,6 +1568,7 @@
  */
 
 
+/* gobject/gclosure.c:605 */
 /**
  * g_closure_sink:
  * @closure: #GClosure to decrement the initial reference count on, if it's
@@ -1545,6 +1617,7 @@
  */
 
 
+/* gobject/gclosure.c:576 */
 /**
  * g_closure_unref:
  * @closure: #GClosure to decrement the reference count on
@@ -1555,6 +1628,7 @@
  */
 
 
+/* gobject/genums.c:255 */
 /**
  * g_enum_complete_type_info:
  * @g_enum_type: the type identifier of the type being completed
@@ -1586,6 +1660,7 @@
  */
 
 
+/* gobject/genums.c:494 */
 /**
  * g_enum_get_value:
  * @enum_class: a #GEnumClass
@@ -1598,6 +1673,7 @@
  */
 
 
+/* gobject/genums.c:378 */
 /**
  * g_enum_get_value_by_name:
  * @enum_class: a #GEnumClass
@@ -1610,6 +1686,7 @@
  */
 
 
+/* gobject/genums.c:436 */
 /**
  * g_enum_get_value_by_nick:
  * @enum_class: a #GEnumClass
@@ -1622,6 +1699,7 @@
  */
 
 
+/* gobject/genums.c:166 */
 /**
  * g_enum_register_static:
  * @name: A nul-terminated string used as the name of the new type.
@@ -1641,6 +1719,7 @@
  */
 
 
+/* gobject/genums.c:301 */
 /**
  * g_flags_complete_type_info:
  * @g_flags_type: the type identifier of the type being completed
@@ -1655,6 +1734,7 @@
  */
 
 
+/* gobject/genums.c:522 */
 /**
  * g_flags_get_first_value:
  * @flags_class: a #GFlagsClass
@@ -1667,6 +1747,7 @@
  */
 
 
+/* gobject/genums.c:407 */
 /**
  * g_flags_get_value_by_name:
  * @flags_class: a #GFlagsClass
@@ -1679,6 +1760,7 @@
  */
 
 
+/* gobject/genums.c:465 */
 /**
  * g_flags_get_value_by_nick:
  * @flags_class: a #GFlagsClass
@@ -1691,6 +1773,7 @@
  */
 
 
+/* gobject/genums.c:211 */
 /**
  * g_flags_register_static:
  * @name: A nul-terminated string used as the name of the new type.
@@ -1709,6 +1792,7 @@
  */
 
 
+/* gobject/gobject.c:2908 */
 /**
  * g_object_add_toggle_ref: (skip)
  * @object: a #GObject
@@ -1750,6 +1834,7 @@
  */
 
 
+/* gobject/gobject.c:2737 */
 /**
  * g_object_add_weak_pointer: (skip)
  * @object: The object that should be weak referenced.
@@ -1767,6 +1852,7 @@
  */
 
 
+/* gobject/gbinding.c:1009 */
 /**
  * g_object_bind_property:
  * @source: (type GObject.Object): the source #GObject
@@ -1805,6 +1891,7 @@
  */
 
 
+/* gobject/gbinding.c:819 */
 /**
  * g_object_bind_property_full:
  * @source: (type GObject.Object): the source #GObject
@@ -1852,6 +1939,7 @@
  */
 
 
+/* gobject/gbinding.c:1169 */
 /**
  * g_object_bind_property_with_closures: (rename-to g_object_bind_property_full)
  * @source: (type GObject.Object): the source #GObject
@@ -1879,6 +1967,7 @@
  */
 
 
+/* gobject/gobject.c:738 */
 /**
  * g_object_class_find_property:
  * @oclass: a #GObjectClass
@@ -1891,6 +1980,7 @@
  */
 
 
+/* gobject/gobject.c:574 */
 /**
  * g_object_class_install_properties:
  * @oclass: a #GObjectClass
@@ -1960,6 +2050,7 @@
  */
 
 
+/* gobject/gobject.c:521 */
 /**
  * g_object_class_install_property:
  * @oclass: a #GObjectClass
@@ -1974,6 +2065,7 @@
  */
 
 
+/* gobject/gobject.c:886 */
 /**
  * g_object_class_list_properties:
  * @oclass: a #GObjectClass
@@ -1986,6 +2078,7 @@
  */
 
 
+/* gobject/gobject.c:807 */
 /**
  * g_object_class_override_property:
  * @oclass: a #GObjectClass
@@ -2016,6 +2109,7 @@
  */
 
 
+/* gobject/gobject.c:2412 */
 /**
  * g_object_connect: (skip)
  * @object: a #GObject
@@ -2101,6 +2195,7 @@
  */
 
 
+/* gobject/gobject.c:2563 */
 /**
  * g_object_disconnect: (skip)
  * @object: a #GObject
@@ -2118,6 +2213,7 @@
  */
 
 
+/* gobject/gobject.c:3493 */
 /**
  * g_object_dup_data:
  * @object: the #GObject to store user data on
@@ -2148,6 +2244,7 @@
  */
 
 
+/* gobject/gobject.c:3286 */
 /**
  * g_object_dup_qdata:
  * @object: the #GObject to store user data on
@@ -2178,6 +2275,7 @@
  */
 
 
+/* gobject/gobject.c:2860 */
 /**
  * g_object_force_floating:
  * @object: a #GObject
@@ -2192,6 +2290,7 @@
  */
 
 
+/* gobject/gobject.c:1071 */
 /**
  * g_object_freeze_notify:
  * @object: a #GObject
@@ -2208,6 +2307,7 @@
  */
 
 
+/* gobject/gobject.c:2235 */
 /**
  * g_object_get: (skip)
  * @object: a #GObject
@@ -2246,6 +2346,7 @@
  */
 
 
+/* gobject/gobject.c:3451 */
 /**
  * g_object_get_data:
  * @object: #GObject containing the associations
@@ -2257,6 +2358,7 @@
  */
 
 
+/* gobject/gobject.c:2333 */
 /**
  * g_object_get_property:
  * @object: a #GObject
@@ -2275,6 +2377,7 @@
  */
 
 
+/* gobject/gobject.c:3241 */
 /**
  * g_object_get_qdata:
  * @object: The GObject to get a stored user data pointer from
@@ -2287,6 +2390,7 @@
  */
 
 
+/* gobject/gobject.c:2135 */
 /**
  * g_object_get_valist: (skip)
  * @object: a #GObject
@@ -2304,6 +2408,7 @@
  */
 
 
+/* gobject/gobject.c:774 */
 /**
  * g_object_interface_find_property:
  * @g_iface: any interface vtable for the interface, or the default
@@ -2323,6 +2428,7 @@
  */
 
 
+/* gobject/gobject.c:695 */
 /**
  * g_object_interface_install_property:
  * @g_iface: any interface vtable for the interface, or the default
@@ -2348,6 +2454,7 @@
  */
 
 
+/* gobject/gobject.c:914 */
 /**
  * g_object_interface_list_properties:
  * @g_iface: any interface vtable for the interface, or the default
@@ -2368,6 +2475,7 @@
  */
 
 
+/* gobject/gobject.c:2809 */
 /**
  * g_object_is_floating:
  * @object: (type GObject.Object): a #GObject
@@ -2380,6 +2488,7 @@
  */
 
 
+/* gobject/gobject.c:1529 */
 /**
  * g_object_new: (skip)
  * @object_type: the type id of the #GObject subtype to instantiate
@@ -2396,6 +2505,7 @@
  */
 
 
+/* gobject/gobject.c:1897 */
 /**
  * g_object_new_valist: (skip)
  * @object_type: the type id of the #GObject subtype to instantiate
@@ -2412,6 +2522,7 @@
  */
 
 
+/* gobject/gobject.c:1804 */
 /**
  * g_object_newv: (rename-to g_object_new)
  * @object_type: the type id of the #GObject subtype to instantiate
@@ -2428,6 +2539,7 @@
  */
 
 
+/* gobject/gobject.c:1144 */
 /**
  * g_object_notify:
  * @object: a #GObject
@@ -2441,6 +2553,7 @@
  */
 
 
+/* gobject/gobject.c:1186 */
 /**
  * g_object_notify_by_pspec:
  * @object: a #GObject
@@ -2489,6 +2602,7 @@
  */
 
 
+/* gobject/gobject.c:3042 */
 /**
  * g_object_ref:
  * @object: (type GObject.Object): a #GObject
@@ -2499,6 +2613,7 @@
  */
 
 
+/* gobject/gobject.c:2828 */
 /**
  * g_object_ref_sink:
  * @object: (type GObject.Object): a #GObject
@@ -2518,6 +2633,7 @@
  */
 
 
+/* gobject/gobject.c:2989 */
 /**
  * g_object_remove_toggle_ref: (skip)
  * @object: a #GObject
@@ -2533,6 +2649,7 @@
  */
 
 
+/* gobject/gobject.c:2764 */
 /**
  * g_object_remove_weak_pointer: (skip)
  * @object: The object that is weak referenced.
@@ -2544,6 +2661,7 @@
  */
 
 
+/* gobject/gobject.c:3536 */
 /**
  * g_object_replace_data:
  * @object: the #GObject to store user data on
@@ -2573,6 +2691,7 @@
  */
 
 
+/* gobject/gobject.c:3327 */
 /**
  * g_object_replace_qdata:
  * @object: the #GObject to store user data on
@@ -2602,6 +2721,7 @@
  */
 
 
+/* gobject/gobject.c:1049 */
 /**
  * g_object_run_dispose:
  * @object: a #GObject
@@ -2613,6 +2733,7 @@
  */
 
 
+/* gobject/gobject.c:2211 */
 /**
  * g_object_set: (skip)
  * @object: a #GObject
@@ -2624,6 +2745,7 @@
  */
 
 
+/* gobject/gobject.c:3470 */
 /**
  * g_object_set_data:
  * @object: #GObject containing the associations.
@@ -2638,6 +2760,7 @@
  */
 
 
+/* gobject/gobject.c:3581 */
 /**
  * g_object_set_data_full: (skip)
  * @object: #GObject containing the associations
@@ -2653,6 +2776,7 @@
  */
 
 
+/* gobject/gobject.c:2286 */
 /**
  * g_object_set_property:
  * @object: a #GObject
@@ -2663,6 +2787,7 @@
  */
 
 
+/* gobject/gobject.c:3260 */
 /**
  * g_object_set_qdata: (skip)
  * @object: The GObject to set store a user data pointer
@@ -2680,6 +2805,7 @@
  */
 
 
+/* gobject/gobject.c:3371 */
 /**
  * g_object_set_qdata_full: (skip)
  * @object: The GObject to set store a user data pointer
@@ -2696,6 +2822,7 @@
  */
 
 
+/* gobject/gobject.c:2059 */
 /**
  * g_object_set_valist: (skip)
  * @object: a #GObject
@@ -2707,6 +2834,7 @@
  */
 
 
+/* gobject/gobject.c:3607 */
 /**
  * g_object_steal_data:
  * @object: #GObject containing the associations
@@ -2719,6 +2847,7 @@
  */
 
 
+/* gobject/gobject.c:3398 */
 /**
  * g_object_steal_qdata:
  * @object: The GObject to get a stored user data pointer from
@@ -2764,6 +2893,7 @@
  */
 
 
+/* gobject/gobject.c:1248 */
 /**
  * g_object_thaw_notify:
  * @object: a #GObject
@@ -2779,6 +2909,7 @@
  */
 
 
+/* gobject/gobject.c:3075 */
 /**
  * g_object_unref:
  * @object: (type GObject.Object): a #GObject
@@ -2788,6 +2919,7 @@
  */
 
 
+/* gobject/gobject.c:3962 */
 /**
  * g_object_watch_closure:
  * @object: GObject restricting lifetime of @closure
@@ -2805,6 +2937,7 @@
  */
 
 
+/* gobject/gobject.c:2646 */
 /**
  * g_object_weak_ref: (skip)
  * @object: #GObject to reference weakly
@@ -2824,6 +2957,7 @@
  */
 
 
+/* gobject/gobject.c:2695 */
 /**
  * g_object_weak_unref: (skip)
  * @object: #GObject to remove a weak reference from
@@ -2834,6 +2968,7 @@
  */
 
 
+/* gobject/gparam.c:1530 */
 /**
  * g_param_get_default_value:
  * @param: a #GParamSpec
@@ -2847,6 +2982,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1681 */
 /**
  * g_param_spec_boolean:
  * @name: canonical name of the property specified
@@ -2864,6 +3000,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2283 */
 /**
  * g_param_spec_boxed:
  * @name: canonical name of the property specified
@@ -2881,6 +3018,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1597 */
 /**
  * g_param_spec_char:
  * @name: canonical name of the property specified
@@ -2897,6 +3035,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2164 */
 /**
  * g_param_spec_double:
  * @name: canonical name of the property specified
@@ -2916,6 +3055,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2024 */
 /**
  * g_param_spec_enum:
  * @name: canonical name of the property specified
@@ -2934,6 +3074,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2072 */
 /**
  * g_param_spec_flags:
  * @name: canonical name of the property specified
@@ -2952,6 +3093,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2120 */
 /**
  * g_param_spec_float:
  * @name: canonical name of the property specified
@@ -2970,6 +3112,7 @@
  */
 
 
+/* gobject/gparam.c:332 */
 /**
  * g_param_spec_get_blurb:
  * @pspec: a valid #GParamSpec
@@ -2980,6 +3123,7 @@
  */
 
 
+/* gobject/gparam.c:286 */
 /**
  * g_param_spec_get_name:
  * @pspec: a valid #GParamSpec
@@ -2993,6 +3137,7 @@
  */
 
 
+/* gobject/gparam.c:305 */
 /**
  * g_param_spec_get_nick:
  * @pspec: a valid #GParamSpec
@@ -3003,6 +3148,7 @@
  */
 
 
+/* gobject/gparam.c:474 */
 /**
  * g_param_spec_get_qdata:
  * @pspec: a valid #GParamSpec
@@ -3014,6 +3160,7 @@
  */
 
 
+/* gobject/gparam.c:564 */
 /**
  * g_param_spec_get_redirect_target:
  * @pspec: a #GParamSpec
@@ -3032,6 +3179,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2355 */
 /**
  * g_param_spec_gtype:
  * @name: canonical name of the property specified
@@ -3051,6 +3199,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1720 */
 /**
  * g_param_spec_int:
  * @name: canonical name of the property specified
@@ -3069,6 +3218,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1897 */
 /**
  * g_param_spec_int64:
  * @name: canonical name of the property specified
@@ -3087,6 +3237,7 @@
  */
 
 
+/* gobject/gparam.c:395 */
 /**
  * g_param_spec_internal: (skip)
  * @param_type: the #GType for the property; must be derived from #G_TYPE_PARAM
@@ -3117,6 +3268,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1808 */
 /**
  * g_param_spec_long:
  * @name: canonical name of the property specified
@@ -3135,6 +3287,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2442 */
 /**
  * g_param_spec_object:
  * @name: canonical name of the property specified
@@ -3152,6 +3305,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2481 */
 /**
  * g_param_spec_override: (skip)
  * @name: the name of the property.
@@ -3166,6 +3320,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2244 */
 /**
  * g_param_spec_param:
  * @name: canonical name of the property specified
@@ -3183,6 +3338,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2323 */
 /**
  * g_param_spec_pointer:
  * @name: canonical name of the property specified
@@ -3198,6 +3354,7 @@
  */
 
 
+/* gobject/gparam.c:924 */
 /**
  * g_param_spec_pool_insert:
  * @pool: a #GParamSpecPool.
@@ -3208,6 +3365,7 @@
  */
 
 
+/* gobject/gparam.c:1276 */
 /**
  * g_param_spec_pool_list:
  * @pool: a #GParamSpecPool
@@ -3223,6 +3381,7 @@
  */
 
 
+/* gobject/gparam.c:1135 */
 /**
  * g_param_spec_pool_list_owned:
  * @pool: a #GParamSpecPool
@@ -3237,6 +3396,7 @@
  */
 
 
+/* gobject/gparam.c:1045 */
 /**
  * g_param_spec_pool_lookup:
  * @pool: a #GParamSpecPool
@@ -3252,6 +3412,7 @@
  */
 
 
+/* gobject/gparam.c:898 */
 /**
  * g_param_spec_pool_new:
  * @type_prefixing: Whether the pool will support type-prefixed property names.
@@ -3267,6 +3428,7 @@
  */
 
 
+/* gobject/gparam.c:964 */
 /**
  * g_param_spec_pool_remove:
  * @pool: a #GParamSpecPool
@@ -3276,6 +3438,7 @@
  */
 
 
+/* gobject/gparam.c:202 */
 /**
  * g_param_spec_ref: (skip)
  * @pspec: a valid #GParamSpec
@@ -3286,6 +3449,7 @@
  */
 
 
+/* gobject/gparam.c:264 */
 /**
  * g_param_spec_ref_sink: (skip)
  * @pspec: a valid #GParamSpec
@@ -3297,6 +3461,7 @@
  */
 
 
+/* gobject/gparam.c:492 */
 /**
  * g_param_spec_set_qdata:
  * @pspec: the #GParamSpec to set store a user data pointer
@@ -3312,6 +3477,7 @@
  */
 
 
+/* gobject/gparam.c:516 */
 /**
  * g_param_spec_set_qdata_full: (skip)
  * @pspec: the #GParamSpec to set store a user data pointer
@@ -3328,6 +3494,7 @@
  */
 
 
+/* gobject/gparam.c:241 */
 /**
  * g_param_spec_sink:
  * @pspec: a valid #GParamSpec
@@ -3342,6 +3509,7 @@
  */
 
 
+/* gobject/gparam.c:542 */
 /**
  * g_param_spec_steal_qdata:
  * @pspec: the #GParamSpec to get a stored user data pointer from
@@ -3356,6 +3524,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2209 */
 /**
  * g_param_spec_string:
  * @name: canonical name of the property specified
@@ -3372,6 +3541,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1639 */
 /**
  * g_param_spec_uchar:
  * @name: canonical name of the property specified
@@ -3388,6 +3558,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1764 */
 /**
  * g_param_spec_uint:
  * @name: canonical name of the property specified
@@ -3406,6 +3577,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1941 */
 /**
  * g_param_spec_uint64:
  * @name: canonical name of the property specified
@@ -3425,6 +3597,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1852 */
 /**
  * g_param_spec_ulong:
  * @name: canonical name of the property specified
@@ -3444,6 +3617,7 @@
  */
 
 
+/* gobject/gparamspecs.c:1986 */
 /**
  * g_param_spec_unichar:
  * @name: canonical name of the property specified
@@ -3462,6 +3636,7 @@
  */
 
 
+/* gobject/gparam.c:220 */
 /**
  * g_param_spec_unref: (skip)
  * @pspec: a valid #GParamSpec
@@ -3470,6 +3645,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2395 */
 /**
  * g_param_spec_value_array: (skip)
  * @name: canonical name of the property specified
@@ -3490,6 +3666,7 @@
  */
 
 
+/* gobject/gparamspecs.c:2526 */
 /**
  * g_param_spec_variant:
  * @name: canonical name of the property specified
@@ -3512,6 +3689,7 @@
  */
 
 
+/* gobject/gparam.c:1382 */
 /**
  * g_param_type_register_static:
  * @name: 0-terminated string used as the name of the new #GParamSpec type.
@@ -3526,6 +3704,7 @@
  */
 
 
+/* gobject/gparam.c:677 */
 /**
  * g_param_value_convert:
  * @pspec: a valid #GParamSpec
@@ -3547,6 +3726,7 @@
  */
 
 
+/* gobject/gparam.c:615 */
 /**
  * g_param_value_defaults:
  * @pspec: a valid #GParamSpec
@@ -3558,6 +3738,7 @@
  */
 
 
+/* gobject/gparam.c:596 */
 /**
  * g_param_value_set_default:
  * @pspec: a valid #GParamSpec
@@ -3567,6 +3748,7 @@
  */
 
 
+/* gobject/gparam.c:643 */
 /**
  * g_param_value_validate:
  * @pspec: a valid #GParamSpec
@@ -3583,6 +3765,7 @@
  */
 
 
+/* gobject/gparam.c:730 */
 /**
  * g_param_values_cmp:
  * @pspec: a valid #GParamSpec
@@ -3597,6 +3780,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1415 */
 /**
  * g_pointer_type_register_static:
  * @name: the name of the new pointer type.
@@ -3608,6 +3792,7 @@
  */
 
 
+/* gobject/gsignal.c:3814 */
 /**
  * g_signal_accumulator_first_wins:
  * @ihint: standard #GSignalAccumulator parameter
@@ -3631,6 +3816,7 @@
  */
 
 
+/* gobject/gsignal.c:3779 */
 /**
  * g_signal_accumulator_true_handled:
  * @ihint: standard #GSignalAccumulator parameter
@@ -3651,6 +3837,7 @@
  */
 
 
+/* gobject/gsignal.c:934 */
 /**
  * g_signal_add_emission_hook:
  * @signal_id: the signal identifier, as returned by g_signal_lookup().
@@ -3667,6 +3854,7 @@
  */
 
 
+/* gobject/gsignal.c:1999 */
 /**
  * g_signal_chain_from_overridden:
  * @instance_and_params: (array): the argument list of the signal emission.
@@ -3681,6 +3869,7 @@
  */
 
 
+/* gobject/gsignal.c:2071 */
 /**
  * g_signal_chain_from_overridden_handler: (skip)
  * @instance: the instance the signal is being emitted on.
@@ -3697,6 +3886,7 @@
  */
 
 
+/* gobject/gsignal.c:2316 */
 /**
  * g_signal_connect_closure:
  * @instance: (type GObject.Object): the instance to connect to.
@@ -3711,6 +3901,7 @@
  */
 
 
+/* gobject/gsignal.c:2256 */
 /**
  * g_signal_connect_closure_by_id:
  * @instance: (type GObject.Object): the instance to connect to.
@@ -3726,6 +3917,7 @@
  */
 
 
+/* gobject/gsignal.c:2404 */
 /**
  * g_signal_connect_data:
  * @instance: (type GObject.Object): the instance to connect to.
@@ -3745,6 +3937,7 @@
  */
 
 
+/* gobject/gobject.c:3851 */
 /**
  * g_signal_connect_object: (skip)
  * @instance: the instance to connect to.
@@ -3766,6 +3959,7 @@
  */
 
 
+/* gobject/gsignal.c:3363 */
 /**
  * g_signal_emit:
  * @instance: (type GObject.Object): the instance the signal is being emitted on.
@@ -3782,6 +3976,7 @@
  */
 
 
+/* gobject/gsignal.c:3390 */
 /**
  * g_signal_emit_by_name:
  * @instance: (type GObject.Object): the instance the signal is being emitted on.
@@ -3797,6 +3992,7 @@
  */
 
 
+/* gobject/gsignal.c:3083 */
 /**
  * g_signal_emit_valist: (skip)
  * @instance: the instance the signal is being emitted on.
@@ -3813,6 +4009,7 @@
  */
 
 
+/* gobject/gsignal.c:2950 */
 /**
  * g_signal_emitv:
  * @instance_and_params: (array): argument list for the signal emission.
@@ -3829,6 +4026,7 @@
  */
 
 
+/* gobject/gsignal.c:2234 */
 /**
  * g_signal_get_invocation_hint:
  * @instance: (type GObject.Object): the instance to query
@@ -3839,6 +4037,7 @@
  */
 
 
+/* gobject/gsignal.c:2481 */
 /**
  * g_signal_handler_block:
  * @instance: (type GObject.Object): The instance to block the signal handler of.
@@ -3855,6 +4054,7 @@
  */
 
 
+/* gobject/gsignal.c:2561 */
 /**
  * g_signal_handler_disconnect:
  * @instance: (type GObject.Object): The instance to remove the signal handler from.
@@ -3869,6 +4069,7 @@
  */
 
 
+/* gobject/gsignal.c:2670 */
 /**
  * g_signal_handler_find:
  * @instance: (type GObject.Object): The instance owning the signal handler to be found.
@@ -3890,6 +4091,7 @@
  */
 
 
+/* gobject/gsignal.c:2597 */
 /**
  * g_signal_handler_is_connected:
  * @instance: (type GObject.Object): The instance where a signal handler is sought.
@@ -3901,6 +4103,7 @@
  */
 
 
+/* gobject/gsignal.c:2519 */
 /**
  * g_signal_handler_unblock:
  * @instance: (type GObject.Object): The instance to unblock the signal handler of.
@@ -3922,6 +4125,7 @@
  */
 
 
+/* gobject/gsignal.c:2750 */
 /**
  * g_signal_handlers_block_matched:
  * @instance: (type GObject.Object): The instance to block handlers from.
@@ -3945,12 +4149,14 @@
  */
 
 
+/* gobject/gsignal.c:2623 */
 /**
  * g_signal_handlers_destroy:
  * @instance: (type GObject.Object): The instance where a signal handler is sought.
  */
 
 
+/* gobject/gsignal.c:2845 */
 /**
  * g_signal_handlers_disconnect_matched:
  * @instance: (type GObject.Object): The instance to remove handlers from.
@@ -3975,6 +4181,7 @@
  */
 
 
+/* gobject/gsignal.c:2797 */
 /**
  * g_signal_handlers_unblock_matched:
  * @instance: (type GObject.Object): The instance to unblock handlers from.
@@ -3999,6 +4206,7 @@
  */
 
 
+/* gobject/gsignal.c:2893 */
 /**
  * g_signal_has_handler_pending:
  * @instance: (type GObject.Object): the object whose signal handlers are sought.
@@ -4019,6 +4227,7 @@
  */
 
 
+/* gobject/gsignal.c:1229 */
 /**
  * g_signal_list_ids:
  * @itype: Instance or interface type.
@@ -4032,6 +4241,7 @@
  */
 
 
+/* gobject/gsignal.c:1186 */
 /**
  * g_signal_lookup:
  * @name: the signal's name.
@@ -4049,6 +4259,7 @@
  */
 
 
+/* gobject/gsignal.c:1287 */
 /**
  * g_signal_name:
  * @signal_id: the signal's identifying number.
@@ -4061,6 +4272,7 @@
  */
 
 
+/* gobject/gsignal.c:1349 */
 /**
  * g_signal_new:
  * @signal_name: the name for the signal
@@ -4103,6 +4315,7 @@
  */
 
 
+/* gobject/gsignal.c:1418 */
 /**
  * g_signal_new_class_handler:
  * @signal_name: the name for the signal
@@ -4145,6 +4358,7 @@
  */
 
 
+/* gobject/gsignal.c:1800 */
 /**
  * g_signal_new_valist:
  * @signal_name: the name for the signal
@@ -4174,6 +4388,7 @@
  */
 
 
+/* gobject/gsignal.c:1555 */
 /**
  * g_signal_newv:
  * @signal_name: the name for the signal
@@ -4206,6 +4421,7 @@
  */
 
 
+/* gobject/gsignal.c:1917 */
 /**
  * g_signal_override_class_closure:
  * @signal_id: the signal id
@@ -4223,6 +4439,7 @@
  */
 
 
+/* gobject/gsignal.c:1959 */
 /**
  * g_signal_override_class_handler:
  * @signal_name: the name for the signal
@@ -4243,6 +4460,7 @@
  */
 
 
+/* gobject/gsignal.c:1085 */
 /**
  * g_signal_parse_name:
  * @detailed_signal: a string of the form "signal-name::detail".
@@ -4258,6 +4476,7 @@
  */
 
 
+/* gobject/gsignal.c:1311 */
 /**
  * g_signal_query:
  * @signal_id: The signal id of the signal to query information for.
@@ -4273,6 +4492,7 @@
  */
 
 
+/* gobject/gsignal.c:1008 */
 /**
  * g_signal_remove_emission_hook:
  * @signal_id: the id of the signal
@@ -4283,6 +4503,7 @@
  */
 
 
+/* gobject/gsignal.c:865 */
 /**
  * g_signal_stop_emission:
  * @instance: (type GObject.Object): the object whose signal handlers you wish to stop.
@@ -4299,6 +4520,7 @@
  */
 
 
+/* gobject/gsignal.c:1129 */
 /**
  * g_signal_stop_emission_by_name:
  * @instance: (type GObject.Object): the object whose signal handlers you wish to stop.
@@ -4311,6 +4533,7 @@
  */
 
 
+/* gobject/gclosure.c:1092 */
 /**
  * g_signal_type_cclosure_new:
  * @itype: the #GType identifier of an interface or classed type
@@ -4325,6 +4548,7 @@
  */
 
 
+/* gobject/gsourceclosure.c:233 */
 /**
  * g_source_set_closure:
  * @source: the source
@@ -4338,6 +4562,7 @@
  */
 
 
+/* gobject/gsourceclosure.c:299 */
 /**
  * g_source_set_dummy_callback:
  * @source: the source
@@ -4355,6 +4580,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1323 */
 /**
  * g_strdup_value_contents:
  * @value: #GValue which contents are to be described.
@@ -4368,6 +4594,7 @@
  */
 
 
+/* gobject/gtype.c:2445 */
 /**
  * g_type_add_class_cache_func: (skip)
  * @cache_data: data to be passed to @cache_func
@@ -4383,6 +4610,7 @@
  */
 
 
+/* gobject/gtype.c:4686 */
 /**
  * g_type_add_class_private:
  * @class_type: GType of an classed type.
@@ -4401,6 +4629,7 @@
  */
 
 
+/* gobject/gtype.c:2513 */
 /**
  * g_type_add_interface_check: (skip)
  * @check_data: data to pass to @check_func
@@ -4421,6 +4650,7 @@
  */
 
 
+/* gobject/gtype.c:2843 */
 /**
  * g_type_add_interface_dynamic:
  * @instance_type: the #GType value of an instantiable type.
@@ -4433,6 +4663,7 @@
  */
 
 
+/* gobject/gtype.c:2806 */
 /**
  * g_type_add_interface_static:
  * @instance_type: #GType value of an instantiable type.
@@ -4446,6 +4677,7 @@
  */
 
 
+/* gobject/gtype.c:4063 */
 /**
  * g_type_check_instance:
  * @instance: A valid #GTypeInstance structure.
@@ -4457,6 +4689,7 @@
  */
 
 
+/* gobject/gtype.c:3517 */
 /**
  * g_type_children:
  * @type: The parent type.
@@ -4471,6 +4704,7 @@
  */
 
 
+/* gobject/gtype.c:4406 */
 /**
  * g_type_class_add_private:
  * @g_class: class structure for an instantiatable type
@@ -4543,6 +4777,7 @@
  */
 
 
+/* gobject/gtype.c:4638 */
 /**
  * g_type_class_get_instance_private_offset: (skip)
  * @g_class: a #GTypeClass
@@ -4561,6 +4796,7 @@
  */
 
 
+/* gobject/gtype.c:2999 */
 /**
  * g_type_class_peek:
  * @type: Type ID of a classed type.
@@ -4576,6 +4812,7 @@
  */
 
 
+/* gobject/gtype.c:3059 */
 /**
  * g_type_class_peek_parent:
  * @g_class: (type GObject.TypeClass): The #GTypeClass structure to
@@ -4597,6 +4834,7 @@
  */
 
 
+/* gobject/gtype.c:3029 */
 /**
  * g_type_class_peek_static:
  * @type: Type ID of a classed type.
@@ -4611,6 +4849,7 @@
  */
 
 
+/* gobject/gtype.c:2881 */
 /**
  * g_type_class_ref:
  * @type: Type ID of a classed type.
@@ -4624,6 +4863,7 @@
  */
 
 
+/* gobject/gtype.c:2947 */
 /**
  * g_type_class_unref:
  * @g_class: (type GObject.TypeClass): The #GTypeClass structure to
@@ -4636,6 +4876,7 @@
  */
 
 
+/* gobject/gtype.c:2973 */
 /**
  * g_type_class_unref_uncached: (skip)
  * @g_class: (type GObject.TypeClass): The #GTypeClass structure to
@@ -4648,6 +4889,7 @@
  */
 
 
+/* gobject/gtype.c:1769 */
 /**
  * g_type_create_instance: (skip)
  * @type: An instantiatable type to create an instance for.
@@ -4671,6 +4913,7 @@
  */
 
 
+/* gobject/gtype.c:3230 */
 /**
  * g_type_default_interface_peek:
  * @g_type: an interface type
@@ -4685,6 +4928,7 @@
  */
 
 
+/* gobject/gtype.c:3171 */
 /**
  * g_type_default_interface_ref:
  * @g_type: an interface type
@@ -4708,6 +4952,7 @@
  */
 
 
+/* gobject/gtype.c:3258 */
 /**
  * g_type_default_interface_unref:
  * @g_iface: (type GObject.TypeInterface): the default vtable
@@ -4725,6 +4970,7 @@
  */
 
 
+/* gobject/gtype.c:3375 */
 /**
  * g_type_depth:
  * @type: A #GType value.
@@ -4736,6 +4982,7 @@
  */
 
 
+/* gobject/gtype.c:4782 */
 /**
  * g_type_ensure:
  * @type: a #GType.
@@ -4757,6 +5004,7 @@
  */
 
 
+/* gobject/gtype.c:1875 */
 /**
  * g_type_free_instance:
  * @instance: an instance of a type.
@@ -4769,6 +5017,7 @@
  */
 
 
+/* gobject/gtype.c:3331 */
 /**
  * g_type_from_name:
  * @name: Type name to lookup.
@@ -4782,6 +5031,7 @@
  */
 
 
+/* gobject/gtype.c:3946 */
 /**
  * g_type_fundamental:
  * @type_id: valid type ID
@@ -4793,6 +5043,7 @@
  */
 
 
+/* gobject/gtype.c:3923 */
 /**
  * g_type_fundamental_next:
  *
@@ -4806,6 +5057,7 @@
  */
 
 
+/* gobject/gtype.c:3854 */
 /**
  * g_type_get_plugin:
  * @type: The #GType to retrieve the plugin for.
@@ -4818,6 +5070,7 @@
  */
 
 
+/* gobject/gtype.c:3661 */
 /**
  * g_type_get_qdata:
  * @type: a #GType
@@ -4834,6 +5087,7 @@
  */
 
 
+/* gobject/gtype.c:398 */
 /**
  * g_type_get_type_registration_serial:
  *
@@ -4848,6 +5102,7 @@
  */
 
 
+/* gobject/gtype.c:4294 */
 /**
  * g_type_init:
  *
@@ -4859,6 +5114,7 @@
  */
 
 
+/* gobject/gtype.c:4271 */
 /**
  * g_type_init_with_debug_flags:
  * @debug_flags: Bitwise combination of #GTypeDebugFlags values for
@@ -4875,6 +5131,7 @@
  */
 
 
+/* gobject/gtype.c:1551 */
 /**
  * g_type_interface_add_prerequisite:
  * @interface_type: #GType value of an interface type.
@@ -4888,6 +5145,7 @@
  */
 
 
+/* gobject/gtype.c:3874 */
 /**
  * g_type_interface_get_plugin:
  * @instance_type: the #GType value of an instantiatable type.
@@ -4903,6 +5161,7 @@
  */
 
 
+/* gobject/gtype.c:3102 */
 /**
  * g_type_interface_peek:
  * @instance_class: (type GObject.TypeClass): A #GTypeClass structure.
@@ -4917,6 +5176,7 @@
  */
 
 
+/* gobject/gtype.c:3135 */
 /**
  * g_type_interface_peek_parent:
  * @g_iface: (type GObject.TypeInterface): A #GTypeInterface structure.
@@ -4933,6 +5193,7 @@
  */
 
 
+/* gobject/gtype.c:1637 */
 /**
  * g_type_interface_prerequisites:
  * @interface_type: an interface type
@@ -4948,6 +5209,7 @@
  */
 
 
+/* gobject/gtype.c:3560 */
 /**
  * g_type_interfaces:
  * @type: The type to list interface types for.
@@ -4963,6 +5225,7 @@
  */
 
 
+/* gobject/gtype.c:3492 */
 /**
  * g_type_is_a:
  * @type: Type to check anchestry for.
@@ -4976,6 +5239,7 @@
  */
 
 
+/* gobject/gtypemodule.c:442 */
 /**
  * g_type_module_add_interface:
  * @module: a #GTypeModule
@@ -4992,6 +5256,7 @@
  */
 
 
+/* gobject/gtypemodule.c:505 */
 /**
  * g_type_module_register_enum:
  * @module: a #GTypeModule
@@ -5014,6 +5279,7 @@
  */
 
 
+/* gobject/gtypemodule.c:544 */
 /**
  * g_type_module_register_flags:
  * @module: a #GTypeModule
@@ -5036,6 +5302,7 @@
  */
 
 
+/* gobject/gtypemodule.c:357 */
 /**
  * g_type_module_register_type:
  * @module: a #GTypeModule
@@ -5060,6 +5327,7 @@
  */
 
 
+/* gobject/gtypemodule.c:181 */
 /**
  * g_type_module_set_name:
  * @module: a #GTypeModule.
@@ -5069,6 +5337,7 @@
  */
 
 
+/* gobject/gtypemodule.c:282 */
 /**
  * g_type_module_unuse:
  * @module: a #GTypeModule
@@ -5081,6 +5350,7 @@
  */
 
 
+/* gobject/gtypemodule.c:234 */
 /**
  * g_type_module_use:
  * @module: a #GTypeModule
@@ -5095,6 +5365,7 @@
  */
 
 
+/* gobject/gtype.c:3289 */
 /**
  * g_type_name:
  * @type: Type to return name for.
@@ -5109,6 +5380,7 @@
  */
 
 
+/* gobject/gtype.c:3394 */
 /**
  * g_type_next_base:
  * @leaf_type: Descendant of @root_type and the type to be returned.
@@ -5126,6 +5398,7 @@
  */
 
 
+/* gobject/gtype.c:3356 */
 /**
  * g_type_parent:
  * @type: The derived type.
@@ -5137,6 +5410,7 @@
  */
 
 
+/* gobject/gtypeplugin.c:178 */
 /**
  * g_type_plugin_complete_interface_info:
  * @plugin: the #GTypePlugin
@@ -5151,6 +5425,7 @@
  */
 
 
+/* gobject/gtypeplugin.c:148 */
 /**
  * g_type_plugin_complete_type_info:
  * @plugin: a #GTypePlugin
@@ -5164,6 +5439,7 @@
  */
 
 
+/* gobject/gtypeplugin.c:129 */
 /**
  * g_type_plugin_unuse:
  * @plugin: a #GTypePlugin
@@ -5174,6 +5450,7 @@
  */
 
 
+/* gobject/gtypeplugin.c:110 */
 /**
  * g_type_plugin_use:
  * @plugin: a #GTypePlugin
@@ -5184,6 +5461,7 @@
  */
 
 
+/* gobject/gtype.c:3313 */
 /**
  * g_type_qname:
  * @type: Type to return quark of type name for.
@@ -5194,6 +5472,7 @@
  */
 
 
+/* gobject/gtype.c:3776 */
 /**
  * g_type_query:
  * @type: the #GType value of a static, classed type.
@@ -5209,6 +5488,7 @@
  */
 
 
+/* gobject/gtype.c:2762 */
 /**
  * g_type_register_dynamic:
  * @parent_type: Type from which this type will be derived.
@@ -5226,6 +5506,7 @@
  */
 
 
+/* gobject/gtype.c:2587 */
 /**
  * g_type_register_fundamental:
  * @type_id: A predefined type identifier.
@@ -5246,6 +5527,7 @@
  */
 
 
+/* gobject/gtype.c:2707 */
 /**
  * g_type_register_static:
  * @parent_type: Type from which this type will be derived.
@@ -5263,6 +5545,7 @@
  */
 
 
+/* gobject/gtype.c:2657 */
 /**
  * g_type_register_static_simple: (skip)
  * @parent_type: Type from which this type will be derived.
@@ -5283,6 +5566,7 @@
  */
 
 
+/* gobject/gtype.c:2474 */
 /**
  * g_type_remove_class_cache_func: (skip)
  * @cache_data: data that was given when adding @cache_func
@@ -5294,6 +5578,7 @@
  */
 
 
+/* gobject/gtype.c:2547 */
 /**
  * g_type_remove_interface_check: (skip)
  * @check_data: callback data passed to g_type_add_interface_check()
@@ -5306,6 +5591,7 @@
  */
 
 
+/* gobject/gtype.c:3732 */
 /**
  * g_type_set_qdata:
  * @type: a #GType
@@ -5316,6 +5602,7 @@
  */
 
 
+/* gobject/gtype.c:4159 */
 /**
  * g_type_value_table_peek: (skip)
  * @type: A #GType value.
@@ -5330,6 +5617,7 @@
  */
 
 
+/* gobject/gvaluearray.c:236 */
 /**
  * g_value_array_append:
  * @value_array: #GValueArray to add an element to
@@ -5343,6 +5631,7 @@
  */
 
 
+/* gobject/gvaluearray.c:177 */
 /**
  * g_value_array_copy:
  * @value_array: #GValueArray to copy
@@ -5355,6 +5644,7 @@
  */
 
 
+/* gobject/gvaluearray.c:151 */
 /**
  * g_value_array_free:
  * @value_array: #GValueArray to free
@@ -5365,6 +5655,7 @@
  */
 
 
+/* gobject/gvaluearray.c:71 */
 /**
  * g_value_array_get_nth:
  * @value_array: #GValueArray to get a value from
@@ -5377,6 +5668,7 @@
  */
 
 
+/* gobject/gvaluearray.c:259 */
 /**
  * g_value_array_insert:
  * @value_array: #GValueArray to add an element to
@@ -5391,6 +5683,7 @@
  */
 
 
+/* gobject/gvaluearray.c:125 */
 /**
  * g_value_array_new:
  * @n_prealloced: number of values to preallocate space for
@@ -5404,6 +5697,7 @@
  */
 
 
+/* gobject/gvaluearray.c:212 */
 /**
  * g_value_array_prepend:
  * @value_array: #GValueArray to add an element to
@@ -5417,6 +5711,7 @@
  */
 
 
+/* gobject/gvaluearray.c:296 */
 /**
  * g_value_array_remove:
  * @value_array: #GValueArray to remove an element from
@@ -5431,6 +5726,7 @@
  */
 
 
+/* gobject/gvaluearray.c:329 */
 /**
  * g_value_array_sort:
  * @value_array: #GValueArray to sort
@@ -5447,6 +5743,7 @@
  */
 
 
+/* gobject/gvaluearray.c:358 */
 /**
  * g_value_array_sort_with_data: (rename-to g_value_array_sort)
  * @value_array: #GValueArray to sort
@@ -5464,6 +5761,7 @@
  */
 
 
+/* gobject/gvalue.c:194 */
 /**
  * g_value_copy:
  * @src_value: An initialized #GValue structure.
@@ -5473,6 +5771,7 @@
  */
 
 
+/* gobject/gboxed.c:439 */
 /**
  * g_value_dup_boxed: (skip)
  * @value: a valid #GValue of %G_TYPE_BOXED derived type
@@ -5486,6 +5785,7 @@
  */
 
 
+/* gobject/gobject.c:3832 */
 /**
  * g_value_dup_object:
  * @value: a valid #GValue whose type is derived from %G_TYPE_OBJECT
@@ -5499,6 +5799,7 @@
  */
 
 
+/* gobject/gparam.c:1512 */
 /**
  * g_value_dup_param: (skip)
  * @value: a valid #GValue whose type is derived from %G_TYPE_PARAM
@@ -5511,6 +5812,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1125 */
 /**
  * g_value_dup_string:
  * @value: a valid #GValue of type %G_TYPE_STRING
@@ -5521,6 +5823,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1298 */
 /**
  * g_value_dup_variant:
  * @value: a valid #GValue of type %G_TYPE_VARIANT
@@ -5533,6 +5836,7 @@
  */
 
 
+/* gobject/gvalue.c:278 */
 /**
  * g_value_fits_pointer:
  * @value: An initialized #GValue structure.
@@ -5544,6 +5848,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:753 */
 /**
  * g_value_get_boolean:
  * @value: a valid #GValue of type %G_TYPE_BOOLEAN
@@ -5554,6 +5859,7 @@
  */
 
 
+/* gobject/gboxed.c:422 */
 /**
  * g_value_get_boxed:
  * @value: a valid #GValue of %G_TYPE_BOXED derived type
@@ -5564,6 +5870,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:650 */
 /**
  * g_value_get_char:
  * @value: a valid #GValue of type %G_TYPE_CHAR
@@ -5578,6 +5885,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1009 */
 /**
  * g_value_get_double:
  * @value: a valid #GValue of type %G_TYPE_DOUBLE
@@ -5588,6 +5896,7 @@
  */
 
 
+/* gobject/genums.c:575 */
 /**
  * g_value_get_enum:
  * @value: a valid #GValue whose type is derived from %G_TYPE_ENUM
@@ -5598,6 +5907,7 @@
  */
 
 
+/* gobject/genums.c:607 */
 /**
  * g_value_get_flags:
  * @value: a valid #GValue whose type is derived from %G_TYPE_FLAGS
@@ -5608,6 +5918,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:977 */
 /**
  * g_value_get_float:
  * @value: a valid #GValue of type %G_TYPE_FLOAT
@@ -5618,6 +5929,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1194 */
 /**
  * g_value_get_gtype:
  * @value: a valid #GValue of type %G_TYPE_GTYPE
@@ -5629,6 +5941,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:785 */
 /**
  * g_value_get_int:
  * @value: a valid #GValue of type %G_TYPE_INT
@@ -5639,6 +5952,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:897 */
 /**
  * g_value_get_int64:
  * @value: a valid #GValue of type %G_TYPE_INT64
@@ -5649,6 +5963,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:849 */
 /**
  * g_value_get_long:
  * @value: a valid #GValue of type %G_TYPE_LONG
@@ -5659,6 +5974,7 @@
  */
 
 
+/* gobject/gobject.c:3816 */
 /**
  * g_value_get_object:
  * @value: a valid #GValue of %G_TYPE_OBJECT derived type
@@ -5669,6 +5985,7 @@
  */
 
 
+/* gobject/gparam.c:1496 */
 /**
  * g_value_get_param:
  * @value: a valid #GValue whose type is derived from %G_TYPE_PARAM
@@ -5679,6 +5996,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1157 */
 /**
  * g_value_get_pointer:
  * @value: a valid #GValue of %G_TYPE_POINTER
@@ -5689,6 +6007,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:688 */
 /**
  * g_value_get_schar:
  * @value: a valid #GValue of type %G_TYPE_CHAR
@@ -5700,6 +6019,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1109 */
 /**
  * g_value_get_string:
  * @value: a valid #GValue of type %G_TYPE_STRING
@@ -5710,6 +6030,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:721 */
 /**
  * g_value_get_uchar:
  * @value: a valid #GValue of type %G_TYPE_UCHAR
@@ -5720,6 +6041,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:817 */
 /**
  * g_value_get_uint:
  * @value: a valid #GValue of type %G_TYPE_UINT
@@ -5730,6 +6052,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:945 */
 /**
  * g_value_get_uint64:
  * @value: a valid #GValue of type %G_TYPE_UINT64
@@ -5740,6 +6063,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:881 */
 /**
  * g_value_get_ulong:
  * @value: a valid #GValue of type %G_TYPE_ULONG
@@ -5750,6 +6074,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1280 */
 /**
  * g_value_get_variant:
  * @value: a valid #GValue of type %G_TYPE_VARIANT
@@ -5761,6 +6086,7 @@
  */
 
 
+/* gobject/gvalue.c:154 */
 /**
  * g_value_init:
  * @value: A zero-filled (uninitialized) #GValue structure.
@@ -5772,6 +6098,7 @@
  */
 
 
+/* gobject/gvalue.c:299 */
 /**
  * g_value_peek_pointer:
  * @value: An initialized #GValue structure.
@@ -5783,6 +6110,7 @@
  */
 
 
+/* gobject/gvalue.c:424 */
 /**
  * g_value_register_transform_func: (skip)
  * @src_type: Source type.
@@ -5796,6 +6124,7 @@
  */
 
 
+/* gobject/gvalue.c:224 */
 /**
  * g_value_reset:
  * @value: An initialized #GValue structure.
@@ -5807,6 +6136,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:737 */
 /**
  * g_value_set_boolean:
  * @value: a valid #GValue of type %G_TYPE_BOOLEAN
@@ -5816,6 +6146,7 @@
  */
 
 
+/* gobject/gboxed.c:482 */
 /**
  * g_value_set_boxed:
  * @value: a valid #GValue of %G_TYPE_BOXED derived type
@@ -5825,6 +6156,7 @@
  */
 
 
+/* gobject/gboxed.c:518 */
 /**
  * g_value_set_boxed_take_ownership:
  * @value: a valid #GValue of %G_TYPE_BOXED derived type
@@ -5836,6 +6168,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:633 */
 /**
  * g_value_set_char:
  * @value: a valid #GValue of type %G_TYPE_CHAR
@@ -5847,6 +6180,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:993 */
 /**
  * g_value_set_double:
  * @value: a valid #GValue of type %G_TYPE_DOUBLE
@@ -5856,6 +6190,7 @@
  */
 
 
+/* gobject/genums.c:559 */
 /**
  * g_value_set_enum:
  * @value: a valid #GValue whose type is derived from %G_TYPE_ENUM
@@ -5865,6 +6200,7 @@
  */
 
 
+/* gobject/genums.c:591 */
 /**
  * g_value_set_flags:
  * @value: a valid #GValue whose type is derived from %G_TYPE_FLAGS
@@ -5874,6 +6210,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:961 */
 /**
  * g_value_set_float:
  * @value: a valid #GValue of type %G_TYPE_FLOAT
@@ -5883,6 +6220,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1175 */
 /**
  * g_value_set_gtype:
  * @value: a valid #GValue of type %G_TYPE_GTYPE
@@ -5894,6 +6232,7 @@
  */
 
 
+/* gobject/gvalue.c:325 */
 /**
  * g_value_set_instance:
  * @value: An initialized #GValue structure.
@@ -5904,6 +6243,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:769 */
 /**
  * g_value_set_int:
  * @value: a valid #GValue of type %G_TYPE_INT
@@ -5913,6 +6253,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:914 */
 /**
  * g_value_set_int64:
  * @value: a valid #GValue of type %G_TYPE_INT64
@@ -5922,6 +6263,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:833 */
 /**
  * g_value_set_long:
  * @value: a valid #GValue of type %G_TYPE_LONG
@@ -5931,6 +6273,7 @@
  */
 
 
+/* gobject/gobject.c:3722 */
 /**
  * g_value_set_object:
  * @value: a valid #GValue of %G_TYPE_OBJECT derived type
@@ -5950,6 +6293,7 @@
  */
 
 
+/* gobject/gobject.c:3764 */
 /**
  * g_value_set_object_take_ownership: (skip)
  * @value: a valid #GValue of %G_TYPE_OBJECT derived type
@@ -5961,6 +6305,7 @@
  */
 
 
+/* gobject/gparam.c:1434 */
 /**
  * g_value_set_param:
  * @value: a valid #GValue of type %G_TYPE_PARAM
@@ -5970,6 +6315,7 @@
  */
 
 
+/* gobject/gparam.c:1456 */
 /**
  * g_value_set_param_take_ownership: (skip)
  * @value: a valid #GValue of type %G_TYPE_PARAM
@@ -5981,6 +6327,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1141 */
 /**
  * g_value_set_pointer:
  * @value: a valid #GValue of %G_TYPE_POINTER
@@ -5990,6 +6337,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:670 */
 /**
  * g_value_set_schar:
  * @value: a valid #GValue of type %G_TYPE_CHAR
@@ -6001,6 +6349,7 @@
  */
 
 
+/* gobject/gboxed.c:499 */
 /**
  * g_value_set_static_boxed:
  * @value: a valid #GValue of %G_TYPE_BOXED derived type
@@ -6012,6 +6361,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1050 */
 /**
  * g_value_set_static_string:
  * @value: a valid #GValue of type %G_TYPE_STRING
@@ -6023,6 +6373,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1025 */
 /**
  * g_value_set_string:
  * @value: a valid #GValue of type %G_TYPE_STRING
@@ -6032,6 +6383,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1071 */
 /**
  * g_value_set_string_take_ownership:
  * @value: a valid #GValue of type %G_TYPE_STRING
@@ -6043,6 +6395,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:705 */
 /**
  * g_value_set_uchar:
  * @value: a valid #GValue of type %G_TYPE_UCHAR
@@ -6052,6 +6405,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:801 */
 /**
  * g_value_set_uint:
  * @value: a valid #GValue of type %G_TYPE_UINT
@@ -6061,6 +6415,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:929 */
 /**
  * g_value_set_uint64:
  * @value: a valid #GValue of type %G_TYPE_UINT64
@@ -6070,6 +6425,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:865 */
 /**
  * g_value_set_ulong:
  * @value: a valid #GValue of type %G_TYPE_ULONG
@@ -6079,6 +6435,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1212 */
 /**
  * g_value_set_variant:
  * @value: a valid #GValue of type %G_TYPE_VARIANT
@@ -6091,6 +6448,7 @@
  */
 
 
+/* gobject/gboxed.c:534 */
 /**
  * g_value_take_boxed:
  * @value: a valid #GValue of %G_TYPE_BOXED derived type
@@ -6104,6 +6462,7 @@
  */
 
 
+/* gobject/gobject.c:3780 */
 /**
  * g_value_take_object: (skip)
  * @value: a valid #GValue of %G_TYPE_OBJECT derived type
@@ -6121,6 +6480,7 @@
  */
 
 
+/* gobject/gparam.c:1472 */
 /**
  * g_value_take_param: (skip)
  * @value: a valid #GValue of type %G_TYPE_PARAM
@@ -6134,6 +6494,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1087 */
 /**
  * g_value_take_string:
  * @value: a valid #GValue of type %G_TYPE_STRING
@@ -6145,6 +6506,7 @@
  */
 
 
+/* gobject/gvaluetypes.c:1241 */
 /**
  * g_value_take_variant:
  * @value: a valid #GValue of type %G_TYPE_VARIANT
@@ -6167,6 +6529,7 @@
  */
 
 
+/* gobject/gvalue.c:505 */
 /**
  * g_value_transform:
  * @src_value: Source value.
@@ -6185,6 +6548,7 @@
  */
 
 
+/* gobject/gvalue.c:484 */
 /**
  * g_value_type_compatible:
  * @src_type: source type to be copied.
@@ -6197,6 +6561,7 @@
  */
 
 
+/* gobject/gvalue.c:463 */
 /**
  * g_value_type_transformable:
  * @src_type: Source type.
@@ -6209,6 +6574,7 @@
  */
 
 
+/* gobject/gvalue.c:255 */
 /**
  * g_value_unset:
  * @value: An initialized #GValue structure.
@@ -6220,6 +6586,7 @@
  */
 
 
+/* gobject/gboxed.c:187 */
 /**
  * g_variant_get_gtype:
  *
@@ -6228,6 +6595,7 @@
  */
 
 
+/* gobject/gobject.c:4186 */
 /**
  * g_weak_ref_clear: (skip)
  * @weak_ref: (inout): location of a weak reference, which
@@ -6243,6 +6611,7 @@
  */
 
 
+/* gobject/gobject.c:4208 */
 /**
  * g_weak_ref_get: (skip)
  * @weak_ref: (inout): location of a weak reference to a #GObject
@@ -6263,6 +6632,7 @@
  */
 
 
+/* gobject/gobject.c:4159 */
 /**
  * g_weak_ref_init: (skip)
  * @weak_ref: (inout): uninitialized or empty location for a weak
@@ -6283,6 +6653,7 @@
  */
 
 
+/* gobject/gobject.c:4246 */
 /**
  * g_weak_ref_set: (skip)
  * @weak_ref: location for a weak reference

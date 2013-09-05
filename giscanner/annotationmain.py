@@ -36,6 +36,15 @@ def annotation_main(args):
                      help="Extract annotations from the input files")
     parser.add_option_group(group)
 
+    group = optparse.OptionGroup(parser, "Tool options")
+    group.add_option("--linemarkers",
+                     action="store_true", dest="linemarkers",
+                     default=False,
+                     help="Generate linemarkers")
+    group.add_option("--linemarkers-prefix",
+                     action="append", dest="linemarkers_prefix", default=[],
+                     help="Remove common path prefix from the generated linemarker")
+
     group = get_preprocessor_option_group(parser)
     group.add_option("-L", "--library-path",
                      action="append", dest="library_paths", default=[],
@@ -59,7 +68,9 @@ def annotation_main(args):
 
     if options.extract:
         parser = GtkDocCommentBlockParser()
-        writer = GtkDocCommentBlockWriter(indent=False)
+        writer = GtkDocCommentBlockWriter(indent=False,
+                                          linemarkers=options.linemarkers,
+                                          linemarkers_prefix=options.linemarkers_prefix)
         blocks = parser.parse_comment_blocks(ss.get_comments())
         print '/' + ('*' * 60) + '/'
         print '/* THIS FILE IS GENERATED DO NOT EDIT */'

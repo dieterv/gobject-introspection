@@ -2,6 +2,7 @@
 /* THIS FILE IS GENERATED DO NOT EDIT */
 /************************************************************/
 
+/* gio/gaction.c:118 */
 /**
  * GAction:enabled:
  *
@@ -14,6 +15,7 @@
  */
 
 
+/* gio/gaction.c:86 */
 /**
  * GAction:name:
  *
@@ -24,6 +26,7 @@
  */
 
 
+/* gio/gaction.c:102 */
 /**
  * GAction:parameter-type:
  *
@@ -34,6 +37,7 @@
  */
 
 
+/* gio/gaction.c:152 */
 /**
  * GAction:state:
  *
@@ -43,6 +47,7 @@
  */
 
 
+/* gio/gaction.c:136 */
 /**
  * GAction:state-type:
  *
@@ -53,6 +58,7 @@
  */
 
 
+/* gio/gactionmap.c:124 */
 /**
  * GActionEntry:
  * @name: the name of the action
@@ -81,6 +87,7 @@
  */
 
 
+/* gio/gactiongroup.c:240 */
 /**
  * GActionGroup::action-added:
  * @action_group: the #GActionGroup that changed
@@ -94,6 +101,7 @@
  */
 
 
+/* gio/gactiongroup.c:283 */
 /**
  * GActionGroup::action-enabled-changed:
  * @action_group: the #GActionGroup that changed
@@ -106,6 +114,7 @@
  */
 
 
+/* gio/gactiongroup.c:261 */
 /**
  * GActionGroup::action-removed:
  * @action_group: the #GActionGroup that changed
@@ -119,6 +128,7 @@
  */
 
 
+/* gio/gactiongroup.c:305 */
 /**
  * GActionGroup::action-state-changed:
  * @action_group: the #GActionGroup that changed
@@ -131,6 +141,7 @@
  */
 
 
+/* gio/gactiongroup.c:80 */
 /**
  * GActionGroupInterface:
  * @has_action: the virtual function pointer for g_action_group_has_action()
@@ -154,6 +165,7 @@
  */
 
 
+/* gio/gaction.c:66 */
 /**
  * GActionInterface:
  * @get_name: the virtual function pointer for g_action_get_name()
@@ -172,6 +184,7 @@
  */
 
 
+/* gio/gactionmap.c:46 */
 /**
  * GActionMapInterface:
  * @lookup_action: the virtual function pointer for g_action_map_lookup_action()
@@ -184,6 +197,7 @@
  */
 
 
+/* gio/gapplication.c:799 */
 /**
  * GApplication::activate:
  * @application: the application
@@ -193,6 +207,7 @@
  */
 
 
+/* gio/gapplication.c:828 */
 /**
  * GApplication::command-line:
  * @application: the application
@@ -208,6 +223,7 @@
  */
 
 
+/* gio/gapplication.c:812 */
 /**
  * GApplication::open:
  * @application: the application
@@ -220,6 +236,7 @@
  */
 
 
+/* gio/gapplication.c:787 */
 /**
  * GApplication::shutdown:
  * @application: the application
@@ -229,6 +246,7 @@
  */
 
 
+/* gio/gapplication.c:775 */
 /**
  * GApplication::startup:
  * @application: the application
@@ -238,6 +256,7 @@
  */
 
 
+/* gio/gapplication.c:185 */
 /**
  * GApplicationClass:
  * @startup: invoked on the primary instance immediately after registration
@@ -284,6 +303,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:131 */
 /**
  * GApplicationCommandLineClass:
  *
@@ -294,6 +314,7 @@
  */
 
 
+/* gio/gbytesicon.c:127 */
 /**
  * GBytesIcon:bytes:
  *
@@ -301,6 +322,7 @@
  */
 
 
+/* gio/gcancellable.c:82 */
 /**
  * GCancellable::cancelled:
  * @cancellable: a #GCancellable.
@@ -361,6 +383,7 @@
  */
 
 
+/* gio/gcharsetconverter.c:53 */
 /**
  * GCharsetConverter:
  *
@@ -368,6 +391,7 @@
  */
 
 
+/* gio/gcredentials.c:74 */
 /**
  * GCredentials:
  *
@@ -378,6 +402,7 @@
  */
 
 
+/* gio/gcredentials.c:102 */
 /**
  * GCredentialsClass:
  *
@@ -387,6 +412,7 @@
  */
 
 
+/* gio/gdbusauthmechanism.c:136 */
 /**
  * GDBusAuthMechanism:credentials:
  *
@@ -398,6 +424,7 @@
  */
 
 
+/* gio/gdbusauthobserver.c:97 */
 /**
  * GDBusAuthObserver:
  *
@@ -408,6 +435,7 @@
  */
 
 
+/* gio/gdbusauthobserver.c:180 */
 /**
  * GDBusAuthObserver::allow-mechanism:
  * @observer: The #GDBusAuthObserver emitting the signal.
@@ -420,6 +448,7 @@
  */
 
 
+/* gio/gdbusauthobserver.c:154 */
 /**
  * GDBusAuthObserver::authorize-authenticated-peer:
  * @observer: The #GDBusAuthObserver emitting the signal.
@@ -434,6 +463,7 @@
  */
 
 
+/* gio/gdbusauthobserver.c:73 */
 /**
  * GDBusAuthObserverClass:
  * @authorize_authenticated_peer: Signal class handler for the #GDBusAuthObserver::authorize-authenticated-peer signal.
@@ -444,6 +474,7 @@
  */
 
 
+/* gio/gdbusconnection.c:335 */
 /**
  * GDBusConnection:
  *
@@ -454,6 +485,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1032 */
 /**
  * GDBusConnection::closed:
  * @connection: The #GDBusConnection emitting the signal.
@@ -488,6 +520,7 @@
  */
 
 
+/* gio/gdbusconnection.c:860 */
 /**
  * GDBusConnection:address:
  *
@@ -498,6 +531,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1013 */
 /**
  * GDBusConnection:authentication-observer:
  *
@@ -507,6 +541,7 @@
  */
 
 
+/* gio/gdbusconnection.c:993 */
 /**
  * GDBusConnection:capabilities:
  *
@@ -517,6 +552,7 @@
  */
 
 
+/* gio/gdbusconnection.c:951 */
 /**
  * GDBusConnection:closed:
  *
@@ -526,6 +562,7 @@
  */
 
 
+/* gio/gdbusconnection.c:969 */
 /**
  * GDBusConnection:exit-on-close:
  *
@@ -540,6 +577,7 @@
  */
 
 
+/* gio/gdbusconnection.c:880 */
 /**
  * GDBusConnection:flags:
  *
@@ -549,6 +587,7 @@
  */
 
 
+/* gio/gdbusconnection.c:900 */
 /**
  * GDBusConnection:guid:
  *
@@ -570,6 +609,7 @@
  */
 
 
+/* gio/gdbusmessage.c:575 */
 /**
  * GDBusConnection:locked:
  *
@@ -579,6 +619,7 @@
  */
 
 
+/* gio/gdbusconnection.c:833 */
 /**
  * GDBusConnection:stream:
  *
@@ -595,6 +636,7 @@
  */
 
 
+/* gio/gdbusconnection.c:932 */
 /**
  * GDBusConnection:unique-name:
  *
@@ -605,6 +647,7 @@
  */
 
 
+/* gio/gdbusconnection.c:189 */
 /**
  * GDBusConnectionClass:
  * @closed: Signal class handler for the #GDBusConnection::closed signal.
@@ -615,6 +658,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:203 */
 /**
  * GDBusInterfaceSkeleton::g-authorize-method:
  * @interface: The #GDBusInterfaceSkeleton emitting the signal.
@@ -659,6 +703,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:185 */
 /**
  * GDBusInterfaceSkeleton:g-flags:
  *
@@ -668,6 +713,7 @@
  */
 
 
+/* gio/gdbusmessage.c:494 */
 /**
  * GDBusMessage:
  *
@@ -678,6 +724,7 @@
  */
 
 
+/* gio/gdbusmessage.c:481 */
 /**
  * GDBusMessageClass:
  *
@@ -687,6 +734,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:70 */
 /**
  * GDBusMethodInvocation:
  *
@@ -697,6 +745,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:57 */
 /**
  * GDBusMethodInvocationClass:
  *
@@ -706,6 +755,7 @@
  */
 
 
+/* gio/gdbusobject.c:48 */
 /**
  * GDBusObject::interface-added:
  * @object: The #GDBusObject emitting the signal.
@@ -717,6 +767,7 @@
  */
 
 
+/* gio/gdbusobject.c:68 */
 /**
  * GDBusObject::interface-removed:
  * @object: The #GDBusObject emitting the signal.
@@ -728,6 +779,7 @@
  */
 
 
+/* gio/gdbusobjectmanager.c:92 */
 /**
  * GDBusObjectManager::interface-added:
  * @manager: The #GDBusObjectManager emitting the signal.
@@ -743,6 +795,7 @@
  */
 
 
+/* gio/gdbusobjectmanager.c:117 */
 /**
  * GDBusObjectManager::interface-removed:
  * @manager: The #GDBusObjectManager emitting the signal.
@@ -758,6 +811,7 @@
  */
 
 
+/* gio/gdbusobjectmanager.c:52 */
 /**
  * GDBusObjectManager::object-added:
  * @manager: The #GDBusObjectManager emitting the signal.
@@ -769,6 +823,7 @@
  */
 
 
+/* gio/gdbusobjectmanager.c:72 */
 /**
  * GDBusObjectManager::object-removed:
  * @manager: The #GDBusObjectManager emitting the signal.
@@ -780,6 +835,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:532 */
 /**
  * GDBusObjectManagerClient::interface-proxy-properties-changed:
  * @manager: The #GDBusObjectManagerClient emitting the signal.
@@ -804,6 +860,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:496 */
 /**
  * GDBusObjectManagerClient::interface-proxy-signal:
  * @manager: The #GDBusObjectManagerClient emitting the signal.
@@ -826,6 +883,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:346 */
 /**
  * GDBusObjectManagerClient:bus-type:
  *
@@ -838,6 +896,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:328 */
 /**
  * GDBusObjectManagerClient:connection:
  *
@@ -847,6 +906,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:369 */
 /**
  * GDBusObjectManagerClient:flags:
  *
@@ -856,6 +916,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:479 */
 /**
  * GDBusObjectManagerClient:get-proxy-type-destroy-notify:
  *
@@ -865,6 +926,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:444 */
 /**
  * GDBusObjectManagerClient:get-proxy-type-func:
  *
@@ -875,6 +937,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:462 */
 /**
  * GDBusObjectManagerClient:get-proxy-type-user-data:
  *
@@ -884,6 +947,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:408 */
 /**
  * GDBusObjectManagerClient:name:
  *
@@ -893,6 +957,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:426 */
 /**
  * GDBusObjectManagerClient:name-owner:
  *
@@ -904,6 +969,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:390 */
 /**
  * GDBusObjectManagerClient:object-path:
  *
@@ -913,6 +979,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:190 */
 /**
  * GDBusObjectManagerServer:connection:
  *
@@ -922,6 +989,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:207 */
 /**
  * GDBusObjectManagerServer:object-path:
  *
@@ -931,6 +999,7 @@
  */
 
 
+/* gio/gdbusobjectproxy.c:165 */
 /**
  * GDBusObjectProxy:g-connection:
  *
@@ -940,6 +1009,7 @@
  */
 
 
+/* gio/gdbusobjectproxy.c:148 */
 /**
  * GDBusObjectProxy:g-object-path:
  *
@@ -949,6 +1019,7 @@
  */
 
 
+/* gio/gdbusobjectskeleton.c:169 */
 /**
  * GDBusObjectSkeleton::authorize-method:
  * @object: The #GDBusObjectSkeleton emitting the signal.
@@ -969,6 +1040,7 @@
  */
 
 
+/* gio/gdbusobjectskeleton.c:151 */
 /**
  * GDBusObjectSkeleton:g-object-path:
  *
@@ -978,6 +1050,7 @@
  */
 
 
+/* gio/gdbusproxy.c:579 */
 /**
  * GDBusProxy::g-properties-changed:
  * @proxy: The #GDBusProxy emitting the signal.
@@ -1001,6 +1074,7 @@
  */
 
 
+/* gio/gdbusproxy.c:612 */
 /**
  * GDBusProxy::g-signal:
  * @proxy: The #GDBusProxy emitting the signal.
@@ -1014,6 +1088,7 @@
  */
 
 
+/* gio/gdbusproxy.c:426 */
 /**
  * GDBusProxy:g-bus-type:
  *
@@ -1026,6 +1101,7 @@
  */
 
 
+/* gio/gdbusproxy.c:406 */
 /**
  * GDBusProxy:g-connection:
  *
@@ -1035,6 +1111,7 @@
  */
 
 
+/* gio/gdbusproxy.c:550 */
 /**
  * GDBusProxy:g-default-timeout:
  *
@@ -1051,6 +1128,7 @@
  */
 
 
+/* gio/gdbusproxy.c:449 */
 /**
  * GDBusProxy:g-flags:
  *
@@ -1060,6 +1138,7 @@
  */
 
 
+/* gio/gdbusproxy.c:360 */
 /**
  * GDBusProxy:g-interface-info:
  *
@@ -1096,6 +1175,7 @@
  */
 
 
+/* gio/gdbusproxy.c:530 */
 /**
  * GDBusProxy:g-interface-name:
  *
@@ -1105,6 +1185,7 @@
  */
 
 
+/* gio/gdbusproxy.c:470 */
 /**
  * GDBusProxy:g-name:
  *
@@ -1114,6 +1195,7 @@
  */
 
 
+/* gio/gdbusproxy.c:490 */
 /**
  * GDBusProxy:g-name-owner:
  *
@@ -1125,6 +1207,7 @@
  */
 
 
+/* gio/gdbusproxy.c:510 */
 /**
  * GDBusProxy:g-object-path:
  *
@@ -1134,6 +1217,7 @@
  */
 
 
+/* gio/gdbusserver.c:77 */
 /**
  * GDBusServer:
  *
@@ -1144,6 +1228,7 @@
  */
 
 
+/* gio/gdbusserver.c:390 */
 /**
  * GDBusServer::new-connection:
  * @server: The #GDBusServer emitting the signal.
@@ -1177,6 +1262,7 @@
  */
 
 
+/* gio/gdbusserver.c:352 */
 /**
  * GDBusServer:active:
  *
@@ -1186,6 +1272,7 @@
  */
 
 
+/* gio/gdbusserver.c:314 */
 /**
  * GDBusServer:address:
  *
@@ -1195,6 +1282,7 @@
  */
 
 
+/* gio/gdbusserver.c:370 */
 /**
  * GDBusServer:authentication-observer:
  *
@@ -1204,6 +1292,7 @@
  */
 
 
+/* gio/gdbusserver.c:334 */
 /**
  * GDBusServer:client-address:
  *
@@ -1213,6 +1302,7 @@
  */
 
 
+/* gio/gdbusserver.c:273 */
 /**
  * GDBusServer:flags:
  *
@@ -1222,6 +1312,7 @@
  */
 
 
+/* gio/gdbusserver.c:294 */
 /**
  * GDBusServer:guid:
  *
@@ -1231,6 +1322,7 @@
  */
 
 
+/* gio/gdbusserver.c:116 */
 /**
  * GDBusServerClass:
  * @new_connection: Signal class handler for the #GDBusServer::new-connection signal.
@@ -1241,6 +1333,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:94 */
 /**
  * GDataOutputStream:byte-order:
  *
@@ -1249,6 +1342,7 @@
  */
 
 
+/* gio/gdatainputstream.c:80 */
 /**
  * GDataStream:byte-order:
  *
@@ -1258,6 +1352,7 @@
  */
 
 
+/* gio/gdatainputstream.c:96 */
 /**
  * GDataStream:newline-type:
  *
@@ -1266,6 +1361,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:89 */
 /**
  * GDesktopAppInfo:
  *
@@ -1273,6 +1369,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:287 */
 /**
  * GDesktopAppInfo:filename:
  *
@@ -1280,6 +1377,7 @@
  */
 
 
+/* gio/gdrive.c:72 */
 /**
  * GDrive::changed:
  * @drive: a #GDrive.
@@ -1288,6 +1386,7 @@
  */
 
 
+/* gio/gdrive.c:86 */
 /**
  * GDrive::disconnected:
  * @drive: a #GDrive.
@@ -1299,6 +1398,7 @@
  */
 
 
+/* gio/gdrive.c:103 */
 /**
  * GDrive::eject-button:
  * @drive: a #GDrive.
@@ -1308,6 +1408,7 @@
  */
 
 
+/* gio/gdrive.c:118 */
 /**
  * GDrive::stop-button:
  * @drive: a #GDrive.
@@ -1319,6 +1420,7 @@
  */
 
 
+/* gio/gfileicon.c:137 */
 /**
  * GFileIcon:file:
  *
@@ -1326,6 +1428,7 @@
  */
 
 
+/* gio/gfilemonitor.c:227 */
 /**
  * GFileMonitor::changed:
  * @monitor: a #GFileMonitor.
@@ -1343,6 +1446,7 @@
  */
 
 
+/* gio/gfilenamecompleter.c:100 */
 /**
  * GFilenameCompleter::got-completion-data:
  *
@@ -1350,6 +1454,7 @@
  */
 
 
+/* gio/giomodule.c:119 */
 /**
  * GIOModuleScope:
  *
@@ -1363,6 +1468,7 @@
  */
 
 
+/* gio/ginetaddress.c:61 */
 /**
  * GInetAddress:
  *
@@ -1370,6 +1476,7 @@
  */
 
 
+/* gio/ginetaddress.c:205 */
 /**
  * GInetAddress:is-any:
  *
@@ -1380,6 +1487,7 @@
  */
 
 
+/* gio/ginetaddress.c:221 */
 /**
  * GInetAddress:is-link-local:
  *
@@ -1390,6 +1498,7 @@
  */
 
 
+/* gio/ginetaddress.c:237 */
 /**
  * GInetAddress:is-loopback:
  *
@@ -1400,6 +1509,7 @@
  */
 
 
+/* gio/ginetaddress.c:285 */
 /**
  * GInetAddress:is-mc-global:
  *
@@ -1410,6 +1520,7 @@
  */
 
 
+/* gio/ginetaddress.c:302 */
 /**
  * GInetAddress:is-mc-link-local:
  *
@@ -1420,6 +1531,7 @@
  */
 
 
+/* gio/ginetaddress.c:318 */
 /**
  * GInetAddress:is-mc-node-local:
  *
@@ -1430,6 +1542,7 @@
  */
 
 
+/* gio/ginetaddress.c:334 */
 /**
  * GInetAddress:is-mc-org-local:
  *
@@ -1440,6 +1553,7 @@
  */
 
 
+/* gio/ginetaddress.c:350 */
 /**
  * GInetAddress:is-mc-site-local:
  *
@@ -1450,6 +1564,7 @@
  */
 
 
+/* gio/ginetaddress.c:269 */
 /**
  * GInetAddress:is-multicast:
  *
@@ -1460,6 +1575,7 @@
  */
 
 
+/* gio/ginetaddress.c:253 */
 /**
  * GInetAddress:is-site-local:
  *
@@ -1470,6 +1586,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:43 */
 /**
  * GInetAddressMask:
  *
@@ -1480,6 +1597,7 @@
  */
 
 
+/* gio/ginetsocketaddress.c:43 */
 /**
  * GInetSocketAddress:
  *
@@ -1488,6 +1606,7 @@
  */
 
 
+/* gio/ginetsocketaddress.c:268 */
 /**
  * GInetSocketAddress:flowinfo:
  *
@@ -1497,6 +1616,7 @@
  */
 
 
+/* gio/ginetsocketaddress.c:286 */
 /**
  * GInetSocketAddress:scope_id:
  *
@@ -1506,6 +1626,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:147 */
 /**
  * GMemoryOutputStream:data:
  *
@@ -1515,6 +1636,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:178 */
 /**
  * GMemoryOutputStream:data-size:
  *
@@ -1524,6 +1646,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:209 */
 /**
  * GMemoryOutputStream:destroy-function: (skip)
  *
@@ -1533,6 +1656,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:194 */
 /**
  * GMemoryOutputStream:realloc-function: (skip)
  *
@@ -1542,6 +1666,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:162 */
 /**
  * GMemoryOutputStream:size:
  *
@@ -1551,6 +1676,7 @@
  */
 
 
+/* gio/gmenu.c:46 */
 /**
  * GMenu:
  *
@@ -1561,6 +1687,7 @@
  */
 
 
+/* gio/gmenumodel.c:173 */
 /**
  * GMenuAttributeIter:
  *
@@ -1571,6 +1698,7 @@
  */
 
 
+/* gio/gmenu.c:55 */
 /**
  * GMenuItem:
  *
@@ -1581,6 +1709,7 @@
  */
 
 
+/* gio/gmenumodel.c:182 */
 /**
  * GMenuLinkIter:
  *
@@ -1591,6 +1720,7 @@
  */
 
 
+/* gio/gmenumodel.c:164 */
 /**
  * GMenuModel:
  *
@@ -1601,6 +1731,7 @@
  */
 
 
+/* gio/gmenumodel.c:440 */
 /**
  * GMenuModel::items-changed:
  * @model: the #GMenuModel that is changing
@@ -1631,6 +1762,7 @@
  */
 
 
+/* gio/gmount.c:72 */
 /**
  * GMount::changed:
  * @mount: the object on which the signal is emitted
@@ -1639,6 +1771,7 @@
  */
 
 
+/* gio/gmount.c:102 */
 /**
  * GMount::pre-unmount:
  * @mount: the object on which the signal is emitted
@@ -1650,6 +1783,7 @@
  */
 
 
+/* gio/gmount.c:86 */
 /**
  * GMount::unmounted:
  * @mount: the object on which the signal is emitted
@@ -1661,6 +1795,7 @@
  */
 
 
+/* gio/gmountoperation.c:331 */
 /**
  * GMountOperation::aborted:
  *
@@ -1674,6 +1809,7 @@
  */
 
 
+/* gio/gmountoperation.c:267 */
 /**
  * GMountOperation::ask-password:
  * @op: a #GMountOperation requesting a password.
@@ -1690,6 +1826,7 @@
  */
 
 
+/* gio/gmountoperation.c:291 */
 /**
  * GMountOperation::ask-question:
  * @op: a #GMountOperation asking a question.
@@ -1705,6 +1842,7 @@
  */
 
 
+/* gio/gmountoperation.c:314 */
 /**
  * GMountOperation::reply:
  * @op: a #GMountOperation.
@@ -1714,6 +1852,7 @@
  */
 
 
+/* gio/gmountoperation.c:351 */
 /**
  * GMountOperation::show-processes:
  * @op: a #GMountOperation.
@@ -1739,6 +1878,7 @@
  */
 
 
+/* gio/gmountoperation.c:384 */
 /**
  * GMountOperation::show-unmount-progress:
  * @op: a #GMountOperation:
@@ -1770,6 +1910,7 @@
  */
 
 
+/* gio/gmountoperation.c:452 */
 /**
  * GMountOperation:anonymous:
  *
@@ -1777,6 +1918,7 @@
  */
 
 
+/* gio/gmountoperation.c:495 */
 /**
  * GMountOperation:choice:
  *
@@ -1785,6 +1927,7 @@
  */
 
 
+/* gio/gmountoperation.c:466 */
 /**
  * GMountOperation:domain:
  *
@@ -1792,6 +1935,7 @@
  */
 
 
+/* gio/gmountoperation.c:437 */
 /**
  * GMountOperation:password:
  *
@@ -1800,6 +1944,7 @@
  */
 
 
+/* gio/gmountoperation.c:480 */
 /**
  * GMountOperation:password-save:
  *
@@ -1807,6 +1952,7 @@
  */
 
 
+/* gio/gmountoperation.c:422 */
 /**
  * GMountOperation:username:
  *
@@ -1815,6 +1961,7 @@
  */
 
 
+/* gio/gnetworkaddress.c:56 */
 /**
  * GNetworkAddress:
  *
@@ -1823,6 +1970,7 @@
  */
 
 
+/* gio/gnetworkmonitor.c:44 */
 /**
  * GNetworkMonitor:
  *
@@ -1833,6 +1981,7 @@
  */
 
 
+/* gio/gnetworkmonitor.c:232 */
 /**
  * GNetworkMonitor::network-changed:
  * @monitor: a #GNetworkMonitor
@@ -1848,6 +1997,7 @@
  */
 
 
+/* gio/gnetworkmonitor.c:255 */
 /**
  * GNetworkMonitor:network-available:
  *
@@ -1874,6 +2024,7 @@
  */
 
 
+/* gio/gnetworkservice.c:61 */
 /**
  * GNetworkService:
  *
@@ -1882,6 +2033,7 @@
  */
 
 
+/* gio/gpermission.c:56 */
 /**
  * GPermission:
  *
@@ -1890,6 +2042,7 @@
  */
 
 
+/* gio/gpermission.c:427 */
 /**
  * GPermission:allowed:
  *
@@ -1898,6 +2051,7 @@
  */
 
 
+/* gio/gpermission.c:440 */
 /**
  * GPermission:can-acquire:
  *
@@ -1906,6 +2060,7 @@
  */
 
 
+/* gio/gpermission.c:453 */
 /**
  * GPermission:can-release:
  *
@@ -1914,6 +2069,7 @@
  */
 
 
+/* gio/gpropertyaction.c:100 */
 /**
  * GPropertyAction:
  *
@@ -1923,6 +2079,7 @@
  */
 
 
+/* gio/gpropertyaction.c:434 */
 /**
  * GPropertyAction:enabled:
  *
@@ -1935,6 +2092,7 @@
  */
 
 
+/* gio/gpropertyaction.c:401 */
 /**
  * GPropertyAction:name:
  *
@@ -1945,6 +2103,7 @@
  */
 
 
+/* gio/gpropertyaction.c:484 */
 /**
  * GPropertyAction:object:
  *
@@ -1956,6 +2115,7 @@
  */
 
 
+/* gio/gpropertyaction.c:418 */
 /**
  * GPropertyAction:parameter-type:
  *
@@ -1966,6 +2126,7 @@
  */
 
 
+/* gio/gpropertyaction.c:502 */
 /**
  * GPropertyAction:property-name:
  *
@@ -1978,6 +2139,7 @@
  */
 
 
+/* gio/gpropertyaction.c:468 */
 /**
  * GPropertyAction:state:
  *
@@ -1987,6 +2149,7 @@
  */
 
 
+/* gio/gpropertyaction.c:452 */
 /**
  * GPropertyAction:state-type:
  *
@@ -1997,6 +2160,7 @@
  */
 
 
+/* gio/gproxyaddress.c:39 */
 /**
  * GProxyAddress:
  *
@@ -2006,6 +2170,7 @@
  */
 
 
+/* gio/gproxyaddress.c:218 */
 /**
  * GProxyAddress:destination-protocol:
  *
@@ -2016,6 +2181,7 @@
  */
 
 
+/* gio/gproxyaddress.c:256 */
 /**
  * GProxyAddress:uri:
  *
@@ -2026,6 +2192,7 @@
  */
 
 
+/* gio/gproxyaddressenumerator.c:728 */
 /**
  * GProxyAddressEnumerator:default-port:
  *
@@ -2036,6 +2203,7 @@
  */
 
 
+/* gio/gproxyaddressenumerator.c:756 */
 /**
  * GProxyAddressEnumerator:proxy-resolver:
  *
@@ -2045,6 +2213,7 @@
  */
 
 
+/* gio/gremoteactiongroup.c:59 */
 /**
  * GRemoteActionGroupInterface:
  * @activate_action_full: the virtual function pointer for g_remote_action_group_activate_action_full()
@@ -2056,6 +2225,7 @@
  */
 
 
+/* gio/gresolver.c:73 */
 /**
  * GResolver:
  *
@@ -2064,6 +2234,7 @@
  */
 
 
+/* gio/gresolver.c:156 */
 /**
  * GResolver::reload:
  * @resolver: a #GResolver
@@ -2073,6 +2244,7 @@
  */
 
 
+/* gio/gsettings.c:643 */
 /**
  * GSettings::change-event:
  * @settings: the object on which the signal was emitted
@@ -2101,6 +2273,7 @@
  */
 
 
+/* gio/gsettings.c:623 */
 /**
  * GSettings::changed:
  * @settings: the object on which the signal was emitted
@@ -2116,6 +2289,7 @@
  */
 
 
+/* gio/gsettings.c:697 */
 /**
  * GSettings::writable-change-event:
  * @settings: the object on which the signal was emitted
@@ -2145,6 +2319,7 @@
  */
 
 
+/* gio/gsettings.c:677 */
 /**
  * GSettings::writable-changed:
  * @settings: the object on which the signal was emitted
@@ -2160,6 +2335,7 @@
  */
 
 
+/* gio/gsettings.c:731 */
 /**
  * GSettings:context:
  *
@@ -2167,6 +2343,7 @@
  */
 
 
+/* gio/gsettings.c:826 */
 /**
  * GSettings:delay-apply:
  *
@@ -2177,6 +2354,7 @@
  */
 
 
+/* gio/gsettings.c:813 */
 /**
  * GSettings:has-unapplied:
  *
@@ -2185,6 +2363,7 @@
  */
 
 
+/* gio/gsettings.c:800 */
 /**
  * GSettings:path:
  *
@@ -2192,6 +2371,7 @@
  */
 
 
+/* gio/gsettings.c:762 */
 /**
  * GSettings:schema:
  *
@@ -2210,6 +2390,7 @@
  */
 
 
+/* gio/gsettings.c:786 */
 /**
  * GSettings:schema-id:
  *
@@ -2218,6 +2399,7 @@
  */
 
 
+/* gio/gsettings.c:743 */
 /**
  * GSettings:settings-schema:
  *
@@ -2231,6 +2413,7 @@
  */
 
 
+/* gio/gsettingsschema.c:132 */
 /**
  * GSettingsSchema:
  *
@@ -2240,6 +2423,7 @@
  */
 
 
+/* gio/gsettingsschema.c:169 */
 /**
  * GSettingsSchemaSource:
  *
@@ -2249,6 +2433,7 @@
  */
 
 
+/* gio/gsimpleaction.c:321 */
 /**
  * GSimpleAction::activate:
  * @simple: the #GSimpleAction
@@ -2263,6 +2448,7 @@
  */
 
 
+/* gio/gsimpleaction.c:342 */
 /**
  * GSimpleAction::change-state:
  * @simple: the #GSimpleAction
@@ -2306,6 +2492,7 @@
  */
 
 
+/* gio/gsimpleaction.c:426 */
 /**
  * GSimpleAction:enabled:
  *
@@ -2318,6 +2505,7 @@
  */
 
 
+/* gio/gsimpleaction.c:392 */
 /**
  * GSimpleAction:name:
  *
@@ -2328,6 +2516,7 @@
  */
 
 
+/* gio/gsimpleaction.c:409 */
 /**
  * GSimpleAction:parameter-type:
  *
@@ -2338,6 +2527,7 @@
  */
 
 
+/* gio/gsimpleaction.c:460 */
 /**
  * GSimpleAction:state:
  *
@@ -2347,6 +2537,7 @@
  */
 
 
+/* gio/gsimpleaction.c:444 */
 /**
  * GSimpleAction:state-type:
  *
@@ -2357,6 +2548,7 @@
  */
 
 
+/* gio/gsimplepermission.c:40 */
 /**
  * GSimplePermission:
  *
@@ -2365,6 +2557,7 @@
  */
 
 
+/* gio/gsimpleproxyresolver.c:409 */
 /**
  * GSimpleProxyResolver:default-proxy:
  *
@@ -2380,6 +2573,7 @@
  */
 
 
+/* gio/gsimpleproxyresolver.c:430 */
 /**
  * GSimpleProxyResolver:ignore-hosts:
  *
@@ -2434,6 +2628,7 @@
  */
 
 
+/* gio/gsocket.c:898 */
 /**
  * GSocket:broadcast:
  *
@@ -2443,6 +2638,7 @@
  */
 
 
+/* gio/gsocket.c:928 */
 /**
  * GSocket:multicast-loopback:
  *
@@ -2452,6 +2648,7 @@
  */
 
 
+/* gio/gsocket.c:943 */
 /**
  * GSocket:multicast-ttl:
  *
@@ -2461,6 +2658,7 @@
  */
 
 
+/* gio/gsocket.c:881 */
 /**
  * GSocket:timeout:
  *
@@ -2470,6 +2668,7 @@
  */
 
 
+/* gio/gsocket.c:913 */
 /**
  * GSocket:ttl:
  *
@@ -2479,6 +2678,7 @@
  */
 
 
+/* gio/gsocketaddress.c:55 */
 /**
  * GSocketAddress:
  *
@@ -2487,6 +2687,7 @@
  */
 
 
+/* gio/gsocketclient.c:766 */
 /**
  * GSocketClient::event:
  * @client: the #GSocketClient
@@ -2587,6 +2788,7 @@
  */
 
 
+/* gio/gsocketclient.c:951 */
 /**
  * GSocketClient:proxy-resolver:
  *
@@ -2596,6 +2798,7 @@
  */
 
 
+/* gio/gsocketservice.c:248 */
 /**
  * GSocketService::incoming:
  * @service: the #GSocketService
@@ -2616,6 +2819,7 @@
  */
 
 
+/* gio/gsrvtarget.c:62 */
 /**
  * GSrvTarget:
  *
@@ -2623,6 +2827,7 @@
  */
 
 
+/* gio/gtask.c:555 */
 /**
  * GTask:
  *
@@ -2631,6 +2836,7 @@
  */
 
 
+/* gio/gtask.c:1174 */
 /**
  * GTaskThreadFunc:
  * @task: the #GTask
@@ -2658,6 +2864,7 @@
  */
 
 
+/* gio/gtestdbus.c:401 */
 /**
  * GTestDBus:
  *
@@ -2668,6 +2875,7 @@
  */
 
 
+/* gio/gtestdbus.c:513 */
 /**
  * GTestDBus:flags:
  *
@@ -2677,6 +2885,7 @@
  */
 
 
+/* gio/gthemedicon.c:226 */
 /**
  * GThemedIcon:name:
  *
@@ -2684,6 +2893,7 @@
  */
 
 
+/* gio/gthemedicon.c:238 */
 /**
  * GThemedIcon:names:
  *
@@ -2691,6 +2901,7 @@
  */
 
 
+/* gio/gthemedicon.c:250 */
 /**
  * GThemedIcon:use-default-fallbacks:
  *
@@ -2712,6 +2923,7 @@
  */
 
 
+/* gio/gthreadedsocketservice.c:218 */
 /**
  * GThreadedSocketService::run:
  * @service: the #GThreadedSocketService.
@@ -2727,6 +2939,7 @@
  */
 
 
+/* gio/gtlsbackend.c:67 */
 /**
  * GTlsBackend:
  *
@@ -2738,6 +2951,7 @@
  */
 
 
+/* gio/gtlscertificate.c:46 */
 /**
  * GTlsCertificate:
  *
@@ -2747,6 +2961,7 @@
  */
 
 
+/* gio/gtlscertificate.c:98 */
 /**
  * GTlsCertificate:certificate:
  *
@@ -2758,6 +2973,7 @@
  */
 
 
+/* gio/gtlscertificate.c:115 */
 /**
  * GTlsCertificate:certificate-pem:
  *
@@ -2769,6 +2985,7 @@
  */
 
 
+/* gio/gtlscertificate.c:179 */
 /**
  * GTlsCertificate:issuer:
  *
@@ -2781,6 +2998,7 @@
  */
 
 
+/* gio/gtlscertificate.c:132 */
 /**
  * GTlsCertificate:private-key:
  *
@@ -2798,6 +3016,7 @@
  */
 
 
+/* gio/gtlscertificate.c:155 */
 /**
  * GTlsCertificate:private-key-pem:
  *
@@ -2816,6 +3035,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:42 */
 /**
  * GTlsClientConnection:
  *
@@ -2826,6 +3046,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:125 */
 /**
  * GTlsClientConnection:accepted-cas:
  *
@@ -2841,6 +3062,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:76 */
 /**
  * GTlsClientConnection:server-identity:
  *
@@ -2863,6 +3085,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:105 */
 /**
  * GTlsClientConnection:use-ssl3:
  *
@@ -2876,6 +3099,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:56 */
 /**
  * GTlsClientConnection:validation-flags:
  *
@@ -2888,6 +3112,7 @@
  */
 
 
+/* gio/gtlsconnection.c:48 */
 /**
  * GTlsConnection:
  *
@@ -2898,6 +3123,7 @@
  */
 
 
+/* gio/gtlsconnection.c:250 */
 /**
  * GTlsConnection::accept-certificate:
  * @conn: a #GTlsConnection
@@ -2946,6 +3172,7 @@
  */
 
 
+/* gio/gtlsconnection.c:97 */
 /**
  * GTlsConnection:base-io-stream:
  *
@@ -2955,6 +3182,7 @@
  */
 
 
+/* gio/gtlsconnection.c:194 */
 /**
  * GTlsConnection:certificate:
  *
@@ -2965,6 +3193,7 @@
  */
 
 
+/* gio/gtlsconnection.c:129 */
 /**
  * GTlsConnection:database:
  *
@@ -2976,6 +3205,7 @@
  */
 
 
+/* gio/gtlsconnection.c:145 */
 /**
  * GTlsConnection:interaction:
  *
@@ -2987,6 +3217,7 @@
  */
 
 
+/* gio/gtlsconnection.c:209 */
 /**
  * GTlsConnection:peer-certificate:
  *
@@ -3002,6 +3233,7 @@
  */
 
 
+/* gio/gtlsconnection.c:229 */
 /**
  * GTlsConnection:peer-certificate-errors:
  *
@@ -3016,6 +3248,7 @@
  */
 
 
+/* gio/gtlsconnection.c:177 */
 /**
  * GTlsConnection:rehandshake-mode:
  *
@@ -3026,6 +3259,7 @@
  */
 
 
+/* gio/gtlsconnection.c:161 */
 /**
  * GTlsConnection:require-close-notify:
  *
@@ -3036,6 +3270,7 @@
  */
 
 
+/* gio/gtlsconnection.c:112 */
 /**
  * GTlsConnection:use-system-certdb:
  *
@@ -3047,6 +3282,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:50 */
 /**
  * GTlsDatabase:
  *
@@ -3056,6 +3292,7 @@
  */
 
 
+/* gio/gtlsfiledatabase.c:44 */
 /**
  * GTlsFileDatabase:
  *
@@ -3066,6 +3303,7 @@
  */
 
 
+/* gio/gtlsfiledatabase.c:57 */
 /**
  * GTlsFileDatabase:anchors:
  *
@@ -3078,6 +3316,7 @@
  */
 
 
+/* gio/gtlsinteraction.c:63 */
 /**
  * GTlsInteraction:
  *
@@ -3088,6 +3327,7 @@
  */
 
 
+/* gio/gtlsinteraction.c:72 */
 /**
  * GTlsInteractionClass:
  * @ask_password: ask for a password synchronously. If the implementation
@@ -3119,6 +3359,7 @@
  */
 
 
+/* gio/gtlspassword.c:41 */
 /**
  * GTlsPassword:
  *
@@ -3129,6 +3370,7 @@
  */
 
 
+/* gio/gtlsserverconnection.c:48 */
 /**
  * GTlsServerConnection:authentication-mode:
  *
@@ -3140,6 +3382,7 @@
  */
 
 
+/* gio/gunixcredentialsmessage.c:245 */
 /**
  * GUnixCredentialsMessage:credentials:
  *
@@ -3149,6 +3392,7 @@
  */
 
 
+/* gio/gunixinputstream.c:158 */
 /**
  * GUnixInputStream:close-fd:
  *
@@ -3158,6 +3402,7 @@
  */
 
 
+/* gio/gunixinputstream.c:143 */
 /**
  * GUnixInputStream:fd:
  *
@@ -3167,6 +3412,7 @@
  */
 
 
+/* gio/gunixmounts.c:1304 */
 /**
  * GUnixMountMonitor::mountpoints-changed:
  * @monitor: the object on which the signal is emitted
@@ -3175,6 +3421,7 @@
  */
 
 
+/* gio/gunixmounts.c:1289 */
 /**
  * GUnixMountMonitor::mounts-changed:
  * @monitor: the object on which the signal is emitted
@@ -3183,6 +3430,7 @@
  */
 
 
+/* gio/gunixoutputstream.c:143 */
 /**
  * GUnixOutputStream:close-fd:
  *
@@ -3192,6 +3440,7 @@
  */
 
 
+/* gio/gunixoutputstream.c:128 */
 /**
  * GUnixOutputStream:fd:
  *
@@ -3201,6 +3450,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:54 */
 /**
  * GUnixSocketAddress:
  *
@@ -3209,6 +3459,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:276 */
 /**
  * GUnixSocketAddress:abstract:
  *
@@ -3220,6 +3471,7 @@
  */
 
 
+/* gio/gvolume.c:88 */
 /**
  * GVolume::changed:
  *
@@ -3227,6 +3479,7 @@
  */
 
 
+/* gio/gvolume.c:101 */
 /**
  * GVolume::removed:
  *
@@ -3236,6 +3489,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:219 */
 /**
  * GVolumeMonitor::drive-changed:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3245,6 +3499,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:189 */
 /**
  * GVolumeMonitor::drive-connected:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3254,6 +3509,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:204 */
 /**
  * GVolumeMonitor::drive-disconnected:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3263,6 +3519,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:234 */
 /**
  * GVolumeMonitor::drive-eject-button:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3274,6 +3531,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:251 */
 /**
  * GVolumeMonitor::drive-stop-button:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3285,6 +3543,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:129 */
 /**
  * GVolumeMonitor::mount-added:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3294,6 +3553,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:174 */
 /**
  * GVolumeMonitor::mount-changed:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3303,6 +3563,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:159 */
 /**
  * GVolumeMonitor::mount-pre-unmount:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3312,6 +3573,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:144 */
 /**
  * GVolumeMonitor::mount-removed:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3321,6 +3583,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:84 */
 /**
  * GVolumeMonitor::volume-added:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3330,6 +3593,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:114 */
 /**
  * GVolumeMonitor::volume-changed:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3339,6 +3603,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:99 */
 /**
  * GVolumeMonitor::volume-removed:
  * @volume_monitor: The volume monitor emitting the signal.
@@ -3348,6 +3613,7 @@
  */
 
 
+/* gio/gwin32inputstream.c:109 */
 /**
  * GWin32InputStream:close-handle:
  *
@@ -3357,6 +3623,7 @@
  */
 
 
+/* gio/gwin32inputstream.c:95 */
 /**
  * GWin32InputStream:handle:
  *
@@ -3366,6 +3633,7 @@
  */
 
 
+/* gio/gwin32outputstream.c:111 */
 /**
  * GWin32OutputStream:close-handle:
  *
@@ -3375,6 +3643,7 @@
  */
 
 
+/* gio/gwin32outputstream.c:97 */
 /**
  * GWin32OutputStream:handle:
  *
@@ -3384,6 +3653,7 @@
  */
 
 
+/* gio/gzlibcompressor.c:56 */
 /**
  * GZlibCompressor:
  *
@@ -3391,6 +3661,7 @@
  */
 
 
+/* gio/gzlibcompressor.c:251 */
 /**
  * GZlibCompressor:file-info:
  *
@@ -3402,6 +3673,7 @@
  */
 
 
+/* gio/gzlibdecompressor.c:61 */
 /**
  * GZlibDecompressor:
  *
@@ -3409,6 +3681,7 @@
  */
 
 
+/* gio/gzlibdecompressor.c:235 */
 /**
  * GZlibDecompressor:file-info:
  *
@@ -3421,6 +3694,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:73 */
 /**
  * G_TLS_DATABASE_PURPOSE_AUTHENTICATE_CLIENT:
  *
@@ -3429,6 +3703,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:66 */
 /**
  * G_TLS_DATABASE_PURPOSE_AUTHENTICATE_SERVER:
  *
@@ -3437,6 +3712,7 @@
  */
 
 
+/* gio/gsettingsschema.c:160 */
 /**
  * G_TYPE_SETTINGS_SCHEMA:
  *
@@ -3446,6 +3722,7 @@
  */
 
 
+/* gio/gsettingsschema.c:151 */
 /**
  * G_TYPE_SETTINGS_SCHEMA_SOURCE:
  *
@@ -3455,6 +3732,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:156 */
 /**
  * SECTION:_GFreedesktopDBus
  * @title: _GFreedesktopDBus
@@ -3464,6 +3742,7 @@
  */
 
 
+/* gio/giomodule.c:60 */
 /**
  * SECTION:extensionpoints
  * @short_description: Extension Points
@@ -3524,6 +3803,7 @@
  */
 
 
+/* gio/gaction.c:30 */
 /**
  * SECTION:gaction
  * @title: GAction
@@ -3561,6 +3841,7 @@
  */
 
 
+/* gio/gactiongroup.c:27 */
 /**
  * SECTION:gactiongroup
  * @title: GActionGroup
@@ -3615,6 +3896,7 @@
  */
 
 
+/* gio/gactiongroupexporter.c:34 */
 /**
  * SECTION:gactiongroupexporter
  * @title: GActionGroup exporter
@@ -3630,6 +3912,7 @@
  */
 
 
+/* gio/gactionmap.c:28 */
 /**
  * SECTION:gactionmap
  * @title: GActionMap
@@ -3649,6 +3932,7 @@
  */
 
 
+/* gio/gappinfo.c:30 */
 /**
  * SECTION:gappinfo
  * @short_description: Application information and launch contexts
@@ -3707,6 +3991,7 @@
  */
 
 
+/* gio/gapplication.c:44 */
 /**
  * SECTION:gapplication
  * @title: GApplication
@@ -3849,6 +4134,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:42 */
 /**
  * SECTION:gapplicationcommandline
  * @title: GApplicationCommandLine
@@ -3939,6 +4225,7 @@
  */
 
 
+/* gio/gasyncinitable.c:31 */
 /**
  * SECTION:gasyncinitable
  * @short_description: Asynchronously failable object initialization interface
@@ -4046,6 +4333,7 @@
  */
 
 
+/* gio/gasyncresult.c:29 */
 /**
  * SECTION:gasyncresult
  * @short_description: Asynchronous Function Results
@@ -4136,6 +4424,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:36 */
 /**
  * SECTION:gbufferedinputstream
  * @short_description: Buffered Input Stream
@@ -4159,6 +4448,7 @@
  */
 
 
+/* gio/gbufferedoutputstream.c:32 */
 /**
  * SECTION:gbufferedoutputstream
  * @short_description: Buffered Output Stream
@@ -4182,6 +4472,7 @@
  */
 
 
+/* gio/gbytesicon.c:35 */
 /**
  * SECTION:gbytesicon
  * @short_description: An icon stored in memory as a GBytes
@@ -4195,6 +4486,7 @@
  */
 
 
+/* gio/gcancellable.c:31 */
 /**
  * SECTION:gcancellable
  * @short_description: Thread-safe Operation Cancellation Stack
@@ -4206,6 +4498,7 @@
  */
 
 
+/* gio/gcharsetconverter.c:41 */
 /**
  * SECTION:gcharsetconverter
  * @short_description: Convert between charsets
@@ -4216,6 +4509,7 @@
  */
 
 
+/* gio/gcontenttype.c:39 */
 /**
  * SECTION:gcontenttype
  * @short_description: Platform-specific content typing
@@ -4229,6 +4523,7 @@
  */
 
 
+/* gio/gconverter.c:28 */
 /**
  * SECTION:gconverter
  * @short_description: Data conversion interface
@@ -4247,6 +4542,7 @@
  */
 
 
+/* gio/gconverterinputstream.c:36 */
 /**
  * SECTION:gconverterinputstream
  * @short_description: Converter Input Stream
@@ -4261,6 +4557,7 @@
  */
 
 
+/* gio/gconverteroutputstream.c:36 */
 /**
  * SECTION:gconverteroutputstream
  * @short_description: Converter Output Stream
@@ -4275,6 +4572,7 @@
  */
 
 
+/* gio/gcredentials.c:38 */
 /**
  * SECTION:gcredentials
  * @short_description: An object containing credentials
@@ -4312,6 +4610,7 @@
  */
 
 
+/* gio/gdatainputstream.c:35 */
 /**
  * SECTION:gdatainputstream
  * @short_description: Data Input Stream
@@ -4323,6 +4622,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:32 */
 /**
  * SECTION:gdataoutputstream
  * @short_description: Data Output Stream
@@ -4334,6 +4634,7 @@
  */
 
 
+/* gio/gdbusactiongroup.c:31 */
 /**
  * SECTION:gdbusactiongroup
  * @title: GDBusActionGroup
@@ -4346,6 +4647,7 @@
  */
 
 
+/* gio/gdbusaddress.c:57 */
 /**
  * SECTION:gdbusaddress
  * @title: D-Bus Addresses
@@ -4358,6 +4660,7 @@
  */
 
 
+/* gio/gdbusauthobserver.c:33 */
 /**
  * SECTION:gdbusauthobserver
  * @short_description: Object used for authenticating connections
@@ -4397,6 +4700,7 @@
  */
 
 
+/* gio/gdbusconnection.c:137 */
 /**
  * SECTION:gdbusconnection
  * @short_description: D-Bus Connections
@@ -4446,6 +4750,7 @@
  */
 
 
+/* gio/gdbuserror.c:36 */
 /**
  * SECTION:gdbuserror
  * @title: GDBusError
@@ -4523,6 +4828,7 @@
  */
 
 
+/* gio/gdbusinterface.c:30 */
 /**
  * SECTION:gdbusinterface
  * @short_description: Base type for D-Bus interfaces
@@ -4534,6 +4840,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:37 */
 /**
  * SECTION:gdbusinterfaceskeleton
  * @short_description: Service-side D-Bus interface
@@ -4543,6 +4850,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:32 */
 /**
  * SECTION:gdbusintrospection
  * @title: D-Bus Introspection Data
@@ -4558,6 +4866,7 @@
  */
 
 
+/* gio/gdbusmenumodel.c:30 */
 /**
  * SECTION:gdbusmenumodel
  * @title: GDBusMenuModel
@@ -4570,6 +4879,7 @@
  */
 
 
+/* gio/gdbusmessage.c:470 */
 /**
  * SECTION:gdbusmessage
  * @short_description: D-Bus Message
@@ -4580,6 +4890,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:41 */
 /**
  * SECTION:gdbusmethodinvocation
  * @short_description: Object for handling remote calls
@@ -4595,6 +4906,7 @@
  */
 
 
+/* gio/gdbusnameowning.c:35 */
 /**
  * SECTION:gdbusnameowning
  * @title: Owning Bus Names
@@ -4607,6 +4919,7 @@
  */
 
 
+/* gio/gdbusnamewatching.c:36 */
 /**
  * SECTION:gdbusnamewatching
  * @title: Watching Bus Names
@@ -4619,6 +4932,7 @@
  */
 
 
+/* gio/gdbusobject.c:31 */
 /**
  * SECTION:gdbusobject
  * @short_description: Base type for D-Bus objects
@@ -4631,6 +4945,7 @@
  */
 
 
+/* gio/gdbusobjectmanager.c:32 */
 /**
  * SECTION:gdbusobjectmanager
  * @short_description: Base type for D-Bus object managers
@@ -4646,6 +4961,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:43 */
 /**
  * SECTION:gdbusobjectmanagerclient
  * @short_description: Client-side object manager
@@ -4730,6 +5046,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:37 */
 /**
  * SECTION:gdbusobjectmanagerserver
  * @short_description: Service-side object manager
@@ -4751,6 +5068,7 @@
  */
 
 
+/* gio/gdbusobjectproxy.c:34 */
 /**
  * SECTION:gdbusobjectproxy
  * @short_description: Client-side D-Bus object
@@ -4765,6 +5083,7 @@
  */
 
 
+/* gio/gdbusobjectskeleton.c:36 */
 /**
  * SECTION:gdbusobjectskeleton
  * @short_description: Service-side D-Bus object
@@ -4778,6 +5097,7 @@
  */
 
 
+/* gio/gdbusproxy.c:48 */
 /**
  * SECTION:gdbusproxy
  * @short_description: Client-side D-Bus interface proxy
@@ -4825,6 +5145,7 @@
  */
 
 
+/* gio/gdbusserver.c:60 */
 /**
  * SECTION:gdbusserver
  * @short_description: Helper for accepting connections
@@ -4843,6 +5164,7 @@
  */
 
 
+/* gio/gdbusutils.c:32 */
 /**
  * SECTION:gdbusutils
  * @title: D-Bus Utilities
@@ -4853,6 +5175,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:52 */
 /**
  * SECTION:gdesktopappinfo
  * @title: GDesktopAppInfo
@@ -4868,6 +5191,7 @@
  */
 
 
+/* gio/gdrive.c:33 */
 /**
  * SECTION:gdrive
  * @short_description: Drive management
@@ -4902,6 +5226,7 @@
  */
 
 
+/* gio/gemblem.c:33 */
 /**
  * SECTION:gemblem
  * @short_description: An object for emblems
@@ -4917,6 +5242,7 @@
  */
 
 
+/* gio/gemblemedicon.c:35 */
 /**
  * SECTION:gemblemedicon
  * @short_description: Icon with emblems
@@ -4932,6 +5258,7 @@
  */
 
 
+/* gio/gfile.c:70 */
 /**
  * SECTION:gfile
  * @short_description: File and Directory Handling
@@ -5018,6 +5345,7 @@
  */
 
 
+/* gio/gfileattribute.c:33 */
 /**
  * SECTION:gfileattribute
  * @short_description: Key-Value Paired File Attributes
@@ -5200,6 +5528,7 @@
  */
 
 
+/* gio/gfiledescriptorbased.c:28 */
 /**
  * SECTION:gfiledescriptorbased
  * @short_description: Interface for file descriptor based IO
@@ -5217,6 +5546,7 @@
  */
 
 
+/* gio/gfileenumerator.c:41 */
 /**
  * SECTION:gfileenumerator
  * @short_description: Enumerated Files Routines
@@ -5251,6 +5581,7 @@
  */
 
 
+/* gio/gfileicon.c:35 */
 /**
  * SECTION:gfileicon
  * @short_description: Icons pointing to an image file
@@ -5262,6 +5593,7 @@
  */
 
 
+/* gio/gfileinfo.c:23 */
 /**
  * SECTION:gfileinfo
  * @short_description: File Information and Attributes
@@ -5295,6 +5627,7 @@
  */
 
 
+/* gio/gfileinputstream.c:35 */
 /**
  * SECTION:gfileinputstream
  * @short_description: File input streaming operations
@@ -5313,6 +5646,7 @@
  */
 
 
+/* gio/gfileiostream.c:36 */
 /**
  * SECTION:gfileiostream
  * @short_description: File read and write streaming operations
@@ -5344,6 +5678,7 @@
  */
 
 
+/* gio/gfilemonitor.c:37 */
 /**
  * SECTION:gfilemonitor
  * @short_description: File Monitor
@@ -5366,6 +5701,7 @@
  */
 
 
+/* gio/gfilenamecompleter.c:34 */
 /**
  * SECTION:gfilenamecompleter
  * @short_description: Filename Completer
@@ -5377,6 +5713,7 @@
  */
 
 
+/* gio/gfileoutputstream.c:35 */
 /**
  * SECTION:gfileoutputstream
  * @short_description: File output streaming operations
@@ -5400,6 +5737,7 @@
  */
 
 
+/* gio/gfilterinputstream.c:29 */
 /**
  * SECTION:gfilterinputstream
  * @short_description: Filter Input Stream
@@ -5412,6 +5750,7 @@
  */
 
 
+/* gio/gfilteroutputstream.c:29 */
 /**
  * SECTION:gfilteroutputstream
  * @short_description: Filter Output Stream
@@ -5424,6 +5763,7 @@
  */
 
 
+/* gio/gicon.c:43 */
 /**
  * SECTION:gicon
  * @short_description: Interface for icons
@@ -5460,6 +5800,7 @@
  */
 
 
+/* gio/ginetaddress.c:45 */
 /**
  * SECTION:ginetaddress
  * @short_description: An IPv4/IPv6 address
@@ -5477,6 +5818,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:33 */
 /**
  * SECTION:ginetaddressmask
  * @short_description: An IPv4/IPv6 address mask
@@ -5488,6 +5830,7 @@
  */
 
 
+/* gio/ginetsocketaddress.c:35 */
 /**
  * SECTION:ginetsocketaddress
  * @short_description: Internet GSocketAddress
@@ -5497,6 +5840,7 @@
  */
 
 
+/* gio/ginitable.c:28 */
 /**
  * SECTION:ginitable
  * @short_description: Failable object initialization interface
@@ -5530,6 +5874,7 @@
  */
 
 
+/* gio/ginputstream.c:35 */
 /**
  * SECTION:ginputstream
  * @short_description: Base class for implementing streaming input
@@ -5546,6 +5891,7 @@
  */
 
 
+/* gio/gioerror.c:28 */
 /**
  * SECTION:gioerror
  * @short_description: Error helper functions
@@ -5555,6 +5901,7 @@
  */
 
 
+/* gio/giomodule.c:49 */
 /**
  * SECTION:giomodule
  * @short_description: Loadable GIO Modules
@@ -5566,6 +5913,7 @@
  */
 
 
+/* gio/gioscheduler.c:29 */
 /**
  * SECTION:gioscheduler
  * @short_description: I/O Scheduler
@@ -5581,6 +5929,7 @@
  */
 
 
+/* gio/giostream.c:33 */
 /**
  * SECTION:giostream
  * @short_description: Base class for implementing read/write streams
@@ -5616,6 +5965,7 @@
  */
 
 
+/* gio/gloadableicon.c:31 */
 /**
  * SECTION:gloadableicon
  * @short_description: Loadable Icons
@@ -5627,6 +5977,7 @@
  */
 
 
+/* gio/gmemoryinputstream.c:34 */
 /**
  * SECTION:gmemoryinputstream
  * @short_description: Streaming input operations on memory chunks
@@ -5641,6 +5992,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:36 */
 /**
  * SECTION:gmemoryoutputstream
  * @short_description: Streaming output operations on memory chunks
@@ -5655,6 +6007,7 @@
  */
 
 
+/* gio/gmenu.c:31 */
 /**
  * SECTION:gmenu
  * @title: GMenu
@@ -5671,6 +6024,7 @@
  */
 
 
+/* gio/gmenuexporter.c:31 */
 /**
  * SECTION:gmenuexporter
  * @title: GMenuModel exporter
@@ -5686,6 +6040,7 @@
  */
 
 
+/* gio/gmenumodel.c:26 */
 /**
  * SECTION:gmenumodel
  * @title: GMenuModel
@@ -5825,6 +6180,7 @@
  */
 
 
+/* gio/gmount.c:39 */
 /**
  * SECTION:gmount
  * @short_description: Mount management
@@ -5853,6 +6209,7 @@
  */
 
 
+/* gio/gmountoperation.c:32 */
 /**
  * SECTION:gmountoperation
  * @short_description: Object used for authentication and user interaction
@@ -5876,6 +6233,7 @@
  */
 
 
+/* gio/gnetworkaddress.c:43 */
 /**
  * SECTION:gnetworkaddress
  * @short_description: A GSocketConnectable for resolving hostnames
@@ -5890,6 +6248,7 @@
  */
 
 
+/* gio/gnetworking.c:27 */
 /**
  * SECTION:gnetworking
  * @title: gnetworking.h
@@ -5917,6 +6276,7 @@
  */
 
 
+/* gio/gnetworkmonitor.c:33 */
 /**
  * SECTION:gnetworkmonitor
  * @title: GNetworkMonitor
@@ -5929,6 +6289,7 @@
  */
 
 
+/* gio/gnetworkservice.c:45 */
 /**
  * SECTION:gnetworkservice
  * @short_description: A GSocketConnectable for resolving SRV records
@@ -5946,6 +6307,7 @@
  */
 
 
+/* gio/goutputstream.c:34 */
 /**
  * SECTION:goutputstream
  * @short_description: Base class for implementing streaming output
@@ -5962,6 +6324,7 @@
  */
 
 
+/* gio/gpermission.c:33 */
 /**
  * SECTION:gpermission
  * @title: GPermission
@@ -5986,6 +6349,7 @@
  */
 
 
+/* gio/gpollableinputstream.c:29 */
 /**
  * SECTION:gpollableinputstream
  * @short_description: Interface for pollable input streams
@@ -6001,6 +6365,7 @@
  */
 
 
+/* gio/gpollableoutputstream.c:30 */
 /**
  * SECTION:gpollableoutputstream
  * @short_description: Interface for pollable output streams
@@ -6016,6 +6381,7 @@
  */
 
 
+/* gio/gpollableutils.c:29 */
 /**
  * SECTION:gpollableutils
  * @short_description: Utilities for pollable streams
@@ -6026,6 +6392,7 @@
  */
 
 
+/* gio/gpropertyaction.c:30 */
 /**
  * SECTION:gpropertyaction
  * @title: GPropertyAction
@@ -6088,6 +6455,7 @@
  */
 
 
+/* gio/gproxy.c:31 */
 /**
  * SECTION:gproxy
  * @short_description: Interface for proxy handling
@@ -6103,6 +6471,7 @@
  */
 
 
+/* gio/gproxyaddress.c:32 */
 /**
  * SECTION:gproxyaddress
  * @short_description: An internet address with proxy information
@@ -6111,6 +6480,7 @@
  */
 
 
+/* gio/gproxyresolver.c:36 */
 /**
  * SECTION:gproxyresolver
  * @short_description: Asynchronous and cancellable network proxy resolver
@@ -6122,6 +6492,7 @@
  */
 
 
+/* gio/gremoteactiongroup.c:29 */
 /**
  * SECTION:gremoteactiongroup
  * @title: GRemoteActionGroup
@@ -6153,6 +6524,7 @@
  */
 
 
+/* gio/gresolver.c:43 */
 /**
  * SECTION:gresolver
  * @short_description: Asynchronous and cancellable DNS resolver
@@ -6169,6 +6541,7 @@
  */
 
 
+/* gio/gresource.c:45 */
 /**
  * SECTION:gresource
  * @short_description: Resource framework
@@ -6257,6 +6630,7 @@
  */
 
 
+/* gio/gseekable.c:28 */
 /**
  * SECTION:gseekable
  * @short_description: Stream seeking interface
@@ -6268,6 +6642,7 @@
  */
 
 
+/* gio/gsettings.c:38 */
 /**
  * SECTION:gsettings
  * @short_description: High-level API for application settings
@@ -6465,6 +6840,7 @@
  */
 
 
+/* gio/gsettingsbackend.c:54 */
 /**
  * SECTION:gsettingsbackend
  * @title: GSettingsBackend
@@ -6501,6 +6877,7 @@
  */
 
 
+/* gio/gsettingsschema.c:33 */
 /**
  * SECTION:gsettingsschema
  * @short_description: Introspecting and controlling the loading of
@@ -6601,6 +6978,7 @@
  */
 
 
+/* gio/gsimpleaction.c:29 */
 /**
  * SECTION:gsimpleaction
  * @title: GSimpleAction
@@ -6614,6 +6992,7 @@
  */
 
 
+/* gio/gsimpleactiongroup.c:30 */
 /**
  * SECTION:gsimpleactiongroup
  * @title: GSimpleActionGroup
@@ -6624,6 +7003,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:42 */
 /**
  * SECTION:gsimpleasyncresult
  * @short_description: Simple asynchronous results implementation
@@ -6802,6 +7182,7 @@
  */
 
 
+/* gio/gsimplepermission.c:28 */
 /**
  * SECTION:gsimplepermission
  * @title: GSimplePermission
@@ -6815,6 +7196,7 @@
  */
 
 
+/* gio/gsimpleproxyresolver.c:33 */
 /**
  * SECTION:gsimpleproxyresolver
  * @short_description: Simple proxy resolver implementation
@@ -6834,6 +7216,7 @@
  */
 
 
+/* gio/gsocket.c:69 */
 /**
  * SECTION:gsocket
  * @short_description: Low-level socket object
@@ -6891,6 +7274,7 @@
  */
 
 
+/* gio/gsocketaddress.c:44 */
 /**
  * SECTION:gsocketaddress
  * @short_description: Abstract base class representing endpoints for
@@ -6903,6 +7287,7 @@
  */
 
 
+/* gio/gsocketclient.c:54 */
 /**
  * SECTION:gsocketclient
  * @short_description: Helper for connecting to a network service
@@ -6927,6 +7312,7 @@
  */
 
 
+/* gio/gsocketconnectable.c:26 */
 /**
  * SECTION:gsocketconnectable
  * @short_description: Interface for potential socket endpoints
@@ -6995,6 +7381,7 @@
  */
 
 
+/* gio/gsocketconnection.c:41 */
 /**
  * SECTION:gsocketconnection
  * @short_description: A socket connection
@@ -7018,6 +7405,7 @@
  */
 
 
+/* gio/gsocketcontrolmessage.c:15 */
 /**
  * SECTION:gsocketcontrolmessage
  * @title: GSocketControlMessage
@@ -7049,6 +7437,7 @@
  */
 
 
+/* gio/gsocketlistener.c:42 */
 /**
  * SECTION:gsocketlistener
  * @title: GSocketListener
@@ -7067,6 +7456,7 @@
  */
 
 
+/* gio/gsocketservice.c:25 */
 /**
  * SECTION:gsocketservice
  * @title: GSocketService
@@ -7104,6 +7494,7 @@
  */
 
 
+/* gio/gsrvtarget.c:33 */
 /**
  * SECTION:gsrvtarget
  * @short_description: DNS SRV record target
@@ -7126,6 +7517,7 @@
  */
 
 
+/* gio/gtask.c:28 */
 /**
  * SECTION:gtask
  * @short_description: Cancellable synchronous or asynchronous task and result
@@ -7654,6 +8046,7 @@
  */
 
 
+/* gio/gtcpconnection.c:13 */
 /**
  * SECTION:gtcpconnection
  * @title: GTcpConnection
@@ -7667,6 +8060,7 @@
  */
 
 
+/* gio/gtcpwrapperconnection.c:23 */
 /**
  * SECTION:gtcpwrapperconnection
  * @title: GTcpWrapperConnection
@@ -7683,6 +8077,7 @@
  */
 
 
+/* gio/gtestdbus.c:314 */
 /**
  * SECTION:gtestdbus
  * @short_description: D-Bus testing helper
@@ -7768,6 +8163,7 @@
  */
 
 
+/* gio/gthemedicon.c:33 */
 /**
  * SECTION:gthemedicon
  * @short_description: Icon theming support
@@ -7784,6 +8180,7 @@
  */
 
 
+/* gio/gthreadedsocketservice.c:25 */
 /**
  * SECTION:gthreadedsocketservice
  * @title: GThreadedSocketService
@@ -7808,6 +8205,7 @@
  */
 
 
+/* gio/gtlsbackend.c:29 */
 /**
  * SECTION:gtls
  * @title: TLS Overview
@@ -7840,6 +8238,7 @@
  */
 
 
+/* gio/gtlsbackend.c:60 */
 /**
  * SECTION:gtlsbackend
  * @title: GTlsBackend
@@ -7848,6 +8247,7 @@
  */
 
 
+/* gio/gtlscertificate.c:31 */
 /**
  * SECTION:gtlscertificate
  * @title: GTlsCertificate
@@ -7864,6 +8264,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:33 */
 /**
  * SECTION:gtlsclientconnection
  * @short_description: TLS client-side connection
@@ -7874,6 +8275,7 @@
  */
 
 
+/* gio/gtlsconnection.c:35 */
 /**
  * SECTION:gtlsconnection
  * @short_description: TLS connection type
@@ -7888,6 +8290,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:35 */
 /**
  * SECTION:gtlsdatabase
  * @short_description: TLS database type
@@ -7904,6 +8307,7 @@
  */
 
 
+/* gio/gtlsfiledatabase.c:32 */
 /**
  * SECTION:gtlsfiledatabase
  * @short_description: TLS file based database type
@@ -7917,6 +8321,7 @@
  */
 
 
+/* gio/gtlsinteraction.c:36 */
 /**
  * SECTION:gtlsinteraction
  * @short_description: Interaction with the user during TLS operations.
@@ -7945,6 +8350,7 @@
  */
 
 
+/* gio/gtlspassword.c:32 */
 /**
  * SECTION:gtlspassword
  * @title: GTlsPassword
@@ -7955,6 +8361,7 @@
  */
 
 
+/* gio/gtlsserverconnection.c:32 */
 /**
  * SECTION:gtlsserverconnection
  * @short_description: TLS server-side connection
@@ -7967,6 +8374,7 @@
  */
 
 
+/* gio/gunixconnection.c:29 */
 /**
  * SECTION:gunixconnection
  * @title: GUnixConnection
@@ -7988,6 +8396,7 @@
  */
 
 
+/* gio/gunixcredentialsmessage.c:16 */
 /**
  * SECTION:gunixcredentialsmessage
  * @title: GUnixCredentialsMessage
@@ -8009,6 +8418,7 @@
  */
 
 
+/* gio/gunixfdlist.c:15 */
 /**
  * SECTION:gunixfdlist
  * @title: GUnixFDList
@@ -8029,6 +8439,7 @@
  */
 
 
+/* gio/gunixfdmessage.c:15 */
 /**
  * SECTION:gunixfdmessage
  * @title: GUnixFDMessage
@@ -8052,6 +8463,7 @@
  */
 
 
+/* gio/gunixinputstream.c:44 */
 /**
  * SECTION:gunixinputstream
  * @short_description: Streaming input operations for UNIX file descriptors
@@ -8070,6 +8482,7 @@
  */
 
 
+/* gio/gunixmounts.c:80 */
 /**
  * SECTION:gunixmounts
  * @include: gio/gunixmounts.h
@@ -8083,6 +8496,7 @@
  */
 
 
+/* gio/gunixoutputstream.c:44 */
 /**
  * SECTION:gunixoutputstream
  * @short_description: Streaming output operations for UNIX file descriptors
@@ -8101,6 +8515,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:33 */
 /**
  * SECTION:gunixsocketaddress
  * @short_description: UNIX GSocketAddress
@@ -8123,6 +8538,7 @@
  */
 
 
+/* gio/gvfs.c:33 */
 /**
  * SECTION:gvfs
  * @short_description: Virtual File System
@@ -8132,6 +8548,7 @@
  */
 
 
+/* gio/gvolume.c:34 */
 /**
  * SECTION:gvolume
  * @short_description: Volume management
@@ -8181,6 +8598,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:34 */
 /**
  * SECTION:gvolumemonitor
  * @short_description: Volume Monitor
@@ -8198,6 +8616,7 @@
  */
 
 
+/* gio/gwin32inputstream.c:39 */
 /**
  * SECTION:gwin32inputstream
  * @short_description: Streaming input operations for Windows file handles
@@ -8213,6 +8632,7 @@
  */
 
 
+/* gio/gwin32outputstream.c:40 */
 /**
  * SECTION:gwin32outputstream
  * @short_description: Streaming output operations for Windows file handles
@@ -8228,6 +8648,7 @@
  */
 
 
+/* gio/gzlibcompressor.c:45 */
 /**
  * SECTION:gzcompressor
  * @short_description: Zlib compressor
@@ -8238,6 +8659,7 @@
  */
 
 
+/* gio/gzlibdecompressor.c:44 */
 /**
  * SECTION:gzdecompressor
  * @short_description: Zlib decompressor
@@ -8248,6 +8670,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1019 */
 /**
  * _GFreedesktopDBus:
  *
@@ -8255,6 +8678,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1219 */
 /**
  * _GFreedesktopDBus::handle-add-match:
  * @object: A #_GFreedesktopDBus.
@@ -8269,6 +8693,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1357 */
 /**
  * _GFreedesktopDBus::handle-get-connection-selinux-security-context:
  * @object: A #_GFreedesktopDBus.
@@ -8283,6 +8708,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1334 */
 /**
  * _GFreedesktopDBus::handle-get-connection-unix-process-id:
  * @object: A #_GFreedesktopDBus.
@@ -8297,6 +8723,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1311 */
 /**
  * _GFreedesktopDBus::handle-get-connection-unix-user:
  * @object: A #_GFreedesktopDBus.
@@ -8311,6 +8738,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1425 */
 /**
  * _GFreedesktopDBus::handle-get-id:
  * @object: A #_GFreedesktopDBus.
@@ -8324,6 +8752,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1265 */
 /**
  * _GFreedesktopDBus::handle-get-name-owner:
  * @object: A #_GFreedesktopDBus.
@@ -8338,6 +8767,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1059 */
 /**
  * _GFreedesktopDBus::handle-hello:
  * @object: A #_GFreedesktopDBus.
@@ -8351,6 +8781,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1197 */
 /**
  * _GFreedesktopDBus::handle-list-activatable-names:
  * @object: A #_GFreedesktopDBus.
@@ -8364,6 +8795,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1175 */
 /**
  * _GFreedesktopDBus::handle-list-names:
  * @object: A #_GFreedesktopDBus.
@@ -8377,6 +8809,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1288 */
 /**
  * _GFreedesktopDBus::handle-list-queued-owners:
  * @object: A #_GFreedesktopDBus.
@@ -8391,6 +8824,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1152 */
 /**
  * _GFreedesktopDBus::handle-name-has-owner:
  * @object: A #_GFreedesktopDBus.
@@ -8405,6 +8839,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1105 */
 /**
  * _GFreedesktopDBus::handle-release-name:
  * @object: A #_GFreedesktopDBus.
@@ -8419,6 +8854,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1403 */
 /**
  * _GFreedesktopDBus::handle-reload-config:
  * @object: A #_GFreedesktopDBus.
@@ -8432,6 +8868,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1242 */
 /**
  * _GFreedesktopDBus::handle-remove-match:
  * @object: A #_GFreedesktopDBus.
@@ -8446,6 +8883,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1081 */
 /**
  * _GFreedesktopDBus::handle-request-name:
  * @object: A #_GFreedesktopDBus.
@@ -8461,6 +8899,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1128 */
 /**
  * _GFreedesktopDBus::handle-start-service-by-name:
  * @object: A #_GFreedesktopDBus.
@@ -8476,6 +8915,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1380 */
 /**
  * _GFreedesktopDBus::handle-update-activation-environment:
  * @object: A #_GFreedesktopDBus.
@@ -8490,6 +8930,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1488 */
 /**
  * _GFreedesktopDBus::name-acquired:
  * @object: A #_GFreedesktopDBus.
@@ -8501,6 +8942,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1469 */
 /**
  * _GFreedesktopDBus::name-lost:
  * @object: A #_GFreedesktopDBus.
@@ -8512,6 +8954,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1448 */
 /**
  * _GFreedesktopDBus::name-owner-changed:
  * @object: A #_GFreedesktopDBus.
@@ -8525,6 +8968,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1025 */
 /**
  * _GFreedesktopDBusIface:
  * @parent_iface: The parent interface.
@@ -8553,6 +8997,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3631 */
 /**
  * _GFreedesktopDBusProxy:
  *
@@ -8560,6 +9005,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3637 */
 /**
  * _GFreedesktopDBusProxyClass:
  * @parent_class: The parent class.
@@ -8568,6 +9014,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3960 */
 /**
  * _GFreedesktopDBusSkeleton:
  *
@@ -8575,6 +9022,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3966 */
 /**
  * _GFreedesktopDBusSkeletonClass:
  * @parent_class: The parent class.
@@ -8583,6 +9031,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2280 */
 /**
  * _g_freedesktop_dbus_call_add_match:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8599,6 +9048,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2313 */
 /**
  * _g_freedesktop_dbus_call_add_match_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8611,6 +9061,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2340 */
 /**
  * _g_freedesktop_dbus_call_add_match_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8626,6 +9077,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2892 */
 /**
  * _g_freedesktop_dbus_call_get_connection_selinux_security_context:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8642,6 +9094,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2925 */
 /**
  * _g_freedesktop_dbus_call_get_connection_selinux_security_context_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8655,6 +9108,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2955 */
 /**
  * _g_freedesktop_dbus_call_get_connection_selinux_security_context_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8671,6 +9125,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2788 */
 /**
  * _g_freedesktop_dbus_call_get_connection_unix_process_id:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8687,6 +9142,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2821 */
 /**
  * _g_freedesktop_dbus_call_get_connection_unix_process_id_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8700,6 +9156,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2851 */
 /**
  * _g_freedesktop_dbus_call_get_connection_unix_process_id_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8716,6 +9173,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2684 */
 /**
  * _g_freedesktop_dbus_call_get_connection_unix_user:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8732,6 +9190,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2717 */
 /**
  * _g_freedesktop_dbus_call_get_connection_unix_user_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8745,6 +9204,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2747 */
 /**
  * _g_freedesktop_dbus_call_get_connection_unix_user_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8761,6 +9221,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3186 */
 /**
  * _g_freedesktop_dbus_call_get_id:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8776,6 +9237,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3216 */
 /**
  * _g_freedesktop_dbus_call_get_id_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8789,6 +9251,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3246 */
 /**
  * _g_freedesktop_dbus_call_get_id_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8804,6 +9267,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2476 */
 /**
  * _g_freedesktop_dbus_call_get_name_owner:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8820,6 +9284,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2509 */
 /**
  * _g_freedesktop_dbus_call_get_name_owner_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8833,6 +9298,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2539 */
 /**
  * _g_freedesktop_dbus_call_get_name_owner_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8849,6 +9315,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1558 */
 /**
  * _g_freedesktop_dbus_call_hello:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8864,6 +9331,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1588 */
 /**
  * _g_freedesktop_dbus_call_hello_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8877,6 +9345,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1618 */
 /**
  * _g_freedesktop_dbus_call_hello_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8892,6 +9361,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2182 */
 /**
  * _g_freedesktop_dbus_call_list_activatable_names:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8907,6 +9377,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2212 */
 /**
  * _g_freedesktop_dbus_call_list_activatable_names_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8920,6 +9391,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2242 */
 /**
  * _g_freedesktop_dbus_call_list_activatable_names_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8935,6 +9407,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2084 */
 /**
  * _g_freedesktop_dbus_call_list_names:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8950,6 +9423,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2114 */
 /**
  * _g_freedesktop_dbus_call_list_names_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8963,6 +9437,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2144 */
 /**
  * _g_freedesktop_dbus_call_list_names_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8978,6 +9453,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2580 */
 /**
  * _g_freedesktop_dbus_call_list_queued_owners:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -8994,6 +9470,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2613 */
 /**
  * _g_freedesktop_dbus_call_list_queued_owners_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9007,6 +9484,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2643 */
 /**
  * _g_freedesktop_dbus_call_list_queued_owners_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9023,6 +9501,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1980 */
 /**
  * _g_freedesktop_dbus_call_name_has_owner:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9039,6 +9518,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2013 */
 /**
  * _g_freedesktop_dbus_call_name_has_owner_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9052,6 +9532,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2043 */
 /**
  * _g_freedesktop_dbus_call_name_has_owner_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9068,6 +9549,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1766 */
 /**
  * _g_freedesktop_dbus_call_release_name:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9084,6 +9566,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1799 */
 /**
  * _g_freedesktop_dbus_call_release_name_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9097,6 +9580,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1829 */
 /**
  * _g_freedesktop_dbus_call_release_name_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9113,6 +9597,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3094 */
 /**
  * _g_freedesktop_dbus_call_reload_config:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9128,6 +9613,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3124 */
 /**
  * _g_freedesktop_dbus_call_reload_config_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9140,6 +9626,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3151 */
 /**
  * _g_freedesktop_dbus_call_reload_config_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9154,6 +9641,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2378 */
 /**
  * _g_freedesktop_dbus_call_remove_match:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9170,6 +9658,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2411 */
 /**
  * _g_freedesktop_dbus_call_remove_match_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9182,6 +9671,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2438 */
 /**
  * _g_freedesktop_dbus_call_remove_match_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9197,6 +9687,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1656 */
 /**
  * _g_freedesktop_dbus_call_request_name:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9214,6 +9705,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1692 */
 /**
  * _g_freedesktop_dbus_call_request_name_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9227,6 +9719,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1722 */
 /**
  * _g_freedesktop_dbus_call_request_name_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9244,6 +9737,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1870 */
 /**
  * _g_freedesktop_dbus_call_start_service_by_name:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9261,6 +9755,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1906 */
 /**
  * _g_freedesktop_dbus_call_start_service_by_name_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9274,6 +9769,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1936 */
 /**
  * _g_freedesktop_dbus_call_start_service_by_name_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9291,6 +9787,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:2996 */
 /**
  * _g_freedesktop_dbus_call_update_activation_environment:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9307,6 +9804,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3029 */
 /**
  * _g_freedesktop_dbus_call_update_activation_environment_finish:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9319,6 +9817,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3056 */
 /**
  * _g_freedesktop_dbus_call_update_activation_environment_sync:
  * @proxy: A #_GFreedesktopDBusProxy.
@@ -9334,6 +9833,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3431 */
 /**
  * _g_freedesktop_dbus_complete_add_match:
  * @object: A #_GFreedesktopDBus.
@@ -9345,6 +9845,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3551 */
 /**
  * _g_freedesktop_dbus_complete_get_connection_selinux_security_context:
  * @object: A #_GFreedesktopDBus.
@@ -9357,6 +9858,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3530 */
 /**
  * _g_freedesktop_dbus_complete_get_connection_unix_process_id:
  * @object: A #_GFreedesktopDBus.
@@ -9369,6 +9871,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3509 */
 /**
  * _g_freedesktop_dbus_complete_get_connection_unix_user:
  * @object: A #_GFreedesktopDBus.
@@ -9381,6 +9884,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3608 */
 /**
  * _g_freedesktop_dbus_complete_get_id:
  * @object: A #_GFreedesktopDBus.
@@ -9393,6 +9897,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3467 */
 /**
  * _g_freedesktop_dbus_complete_get_name_owner:
  * @object: A #_GFreedesktopDBus.
@@ -9405,6 +9910,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3284 */
 /**
  * _g_freedesktop_dbus_complete_hello:
  * @object: A #_GFreedesktopDBus.
@@ -9417,6 +9923,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3410 */
 /**
  * _g_freedesktop_dbus_complete_list_activatable_names:
  * @object: A #_GFreedesktopDBus.
@@ -9429,6 +9936,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3389 */
 /**
  * _g_freedesktop_dbus_complete_list_names:
  * @object: A #_GFreedesktopDBus.
@@ -9441,6 +9949,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3488 */
 /**
  * _g_freedesktop_dbus_complete_list_queued_owners:
  * @object: A #_GFreedesktopDBus.
@@ -9453,6 +9962,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3368 */
 /**
  * _g_freedesktop_dbus_complete_name_has_owner:
  * @object: A #_GFreedesktopDBus.
@@ -9465,6 +9975,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3326 */
 /**
  * _g_freedesktop_dbus_complete_release_name:
  * @object: A #_GFreedesktopDBus.
@@ -9477,6 +9988,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3590 */
 /**
  * _g_freedesktop_dbus_complete_reload_config:
  * @object: A #_GFreedesktopDBus.
@@ -9488,6 +10000,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3449 */
 /**
  * _g_freedesktop_dbus_complete_remove_match:
  * @object: A #_GFreedesktopDBus.
@@ -9499,6 +10012,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3305 */
 /**
  * _g_freedesktop_dbus_complete_request_name:
  * @object: A #_GFreedesktopDBus.
@@ -9511,6 +10025,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3347 */
 /**
  * _g_freedesktop_dbus_complete_start_service_by_name:
  * @object: A #_GFreedesktopDBus.
@@ -9523,6 +10038,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3572 */
 /**
  * _g_freedesktop_dbus_complete_update_activation_environment:
  * @object: A #_GFreedesktopDBus.
@@ -9534,6 +10050,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1543 */
 /**
  * _g_freedesktop_dbus_emit_name_acquired:
  * @object: A #_GFreedesktopDBus.
@@ -9543,6 +10060,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1528 */
 /**
  * _g_freedesktop_dbus_emit_name_lost:
  * @object: A #_GFreedesktopDBus.
@@ -9552,6 +10070,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1509 */
 /**
  * _g_freedesktop_dbus_emit_name_owner_changed:
  * @object: A #_GFreedesktopDBus.
@@ -9563,6 +10082,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:988 */
 /**
  * _g_freedesktop_dbus_interface_info:
  *
@@ -9572,6 +10092,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:1001 */
 /**
  * _g_freedesktop_dbus_override_properties:
  * @klass: The class structure for a #GObject<!-- -->-derived class.
@@ -9584,6 +10105,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3778 */
 /**
  * _g_freedesktop_dbus_proxy_new:
  * @connection: A #GDBusConnection.
@@ -9603,6 +10125,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3808 */
 /**
  * _g_freedesktop_dbus_proxy_new_finish:
  * @res: The #GAsyncResult obtained from the #GAsyncReadyCallback passed to _g_freedesktop_dbus_proxy_new().
@@ -9614,6 +10137,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3868 */
 /**
  * _g_freedesktop_dbus_proxy_new_for_bus:
  * @bus_type: A #GBusType.
@@ -9633,6 +10157,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3898 */
 /**
  * _g_freedesktop_dbus_proxy_new_for_bus_finish:
  * @res: The #GAsyncResult obtained from the #GAsyncReadyCallback passed to _g_freedesktop_dbus_proxy_new_for_bus().
@@ -9644,6 +10169,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3923 */
 /**
  * _g_freedesktop_dbus_proxy_new_for_bus_sync:
  * @bus_type: A #GBusType.
@@ -9663,6 +10189,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:3833 */
 /**
  * _g_freedesktop_dbus_proxy_new_sync:
  * @connection: A #GDBusConnection.
@@ -9682,6 +10209,7 @@
  */
 
 
+/* gio/gdbus-daemon-generated.c:4295 */
 /**
  * _g_freedesktop_dbus_skeleton_new:
  *
@@ -9691,6 +10219,7 @@
  */
 
 
+/* gio/giomodule.c:768 */
 /**
  * _g_io_module_get_default:
  * @extension_point: the name of an extension point
@@ -9721,6 +10250,7 @@
  */
 
 
+/* gio/giomodule.c:647 */
 /**
  * _g_io_module_get_default_type:
  * @extension_point: the name of an extension point
@@ -9749,6 +10279,7 @@
  */
 
 
+/* gio/gaction.c:366 */
 /**
  * g_action_activate:
  * @action: a #GAction
@@ -9766,6 +10297,7 @@
  */
 
 
+/* gio/gaction.c:169 */
 /**
  * g_action_change_state:
  * @action: a #GAction
@@ -9786,6 +10318,7 @@
  */
 
 
+/* gio/gaction.c:344 */
 /**
  * g_action_get_enabled:
  * @action: a #GAction
@@ -9800,6 +10333,7 @@
  */
 
 
+/* gio/gaction.c:233 */
 /**
  * g_action_get_name:
  * @action: a #GAction
@@ -9811,6 +10345,7 @@
  */
 
 
+/* gio/gaction.c:252 */
 /**
  * g_action_get_parameter_type:
  * @action: a #GAction
@@ -9829,6 +10364,7 @@
  */
 
 
+/* gio/gaction.c:207 */
 /**
  * g_action_get_state:
  * @action: a #GAction
@@ -9847,6 +10383,7 @@
  */
 
 
+/* gio/gaction.c:308 */
 /**
  * g_action_get_state_hint:
  * @action: a #GAction
@@ -9875,6 +10412,7 @@
  */
 
 
+/* gio/gaction.c:278 */
 /**
  * g_action_get_state_type:
  * @action: a #GAction
@@ -9897,6 +10435,7 @@
  */
 
 
+/* gio/gactiongroup.c:593 */
 /**
  * g_action_group_action_added:
  * @action_group: a #GActionGroup
@@ -9910,6 +10449,7 @@
  */
 
 
+/* gio/gactiongroup.c:641 */
 /**
  * g_action_group_action_enabled_changed:
  * @action_group: a #GActionGroup
@@ -9924,6 +10464,7 @@
  */
 
 
+/* gio/gactiongroup.c:617 */
 /**
  * g_action_group_action_removed:
  * @action_group: a #GActionGroup
@@ -9937,6 +10478,7 @@
  */
 
 
+/* gio/gactiongroup.c:670 */
 /**
  * g_action_group_action_state_changed:
  * @action_group: a #GActionGroup
@@ -9951,6 +10493,7 @@
  */
 
 
+/* gio/gactiongroup.c:566 */
 /**
  * g_action_group_activate_action:
  * @action_group: a #GActionGroup
@@ -9968,6 +10511,7 @@
  */
 
 
+/* gio/gactiongroup.c:533 */
 /**
  * g_action_group_change_action_state:
  * @action_group: a #GActionGroup
@@ -9990,6 +10534,7 @@
  */
 
 
+/* gio/gactiongroup.c:481 */
 /**
  * g_action_group_get_action_enabled:
  * @action_group: a #GActionGroup
@@ -10005,6 +10550,7 @@
  */
 
 
+/* gio/gactiongroup.c:374 */
 /**
  * g_action_group_get_action_parameter_type:
  * @action_group: a #GActionGroup
@@ -10029,6 +10575,7 @@
  */
 
 
+/* gio/gactiongroup.c:505 */
 /**
  * g_action_group_get_action_state:
  * @action_group: a #GActionGroup
@@ -10048,6 +10595,7 @@
  */
 
 
+/* gio/gactiongroup.c:443 */
 /**
  * g_action_group_get_action_state_hint:
  * @action_group: a #GActionGroup
@@ -10077,6 +10625,7 @@
  */
 
 
+/* gio/gactiongroup.c:407 */
 /**
  * g_action_group_get_action_state_type:
  * @action_group: a #GActionGroup
@@ -10104,6 +10653,7 @@
  */
 
 
+/* gio/gactiongroup.c:353 */
 /**
  * g_action_group_has_action:
  * @action_group: a #GActionGroup
@@ -10116,6 +10666,7 @@
  */
 
 
+/* gio/gactiongroup.c:330 */
 /**
  * g_action_group_list_actions:
  * @action_group: a #GActionGroup
@@ -10131,6 +10682,7 @@
  */
 
 
+/* gio/gactiongroup.c:697 */
 /**
  * g_action_group_query_action:
  * @action_group: a #GActionGroup
@@ -10174,6 +10726,7 @@
  */
 
 
+/* gio/gactionmap.c:85 */
 /**
  * g_action_map_add_action:
  * @action_map: a #GActionMap
@@ -10190,6 +10743,7 @@
  */
 
 
+/* gio/gactionmap.c:151 */
 /**
  * g_action_map_add_action_entries:
  * @action_map: a #GActionMap
@@ -10243,6 +10797,7 @@
  */
 
 
+/* gio/gactionmap.c:64 */
 /**
  * g_action_map_lookup_action:
  * @action_map: a #GActionMap
@@ -10257,6 +10812,7 @@
  */
 
 
+/* gio/gactionmap.c:106 */
 /**
  * g_action_map_remove_action:
  * @action_map: a #GActionMap
@@ -10270,6 +10826,7 @@
  */
 
 
+/* gio/gaction.c:397 */
 /**
  * g_action_name_is_valid:
  * @action_name: an potential action name
@@ -10287,6 +10844,7 @@
  */
 
 
+/* gio/gaction.c:428 */
 /**
  * g_action_parse_detailed_name:
  * @detailed_name: a detailed action name
@@ -10324,6 +10882,7 @@
  */
 
 
+/* gio/gaction.c:535 */
 /**
  * g_action_print_detailed_name:
  * @action_name: a valid action name
@@ -10346,6 +10905,7 @@
  */
 
 
+/* gio/gappinfo.c:370 */
 /**
  * g_app_info_add_supports_type:
  * @appinfo: a #GAppInfo.
@@ -10359,6 +10919,7 @@
  */
 
 
+/* gio/gappinfo.c:727 */
 /**
  * g_app_info_can_delete:
  * @appinfo: a #GAppInfo
@@ -10371,6 +10932,7 @@
  */
 
 
+/* gio/gappinfo.c:404 */
 /**
  * g_app_info_can_remove_supports_type:
  * @appinfo: a #GAppInfo.
@@ -10382,6 +10944,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:2389 */
 /**
  * g_app_info_create_from_commandline:
  * @commandline: the commandline to use
@@ -10401,6 +10964,7 @@
  */
 
 
+/* gio/gappinfo.c:754 */
 /**
  * g_app_info_delete: (virtual do_delete)
  * @appinfo: a #GAppInfo
@@ -10416,6 +10980,7 @@
  */
 
 
+/* gio/gappinfo.c:97 */
 /**
  * g_app_info_dup:
  * @appinfo: a #GAppInfo.
@@ -10426,6 +10991,7 @@
  */
 
 
+/* gio/gappinfo.c:117 */
 /**
  * g_app_info_equal:
  * @appinfo1: the first #GAppInfo.
@@ -10437,6 +11003,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:2830 */
 /**
  * g_app_info_get_all:
  *
@@ -10454,6 +11021,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:2591 */
 /**
  * g_app_info_get_all_for_type:
  * @content_type: the content type to find a #GAppInfo for
@@ -10468,6 +11036,7 @@
  */
 
 
+/* gio/gappinfo.c:259 */
 /**
  * g_app_info_get_commandline:
  * @appinfo: a #GAppInfo
@@ -10481,6 +11050,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:2667 */
 /**
  * g_app_info_get_default_for_type:
  * @content_type: the content type to find a #GAppInfo for
@@ -10494,6 +11064,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:2739 */
 /**
  * g_app_info_get_default_for_uri_scheme:
  * @uri_scheme: a string containing a URI scheme.
@@ -10507,6 +11078,7 @@
  */
 
 
+/* gio/gappinfo.c:216 */
 /**
  * g_app_info_get_description:
  * @appinfo: a #GAppInfo.
@@ -10518,6 +11090,7 @@
  */
 
 
+/* gio/gappinfo.c:189 */
 /**
  * g_app_info_get_display_name:
  * @appinfo: a #GAppInfo.
@@ -10531,6 +11104,7 @@
  */
 
 
+/* gio/gappinfo.c:237 */
 /**
  * g_app_info_get_executable:
  * @appinfo: a #GAppInfo
@@ -10542,6 +11116,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:2543 */
 /**
  * g_app_info_get_fallback_for_type:
  * @content_type: the content type to find a #GAppInfo for
@@ -10556,6 +11131,7 @@
  */
 
 
+/* gio/gappinfo.c:493 */
 /**
  * g_app_info_get_icon:
  * @appinfo: a #GAppInfo.
@@ -10567,6 +11143,7 @@
  */
 
 
+/* gio/gappinfo.c:143 */
 /**
  * g_app_info_get_id:
  * @appinfo: a #GAppInfo.
@@ -10583,6 +11160,7 @@
  */
 
 
+/* gio/gappinfo.c:169 */
 /**
  * g_app_info_get_name:
  * @appinfo: a #GAppInfo.
@@ -10593,6 +11171,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:2495 */
 /**
  * g_app_info_get_recommended_for_type:
  * @content_type: the content type to find a #GAppInfo for
@@ -10610,6 +11189,7 @@
  */
 
 
+/* gio/gappinfo.c:461 */
 /**
  * g_app_info_get_supported_types:
  * @appinfo: a #GAppInfo that can handle files
@@ -10627,6 +11207,7 @@
  */
 
 
+/* gio/gappinfo.c:515 */
 /**
  * g_app_info_launch:
  * @appinfo: a #GAppInfo
@@ -10667,6 +11248,7 @@
  */
 
 
+/* gio/gappinfo.c:668 */
 /**
  * g_app_info_launch_default_for_uri:
  * @uri: the uri to show
@@ -10682,6 +11264,7 @@
  */
 
 
+/* gio/gappinfo.c:611 */
 /**
  * g_app_info_launch_uris:
  * @appinfo: a #GAppInfo
@@ -10704,6 +11287,7 @@
  */
 
 
+/* gio/gappinfo.c:429 */
 /**
  * g_app_info_remove_supports_type:
  * @appinfo: a #GAppInfo.
@@ -10716,6 +11300,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:2647 */
 /**
  * g_app_info_reset_type_associations:
  * @content_type: a content type
@@ -10730,6 +11315,7 @@
  */
 
 
+/* gio/gappinfo.c:339 */
 /**
  * g_app_info_set_as_default_for_extension:
  * @appinfo: a #GAppInfo.
@@ -10742,6 +11328,7 @@
  */
 
 
+/* gio/gappinfo.c:286 */
 /**
  * g_app_info_set_as_default_for_type:
  * @appinfo: a #GAppInfo.
@@ -10754,6 +11341,7 @@
  */
 
 
+/* gio/gappinfo.c:311 */
 /**
  * g_app_info_set_as_last_used_for_type:
  * @appinfo: a #GAppInfo.
@@ -10769,6 +11357,7 @@
  */
 
 
+/* gio/gappinfo.c:647 */
 /**
  * g_app_info_should_show:
  * @appinfo: a #GAppInfo.
@@ -10780,6 +11369,7 @@
  */
 
 
+/* gio/gappinfo.c:590 */
 /**
  * g_app_info_supports_files:
  * @appinfo: a #GAppInfo.
@@ -10790,6 +11380,7 @@
  */
 
 
+/* gio/gappinfo.c:569 */
 /**
  * g_app_info_supports_uris:
  * @appinfo: a #GAppInfo.
@@ -10800,6 +11391,7 @@
  */
 
 
+/* gio/gappinfo.c:944 */
 /**
  * g_app_launch_context_get_display:
  * @context: a #GAppLaunchContext
@@ -10814,6 +11406,7 @@
  */
 
 
+/* gio/gappinfo.c:921 */
 /**
  * g_app_launch_context_get_environment:
  * @context: a #GAppLaunchContext
@@ -10829,6 +11422,7 @@
  */
 
 
+/* gio/gappinfo.c:974 */
 /**
  * g_app_launch_context_get_startup_notify_id:
  * @context: a #GAppLaunchContext
@@ -10848,6 +11442,7 @@
  */
 
 
+/* gio/gappinfo.c:1010 */
 /**
  * g_app_launch_context_launch_failed:
  * @context: a #GAppLaunchContext.
@@ -10858,6 +11453,7 @@
  */
 
 
+/* gio/gappinfo.c:799 */
 /**
  * g_app_launch_context_new:
  *
@@ -10868,6 +11464,7 @@
  */
 
 
+/* gio/gappinfo.c:877 */
 /**
  * g_app_launch_context_setenv:
  * @context: a #GAppLaunchContext
@@ -10881,6 +11478,7 @@
  */
 
 
+/* gio/gappinfo.c:900 */
 /**
  * g_app_launch_context_unsetenv:
  * @context: a #GAppLaunchContext
@@ -10893,6 +11491,7 @@
  */
 
 
+/* gio/gapplication.c:1390 */
 /**
  * g_application_activate:
  * @application: a #GApplication
@@ -10908,6 +11507,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:665 */
 /**
  * g_application_command_line_create_file_for_arg:
  * @cmdline: a #GApplicationCommandLine
@@ -10925,6 +11525,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:343 */
 /**
  * g_application_command_line_get_arguments:
  * @cmdline: a #GApplicationCommandLine
@@ -10943,6 +11544,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:402 */
 /**
  * g_application_command_line_get_cwd:
  * @cmdline: a #GApplicationCommandLine
@@ -10961,6 +11563,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:425 */
 /**
  * g_application_command_line_get_environ:
  * @cmdline: a #GApplicationCommandLine
@@ -10987,6 +11590,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:618 */
 /**
  * g_application_command_line_get_exit_status:
  * @cmdline: a #GApplicationCommandLine
@@ -10999,6 +11603,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:494 */
 /**
  * g_application_command_line_get_is_remote:
  * @cmdline: a #GApplicationCommandLine
@@ -11010,6 +11615,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:637 */
 /**
  * g_application_command_line_get_platform_data:
  * @cmdline: #GApplicationCommandLine
@@ -11028,6 +11634,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:377 */
 /**
  * g_application_command_line_get_stdin:
  * @cmdline: a #GApplicationCommandLine
@@ -11048,6 +11655,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:456 */
 /**
  * g_application_command_line_getenv:
  * @cmdline: a #GApplicationCommandLine
@@ -11070,6 +11678,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:510 */
 /**
  * g_application_command_line_print:
  * @cmdline: a #GApplicationCommandLine
@@ -11087,6 +11696,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:545 */
 /**
  * g_application_command_line_printerr:
  * @cmdline: a #GApplicationCommandLine
@@ -11104,6 +11714,7 @@
  */
 
 
+/* gio/gapplicationcommandline.c:580 */
 /**
  * g_application_command_line_set_exit_status:
  * @cmdline: a #GApplicationCommandLine
@@ -11135,6 +11746,7 @@
  */
 
 
+/* gio/gapplication.c:981 */
 /**
  * g_application_get_application_id:
  * @application: a #GApplication
@@ -11146,6 +11758,7 @@
  */
 
 
+/* gio/gapplication.c:1182 */
 /**
  * g_application_get_dbus_connection:
  * @application: a #GApplication
@@ -11169,6 +11782,7 @@
  */
 
 
+/* gio/gapplication.c:1213 */
 /**
  * g_application_get_dbus_object_path:
  * @application: a #GApplication
@@ -11193,6 +11807,7 @@
  */
 
 
+/* gio/gapplication.c:1801 */
 /**
  * g_application_get_default:
  *
@@ -11209,6 +11824,7 @@
  */
 
 
+/* gio/gapplication.c:1032 */
 /**
  * g_application_get_flags:
  * @application: a #GApplication
@@ -11222,6 +11838,7 @@
  */
 
 
+/* gio/gapplication.c:1082 */
 /**
  * g_application_get_inactivity_timeout:
  * @application: a #GApplication
@@ -11236,6 +11853,7 @@
  */
 
 
+/* gio/gapplication.c:1133 */
 /**
  * g_application_get_is_registered:
  * @application: a #GApplication
@@ -11250,6 +11868,7 @@
  */
 
 
+/* gio/gapplication.c:1154 */
 /**
  * g_application_get_is_remote:
  * @application: a #GApplication
@@ -11270,6 +11889,7 @@
  */
 
 
+/* gio/gapplication.c:1329 */
 /**
  * g_application_hold:
  * @application: a #GApplication
@@ -11284,6 +11904,7 @@
  */
 
 
+/* gio/gapplication.c:887 */
 /**
  * g_application_id_is_valid:
  * @application_id: a potential application identifier
@@ -11307,6 +11928,7 @@
  */
 
 
+/* gio/gapplication.c:1865 */
 /**
  * g_application_mark_busy:
  * @application: a #GApplication
@@ -11326,6 +11948,7 @@
  */
 
 
+/* gio/gapplication.c:953 */
 /**
  * g_application_new:
  * @application_id: (allow-none): the application id
@@ -11343,6 +11966,7 @@
  */
 
 
+/* gio/gapplication.c:1417 */
 /**
  * g_application_open:
  * @application: a #GApplication
@@ -11369,6 +11993,7 @@
  */
 
 
+/* gio/gapplication.c:1841 */
 /**
  * g_application_quit:
  * @application: a #GApplication
@@ -11387,6 +12012,7 @@
  */
 
 
+/* gio/gapplication.c:1246 */
 /**
  * g_application_register:
  * @application: a #GApplication
@@ -11429,6 +12055,7 @@
  */
 
 
+/* gio/gapplication.c:1366 */
 /**
  * g_application_release:
  * @application: a #GApplication
@@ -11442,6 +12069,7 @@
  */
 
 
+/* gio/gapplication.c:1463 */
 /**
  * g_application_run:
  * @application: a #GApplication
@@ -11530,6 +12158,7 @@
  */
 
 
+/* gio/gapplication.c:593 */
 /**
  * g_application_set_action_group:
  * @application: a #GApplication
@@ -11547,6 +12176,7 @@
  */
 
 
+/* gio/gapplication.c:999 */
 /**
  * g_application_set_application_id:
  * @application: a #GApplication
@@ -11564,6 +12194,7 @@
  */
 
 
+/* gio/gapplication.c:1822 */
 /**
  * g_application_set_default:
  * @application: (allow-none): the application to set as default, or %NULL
@@ -11579,6 +12210,7 @@
  */
 
 
+/* gio/gapplication.c:1052 */
 /**
  * g_application_set_flags:
  * @application: a #GApplication
@@ -11595,6 +12227,7 @@
  */
 
 
+/* gio/gapplication.c:1103 */
 /**
  * g_application_set_inactivity_timeout:
  * @application: a #GApplication
@@ -11613,6 +12246,7 @@
  */
 
 
+/* gio/gapplication.c:1896 */
 /**
  * g_application_unmark_busy:
  * @application: a #GApplication
@@ -11629,6 +12263,7 @@
  */
 
 
+/* gio/gasyncinitable.c:158 */
 /**
  * g_async_initable_init_async:
  * @initable: a #GAsyncInitable.
@@ -11676,6 +12311,7 @@
  */
 
 
+/* gio/gasyncinitable.c:219 */
 /**
  * g_async_initable_init_finish:
  * @initable: a #GAsyncInitable.
@@ -11692,6 +12328,7 @@
  */
 
 
+/* gio/gasyncinitable.c:306 */
 /**
  * g_async_initable_new_async:
  * @object_type: a #GType supporting #GAsyncInitable.
@@ -11717,6 +12354,7 @@
  */
 
 
+/* gio/gasyncinitable.c:435 */
 /**
  * g_async_initable_new_finish:
  * @initable: the #GAsyncInitable from the callback
@@ -11732,6 +12370,7 @@
  */
 
 
+/* gio/gasyncinitable.c:389 */
 /**
  * g_async_initable_new_valist_async:
  * @object_type: a #GType supporting #GAsyncInitable.
@@ -11757,6 +12396,7 @@
  */
 
 
+/* gio/gasyncinitable.c:348 */
 /**
  * g_async_initable_newv_async:
  * @object_type: a #GType supporting #GAsyncInitable.
@@ -11780,6 +12420,7 @@
  */
 
 
+/* gio/gasyncresult.c:146 */
 /**
  * g_async_result_get_source_object:
  * @res: a #GAsyncResult
@@ -11791,6 +12432,7 @@
  */
 
 
+/* gio/gasyncresult.c:126 */
 /**
  * g_async_result_get_user_data:
  * @res: a #GAsyncResult.
@@ -11801,6 +12443,7 @@
  */
 
 
+/* gio/gasyncresult.c:208 */
 /**
  * g_async_result_is_tagged:
  * @res: a #GAsyncResult
@@ -11815,6 +12458,7 @@
  */
 
 
+/* gio/gasyncresult.c:167 */
 /**
  * g_async_result_legacy_propagate_error:
  * @res: a #GAsyncResult
@@ -11838,6 +12482,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:372 */
 /**
  * g_buffered_input_stream_fill:
  * @stream: a #GBufferedInputStream
@@ -11875,6 +12520,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:457 */
 /**
  * g_buffered_input_stream_fill_async:
  * @stream: a #GBufferedInputStream
@@ -11894,6 +12540,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:524 */
 /**
  * g_buffered_input_stream_fill_finish:
  * @stream: a #GBufferedInputStream
@@ -11906,6 +12553,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:553 */
 /**
  * g_buffered_input_stream_get_available:
  * @stream: #GBufferedInputStream
@@ -11916,6 +12564,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:180 */
 /**
  * g_buffered_input_stream_get_buffer_size:
  * @stream: a #GBufferedInputStream
@@ -11926,6 +12575,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:323 */
 /**
  * g_buffered_input_stream_new:
  * @base_stream: a #GInputStream
@@ -11937,6 +12587,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:346 */
 /**
  * g_buffered_input_stream_new_sized:
  * @base_stream: a #GInputStream
@@ -11949,6 +12600,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:569 */
 /**
  * g_buffered_input_stream_peek:
  * @stream: a #GBufferedInputStream
@@ -11964,6 +12616,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:606 */
 /**
  * g_buffered_input_stream_peek_buffer:
  * @stream: a #GBufferedInputStream
@@ -11978,6 +12631,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:946 */
 /**
  * g_buffered_input_stream_read_byte:
  * @stream: a #GBufferedInputStream
@@ -12002,6 +12656,7 @@
  */
 
 
+/* gio/gbufferedinputstream.c:196 */
 /**
  * g_buffered_input_stream_set_buffer_size:
  * @stream: a #GBufferedInputStream
@@ -12013,6 +12668,7 @@
  */
 
 
+/* gio/gbufferedoutputstream.c:232 */
 /**
  * g_buffered_output_stream_get_auto_grow:
  * @stream: a #GBufferedOutputStream.
@@ -12024,6 +12680,7 @@
  */
 
 
+/* gio/gbufferedoutputstream.c:174 */
 /**
  * g_buffered_output_stream_get_buffer_size:
  * @stream: a #GBufferedOutputStream.
@@ -12034,6 +12691,7 @@
  */
 
 
+/* gio/gbufferedoutputstream.c:360 */
 /**
  * g_buffered_output_stream_new:
  * @base_stream: a #GOutputStream.
@@ -12044,6 +12702,7 @@
  */
 
 
+/* gio/gbufferedoutputstream.c:382 */
 /**
  * g_buffered_output_stream_new_sized:
  * @base_stream: a #GOutputStream.
@@ -12055,6 +12714,7 @@
  */
 
 
+/* gio/gbufferedoutputstream.c:249 */
 /**
  * g_buffered_output_stream_set_auto_grow:
  * @stream: a #GBufferedOutputStream.
@@ -12067,6 +12727,7 @@
  */
 
 
+/* gio/gbufferedoutputstream.c:190 */
 /**
  * g_buffered_output_stream_set_buffer_size:
  * @stream: a #GBufferedOutputStream.
@@ -12076,6 +12737,7 @@
  */
 
 
+/* gio/gdbusconnection.c:7070 */
 /**
  * g_bus_get:
  * @bus_type: A #GBusType.
@@ -12095,6 +12757,7 @@
  */
 
 
+/* gio/gdbusconnection.c:7122 */
 /**
  * g_bus_get_finish:
  * @res: A #GAsyncResult obtained from the #GAsyncReadyCallback passed to g_bus_get().
@@ -12116,6 +12779,7 @@
  */
 
 
+/* gio/gdbusconnection.c:6993 */
 /**
  * g_bus_get_sync:
  * @bus_type: A #GBusType.
@@ -12144,6 +12808,7 @@
  */
 
 
+/* gio/gdbusnameowning.c:555 */
 /**
  * g_bus_own_name:
  * @bus_type: The type of bus to own a name on.
@@ -12212,6 +12877,7 @@
  */
 
 
+/* gio/gdbusnameowning.c:493 */
 /**
  * g_bus_own_name_on_connection:
  * @connection: A #GDBusConnection.
@@ -12231,6 +12897,7 @@
  */
 
 
+/* gio/gdbusnameowning.c:829 */
 /**
  * g_bus_own_name_on_connection_with_closures: (rename-to g_bus_own_name_on_connection)
  * @connection: A #GDBusConnection.
@@ -12250,6 +12917,7 @@
  */
 
 
+/* gio/gdbusnameowning.c:787 */
 /**
  * g_bus_own_name_with_closures: (rename-to g_bus_own_name)
  * @bus_type: The type of bus to own a name on.
@@ -12271,6 +12939,7 @@
  */
 
 
+/* gio/gdbusnameowning.c:867 */
 /**
  * g_bus_unown_name:
  * @owner_id: An identifier obtained from g_bus_own_name()
@@ -12281,6 +12950,7 @@
  */
 
 
+/* gio/gdbusnamewatching.c:814 */
 /**
  * g_bus_unwatch_name:
  * @watcher_id: An identifier obtained from g_bus_watch_name()
@@ -12291,6 +12961,7 @@
  */
 
 
+/* gio/gdbusnamewatching.c:503 */
 /**
  * g_bus_watch_name:
  * @bus_type: The type of bus to watch a name on.
@@ -12337,6 +13008,7 @@
  */
 
 
+/* gio/gdbusnamewatching.c:592 */
 /**
  * g_bus_watch_name_on_connection:
  * @connection: A #GDBusConnection.
@@ -12356,6 +13028,7 @@
  */
 
 
+/* gio/gdbusnamewatching.c:778 */
 /**
  * g_bus_watch_name_on_connection_with_closures: (rename-to g_bus_watch_name_on_connection)
  * @connection: A #GDBusConnection.
@@ -12375,6 +13048,7 @@
  */
 
 
+/* gio/gdbusnamewatching.c:742 */
 /**
  * g_bus_watch_name_with_closures: (rename-to g_bus_watch_name)
  * @bus_type: The type of bus to watch a name on.
@@ -12394,6 +13068,7 @@
  */
 
 
+/* gio/gbytesicon.c:164 */
 /**
  * g_bytes_icon_get_bytes:
  * @icon: a #GIcon.
@@ -12405,6 +13080,7 @@
  */
 
 
+/* gio/gbytesicon.c:145 */
 /**
  * g_bytes_icon_new:
  * @bytes: a #GBytes.
@@ -12417,6 +13093,7 @@
  */
 
 
+/* gio/gcancellable.c:456 */
 /**
  * g_cancellable_cancel:
  * @cancellable: a #GCancellable object.
@@ -12438,6 +13115,7 @@
  */
 
 
+/* gio/gcancellable.c:517 */
 /**
  * g_cancellable_connect:
  * @cancellable: A #GCancellable.
@@ -12465,6 +13143,7 @@
  */
 
 
+/* gio/gcancellable.c:581 */
 /**
  * g_cancellable_disconnect:
  * @cancellable: (allow-none): A #GCancellable or %NULL.
@@ -12489,6 +13168,7 @@
  */
 
 
+/* gio/gcancellable.c:223 */
 /**
  * g_cancellable_get_current:
  *
@@ -12499,6 +13179,7 @@
  */
 
 
+/* gio/gcancellable.c:321 */
 /**
  * g_cancellable_get_fd:
  * @cancellable: a #GCancellable.
@@ -12522,6 +13203,7 @@
  */
 
 
+/* gio/gcancellable.c:280 */
 /**
  * g_cancellable_is_cancelled:
  * @cancellable: (allow-none): a #GCancellable or %NULL
@@ -12533,6 +13215,7 @@
  */
 
 
+/* gio/gcancellable.c:359 */
 /**
  * g_cancellable_make_pollfd:
  * @cancellable: (allow-none): a #GCancellable or %NULL
@@ -12563,6 +13246,7 @@
  */
 
 
+/* gio/gcancellable.c:157 */
 /**
  * g_cancellable_new:
  *
@@ -12579,6 +13263,7 @@
  */
 
 
+/* gio/gcancellable.c:202 */
 /**
  * g_cancellable_pop_current:
  * @cancellable: a #GCancellable object
@@ -12588,6 +13273,7 @@
  */
 
 
+/* gio/gcancellable.c:177 */
 /**
  * g_cancellable_push_current:
  * @cancellable: a #GCancellable object
@@ -12603,6 +13289,7 @@
  */
 
 
+/* gio/gcancellable.c:415 */
 /**
  * g_cancellable_release_fd:
  * @cancellable: a #GCancellable
@@ -12621,6 +13308,7 @@
  */
 
 
+/* gio/gcancellable.c:243 */
 /**
  * g_cancellable_reset:
  * @cancellable: a #GCancellable object.
@@ -12632,6 +13320,7 @@
  */
 
 
+/* gio/gcancellable.c:295 */
 /**
  * g_cancellable_set_error_if_cancelled:
  * @cancellable: (allow-none): a #GCancellable or %NULL
@@ -12644,6 +13333,7 @@
  */
 
 
+/* gio/gcancellable.c:702 */
 /**
  * g_cancellable_source_new: (skip)
  * @cancellable: (allow-none): a #GCancellable, or %NULL
@@ -12661,6 +13351,7 @@
  */
 
 
+/* gio/gcharsetconverter.c:409 */
 /**
  * g_charset_converter_get_num_fallbacks:
  * @converter: a #GCharsetConverter
@@ -12672,6 +13363,7 @@
  */
 
 
+/* gio/gcharsetconverter.c:393 */
 /**
  * g_charset_converter_get_use_fallback:
  * @converter: a #GCharsetConverter
@@ -12683,6 +13375,7 @@
  */
 
 
+/* gio/gcharsetconverter.c:195 */
 /**
  * g_charset_converter_new:
  * @to_charset: destination charset
@@ -12696,6 +13389,7 @@
  */
 
 
+/* gio/gcharsetconverter.c:371 */
 /**
  * g_charset_converter_set_use_fallback:
  * @converter: a #GCharsetConverter
@@ -12707,6 +13401,7 @@
  */
 
 
+/* gio/gcontenttype.c:532 */
 /**
  * g_content_type_can_be_executable:
  * @type: a content type string
@@ -12719,6 +13414,7 @@
  */
 
 
+/* gio/gcontenttype.c:112 */
 /**
  * g_content_type_equals:
  * @type1: a content type string
@@ -12731,6 +13427,7 @@
  */
 
 
+/* gio/gcontenttype.c:572 */
 /**
  * g_content_type_from_mime_type:
  * @mime_type: a mime type string
@@ -12743,6 +13440,7 @@
  */
 
 
+/* gio/gcontenttype.c:338 */
 /**
  * g_content_type_get_description:
  * @type: a content type string
@@ -12754,6 +13452,7 @@
  */
 
 
+/* gio/gcontenttype.c:486 */
 /**
  * g_content_type_get_generic_icon_name:
  * @type: a content type string
@@ -12769,6 +13468,7 @@
  */
 
 
+/* gio/gcontenttype.c:454 */
 /**
  * g_content_type_get_icon:
  * @type: a content type string
@@ -12780,6 +13480,7 @@
  */
 
 
+/* gio/gcontenttype.c:379 */
 /**
  * g_content_type_get_mime_type:
  * @type: a content type string
@@ -12791,6 +13492,7 @@
  */
 
 
+/* gio/gcontenttype.c:469 */
 /**
  * g_content_type_get_symbolic_icon:
  * @type: a content type string
@@ -12803,6 +13505,7 @@
  */
 
 
+/* gio/gcontenttype.c:598 */
 /**
  * g_content_type_guess:
  * @filename: (allow-none): a string, or %NULL
@@ -12821,6 +13524,7 @@
  */
 
 
+/* gio/gcontenttype.c:1365 */
 /**
  * g_content_type_guess_for_tree:
  * @root: the root of the tree to guess a type for
@@ -12843,6 +13547,7 @@
  */
 
 
+/* gio/gcontenttype.c:138 */
 /**
  * g_content_type_is_a:
  * @type: a content type string
@@ -12855,6 +13560,7 @@
  */
 
 
+/* gio/gcontenttype.c:164 */
 /**
  * g_content_type_is_unknown:
  * @type: a content type string
@@ -12867,6 +13573,7 @@
  */
 
 
+/* gio/gcontenttype.c:790 */
 /**
  * g_content_types_get_registered:
  *
@@ -12880,6 +13587,7 @@
  */
 
 
+/* gio/gconverter.c:54 */
 /**
  * g_converter_convert:
  * @converter: a #GConverter.
@@ -12981,6 +13689,7 @@
  */
 
 
+/* gio/gconverterinputstream.c:636 */
 /**
  * g_converter_input_stream_get_converter:
  * @converter_stream: a #GConverterInputStream
@@ -12992,6 +13701,7 @@
  */
 
 
+/* gio/gconverterinputstream.c:211 */
 /**
  * g_converter_input_stream_new:
  * @base_stream: a #GInputStream
@@ -13003,6 +13713,7 @@
  */
 
 
+/* gio/gconverteroutputstream.c:676 */
 /**
  * g_converter_output_stream_get_converter:
  * @converter_stream: a #GConverterOutputStream
@@ -13014,6 +13725,7 @@
  */
 
 
+/* gio/gconverteroutputstream.c:227 */
 /**
  * g_converter_output_stream_new:
  * @base_stream: a #GOutputStream
@@ -13025,6 +13737,7 @@
  */
 
 
+/* gio/gconverter.c:182 */
 /**
  * g_converter_reset:
  * @converter: a #GConverter.
@@ -13037,6 +13750,7 @@
  */
 
 
+/* gio/gcredentials.c:337 */
 /**
  * g_credentials_get_native: (skip)
  * @credentials: A #GCredentials.
@@ -13057,6 +13771,7 @@
  */
 
 
+/* gio/gcredentials.c:453 */
 /**
  * g_credentials_get_unix_pid:
  * @credentials: A #GCredentials
@@ -13074,6 +13789,7 @@
  */
 
 
+/* gio/gcredentials.c:409 */
 /**
  * g_credentials_get_unix_user:
  * @credentials: A #GCredentials
@@ -13091,6 +13807,7 @@
  */
 
 
+/* gio/gcredentials.c:251 */
 /**
  * g_credentials_is_same_user:
  * @credentials: A #GCredentials.
@@ -13108,6 +13825,7 @@
  */
 
 
+/* gio/gcredentials.c:163 */
 /**
  * g_credentials_new:
  *
@@ -13119,6 +13837,7 @@
  */
 
 
+/* gio/gcredentials.c:374 */
 /**
  * g_credentials_set_native:
  * @credentials: A #GCredentials.
@@ -13136,6 +13855,7 @@
  */
 
 
+/* gio/gcredentials.c:497 */
 /**
  * g_credentials_set_unix_user:
  * @credentials: A #GCredentials.
@@ -13155,6 +13875,7 @@
  */
 
 
+/* gio/gcredentials.c:181 */
 /**
  * g_credentials_to_string:
  * @credentials: A #GCredentials object.
@@ -13168,6 +13889,7 @@
  */
 
 
+/* gio/gdatainputstream.c:224 */
 /**
  * g_data_input_stream_get_byte_order:
  * @stream: a given #GDataInputStream.
@@ -13178,6 +13900,7 @@
  */
 
 
+/* gio/gdatainputstream.c:270 */
 /**
  * g_data_input_stream_get_newline_type:
  * @stream: a given #GDataInputStream.
@@ -13188,6 +13911,7 @@
  */
 
 
+/* gio/gdatainputstream.c:175 */
 /**
  * g_data_input_stream_new:
  * @base_stream: a #GInputStream.
@@ -13198,6 +13922,7 @@
  */
 
 
+/* gio/gdatainputstream.c:320 */
 /**
  * g_data_input_stream_read_byte:
  * @stream: a given #GDataInputStream.
@@ -13211,6 +13936,7 @@
  */
 
 
+/* gio/gdatainputstream.c:347 */
 /**
  * g_data_input_stream_read_int16:
  * @stream: a given #GDataInputStream.
@@ -13227,6 +13953,7 @@
  */
 
 
+/* gio/gdatainputstream.c:435 */
 /**
  * g_data_input_stream_read_int32:
  * @stream: a given #GDataInputStream.
@@ -13247,6 +13974,7 @@
  */
 
 
+/* gio/gdatainputstream.c:531 */
 /**
  * g_data_input_stream_read_int64:
  * @stream: a given #GDataInputStream.
@@ -13267,6 +13995,7 @@
  */
 
 
+/* gio/gdatainputstream.c:725 */
 /**
  * g_data_input_stream_read_line:
  * @stream: a given #GDataInputStream.
@@ -13291,6 +14020,7 @@
  */
 
 
+/* gio/gdatainputstream.c:1116 */
 /**
  * g_data_input_stream_read_line_async:
  * @stream: a given #GDataInputStream.
@@ -13311,6 +14041,7 @@
  */
 
 
+/* gio/gdatainputstream.c:1192 */
 /**
  * g_data_input_stream_read_line_finish:
  * @stream: a given #GDataInputStream.
@@ -13333,6 +14064,7 @@
  */
 
 
+/* gio/gdatainputstream.c:1224 */
 /**
  * g_data_input_stream_read_line_finish_utf8:
  * @stream: a given #GDataInputStream.
@@ -13353,6 +14085,7 @@
  */
 
 
+/* gio/gdatainputstream.c:811 */
 /**
  * g_data_input_stream_read_line_utf8:
  * @stream: a given #GDataInputStream.
@@ -13376,6 +14109,7 @@
  */
 
 
+/* gio/gdatainputstream.c:391 */
 /**
  * g_data_input_stream_read_uint16:
  * @stream: a given #GDataInputStream.
@@ -13392,6 +14126,7 @@
  */
 
 
+/* gio/gdatainputstream.c:483 */
 /**
  * g_data_input_stream_read_uint32:
  * @stream: a given #GDataInputStream.
@@ -13412,6 +14147,7 @@
  */
 
 
+/* gio/gdatainputstream.c:579 */
 /**
  * g_data_input_stream_read_uint64:
  * @stream: a given #GDataInputStream.
@@ -13432,6 +14168,7 @@
  */
 
 
+/* gio/gdatainputstream.c:895 */
 /**
  * g_data_input_stream_read_until:
  * @stream: a given #GDataInputStream.
@@ -13459,6 +14196,7 @@
  */
 
 
+/* gio/gdatainputstream.c:1148 */
 /**
  * g_data_input_stream_read_until_async:
  * @stream: a given #GDataInputStream.
@@ -13489,6 +14227,7 @@
  */
 
 
+/* gio/gdatainputstream.c:1266 */
 /**
  * g_data_input_stream_read_until_finish:
  * @stream: a given #GDataInputStream.
@@ -13507,6 +14246,7 @@
  */
 
 
+/* gio/gdatainputstream.c:1294 */
 /**
  * g_data_input_stream_read_upto:
  * @stream: a #GDataInputStream
@@ -13536,6 +14276,7 @@
  */
 
 
+/* gio/gdatainputstream.c:1386 */
 /**
  * g_data_input_stream_read_upto_async:
  * @stream: a #GDataInputStream
@@ -13567,6 +14308,7 @@
  */
 
 
+/* gio/gdatainputstream.c:1432 */
 /**
  * g_data_input_stream_read_upto_finish:
  * @stream: a #GDataInputStream
@@ -13589,6 +14331,7 @@
  */
 
 
+/* gio/gdatainputstream.c:197 */
 /**
  * g_data_input_stream_set_byte_order:
  * @stream: a given #GDataInputStream.
@@ -13599,6 +14342,7 @@
  */
 
 
+/* gio/gdatainputstream.c:240 */
 /**
  * g_data_input_stream_set_newline_type:
  * @stream: a #GDataInputStream.
@@ -13612,6 +14356,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:217 */
 /**
  * g_data_output_stream_get_byte_order:
  * @stream: a #GDataOutputStream.
@@ -13622,6 +14367,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:174 */
 /**
  * g_data_output_stream_new:
  * @base_stream: a #GOutputStream.
@@ -13632,6 +14378,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:233 */
 /**
  * g_data_output_stream_put_byte:
  * @stream: a #GDataOutputStream.
@@ -13645,6 +14392,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:260 */
 /**
  * g_data_output_stream_put_int16:
  * @stream: a #GDataOutputStream.
@@ -13658,6 +14406,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:340 */
 /**
  * g_data_output_stream_put_int32:
  * @stream: a #GDataOutputStream.
@@ -13671,6 +14420,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:420 */
 /**
  * g_data_output_stream_put_int64:
  * @stream: a #GDataOutputStream.
@@ -13684,6 +14434,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:500 */
 /**
  * g_data_output_stream_put_string:
  * @stream: a #GDataOutputStream.
@@ -13697,6 +14448,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:300 */
 /**
  * g_data_output_stream_put_uint16:
  * @stream: a #GDataOutputStream.
@@ -13710,6 +14462,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:380 */
 /**
  * g_data_output_stream_put_uint32:
  * @stream: a #GDataOutputStream.
@@ -13723,6 +14476,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:460 */
 /**
  * g_data_output_stream_put_uint64:
  * @stream: a #GDataOutputStream.
@@ -13736,6 +14490,7 @@
  */
 
 
+/* gio/gdataoutputstream.c:196 */
 /**
  * g_data_output_stream_set_byte_order:
  * @stream: a #GDataOutputStream.
@@ -13745,6 +14500,7 @@
  */
 
 
+/* gio/gdbusactiongroup.c:469 */
 /**
  * g_dbus_action_group_get:
  * @connection: A #GDBusConnection
@@ -13770,6 +14526,7 @@
  */
 
 
+/* gio/gdbusaddress.c:1598 */
 /**
  * g_dbus_address_escape_value:
  * @string: an unescaped string to be included in a D-Bus address
@@ -13789,6 +14546,7 @@
  */
 
 
+/* gio/gdbusaddress.c:1457 */
 /**
  * g_dbus_address_get_for_bus_sync:
  * @bus_type: A #GBusType.
@@ -13804,6 +14562,7 @@
  */
 
 
+/* gio/gdbusaddress.c:832 */
 /**
  * g_dbus_address_get_stream:
  * @address: A valid D-Bus address.
@@ -13826,6 +14585,7 @@
  */
 
 
+/* gio/gdbusaddress.c:880 */
 /**
  * g_dbus_address_get_stream_finish:
  * @res: A #GAsyncResult obtained from the GAsyncReadyCallback passed to g_dbus_address_get_stream().
@@ -13839,6 +14599,7 @@
  */
 
 
+/* gio/gdbusaddress.c:920 */
 /**
  * g_dbus_address_get_stream_sync:
  * @address: A valid D-Bus address.
@@ -13858,6 +14619,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:1839 */
 /**
  * g_dbus_annotation_info_lookup:
  * @annotations: (array zero-terminated=1) (allow-none): A %NULL-terminated array of annotations or %NULL.
@@ -13872,6 +14634,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:214 */
 /**
  * g_dbus_annotation_info_ref:
  * @info: A #GDBusNodeInfo
@@ -13884,6 +14647,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:248 */
 /**
  * g_dbus_annotation_info_unref:
  * @info: A #GDBusAnnotationInfo.
@@ -13896,6 +14660,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:194 */
 /**
  * g_dbus_arg_info_ref:
  * @info: A #GDBusArgInfo
@@ -13908,6 +14673,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:272 */
 /**
  * g_dbus_arg_info_unref:
  * @info: A #GDBusArgInfo.
@@ -13920,6 +14686,7 @@
  */
 
 
+/* gio/gdbusauthobserver.c:255 */
 /**
  * g_dbus_auth_observer_allow_mechanism:
  * @observer: A #GDBusAuthObserver.
@@ -13932,6 +14699,7 @@
  */
 
 
+/* gio/gdbusauthobserver.c:226 */
 /**
  * g_dbus_auth_observer_authorize_authenticated_peer:
  * @observer: A #GDBusAuthObserver.
@@ -13945,6 +14713,7 @@
  */
 
 
+/* gio/gdbusauthobserver.c:209 */
 /**
  * g_dbus_auth_observer_new:
  *
@@ -13955,6 +14724,7 @@
  */
 
 
+/* gio/gdbusconnection.c:3132 */
 /**
  * g_dbus_connection_add_filter:
  * @connection: A #GDBusConnection.
@@ -13990,6 +14760,7 @@
  */
 
 
+/* gio/gdbusconnection.c:5766 */
 /**
  * g_dbus_connection_call:
  * @connection: A #GDBusConnection.
@@ -14057,6 +14828,7 @@
  */
 
 
+/* gio/gdbusconnection.c:5848 */
 /**
  * g_dbus_connection_call_finish:
  * @connection: A #GDBusConnection.
@@ -14071,6 +14843,7 @@
  */
 
 
+/* gio/gdbusconnection.c:5869 */
 /**
  * g_dbus_connection_call_sync:
  * @connection: A #GDBusConnection.
@@ -14131,6 +14904,7 @@
  */
 
 
+/* gio/gdbusconnection.c:5948 */
 /**
  * g_dbus_connection_call_with_unix_fd_list:
  * @connection: A #GDBusConnection.
@@ -14160,6 +14934,7 @@
  */
 
 
+/* gio/gdbusconnection.c:5993 */
 /**
  * g_dbus_connection_call_with_unix_fd_list_finish:
  * @connection: A #GDBusConnection.
@@ -14175,6 +14950,7 @@
  */
 
 
+/* gio/gdbusconnection.c:6016 */
 /**
  * g_dbus_connection_call_with_unix_fd_list_sync:
  * @connection: A #GDBusConnection.
@@ -14204,6 +14980,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1428 */
 /**
  * g_dbus_connection_close:
  * @connection: A #GDBusConnection.
@@ -14241,6 +15018,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1488 */
 /**
  * g_dbus_connection_close_finish:
  * @connection: A #GDBusConnection.
@@ -14254,6 +15032,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1542 */
 /**
  * g_dbus_connection_close_sync:
  * @connection: A #GDBusConnection.
@@ -14270,6 +15049,7 @@
  */
 
 
+/* gio/gdbusconnection.c:5265 */
 /**
  * g_dbus_connection_emit_signal:
  * @connection: A #GDBusConnection.
@@ -14293,6 +15073,7 @@
  */
 
 
+/* gio/gactiongroupexporter.c:480 */
 /**
  * g_dbus_connection_export_action_group:
  * @connection: a #GDBusConnection
@@ -14327,6 +15108,7 @@
  */
 
 
+/* gio/gmenuexporter.c:735 */
 /**
  * g_dbus_connection_export_menu_model:
  * @connection: a #GDBusConnection
@@ -14352,6 +15134,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1229 */
 /**
  * g_dbus_connection_flush:
  * @connection: A #GDBusConnection.
@@ -14380,6 +15163,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1277 */
 /**
  * g_dbus_connection_flush_finish:
  * @connection: A #GDBusConnection.
@@ -14393,6 +15177,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1314 */
 /**
  * g_dbus_connection_flush_sync:
  * @connection: A #GDBusConnection.
@@ -14409,6 +15194,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1190 */
 /**
  * g_dbus_connection_get_capabilities:
  * @connection: A #GDBusConnection.
@@ -14420,6 +15206,7 @@
  */
 
 
+/* gio/gdbusconnection.c:3028 */
 /**
  * g_dbus_connection_get_exit_on_close:
  * @connection: A #GDBusConnection.
@@ -14434,6 +15221,7 @@
  */
 
 
+/* gio/gdbusconnection.c:3052 */
 /**
  * g_dbus_connection_get_guid:
  * @connection: A #GDBusConnection.
@@ -14447,6 +15235,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1594 */
 /**
  * g_dbus_connection_get_last_serial:
  * @connection: A #GDBusConnection.
@@ -14463,6 +15252,7 @@
  */
 
 
+/* gio/gdbusconnection.c:3097 */
 /**
  * g_dbus_connection_get_peer_credentials:
  * @connection: A #GDBusConnection.
@@ -14483,6 +15273,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1118 */
 /**
  * g_dbus_connection_get_stream:
  * @connection: a #GDBusConnection
@@ -14498,6 +15289,7 @@
  */
 
 
+/* gio/gdbusconnection.c:3071 */
 /**
  * g_dbus_connection_get_unique_name:
  * @connection: A #GDBusConnection.
@@ -14513,6 +15305,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1168 */
 /**
  * g_dbus_connection_is_closed:
  * @connection: A #GDBusConnection.
@@ -14524,6 +15317,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2724 */
 /**
  * g_dbus_connection_new:
  * @stream: A #GIOStream.
@@ -14559,6 +15353,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2779 */
 /**
  * g_dbus_connection_new_finish:
  * @res: A #GAsyncResult obtained from the #GAsyncReadyCallback passed to g_dbus_connection_new().
@@ -14571,6 +15366,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2863 */
 /**
  * g_dbus_connection_new_for_address:
  * @address: A D-Bus address.
@@ -14605,6 +15401,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2915 */
 /**
  * g_dbus_connection_new_for_address_finish:
  * @res: A #GAsyncResult obtained from the #GAsyncReadyCallback passed to g_dbus_connection_new().
@@ -14617,6 +15414,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2948 */
 /**
  * g_dbus_connection_new_for_address_sync:
  * @address: A D-Bus address.
@@ -14646,6 +15444,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2812 */
 /**
  * g_dbus_connection_new_sync:
  * @stream: A #GIOStream.
@@ -14676,6 +15475,7 @@
  */
 
 
+/* gio/gdbusconnection.c:5086 */
 /**
  * g_dbus_connection_register_object:
  * @connection: A #GDBusConnection.
@@ -14731,6 +15531,7 @@
  */
 
 
+/* gio/gdbusconnection.c:6503 */
 /**
  * g_dbus_connection_register_subtree:
  * @connection: A #GDBusConnection.
@@ -14782,6 +15583,7 @@
  */
 
 
+/* gio/gdbusconnection.c:3204 */
 /**
  * g_dbus_connection_remove_filter:
  * @connection: a #GDBusConnection
@@ -14793,6 +15595,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1727 */
 /**
  * g_dbus_connection_send_message:
  * @connection: A #GDBusConnection.
@@ -14828,6 +15631,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2040 */
 /**
  * g_dbus_connection_send_message_with_reply:
  * @connection: A #GDBusConnection.
@@ -14873,6 +15677,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2110 */
 /**
  * g_dbus_connection_send_message_with_reply_finish:
  * @connection: a #GDBusConnection
@@ -14895,6 +15700,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2175 */
 /**
  * g_dbus_connection_send_message_with_reply_sync:
  * @connection: A #GDBusConnection.
@@ -14941,6 +15747,7 @@
  */
 
 
+/* gio/gdbusconnection.c:2996 */
 /**
  * g_dbus_connection_set_exit_on_close:
  * @connection: A #GDBusConnection.
@@ -14962,6 +15769,7 @@
  */
 
 
+/* gio/gdbusconnection.c:3408 */
 /**
  * g_dbus_connection_signal_subscribe:
  * @connection: A #GDBusConnection.
@@ -15005,6 +15813,7 @@
  */
 
 
+/* gio/gdbusconnection.c:3644 */
 /**
  * g_dbus_connection_signal_unsubscribe:
  * @connection: A #GDBusConnection.
@@ -15016,6 +15825,7 @@
  */
 
 
+/* gio/gdbusconnection.c:1144 */
 /**
  * g_dbus_connection_start_message_processing:
  * @connection: A #GDBusConnection.
@@ -15029,6 +15839,7 @@
  */
 
 
+/* gio/gactiongroupexporter.c:568 */
 /**
  * g_dbus_connection_unexport_action_group:
  * @connection: a #GDBusConnection
@@ -15045,6 +15856,7 @@
  */
 
 
+/* gio/gmenuexporter.c:791 */
 /**
  * g_dbus_connection_unexport_menu_model:
  * @connection: a #GDBusConnection
@@ -15061,6 +15873,7 @@
  */
 
 
+/* gio/gdbusconnection.c:5215 */
 /**
  * g_dbus_connection_unregister_object:
  * @connection: A #GDBusConnection.
@@ -15073,6 +15886,7 @@
  */
 
 
+/* gio/gdbusconnection.c:6612 */
 /**
  * g_dbus_connection_unregister_subtree:
  * @connection: A #GDBusConnection.
@@ -15085,6 +15899,7 @@
  */
 
 
+/* gio/gdbuserror.c:785 */
 /**
  * g_dbus_error_encode_gerror:
  * @error: A #GError.
@@ -15106,6 +15921,7 @@
  */
 
 
+/* gio/gdbuserror.c:493 */
 /**
  * g_dbus_error_get_remote_error:
  * @error: A #GError.
@@ -15122,6 +15938,7 @@
  */
 
 
+/* gio/gdbuserror.c:473 */
 /**
  * g_dbus_error_is_remote_error:
  * @error: A #GError.
@@ -15135,6 +15952,7 @@
  */
 
 
+/* gio/gdbuserror.c:559 */
 /**
  * g_dbus_error_new_for_dbus_error:
  * @dbus_error_name: D-Bus error name.
@@ -15172,6 +15990,7 @@
  */
 
 
+/* gio/gdbuserror.c:334 */
 /**
  * g_dbus_error_register_error:
  * @error_domain: A #GQuark for a error domain.
@@ -15190,6 +16009,7 @@
  */
 
 
+/* gio/gdbuserror.c:169 */
 /**
  * g_dbus_error_register_error_domain:
  * @error_domain_quark_name: The error domain name.
@@ -15203,6 +16023,7 @@
  */
 
 
+/* gio/gdbuserror.c:654 */
 /**
  * g_dbus_error_set_dbus_error:
  * @error: A pointer to a #GError or %NULL.
@@ -15219,6 +16040,7 @@
  */
 
 
+/* gio/gdbuserror.c:699 */
 /**
  * g_dbus_error_set_dbus_error_valist:
  * @error: A pointer to a #GError or %NULL.
@@ -15233,6 +16055,7 @@
  */
 
 
+/* gio/gdbuserror.c:741 */
 /**
  * g_dbus_error_strip_remote_error:
  * @error: A #GError.
@@ -15249,6 +16072,7 @@
  */
 
 
+/* gio/gdbuserror.c:400 */
 /**
  * g_dbus_error_unregister_error:
  * @error_domain: A #GQuark for a error domain.
@@ -15262,6 +16086,7 @@
  */
 
 
+/* gio/gdbusutils.c:279 */
 /**
  * g_dbus_generate_guid:
  *
@@ -15276,6 +16101,7 @@
  */
 
 
+/* gio/gdbusutils.c:500 */
 /**
  * g_dbus_gvalue_to_gvariant:
  * @gvalue: A #GValue to convert to a #GVariant.
@@ -15358,6 +16184,7 @@
  */
 
 
+/* gio/gdbusutils.c:355 */
 /**
  * g_dbus_gvariant_to_gvalue:
  * @value: A #GVariant.
@@ -15375,6 +16202,7 @@
  */
 
 
+/* gio/gdbusinterface.c:91 */
 /**
  * g_dbus_interface_dup_object: (rename-to g_dbus_interface_get_object)
  * @interface_: An exported D-Bus interface.
@@ -15387,6 +16215,7 @@
  */
 
 
+/* gio/gdbusinterface.c:50 */
 /**
  * g_dbus_interface_get_info:
  * @interface_: An exported D-Bus interface.
@@ -15399,6 +16228,7 @@
  */
 
 
+/* gio/gdbusinterface.c:68 */
 /**
  * g_dbus_interface_get_object: (skip)
  * @interface_: An exported D-Bus interface.
@@ -15416,6 +16246,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:2068 */
 /**
  * g_dbus_interface_info_cache_build:
  * @info: A #GDBusInterfaceInfo.
@@ -15435,6 +16266,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:2116 */
 /**
  * g_dbus_interface_info_cache_release:
  * @info: A GDBusInterfaceInfo
@@ -15447,6 +16279,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:772 */
 /**
  * g_dbus_interface_info_generate_xml:
  * @info: A #GDBusNodeInfo
@@ -15464,6 +16297,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:1906 */
 /**
  * g_dbus_interface_info_lookup_method:
  * @info: A #GDBusInterfaceInfo.
@@ -15479,6 +16313,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:2014 */
 /**
  * g_dbus_interface_info_lookup_property:
  * @info: A #GDBusInterfaceInfo.
@@ -15494,6 +16329,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:1960 */
 /**
  * g_dbus_interface_info_lookup_signal:
  * @info: A #GDBusInterfaceInfo.
@@ -15509,6 +16345,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:114 */
 /**
  * g_dbus_interface_info_ref:
  * @info: A #GDBusInterfaceInfo
@@ -15521,6 +16358,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:369 */
 /**
  * g_dbus_interface_info_unref:
  * @info: A #GDBusInterfaceInfo.
@@ -15533,6 +16371,7 @@
  */
 
 
+/* gio/gdbusinterface.c:124 */
 /**
  * g_dbus_interface_set_object:
  * @interface_: An exported D-Bus interface.
@@ -15546,6 +16385,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:889 */
 /**
  * g_dbus_interface_skeleton_export:
  * @interface_: The D-Bus interface to export.
@@ -15567,6 +16407,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:375 */
 /**
  * g_dbus_interface_skeleton_flush:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15584,6 +16425,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:758 */
 /**
  * g_dbus_interface_skeleton_get_connection:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15596,6 +16438,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:791 */
 /**
  * g_dbus_interface_skeleton_get_connections:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15610,6 +16453,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:268 */
 /**
  * g_dbus_interface_skeleton_get_flags:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15622,6 +16466,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:313 */
 /**
  * g_dbus_interface_skeleton_get_info:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15634,6 +16479,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:867 */
 /**
  * g_dbus_interface_skeleton_get_object_path:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15646,6 +16492,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:356 */
 /**
  * g_dbus_interface_skeleton_get_properties:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15657,6 +16504,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:334 */
 /**
  * g_dbus_interface_skeleton_get_vtable: (skip)
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15670,6 +16518,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:829 */
 /**
  * g_dbus_interface_skeleton_has_connection:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15682,6 +16531,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:286 */
 /**
  * g_dbus_interface_skeleton_set_flags:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15693,6 +16543,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:938 */
 /**
  * g_dbus_interface_skeleton_unexport:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15706,6 +16557,7 @@
  */
 
 
+/* gio/gdbusinterfaceskeleton.c:974 */
 /**
  * g_dbus_interface_skeleton_unexport_from_connection:
  * @interface_: A #GDBusInterfaceSkeleton.
@@ -15720,6 +16572,7 @@
  */
 
 
+/* gio/gdbusaddress.c:72 */
 /**
  * g_dbus_is_address:
  * @string: A string.
@@ -15735,6 +16588,7 @@
  */
 
 
+/* gio/gdbusutils.c:316 */
 /**
  * g_dbus_is_guid:
  * @string: The string to check.
@@ -15749,6 +16603,7 @@
  */
 
 
+/* gio/gdbusutils.c:233 */
 /**
  * g_dbus_is_interface_name:
  * @string: The string to check.
@@ -15760,6 +16615,7 @@
  */
 
 
+/* gio/gdbusutils.c:196 */
 /**
  * g_dbus_is_member_name:
  * @string: The string to check.
@@ -15771,6 +16627,7 @@
  */
 
 
+/* gio/gdbusutils.c:112 */
 /**
  * g_dbus_is_name:
  * @string: The string to check.
@@ -15782,6 +16639,7 @@
  */
 
 
+/* gio/gdbusaddress.c:363 */
 /**
  * g_dbus_is_supported_address:
  * @string: A string.
@@ -15797,6 +16655,7 @@
  */
 
 
+/* gio/gdbusutils.c:160 */
 /**
  * g_dbus_is_unique_name:
  * @string: The string to check.
@@ -15808,6 +16667,7 @@
  */
 
 
+/* gio/gdbusmenumodel.c:851 */
 /**
  * g_dbus_menu_model_get:
  * @connection: a #GDBusConnection
@@ -15829,6 +16689,7 @@
  */
 
 
+/* gio/gdbusmessage.c:1932 */
 /**
  * g_dbus_message_bytes_needed:
  * @blob: (array length=blob_len) (element-type guint8): A blob represent a binary D-Bus message.
@@ -15845,6 +16706,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3550 */
 /**
  * g_dbus_message_copy:
  * @message: A #GDBusMessage.
@@ -15863,6 +16725,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3147 */
 /**
  * g_dbus_message_get_arg0:
  * @message: A #GDBusMessage.
@@ -15875,6 +16738,7 @@
  */
 
 
+/* gio/gdbusmessage.c:1120 */
 /**
  * g_dbus_message_get_body:
  * @message: A #GDBusMessage.
@@ -15886,6 +16750,7 @@
  */
 
 
+/* gio/gdbusmessage.c:849 */
 /**
  * g_dbus_message_get_byte_order:
  * @message: A #GDBusMessage.
@@ -15896,6 +16761,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3032 */
 /**
  * g_dbus_message_get_destination:
  * @message: A #GDBusMessage.
@@ -15907,6 +16773,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3069 */
 /**
  * g_dbus_message_get_error_name:
  * @message: A #GDBusMessage.
@@ -15918,6 +16785,7 @@
  */
 
 
+/* gio/gdbusmessage.c:936 */
 /**
  * g_dbus_message_get_flags:
  * @message: A #GDBusMessage.
@@ -15929,6 +16797,7 @@
  */
 
 
+/* gio/gdbusmessage.c:1026 */
 /**
  * g_dbus_message_get_header:
  * @message: A #GDBusMessage.
@@ -15942,6 +16811,7 @@
  */
 
 
+/* gio/gdbusmessage.c:1083 */
 /**
  * g_dbus_message_get_header_fields:
  * @message: A #GDBusMessage.
@@ -15955,6 +16825,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2884 */
 /**
  * g_dbus_message_get_interface:
  * @message: A #GDBusMessage.
@@ -15966,6 +16837,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3508 */
 /**
  * g_dbus_message_get_locked:
  * @message: A #GDBusMessage.
@@ -15979,6 +16851,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2921 */
 /**
  * g_dbus_message_get_member:
  * @message: A #GDBusMessage.
@@ -15990,6 +16863,7 @@
  */
 
 
+/* gio/gdbusmessage.c:890 */
 /**
  * g_dbus_message_get_message_type:
  * @message: A #GDBusMessage.
@@ -16001,6 +16875,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3181 */
 /**
  * g_dbus_message_get_num_unix_fds:
  * @message: A #GDBusMessage.
@@ -16012,6 +16887,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2958 */
 /**
  * g_dbus_message_get_path:
  * @message: A #GDBusMessage.
@@ -16023,6 +16899,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2848 */
 /**
  * g_dbus_message_get_reply_serial:
  * @message: A #GDBusMessage.
@@ -16034,6 +16911,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2995 */
 /**
  * g_dbus_message_get_sender:
  * @message: A #GDBusMessage.
@@ -16045,6 +16923,7 @@
  */
 
 
+/* gio/gdbusmessage.c:981 */
 /**
  * g_dbus_message_get_serial:
  * @message: A #GDBusMessage.
@@ -16056,6 +16935,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3106 */
 /**
  * g_dbus_message_get_signature:
  * @message: A #GDBusMessage.
@@ -16067,6 +16947,7 @@
  */
 
 
+/* gio/gdbusmessage.c:1190 */
 /**
  * g_dbus_message_get_unix_fd_list:
  * @message: A #GDBusMessage.
@@ -16081,6 +16962,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3527 */
 /**
  * g_dbus_message_lock:
  * @message: A #GDBusMessage.
@@ -16091,6 +16973,7 @@
  */
 
 
+/* gio/gdbusmessage.c:615 */
 /**
  * g_dbus_message_new:
  *
@@ -16101,6 +16984,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2000 */
 /**
  * g_dbus_message_new_from_blob:
  * @blob: (array length=blob_len) (element-type guint8): A blob represent a binary D-Bus message.
@@ -16118,6 +17002,7 @@
  */
 
 
+/* gio/gdbusmessage.c:630 */
 /**
  * g_dbus_message_new_method_call:
  * @name: (allow-none): A valid D-Bus name or %NULL.
@@ -16132,6 +17017,7 @@
  */
 
 
+/* gio/gdbusmessage.c:739 */
 /**
  * g_dbus_message_new_method_error:
  * @method_call_message: A message of type %G_DBUS_MESSAGE_TYPE_METHOD_CALL to
@@ -16147,6 +17033,7 @@
  */
 
 
+/* gio/gdbusmessage.c:772 */
 /**
  * g_dbus_message_new_method_error_literal:
  * @method_call_message: A message of type %G_DBUS_MESSAGE_TYPE_METHOD_CALL to
@@ -16161,6 +17048,7 @@
  */
 
 
+/* gio/gdbusmessage.c:816 */
 /**
  * g_dbus_message_new_method_error_valist:
  * @method_call_message: A message of type %G_DBUS_MESSAGE_TYPE_METHOD_CALL to
@@ -16176,6 +17064,7 @@
  */
 
 
+/* gio/gdbusmessage.c:704 */
 /**
  * g_dbus_message_new_method_reply:
  * @method_call_message: A message of type %G_DBUS_MESSAGE_TYPE_METHOD_CALL to
@@ -16188,6 +17077,7 @@
  */
 
 
+/* gio/gdbusmessage.c:669 */
 /**
  * g_dbus_message_new_signal:
  * @path: A valid object path.
@@ -16201,6 +17091,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3344 */
 /**
  * g_dbus_message_print:
  * @message: A #GDBusMessage.
@@ -16246,6 +17137,7 @@
  */
 
 
+/* gio/gdbusmessage.c:1137 */
 /**
  * g_dbus_message_set_body:
  * @message: A #GDBusMessage.
@@ -16261,6 +17153,7 @@
  */
 
 
+/* gio/gdbusmessage.c:864 */
 /**
  * g_dbus_message_set_byte_order:
  * @message: A #GDBusMessage.
@@ -16270,6 +17163,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3049 */
 /**
  * g_dbus_message_set_destination:
  * @message: A #GDBusMessage.
@@ -16281,6 +17175,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3086 */
 /**
  * g_dbus_message_set_error_name:
  * @message: A #GDBusMessage.
@@ -16292,6 +17187,7 @@
  */
 
 
+/* gio/gdbusmessage.c:953 */
 /**
  * g_dbus_message_set_flags:
  * @message: A #GDBusMessage.
@@ -16304,6 +17200,7 @@
  */
 
 
+/* gio/gdbusmessage.c:1047 */
 /**
  * g_dbus_message_set_header:
  * @message: A #GDBusMessage.
@@ -16318,6 +17215,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2901 */
 /**
  * g_dbus_message_set_interface:
  * @message: A #GDBusMessage.
@@ -16329,6 +17227,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2938 */
 /**
  * g_dbus_message_set_member:
  * @message: A #GDBusMessage.
@@ -16340,6 +17239,7 @@
  */
 
 
+/* gio/gdbusmessage.c:907 */
 /**
  * g_dbus_message_set_message_type:
  * @message: A #GDBusMessage.
@@ -16351,6 +17251,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3198 */
 /**
  * g_dbus_message_set_num_unix_fds:
  * @message: A #GDBusMessage.
@@ -16362,6 +17263,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2975 */
 /**
  * g_dbus_message_set_path:
  * @message: A #GDBusMessage.
@@ -16373,6 +17275,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2865 */
 /**
  * g_dbus_message_set_reply_serial:
  * @message: A #GDBusMessage.
@@ -16384,6 +17287,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3012 */
 /**
  * g_dbus_message_set_sender:
  * @message: A #GDBusMessage.
@@ -16395,6 +17299,7 @@
  */
 
 
+/* gio/gdbusmessage.c:998 */
 /**
  * g_dbus_message_set_serial:
  * @message: A #GDBusMessage.
@@ -16406,6 +17311,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3127 */
 /**
  * g_dbus_message_set_signature:
  * @message: A #GDBusMessage.
@@ -16417,6 +17323,7 @@
  */
 
 
+/* gio/gdbusmessage.c:1210 */
 /**
  * g_dbus_message_set_unix_fd_list:
  * @message: A #GDBusMessage.
@@ -16433,6 +17340,7 @@
  */
 
 
+/* gio/gdbusmessage.c:2561 */
 /**
  * g_dbus_message_to_blob:
  * @message: A #GDBusMessage.
@@ -16450,6 +17358,7 @@
  */
 
 
+/* gio/gdbusmessage.c:3217 */
 /**
  * g_dbus_message_to_gerror:
  * @message: A #GDBusMessage.
@@ -16468,6 +17377,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:134 */
 /**
  * g_dbus_method_info_ref:
  * @info: A #GDBusMethodInfo
@@ -16480,6 +17390,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:296 */
 /**
  * g_dbus_method_info_unref:
  * @info: A #GDBusMethodInfo.
@@ -16492,6 +17403,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:251 */
 /**
  * g_dbus_method_invocation_get_connection:
  * @invocation: A #GDBusMethodInvocation.
@@ -16503,6 +17415,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:163 */
 /**
  * g_dbus_method_invocation_get_interface_name:
  * @invocation: A #GDBusMethodInvocation.
@@ -16519,6 +17432,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:268 */
 /**
  * g_dbus_method_invocation_get_message:
  * @invocation: A #GDBusMethodInvocation.
@@ -16537,6 +17451,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:185 */
 /**
  * g_dbus_method_invocation_get_method_info:
  * @invocation: A #GDBusMethodInvocation.
@@ -16553,6 +17468,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:234 */
 /**
  * g_dbus_method_invocation_get_method_name:
  * @invocation: A #GDBusMethodInvocation.
@@ -16564,6 +17480,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:146 */
 /**
  * g_dbus_method_invocation_get_object_path:
  * @invocation: A #GDBusMethodInvocation.
@@ -16575,6 +17492,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:292 */
 /**
  * g_dbus_method_invocation_get_parameters:
  * @invocation: A #GDBusMethodInvocation.
@@ -16587,6 +17505,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:207 */
 /**
  * g_dbus_method_invocation_get_property_info:
  * @invocation: A #GDBusMethodInvocation
@@ -16608,6 +17527,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:129 */
 /**
  * g_dbus_method_invocation_get_sender:
  * @invocation: A #GDBusMethodInvocation.
@@ -16619,6 +17539,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:310 */
 /**
  * g_dbus_method_invocation_get_user_data: (skip)
  * @invocation: A #GDBusMethodInvocation.
@@ -16630,6 +17551,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:728 */
 /**
  * g_dbus_method_invocation_return_dbus_error:
  * @invocation: (transfer full): A #GDBusMethodInvocation.
@@ -16644,6 +17566,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:566 */
 /**
  * g_dbus_method_invocation_return_error:
  * @invocation: (transfer full): A #GDBusMethodInvocation.
@@ -16672,6 +17595,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:648 */
 /**
  * g_dbus_method_invocation_return_error_literal:
  * @invocation: (transfer full): A #GDBusMethodInvocation.
@@ -16687,6 +17611,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:613 */
 /**
  * g_dbus_method_invocation_return_error_valist:
  * @invocation: (transfer full): A #GDBusMethodInvocation.
@@ -16704,6 +17629,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:677 */
 /**
  * g_dbus_method_invocation_return_gerror:
  * @invocation: (transfer full): A #GDBusMethodInvocation.
@@ -16718,6 +17644,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:519 */
 /**
  * g_dbus_method_invocation_return_value:
  * @invocation: (transfer full): A #GDBusMethodInvocation.
@@ -16734,6 +17661,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:541 */
 /**
  * g_dbus_method_invocation_return_value_with_unix_fd_list:
  * @invocation: (transfer full): A #GDBusMethodInvocation.
@@ -16750,6 +17678,7 @@
  */
 
 
+/* gio/gdbusmethodinvocation.c:706 */
 /**
  * g_dbus_method_invocation_take_error: (skip)
  * @invocation: (transfer full): A #GDBusMethodInvocation.
@@ -16764,6 +17693,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:821 */
 /**
  * g_dbus_node_info_generate_xml:
  * @info: A #GDBusNodeInfo.
@@ -16779,6 +17709,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:2157 */
 /**
  * g_dbus_node_info_lookup_interface:
  * @info: A #GDBusNodeInfo.
@@ -16793,6 +17724,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:1751 */
 /**
  * g_dbus_node_info_new_for_xml:
  * @xml_data: Valid D-Bus introspection XML.
@@ -16813,6 +17745,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:94 */
 /**
  * g_dbus_node_info_ref:
  * @info: A #GDBusNodeInfo
@@ -16825,6 +17758,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:395 */
 /**
  * g_dbus_node_info_unref:
  * @info: A #GDBusNodeInfo.
@@ -16837,6 +17771,7 @@
  */
 
 
+/* gio/gdbusobject.c:127 */
 /**
  * g_dbus_object_get_interface:
  * @object: A #GDBusObject.
@@ -16851,6 +17786,7 @@
  */
 
 
+/* gio/gdbusobject.c:108 */
 /**
  * g_dbus_object_get_interfaces:
  * @object: A #GDBusObject.
@@ -16864,6 +17800,7 @@
  */
 
 
+/* gio/gdbusobject.c:91 */
 /**
  * g_dbus_object_get_object_path:
  * @object: A #GDBusObject.
@@ -16875,6 +17812,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:887 */
 /**
  * g_dbus_object_manager_client_get_connection:
  * @manager: A #GDBusObjectManagerClient
@@ -16887,6 +17825,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:932 */
 /**
  * g_dbus_object_manager_client_get_flags:
  * @manager: A #GDBusObjectManagerClient
@@ -16899,6 +17838,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:909 */
 /**
  * g_dbus_object_manager_client_get_name:
  * @manager: A #GDBusObjectManagerClient
@@ -16912,6 +17852,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:954 */
 /**
  * g_dbus_object_manager_client_get_name_owner:
  * @manager: A #GDBusObjectManagerClient.
@@ -16927,6 +17868,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:643 */
 /**
  * g_dbus_object_manager_client_new:
  * @connection: A #GDBusConnection.
@@ -16953,6 +17895,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:699 */
 /**
  * g_dbus_object_manager_client_new_finish:
  * @res: A #GAsyncResult obtained from the #GAsyncReadyCallback passed to g_dbus_object_manager_client_new().
@@ -16967,6 +17910,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:795 */
 /**
  * g_dbus_object_manager_client_new_for_bus:
  * @bus_type: A #GBusType.
@@ -16994,6 +17938,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:851 */
 /**
  * g_dbus_object_manager_client_new_for_bus_finish:
  * @res: A #GAsyncResult obtained from the #GAsyncReadyCallback passed to g_dbus_object_manager_client_new_for_bus().
@@ -17008,6 +17953,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:735 */
 /**
  * g_dbus_object_manager_client_new_for_bus_sync:
  * @bus_type: A #GBusType.
@@ -17034,6 +17980,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerclient.c:583 */
 /**
  * g_dbus_object_manager_client_new_sync:
  * @connection: A #GDBusConnection.
@@ -17059,6 +18006,7 @@
  */
 
 
+/* gio/gdbusobjectmanager.c:204 */
 /**
  * g_dbus_object_manager_get_interface:
  * @manager: A #GDBusObjectManager.
@@ -17074,6 +18022,7 @@
  */
 
 
+/* gio/gdbusobjectmanager.c:183 */
 /**
  * g_dbus_object_manager_get_object:
  * @manager: A #GDBusObjectManager.
@@ -17087,6 +18036,7 @@
  */
 
 
+/* gio/gdbusobjectmanager.c:146 */
 /**
  * g_dbus_object_manager_get_object_path:
  * @manager: A #GDBusObjectManager.
@@ -17098,6 +18048,7 @@
  */
 
 
+/* gio/gdbusobjectmanager.c:163 */
 /**
  * g_dbus_object_manager_get_objects:
  * @manager: A #GDBusObjectManager.
@@ -17112,6 +18063,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:511 */
 /**
  * g_dbus_object_manager_server_export:
  * @manager: A #GDBusObjectManagerServer.
@@ -17132,6 +18084,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:540 */
 /**
  * g_dbus_object_manager_server_export_uniquely:
  * @manager: A #GDBusObjectManagerServer.
@@ -17147,6 +18100,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:303 */
 /**
  * g_dbus_object_manager_server_get_connection:
  * @manager: A #GDBusObjectManagerServer
@@ -17160,6 +18114,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:598 */
 /**
  * g_dbus_object_manager_server_is_exported:
  * @manager: A #GDBusObjectManagerServer.
@@ -17172,6 +18127,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:237 */
 /**
  * g_dbus_object_manager_server_new:
  * @object_path: The object path to export the manager object at.
@@ -17189,6 +18145,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:262 */
 /**
  * g_dbus_object_manager_server_set_connection:
  * @manager: A #GDBusObjectManagerServer.
@@ -17199,6 +18156,7 @@
  */
 
 
+/* gio/gdbusobjectmanagerserver.c:670 */
 /**
  * g_dbus_object_manager_server_unexport:
  * @manager: A #GDBusObjectManagerServer.
@@ -17215,6 +18173,7 @@
  */
 
 
+/* gio/gdbusobjectproxy.c:205 */
 /**
  * g_dbus_object_proxy_get_connection:
  * @proxy: a #GDBusObjectProxy
@@ -17227,6 +18186,7 @@
  */
 
 
+/* gio/gdbusobjectproxy.c:266 */
 /**
  * g_dbus_object_proxy_new:
  * @connection: a #GDBusConnection
@@ -17240,6 +18200,7 @@
  */
 
 
+/* gio/gdbusobjectskeleton.c:273 */
 /**
  * g_dbus_object_skeleton_add_interface:
  * @object: A #GDBusObjectSkeleton.
@@ -17257,6 +18218,7 @@
  */
 
 
+/* gio/gdbusobjectskeleton.c:463 */
 /**
  * g_dbus_object_skeleton_flush:
  * @object: A #GDBusObjectSkeleton.
@@ -17269,6 +18231,7 @@
  */
 
 
+/* gio/gdbusobjectskeleton.c:213 */
 /**
  * g_dbus_object_skeleton_new:
  * @object_path: An object path.
@@ -17280,6 +18243,7 @@
  */
 
 
+/* gio/gdbusobjectskeleton.c:331 */
 /**
  * g_dbus_object_skeleton_remove_interface:
  * @object: A #GDBusObjectSkeleton.
@@ -17291,6 +18255,7 @@
  */
 
 
+/* gio/gdbusobjectskeleton.c:387 */
 /**
  * g_dbus_object_skeleton_remove_interface_by_name:
  * @object: A #GDBusObjectSkeleton.
@@ -17305,6 +18270,7 @@
  */
 
 
+/* gio/gdbusobjectskeleton.c:232 */
 /**
  * g_dbus_object_skeleton_set_object_path:
  * @object: A #GDBusObjectSkeleton.
@@ -17316,6 +18282,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:174 */
 /**
  * g_dbus_property_info_ref:
  * @info: A #GDBusPropertyInfo
@@ -17328,6 +18295,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:345 */
 /**
  * g_dbus_property_info_unref:
  * @info: A #GDBusPropertyInfo.
@@ -17340,6 +18308,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2948 */
 /**
  * g_dbus_proxy_call:
  * @proxy: A #GDBusProxy.
@@ -17400,6 +18369,7 @@
  */
 
 
+/* gio/gdbusproxy.c:3019 */
 /**
  * g_dbus_proxy_call_finish:
  * @proxy: A #GDBusProxy.
@@ -17414,6 +18384,7 @@
  */
 
 
+/* gio/gdbusproxy.c:3040 */
 /**
  * g_dbus_proxy_call_sync:
  * @proxy: A #GDBusProxy.
@@ -17467,6 +18438,7 @@
  */
 
 
+/* gio/gdbusproxy.c:3108 */
 /**
  * g_dbus_proxy_call_with_unix_fd_list:
  * @proxy: A #GDBusProxy.
@@ -17489,6 +18461,7 @@
  */
 
 
+/* gio/gdbusproxy.c:3142 */
 /**
  * g_dbus_proxy_call_with_unix_fd_list_finish:
  * @proxy: A #GDBusProxy.
@@ -17504,6 +18477,7 @@
  */
 
 
+/* gio/gdbusproxy.c:3165 */
 /**
  * g_dbus_proxy_call_with_unix_fd_list_sync:
  * @proxy: A #GDBusProxy.
@@ -17528,6 +18502,7 @@
  */
 
 
+/* gio/gdbusproxy.c:721 */
 /**
  * g_dbus_proxy_get_cached_property:
  * @proxy: A #GDBusProxy.
@@ -17547,6 +18522,7 @@
  */
 
 
+/* gio/gdbusproxy.c:660 */
 /**
  * g_dbus_proxy_get_cached_property_names:
  * @proxy: A #GDBusProxy.
@@ -17560,6 +18536,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2308 */
 /**
  * g_dbus_proxy_get_connection:
  * @proxy: A #GDBusProxy.
@@ -17571,6 +18548,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2419 */
 /**
  * g_dbus_proxy_get_default_timeout:
  * @proxy: A #GDBusProxy.
@@ -17586,6 +18564,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2325 */
 /**
  * g_dbus_proxy_get_flags:
  * @proxy: A #GDBusProxy.
@@ -17597,6 +18576,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2481 */
 /**
  * g_dbus_proxy_get_interface_info:
  * @proxy: A #GDBusProxy
@@ -17611,6 +18591,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2402 */
 /**
  * g_dbus_proxy_get_interface_name:
  * @proxy: A #GDBusProxy.
@@ -17622,6 +18603,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2342 */
 /**
  * g_dbus_proxy_get_name:
  * @proxy: A #GDBusProxy.
@@ -17633,6 +18615,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2359 */
 /**
  * g_dbus_proxy_get_name_owner:
  * @proxy: A #GDBusProxy.
@@ -17647,6 +18630,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2385 */
 /**
  * g_dbus_proxy_get_object_path:
  * @proxy: A #GDBusProxy.
@@ -17658,6 +18642,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2019 */
 /**
  * g_dbus_proxy_new:
  * @connection: A #GDBusConnection.
@@ -17698,6 +18683,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2087 */
 /**
  * g_dbus_proxy_new_finish:
  * @res: A #GAsyncResult obtained from the #GAsyncReadyCallback function passed to g_dbus_proxy_new().
@@ -17710,6 +18696,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2189 */
 /**
  * g_dbus_proxy_new_for_bus:
  * @bus_type: A #GBusType.
@@ -17730,6 +18717,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2236 */
 /**
  * g_dbus_proxy_new_for_bus_finish:
  * @res: A #GAsyncResult obtained from the #GAsyncReadyCallback function passed to g_dbus_proxy_new_for_bus().
@@ -17742,6 +18730,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2254 */
 /**
  * g_dbus_proxy_new_for_bus_sync:
  * @bus_type: A #GBusType.
@@ -17763,6 +18752,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2119 */
 /**
  * g_dbus_proxy_new_sync:
  * @connection: A #GDBusConnection.
@@ -17798,6 +18788,7 @@
  */
 
 
+/* gio/gdbusproxy.c:778 */
 /**
  * g_dbus_proxy_set_cached_property:
  * @proxy: A #GDBusProxy
@@ -17843,6 +18834,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2446 */
 /**
  * g_dbus_proxy_set_default_timeout:
  * @proxy: A #GDBusProxy.
@@ -17858,6 +18850,7 @@
  */
 
 
+/* gio/gdbusproxy.c:2510 */
 /**
  * g_dbus_proxy_set_interface_info:
  * @proxy: A #GDBusProxy
@@ -17871,6 +18864,7 @@
  */
 
 
+/* gio/gdbusserver.c:504 */
 /**
  * g_dbus_server_get_client_address:
  * @server: A #GDBusServer.
@@ -17884,6 +18878,7 @@
  */
 
 
+/* gio/gdbusserver.c:540 */
 /**
  * g_dbus_server_get_flags:
  * @server: A #GDBusServer.
@@ -17895,6 +18890,7 @@
  */
 
 
+/* gio/gdbusserver.c:523 */
 /**
  * g_dbus_server_get_guid:
  * @server: A #GDBusServer.
@@ -17906,6 +18902,7 @@
  */
 
 
+/* gio/gdbusserver.c:557 */
 /**
  * g_dbus_server_is_active:
  * @server: A #GDBusServer.
@@ -17917,6 +18914,7 @@
  */
 
 
+/* gio/gdbusserver.c:446 */
 /**
  * g_dbus_server_new_sync:
  * @address: A D-Bus address.
@@ -17950,6 +18948,7 @@
  */
 
 
+/* gio/gdbusserver.c:574 */
 /**
  * g_dbus_server_start:
  * @server: A #GDBusServer.
@@ -17960,6 +18959,7 @@
  */
 
 
+/* gio/gdbusserver.c:595 */
 /**
  * g_dbus_server_stop:
  * @server: A #GDBusServer.
@@ -17970,6 +18970,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:154 */
 /**
  * g_dbus_signal_info_ref:
  * @info: A #GDBusSignalInfo
@@ -17982,6 +18983,7 @@
  */
 
 
+/* gio/gdbusintrospection.c:321 */
 /**
  * g_dbus_signal_info_unref:
  * @info: A #GDBusSignalInfo.
@@ -17994,6 +18996,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3776 */
 /**
  * g_desktop_app_info_get_action_name:
  * @info: a #GDesktopAppInfo
@@ -18011,6 +19014,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3693 */
 /**
  * g_desktop_app_info_get_boolean:
  * @info: a #GDesktopAppInfo
@@ -18026,6 +19030,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:776 */
 /**
  * g_desktop_app_info_get_categories:
  * @info: a #GDesktopAppInfo
@@ -18037,6 +19042,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:727 */
 /**
  * g_desktop_app_info_get_filename:
  * @info: a #GDesktopAppInfo
@@ -18050,6 +19056,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:807 */
 /**
  * g_desktop_app_info_get_generic_name:
  * @info: a #GDesktopAppInfo
@@ -18060,6 +19067,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:712 */
 /**
  * g_desktop_app_info_get_is_hidden:
  * @info: a #GDesktopAppInfo.
@@ -18071,6 +19079,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:791 */
 /**
  * g_desktop_app_info_get_keywords:
  * @info: a #GDesktopAppInfo
@@ -18082,6 +19091,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:821 */
 /**
  * g_desktop_app_info_get_nodisplay:
  * @info: a #GDesktopAppInfo
@@ -18095,6 +19105,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:839 */
 /**
  * g_desktop_app_info_get_show_in:
  * @info: a #GDesktopAppInfo
@@ -18117,6 +19128,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3648 */
 /**
  * g_desktop_app_info_get_startup_wm_class:
  * @info: a #GDesktopAppInfo that supports startup notify
@@ -18131,6 +19143,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3669 */
 /**
  * g_desktop_app_info_get_string:
  * @info: a #GDesktopAppInfo
@@ -18146,6 +19159,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3717 */
 /**
  * g_desktop_app_info_has_key:
  * @info: a #GDesktopAppInfo
@@ -18159,6 +19173,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3818 */
 /**
  * g_desktop_app_info_launch_action:
  * @info: a #GDesktopAppInfo
@@ -18186,6 +19201,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:1694 */
 /**
  * g_desktop_app_info_launch_uris_as_manager:
  * @appinfo: a #GDesktopAppInfo
@@ -18218,6 +19234,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3741 */
 /**
  * g_desktop_app_info_list_actions:
  * @info: a #GDesktopAppInfo
@@ -18233,6 +19250,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3613 */
 /**
  * g_desktop_app_info_lookup_get_default_for_uri_scheme:
  * @lookup: a #GDesktopAppInfoLookup
@@ -18252,6 +19270,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:557 */
 /**
  * g_desktop_app_info_new:
  * @desktop_id: the desktop file id
@@ -18272,6 +19291,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:535 */
 /**
  * g_desktop_app_info_new_from_filename:
  * @filename: the path of a desktop file, in the GLib filename encoding
@@ -18282,6 +19302,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:510 */
 /**
  * g_desktop_app_info_new_from_keyfile:
  * @key_file: an opened #GKeyFile
@@ -18293,6 +19314,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:1748 */
 /**
  * g_desktop_app_info_set_desktop_env:
  * @desktop_env: a string specifying what desktop this is
@@ -18319,6 +19341,7 @@
  */
 
 
+/* gio/gdrive.c:313 */
 /**
  * g_drive_can_eject:
  * @drive: a #GDrive.
@@ -18329,6 +19352,7 @@
  */
 
 
+/* gio/gdrive.c:336 */
 /**
  * g_drive_can_poll_for_media:
  * @drive: a #GDrive.
@@ -18340,6 +19364,7 @@
  */
 
 
+/* gio/gdrive.c:666 */
 /**
  * g_drive_can_start:
  * @drive: a #GDrive.
@@ -18351,6 +19376,7 @@
  */
 
 
+/* gio/gdrive.c:691 */
 /**
  * g_drive_can_start_degraded:
  * @drive: a #GDrive.
@@ -18362,6 +19388,7 @@
  */
 
 
+/* gio/gdrive.c:793 */
 /**
  * g_drive_can_stop:
  * @drive: a #GDrive.
@@ -18373,6 +19400,7 @@
  */
 
 
+/* gio/gdrive.c:360 */
 /**
  * g_drive_eject:
  * @drive: a #GDrive.
@@ -18391,6 +19419,7 @@
  */
 
 
+/* gio/gdrive.c:401 */
 /**
  * g_drive_eject_finish:
  * @drive: a #GDrive.
@@ -18405,6 +19434,7 @@
  */
 
 
+/* gio/gdrive.c:434 */
 /**
  * g_drive_eject_with_operation:
  * @drive: a #GDrive.
@@ -18423,6 +19453,7 @@
  */
 
 
+/* gio/gdrive.c:482 */
 /**
  * g_drive_eject_with_operation_finish:
  * @drive: a #GDrive.
@@ -18438,6 +19469,7 @@
  */
 
 
+/* gio/gdrive.c:614 */
 /**
  * g_drive_enumerate_identifiers:
  * @drive: a #GDrive
@@ -18452,6 +19484,7 @@
  */
 
 
+/* gio/gdrive.c:157 */
 /**
  * g_drive_get_icon:
  * @drive: a #GDrive.
@@ -18463,6 +19496,7 @@
  */
 
 
+/* gio/gdrive.c:586 */
 /**
  * g_drive_get_identifier:
  * @drive: a #GDrive
@@ -18476,6 +19510,7 @@
  */
 
 
+/* gio/gdrive.c:136 */
 /**
  * g_drive_get_name:
  * @drive: a #GDrive.
@@ -18487,6 +19522,7 @@
  */
 
 
+/* gio/gdrive.c:895 */
 /**
  * g_drive_get_sort_key:
  * @drive: A #GDrive.
@@ -18498,6 +19534,7 @@
  */
 
 
+/* gio/gdrive.c:640 */
 /**
  * g_drive_get_start_stop_type:
  * @drive: a #GDrive.
@@ -18509,6 +19546,7 @@
  */
 
 
+/* gio/gdrive.c:178 */
 /**
  * g_drive_get_symbolic_icon:
  * @drive: a #GDrive.
@@ -18521,6 +19559,7 @@
  */
 
 
+/* gio/gdrive.c:227 */
 /**
  * g_drive_get_volumes:
  * @drive: a #GDrive.
@@ -18534,6 +19573,7 @@
  */
 
 
+/* gio/gdrive.c:291 */
 /**
  * g_drive_has_media:
  * @drive: a #GDrive.
@@ -18546,6 +19586,7 @@
  */
 
 
+/* gio/gdrive.c:207 */
 /**
  * g_drive_has_volumes:
  * @drive: a #GDrive.
@@ -18556,6 +19597,7 @@
  */
 
 
+/* gio/gdrive.c:250 */
 /**
  * g_drive_is_media_check_automatic:
  * @drive: a #GDrive.
@@ -18567,6 +19609,7 @@
  */
 
 
+/* gio/gdrive.c:271 */
 /**
  * g_drive_is_media_removable:
  * @drive: a #GDrive.
@@ -18577,6 +19620,7 @@
  */
 
 
+/* gio/gdrive.c:518 */
 /**
  * g_drive_poll_for_media:
  * @drive: a #GDrive.
@@ -18592,6 +19636,7 @@
  */
 
 
+/* gio/gdrive.c:555 */
 /**
  * g_drive_poll_for_media_finish:
  * @drive: a #GDrive.
@@ -18605,6 +19650,7 @@
  */
 
 
+/* gio/gdrive.c:716 */
 /**
  * g_drive_start:
  * @drive: a #GDrive.
@@ -18625,6 +19671,7 @@
  */
 
 
+/* gio/gdrive.c:760 */
 /**
  * g_drive_start_finish:
  * @drive: a #GDrive.
@@ -18639,6 +19686,7 @@
  */
 
 
+/* gio/gdrive.c:818 */
 /**
  * g_drive_stop:
  * @drive: a #GDrive.
@@ -18659,6 +19707,7 @@
  */
 
 
+/* gio/gdrive.c:862 */
 /**
  * g_drive_stop_finish:
  * @drive: a #GDrive.
@@ -18673,6 +19722,7 @@
  */
 
 
+/* gio/gemblem.c:217 */
 /**
  * g_emblem_get_icon:
  * @emblem: a #GEmblem from which the icon should be extracted.
@@ -18685,6 +19735,7 @@
  */
 
 
+/* gio/gemblem.c:237 */
 /**
  * g_emblem_get_origin:
  * @emblem: a #GEmblem
@@ -18696,6 +19747,7 @@
  */
 
 
+/* gio/gemblem.c:163 */
 /**
  * g_emblem_new:
  * @icon: a GIcon containing the icon.
@@ -18707,6 +19759,7 @@
  */
 
 
+/* gio/gemblem.c:189 */
 /**
  * g_emblem_new_with_origin:
  * @icon: a GIcon containing the icon.
@@ -18719,6 +19772,7 @@
  */
 
 
+/* gio/gemblemedicon.c:250 */
 /**
  * g_emblemed_icon_add_emblem:
  * @emblemed: a #GEmblemedIcon
@@ -18730,6 +19784,7 @@
  */
 
 
+/* gio/gemblemedicon.c:214 */
 /**
  * g_emblemed_icon_clear_emblems:
  * @emblemed: a #GEmblemedIcon
@@ -18740,6 +19795,7 @@
  */
 
 
+/* gio/gemblemedicon.c:194 */
 /**
  * g_emblemed_icon_get_emblems:
  * @emblemed: a #GEmblemedIcon
@@ -18752,6 +19808,7 @@
  */
 
 
+/* gio/gemblemedicon.c:176 */
 /**
  * g_emblemed_icon_get_icon:
  * @emblemed: a #GEmblemedIcon
@@ -18763,6 +19820,7 @@
  */
 
 
+/* gio/gemblemedicon.c:145 */
 /**
  * g_emblemed_icon_new:
  * @icon: a #GIcon
@@ -18775,6 +19833,7 @@
  */
 
 
+/* gio/gfile.c:1590 */
 /**
  * g_file_append_to:
  * @file: input #GFile
@@ -18806,6 +19865,7 @@
  */
 
 
+/* gio/gfile.c:2031 */
 /**
  * g_file_append_to_async:
  * @file: input #GFile
@@ -18829,6 +19889,7 @@
  */
 
 
+/* gio/gfile.c:2073 */
 /**
  * g_file_append_to_finish:
  * @file: input #GFile
@@ -18844,6 +19905,7 @@
  */
 
 
+/* gio/gfileattribute.c:1020 */
 /**
  * g_file_attribute_info_list_add:
  * @list: a #GFileAttributeInfoList.
@@ -18856,6 +19918,7 @@
  */
 
 
+/* gio/gfileattribute.c:892 */
 /**
  * g_file_attribute_info_list_dup:
  * @list: a #GFileAttributeInfoList to duplicate.
@@ -18866,6 +19929,7 @@
  */
 
 
+/* gio/gfileattribute.c:993 */
 /**
  * g_file_attribute_info_list_lookup:
  * @list: a #GFileAttributeInfoList.
@@ -18878,6 +19942,7 @@
  */
 
 
+/* gio/gfileattribute.c:870 */
 /**
  * g_file_attribute_info_list_new:
  *
@@ -18887,6 +19952,7 @@
  */
 
 
+/* gio/gfileattribute.c:924 */
 /**
  * g_file_attribute_info_list_ref:
  * @list: a #GFileAttributeInfoList to reference.
@@ -18897,6 +19963,7 @@
  */
 
 
+/* gio/gfileattribute.c:945 */
 /**
  * g_file_attribute_info_list_unref:
  * @list: The #GFileAttributeInfoList to unreference.
@@ -18906,6 +19973,7 @@
  */
 
 
+/* gio/gfileinfo.c:2580 */
 /**
  * g_file_attribute_matcher_enumerate_namespace:
  * @matcher: a #GFileAttributeMatcher.
@@ -18923,6 +19991,7 @@
  */
 
 
+/* gio/gfileinfo.c:2630 */
 /**
  * g_file_attribute_matcher_enumerate_next:
  * @matcher: a #GFileAttributeMatcher.
@@ -18934,6 +20003,7 @@
  */
 
 
+/* gio/gfileinfo.c:2552 */
 /**
  * g_file_attribute_matcher_matches:
  * @matcher: a #GFileAttributeMatcher.
@@ -18947,6 +20017,7 @@
  */
 
 
+/* gio/gfileinfo.c:2484 */
 /**
  * g_file_attribute_matcher_matches_only:
  * @matcher: a #GFileAttributeMatcher.
@@ -18959,6 +20030,7 @@
  */
 
 
+/* gio/gfileinfo.c:2284 */
 /**
  * g_file_attribute_matcher_new:
  * @attributes: an attribute string to match.
@@ -18992,6 +20064,7 @@
  */
 
 
+/* gio/gfileinfo.c:2440 */
 /**
  * g_file_attribute_matcher_ref:
  * @matcher: a #GFileAttributeMatcher.
@@ -19002,6 +20075,7 @@
  */
 
 
+/* gio/gfileinfo.c:2369 */
 /**
  * g_file_attribute_matcher_subtract:
  * @matcher: Matcher to subtract from
@@ -19021,6 +20095,7 @@
  */
 
 
+/* gio/gfileinfo.c:2667 */
 /**
  * g_file_attribute_matcher_to_string:
  * @matcher: (allow-none): a #GFileAttributeMatcher.
@@ -19036,6 +20111,7 @@
  */
 
 
+/* gio/gfileinfo.c:2459 */
 /**
  * g_file_attribute_matcher_unref:
  * @matcher: a #GFileAttributeMatcher.
@@ -19045,6 +20121,7 @@
  */
 
 
+/* gio/gfile.c:3261 */
 /**
  * g_file_copy:
  * @source: input #GFile
@@ -19098,6 +20175,7 @@
  */
 
 
+/* gio/gfile.c:3385 */
 /**
  * g_file_copy_async: (skip)
  * @source: input #GFile
@@ -19125,6 +20203,7 @@
  */
 
 
+/* gio/gfile.c:2712 */
 /**
  * g_file_copy_attributes:
  * @source: a #GFile with attributes
@@ -19148,6 +20227,7 @@
  */
 
 
+/* gio/gfile.c:3438 */
 /**
  * g_file_copy_finish:
  * @file: input #GFile
@@ -19160,6 +20240,7 @@
  */
 
 
+/* gio/gfile.c:1645 */
 /**
  * g_file_create:
  * @file: input #GFile
@@ -19194,6 +20275,7 @@
  */
 
 
+/* gio/gfile.c:2103 */
 /**
  * g_file_create_async:
  * @file: input #GFile
@@ -19218,6 +20300,7 @@
  */
 
 
+/* gio/gfile.c:2146 */
 /**
  * g_file_create_finish:
  * @file: input #GFile
@@ -19232,6 +20315,7 @@
  */
 
 
+/* gio/gfile.c:1844 */
 /**
  * g_file_create_readwrite:
  * @file: a #GFile
@@ -19271,6 +20355,7 @@
  */
 
 
+/* gio/gfile.c:2326 */
 /**
  * g_file_create_readwrite_async:
  * @file: input #GFile
@@ -19297,6 +20382,7 @@
  */
 
 
+/* gio/gfile.c:2371 */
 /**
  * g_file_create_readwrite_finish:
  * @file: input #GFile
@@ -19312,6 +20398,7 @@
  */
 
 
+/* gio/gfile.c:3856 */
 /**
  * g_file_delete: (virtual delete_file)
  * @file: input #GFile
@@ -19330,6 +20417,7 @@
  */
 
 
+/* gio/gfile.c:3898 */
 /**
  * g_file_delete_async: (virtual delete_file_async)
  * @file: input #GFile
@@ -19349,6 +20437,7 @@
  */
 
 
+/* gio/gfile.c:3935 */
 /**
  * g_file_delete_finish: (virtual delete_file_finish)
  * @file: input #GFile
@@ -19362,6 +20451,7 @@
  */
 
 
+/* gio/gfiledescriptorbased.c:53 */
 /**
  * g_file_descriptor_based_get_fd:
  * @fd_based: a #GFileDescriptorBased.
@@ -19373,6 +20463,7 @@
  */
 
 
+/* gio/gfile.c:596 */
 /**
  * g_file_dup:
  * @file: input #GFile
@@ -19388,6 +20479,7 @@
  */
 
 
+/* gio/gfile.c:5002 */
 /**
  * g_file_eject_mountable:
  * @file: input #GFile
@@ -19411,6 +20503,7 @@
  */
 
 
+/* gio/gfile.c:5052 */
 /**
  * g_file_eject_mountable_finish:
  * @file: input #GFile
@@ -19427,6 +20520,7 @@
  */
 
 
+/* gio/gfile.c:5086 */
 /**
  * g_file_eject_mountable_with_operation:
  * @file: input #GFile
@@ -19452,6 +20546,7 @@
  */
 
 
+/* gio/gfile.c:5147 */
 /**
  * g_file_eject_mountable_with_operation_finish:
  * @file: input #GFile
@@ -19467,6 +20562,7 @@
  */
 
 
+/* gio/gfile.c:909 */
 /**
  * g_file_enumerate_children:
  * @file: input #GFile
@@ -19505,6 +20601,7 @@
  */
 
 
+/* gio/gfile.c:973 */
 /**
  * g_file_enumerate_children_async:
  * @file: input #GFile
@@ -19531,6 +20628,7 @@
  */
 
 
+/* gio/gfile.c:1020 */
 /**
  * g_file_enumerate_children_finish:
  * @file: input #GFile
@@ -19546,6 +20644,7 @@
  */
 
 
+/* gio/gfileenumerator.c:246 */
 /**
  * g_file_enumerator_close:
  * @enumerator: a #GFileEnumerator.
@@ -19563,6 +20662,7 @@
  */
 
 
+/* gio/gfileenumerator.c:438 */
 /**
  * g_file_enumerator_close_async:
  * @enumerator: a #GFileEnumerator.
@@ -19581,6 +20681,7 @@
  */
 
 
+/* gio/gfileenumerator.c:492 */
 /**
  * g_file_enumerator_close_finish:
  * @enumerator: a #GFileEnumerator.
@@ -19603,6 +20704,7 @@
  */
 
 
+/* gio/gfileenumerator.c:597 */
 /**
  * g_file_enumerator_get_child:
  * @enumerator: a #GFileEnumerator
@@ -19625,6 +20727,7 @@
  */
 
 
+/* gio/gfileenumerator.c:579 */
 /**
  * g_file_enumerator_get_container:
  * @enumerator: a #GFileEnumerator
@@ -19636,6 +20739,7 @@
  */
 
 
+/* gio/gfileenumerator.c:547 */
 /**
  * g_file_enumerator_has_pending:
  * @enumerator: a #GFileEnumerator.
@@ -19646,6 +20750,7 @@
  */
 
 
+/* gio/gfileenumerator.c:531 */
 /**
  * g_file_enumerator_is_closed:
  * @enumerator: a #GFileEnumerator.
@@ -19656,6 +20761,7 @@
  */
 
 
+/* gio/gfileenumerator.c:178 */
 /**
  * g_file_enumerator_next_file:
  * @enumerator: a #GFileEnumerator.
@@ -19679,6 +20785,7 @@
  */
 
 
+/* gio/gfileenumerator.c:310 */
 /**
  * g_file_enumerator_next_files_async:
  * @enumerator: a #GFileEnumerator.
@@ -19711,6 +20818,7 @@
  */
 
 
+/* gio/gfileenumerator.c:392 */
 /**
  * g_file_enumerator_next_files_finish:
  * @enumerator: a #GFileEnumerator.
@@ -19726,6 +20834,7 @@
  */
 
 
+/* gio/gfileenumerator.c:563 */
 /**
  * g_file_enumerator_set_pending:
  * @enumerator: a #GFileEnumerator.
@@ -19735,6 +20844,7 @@
  */
 
 
+/* gio/gfile.c:647 */
 /**
  * g_file_equal:
  * @file1: the first #GFile
@@ -19753,6 +20863,7 @@
  */
 
 
+/* gio/gfile.c:1425 */
 /**
  * g_file_find_enclosing_mount:
  * @file: input #GFile
@@ -19776,6 +20887,7 @@
  */
 
 
+/* gio/gfile.c:1474 */
 /**
  * g_file_find_enclosing_mount_async:
  * @file: a #GFile
@@ -19798,6 +20910,7 @@
  */
 
 
+/* gio/gfile.c:1513 */
 /**
  * g_file_find_enclosing_mount_finish:
  * @file: a #GFile
@@ -19812,6 +20925,7 @@
  */
 
 
+/* gio/gfile.c:479 */
 /**
  * g_file_get_basename:
  * @file: input #GFile
@@ -19836,6 +20950,7 @@
  */
 
 
+/* gio/gfile.c:750 */
 /**
  * g_file_get_child:
  * @file: input #GFile
@@ -19854,6 +20969,7 @@
  */
 
 
+/* gio/gfile.c:776 */
 /**
  * g_file_get_child_for_display_name:
  * @file: input #GFile
@@ -19875,6 +20991,7 @@
  */
 
 
+/* gio/gfile.c:681 */
 /**
  * g_file_get_parent:
  * @file: input #GFile
@@ -19891,6 +21008,7 @@
  */
 
 
+/* gio/gfile.c:561 */
 /**
  * g_file_get_parse_name:
  * @file: input #GFile
@@ -19916,6 +21034,7 @@
  */
 
 
+/* gio/gfile.c:513 */
 /**
  * g_file_get_path:
  * @file: input #GFile
@@ -19930,6 +21049,7 @@
  */
 
 
+/* gio/gfile.c:851 */
 /**
  * g_file_get_relative_path:
  * @parent: input #GFile
@@ -19946,6 +21066,7 @@
  */
 
 
+/* gio/gfile.c:537 */
 /**
  * g_file_get_uri:
  * @file: input #GFile
@@ -19960,6 +21081,7 @@
  */
 
 
+/* gio/gfile.c:449 */
 /**
  * g_file_get_uri_scheme:
  * @file: input #GFile
@@ -19979,6 +21101,7 @@
  */
 
 
+/* gio/gfile.c:707 */
 /**
  * g_file_has_parent:
  * @file: input #GFile
@@ -19996,6 +21119,7 @@
  */
 
 
+/* gio/gfile.c:810 */
 /**
  * g_file_has_prefix: (virtual prefix_matches)
  * @file: input #GFile
@@ -20018,6 +21142,7 @@
  */
 
 
+/* gio/gfile.c:421 */
 /**
  * g_file_has_uri_scheme:
  * @file: input #GFile
@@ -20033,6 +21158,7 @@
  */
 
 
+/* gio/gfile.c:621 */
 /**
  * g_file_hash: (virtual hash)
  * @file: (type GFile): #gconstpointer to a #GFile
@@ -20048,6 +21174,7 @@
  */
 
 
+/* gio/gfileicon.c:172 */
 /**
  * g_file_icon_get_file:
  * @icon: a #GIcon.
@@ -20058,6 +21185,7 @@
  */
 
 
+/* gio/gfileicon.c:155 */
 /**
  * g_file_icon_new:
  * @file: a #GFile.
@@ -20069,6 +21197,7 @@
  */
 
 
+/* gio/gfileinfo.c:481 */
 /**
  * g_file_info_clear_status:
  * @info: a #GFileInfo.
@@ -20077,6 +21206,7 @@
  */
 
 
+/* gio/gfileinfo.c:363 */
 /**
  * g_file_info_copy_into:
  * @src_info: source to copy attributes from.
@@ -20087,6 +21217,7 @@
  */
 
 
+/* gio/gfileinfo.c:407 */
 /**
  * g_file_info_dup:
  * @other: a #GFileInfo.
@@ -20097,6 +21228,7 @@
  */
 
 
+/* gio/gfileinfo.c:823 */
 /**
  * g_file_info_get_attribute_as_string:
  * @info: a #GFileInfo.
@@ -20111,6 +21243,7 @@
  */
 
 
+/* gio/gfileinfo.c:945 */
 /**
  * g_file_info_get_attribute_boolean:
  * @info: a #GFileInfo.
@@ -20123,6 +21256,7 @@
  */
 
 
+/* gio/gfileinfo.c:895 */
 /**
  * g_file_info_get_attribute_byte_string:
  * @info: a #GFileInfo.
@@ -20136,6 +21270,7 @@
  */
 
 
+/* gio/gfileinfo.c:710 */
 /**
  * g_file_info_get_attribute_data:
  * @info: a #GFileInfo
@@ -20151,6 +21286,7 @@
  */
 
 
+/* gio/gfileinfo.c:992 */
 /**
  * g_file_info_get_attribute_int32:
  * @info: a #GFileInfo.
@@ -20164,6 +21300,7 @@
  */
 
 
+/* gio/gfileinfo.c:1040 */
 /**
  * g_file_info_get_attribute_int64:
  * @info: a #GFileInfo.
@@ -20177,6 +21314,7 @@
  */
 
 
+/* gio/gfileinfo.c:847 */
 /**
  * g_file_info_get_attribute_object:
  * @info: a #GFileInfo.
@@ -20190,6 +21328,7 @@
  */
 
 
+/* gio/gfileinfo.c:748 */
 /**
  * g_file_info_get_attribute_status:
  * @info: a #GFileInfo
@@ -20202,6 +21341,7 @@
  */
 
 
+/* gio/gfileinfo.c:871 */
 /**
  * g_file_info_get_attribute_string:
  * @info: a #GFileInfo.
@@ -20215,6 +21355,7 @@
  */
 
 
+/* gio/gfileinfo.c:919 */
 /**
  * g_file_info_get_attribute_stringv:
  * @info: a #GFileInfo.
@@ -20229,6 +21370,7 @@
  */
 
 
+/* gio/gfileinfo.c:654 */
 /**
  * g_file_info_get_attribute_type:
  * @info: a #GFileInfo.
@@ -20241,6 +21383,7 @@
  */
 
 
+/* gio/gfileinfo.c:968 */
 /**
  * g_file_info_get_attribute_uint32:
  * @info: a #GFileInfo.
@@ -20254,6 +21397,7 @@
  */
 
 
+/* gio/gfileinfo.c:1016 */
 /**
  * g_file_info_get_attribute_uint64:
  * @info: a #GFileInfo.
@@ -20267,6 +21411,7 @@
  */
 
 
+/* gio/gfileinfo.c:1696 */
 /**
  * g_file_info_get_content_type:
  * @info: a #GFileInfo.
@@ -20277,6 +21422,7 @@
  */
 
 
+/* gio/gfileinfo.c:1442 */
 /**
  * g_file_info_get_deletion_date:
  * @info: a #GFileInfo.
@@ -20290,6 +21436,7 @@
  */
 
 
+/* gio/gfileinfo.c:1594 */
 /**
  * g_file_info_get_display_name:
  * @info: a #GFileInfo.
@@ -20300,6 +21447,7 @@
  */
 
 
+/* gio/gfileinfo.c:1617 */
 /**
  * g_file_info_get_edit_name:
  * @info: a #GFileInfo.
@@ -20310,6 +21458,7 @@
  */
 
 
+/* gio/gfileinfo.c:1795 */
 /**
  * g_file_info_get_etag:
  * @info: a #GFileInfo.
@@ -20321,6 +21470,7 @@
  */
 
 
+/* gio/gfileinfo.c:1478 */
 /**
  * g_file_info_get_file_type:
  * @info: a #GFileInfo.
@@ -20332,6 +21482,7 @@
  */
 
 
+/* gio/gfileinfo.c:1640 */
 /**
  * g_file_info_get_icon:
  * @info: a #GFileInfo.
@@ -20342,6 +21493,7 @@
  */
 
 
+/* gio/gfileinfo.c:1525 */
 /**
  * g_file_info_get_is_backup:
  * @info: a #GFileInfo.
@@ -20352,6 +21504,7 @@
  */
 
 
+/* gio/gfileinfo.c:1502 */
 /**
  * g_file_info_get_is_hidden:
  * @info: a #GFileInfo.
@@ -20362,6 +21515,7 @@
  */
 
 
+/* gio/gfileinfo.c:1548 */
 /**
  * g_file_info_get_is_symlink:
  * @info: a #GFileInfo.
@@ -20372,6 +21526,7 @@
  */
 
 
+/* gio/gfileinfo.c:1742 */
 /**
  * g_file_info_get_modification_time:
  * @info: a #GFileInfo.
@@ -20382,6 +21537,7 @@
  */
 
 
+/* gio/gfileinfo.c:1571 */
 /**
  * g_file_info_get_name:
  * @info: a #GFileInfo.
@@ -20392,6 +21548,7 @@
  */
 
 
+/* gio/gfileinfo.c:1719 */
 /**
  * g_file_info_get_size:
  * @info: a #GFileInfo.
@@ -20402,6 +21559,7 @@
  */
 
 
+/* gio/gfileinfo.c:1819 */
 /**
  * g_file_info_get_sort_order:
  * @info: a #GFileInfo.
@@ -20413,6 +21571,7 @@
  */
 
 
+/* gio/gfileinfo.c:1667 */
 /**
  * g_file_info_get_symbolic_icon:
  * @info: a #GFileInfo.
@@ -20424,6 +21583,7 @@
  */
 
 
+/* gio/gfileinfo.c:1772 */
 /**
  * g_file_info_get_symlink_target:
  * @info: a #GFileInfo.
@@ -20434,6 +21594,7 @@
  */
 
 
+/* gio/gfileinfo.c:557 */
 /**
  * g_file_info_has_attribute:
  * @info: a #GFileInfo.
@@ -20446,6 +21607,7 @@
  */
 
 
+/* gio/gfileinfo.c:580 */
 /**
  * g_file_info_has_namespace:
  * @info: a #GFileInfo.
@@ -20460,6 +21622,7 @@
  */
 
 
+/* gio/gfileinfo.c:616 */
 /**
  * g_file_info_list_attributes:
  * @info: a #GFileInfo.
@@ -20473,6 +21636,7 @@
  */
 
 
+/* gio/gfileinfo.c:350 */
 /**
  * g_file_info_new:
  *
@@ -20482,6 +21646,7 @@
  */
 
 
+/* gio/gfileinfo.c:680 */
 /**
  * g_file_info_remove_attribute:
  * @info: a #GFileInfo.
@@ -20491,6 +21656,7 @@
  */
 
 
+/* gio/gfileinfo.c:1106 */
 /**
  * g_file_info_set_attribute:
  * @info: a #GFileInfo.
@@ -20503,6 +21669,7 @@
  */
 
 
+/* gio/gfileinfo.c:1282 */
 /**
  * g_file_info_set_attribute_boolean:
  * @info: a #GFileInfo.
@@ -20514,6 +21681,7 @@
  */
 
 
+/* gio/gfileinfo.c:1247 */
 /**
  * g_file_info_set_attribute_byte_string:
  * @info: a #GFileInfo.
@@ -20525,6 +21693,7 @@
  */
 
 
+/* gio/gfileinfo.c:1350 */
 /**
  * g_file_info_set_attribute_int32:
  * @info: a #GFileInfo.
@@ -20536,6 +21705,7 @@
  */
 
 
+/* gio/gfileinfo.c:1418 */
 /**
  * g_file_info_set_attribute_int64:
  * @info: a #GFileInfo.
@@ -20547,6 +21717,7 @@
  */
 
 
+/* gio/gfileinfo.c:427 */
 /**
  * g_file_info_set_attribute_mask:
  * @info: a #GFileInfo.
@@ -20556,6 +21727,7 @@
  */
 
 
+/* gio/gfileinfo.c:1140 */
 /**
  * g_file_info_set_attribute_object:
  * @info: a #GFileInfo.
@@ -20567,6 +21739,7 @@
  */
 
 
+/* gio/gfileinfo.c:775 */
 /**
  * g_file_info_set_attribute_status:
  * @info: a #GFileInfo
@@ -20585,6 +21758,7 @@
  */
 
 
+/* gio/gfileinfo.c:1212 */
 /**
  * g_file_info_set_attribute_string:
  * @info: a #GFileInfo.
@@ -20596,6 +21770,7 @@
  */
 
 
+/* gio/gfileinfo.c:1175 */
 /**
  * g_file_info_set_attribute_stringv:
  * @info: a #GFileInfo.
@@ -20609,6 +21784,7 @@
  */
 
 
+/* gio/gfileinfo.c:1316 */
 /**
  * g_file_info_set_attribute_uint32:
  * @info: a #GFileInfo.
@@ -20620,6 +21796,7 @@
  */
 
 
+/* gio/gfileinfo.c:1384 */
 /**
  * g_file_info_set_attribute_uint64:
  * @info: a #GFileInfo.
@@ -20631,6 +21808,7 @@
  */
 
 
+/* gio/gfileinfo.c:2051 */
 /**
  * g_file_info_set_content_type:
  * @info: a #GFileInfo.
@@ -20641,6 +21819,7 @@
  */
 
 
+/* gio/gfileinfo.c:1945 */
 /**
  * g_file_info_set_display_name:
  * @info: a #GFileInfo.
@@ -20651,6 +21830,7 @@
  */
 
 
+/* gio/gfileinfo.c:1971 */
 /**
  * g_file_info_set_edit_name:
  * @info: a #GFileInfo.
@@ -20661,6 +21841,7 @@
  */
 
 
+/* gio/gfileinfo.c:1844 */
 /**
  * g_file_info_set_file_type:
  * @info: a #GFileInfo.
@@ -20671,6 +21852,7 @@
  */
 
 
+/* gio/gfileinfo.c:1997 */
 /**
  * g_file_info_set_icon:
  * @info: a #GFileInfo.
@@ -20681,6 +21863,7 @@
  */
 
 
+/* gio/gfileinfo.c:1869 */
 /**
  * g_file_info_set_is_hidden:
  * @info: a #GFileInfo.
@@ -20691,6 +21874,7 @@
  */
 
 
+/* gio/gfileinfo.c:1894 */
 /**
  * g_file_info_set_is_symlink:
  * @info: a #GFileInfo.
@@ -20701,6 +21885,7 @@
  */
 
 
+/* gio/gfileinfo.c:2102 */
 /**
  * g_file_info_set_modification_time:
  * @info: a #GFileInfo.
@@ -20711,6 +21896,7 @@
  */
 
 
+/* gio/gfileinfo.c:1919 */
 /**
  * g_file_info_set_name:
  * @info: a #GFileInfo.
@@ -20721,6 +21907,7 @@
  */
 
 
+/* gio/gfileinfo.c:2077 */
 /**
  * g_file_info_set_size:
  * @info: a #GFileInfo.
@@ -20731,6 +21918,7 @@
  */
 
 
+/* gio/gfileinfo.c:2160 */
 /**
  * g_file_info_set_sort_order:
  * @info: a #GFileInfo.
@@ -20741,6 +21929,7 @@
  */
 
 
+/* gio/gfileinfo.c:2023 */
 /**
  * g_file_info_set_symbolic_icon:
  * @info: a #GFileInfo.
@@ -20753,6 +21942,7 @@
  */
 
 
+/* gio/gfileinfo.c:2134 */
 /**
  * g_file_info_set_symlink_target:
  * @info: a #GFileInfo.
@@ -20763,6 +21953,7 @@
  */
 
 
+/* gio/gfileinfo.c:464 */
 /**
  * g_file_info_unset_attribute_mask:
  * @info: #GFileInfo.
@@ -20772,6 +21963,7 @@
  */
 
 
+/* gio/gfileinputstream.c:108 */
 /**
  * g_file_input_stream_query_info:
  * @stream: a #GFileInputStream.
@@ -20790,6 +21982,7 @@
  */
 
 
+/* gio/gfileinputstream.c:174 */
 /**
  * g_file_input_stream_query_info_async:
  * @stream: a #GFileInputStream.
@@ -20814,6 +22007,7 @@
  */
 
 
+/* gio/gfileinputstream.c:229 */
 /**
  * g_file_input_stream_query_info_finish:
  * @stream: a #GFileInputStream.
@@ -20827,6 +22021,7 @@
  */
 
 
+/* gio/gfileiostream.c:275 */
 /**
  * g_file_io_stream_get_etag:
  * @stream: a #GFileIOStream.
@@ -20840,6 +22035,7 @@
  */
 
 
+/* gio/gfileiostream.c:113 */
 /**
  * g_file_io_stream_query_info:
  * @stream: a #GFileIOStream.
@@ -20870,6 +22066,7 @@
  */
 
 
+/* gio/gfileiostream.c:192 */
 /**
  * g_file_io_stream_query_info_async:
  * @stream: a #GFileIOStream.
@@ -20891,6 +22088,7 @@
  */
 
 
+/* gio/gfileiostream.c:243 */
 /**
  * g_file_io_stream_query_info_finish:
  * @stream: a #GFileIOStream.
@@ -20905,6 +22103,7 @@
  */
 
 
+/* gio/gfile.c:390 */
 /**
  * g_file_is_native:
  * @file: input #GFile
@@ -20925,6 +22124,7 @@
  */
 
 
+/* gio/gfile.c:6646 */
 /**
  * g_file_load_contents:
  * @file: input #GFile
@@ -20950,6 +22150,7 @@
  */
 
 
+/* gio/gfile.c:6996 */
 /**
  * g_file_load_contents_async:
  * @file: input #GFile
@@ -20973,6 +22174,7 @@
  */
 
 
+/* gio/gfile.c:7029 */
 /**
  * g_file_load_contents_finish:
  * @file: input #GFile
@@ -20995,6 +22197,7 @@
  */
 
 
+/* gio/gfile.c:6885 */
 /**
  * g_file_load_partial_contents_async: (skip)
  * @file: input #GFile
@@ -21018,6 +22221,7 @@
  */
 
 
+/* gio/gfile.c:6931 */
 /**
  * g_file_load_partial_contents_finish:
  * @file: input #GFile
@@ -21040,6 +22244,7 @@
  */
 
 
+/* gio/gfile.c:3599 */
 /**
  * g_file_make_directory:
  * @file: input #GFile
@@ -21066,6 +22271,7 @@
  */
 
 
+/* gio/gfile.c:3648 */
 /**
  * g_file_make_directory_async: (virtual make_directory_async)
  * @file: input #GFile
@@ -21083,6 +22289,7 @@
  */
 
 
+/* gio/gfile.c:3683 */
 /**
  * g_file_make_directory_finish: (virtual make_directory_finish)
  * @file: input #GFile
@@ -21097,6 +22304,7 @@
  */
 
 
+/* gio/gfile.c:3710 */
 /**
  * g_file_make_directory_with_parents:
  * @file: input #GFile
@@ -21124,6 +22332,7 @@
  */
 
 
+/* gio/gfile.c:3804 */
 /**
  * g_file_make_symbolic_link:
  * @file: a #GFile with the name of the symlink to create
@@ -21143,6 +22352,7 @@
  */
 
 
+/* gio/gfile.c:7520 */
 /**
  * g_file_measure_disk_usage:
  * @file: a #GFile
@@ -21180,6 +22390,7 @@
  */
 
 
+/* gio/gfile.c:7577 */
 /**
  * g_file_measure_disk_usage_async:
  * @file: a #GFile
@@ -21201,6 +22412,7 @@
  */
 
 
+/* gio/gfile.c:7614 */
 /**
  * g_file_measure_disk_usage_finish:
  * @file: a #GFile
@@ -21220,6 +22432,7 @@
  */
 
 
+/* gio/gfile.c:5291 */
 /**
  * g_file_monitor:
  * @file: input #GFile
@@ -21242,6 +22455,7 @@
  */
 
 
+/* gio/gfilemonitor.c:312 */
 /**
  * g_file_monitor_cancel:
  * @monitor: a #GFileMonitor.
@@ -21252,6 +22466,7 @@
  */
 
 
+/* gio/gfile.c:5183 */
 /**
  * g_file_monitor_directory: (virtual monitor_dir)
  * @file: input #GFile
@@ -21279,6 +22494,7 @@
  */
 
 
+/* gio/gfilemonitor.c:664 */
 /**
  * g_file_monitor_emit_event:
  * @monitor: a #GFileMonitor.
@@ -21296,6 +22512,7 @@
  */
 
 
+/* gio/gfile.c:5236 */
 /**
  * g_file_monitor_file:
  * @file: input #GFile
@@ -21325,6 +22542,7 @@
  */
 
 
+/* gio/gfilemonitor.c:290 */
 /**
  * g_file_monitor_is_cancelled:
  * @monitor: a #GFileMonitor
@@ -21335,6 +22553,7 @@
  */
 
 
+/* gio/gfilemonitor.c:343 */
 /**
  * g_file_monitor_set_rate_limit:
  * @monitor: a #GFileMonitor.
@@ -21346,6 +22565,7 @@
  */
 
 
+/* gio/gfile.c:6489 */
 /**
  * g_file_mount_enclosing_volume:
  * @location: input #GFile
@@ -21371,6 +22591,7 @@
  */
 
 
+/* gio/gfile.c:6539 */
 /**
  * g_file_mount_enclosing_volume_finish:
  * @location: input #GFile
@@ -21385,6 +22606,7 @@
  */
 
 
+/* gio/gfile.c:4726 */
 /**
  * g_file_mount_mountable:
  * @file: input #GFile
@@ -21411,6 +22633,7 @@
  */
 
 
+/* gio/gfile.c:4781 */
 /**
  * g_file_mount_mountable_finish:
  * @file: input #GFile
@@ -21427,6 +22650,7 @@
  */
 
 
+/* gio/gfile.c:3465 */
 /**
  * g_file_move:
  * @source: #GFile pointing to the source location
@@ -21482,6 +22706,7 @@
  */
 
 
+/* gio/gfile.c:6437 */
 /**
  * g_file_new_for_commandline_arg:
  * @arg: a command line string
@@ -21497,6 +22722,7 @@
  */
 
 
+/* gio/gfile.c:6458 */
 /**
  * g_file_new_for_commandline_arg_and_cwd:
  * @arg: a command line string
@@ -21519,6 +22745,7 @@
  */
 
 
+/* gio/gfile.c:6272 */
 /**
  * g_file_new_for_path:
  * @path: a string containing a relative or absolute path.
@@ -21533,6 +22760,7 @@
  */
 
 
+/* gio/gfile.c:6292 */
 /**
  * g_file_new_for_uri:
  * @uri: a UTF-8 string containing a URI
@@ -21547,6 +22775,7 @@
  */
 
 
+/* gio/gfile.c:6312 */
 /**
  * g_file_new_tmp:
  * @tmpl: (type filename) (allow-none): Template for the file
@@ -21571,6 +22800,7 @@
  */
 
 
+/* gio/gfile.c:1791 */
 /**
  * g_file_open_readwrite:
  * @file: #GFile to open
@@ -21600,6 +22830,7 @@
  */
 
 
+/* gio/gfile.c:2254 */
 /**
  * g_file_open_readwrite_async:
  * @file: input #GFile
@@ -21624,6 +22855,7 @@
  */
 
 
+/* gio/gfile.c:2295 */
 /**
  * g_file_open_readwrite_finish:
  * @file: input #GFile
@@ -21639,6 +22871,7 @@
  */
 
 
+/* gio/gfileoutputstream.c:269 */
 /**
  * g_file_output_stream_get_etag:
  * @stream: a #GFileOutputStream.
@@ -21651,6 +22884,7 @@
  */
 
 
+/* gio/gfileoutputstream.c:112 */
 /**
  * g_file_output_stream_query_info:
  * @stream: a #GFileOutputStream.
@@ -21680,6 +22914,7 @@
  */
 
 
+/* gio/gfileoutputstream.c:189 */
 /**
  * g_file_output_stream_query_info_async:
  * @stream: a #GFileOutputStream.
@@ -21699,6 +22934,7 @@
  */
 
 
+/* gio/gfileoutputstream.c:239 */
 /**
  * g_file_output_stream_query_info_finish:
  * @stream: a #GFileOutputStream.
@@ -21712,6 +22948,7 @@
  */
 
 
+/* gio/gfile.c:6362 */
 /**
  * g_file_parse_name:
  * @parse_name: a file name or path to be parsed
@@ -21725,6 +22962,7 @@
  */
 
 
+/* gio/gfile.c:7825 */
 /**
  * g_file_poll_mountable:
  * @file: input #GFile
@@ -21747,6 +22985,7 @@
  */
 
 
+/* gio/gfile.c:7872 */
 /**
  * g_file_poll_mountable_finish:
  * @file: input #GFile
@@ -21764,6 +23003,7 @@
  */
 
 
+/* gio/gfile.c:6575 */
 /**
  * g_file_query_default_handler:
  * @file: a #GFile to open
@@ -21783,6 +23023,7 @@
  */
 
 
+/* gio/gfile.c:1050 */
 /**
  * g_file_query_exists:
  * @file: input #GFile
@@ -21817,6 +23058,7 @@
  */
 
 
+/* gio/gfile.c:1101 */
 /**
  * g_file_query_file_type:
  * @file: input #GFile
@@ -21836,6 +23078,7 @@
  */
 
 
+/* gio/gfile.c:1287 */
 /**
  * g_file_query_filesystem_info:
  * @file: input #GFile
@@ -21875,6 +23118,7 @@
  */
 
 
+/* gio/gfile.c:1350 */
 /**
  * g_file_query_filesystem_info_async:
  * @file: input #GFile
@@ -21901,6 +23145,7 @@
  */
 
 
+/* gio/gfile.c:1395 */
 /**
  * g_file_query_filesystem_info_finish:
  * @file: input #GFile
@@ -21916,6 +23161,7 @@
  */
 
 
+/* gio/gfile.c:1141 */
 /**
  * g_file_query_info:
  * @file: input #GFile
@@ -21961,6 +23207,7 @@
  */
 
 
+/* gio/gfile.c:1211 */
 /**
  * g_file_query_info_async:
  * @file: input #GFile
@@ -21986,6 +23233,7 @@
  */
 
 
+/* gio/gfile.c:1257 */
 /**
  * g_file_query_info_finish:
  * @file: input #GFile
@@ -22001,6 +23249,7 @@
  */
 
 
+/* gio/gfile.c:4198 */
 /**
  * g_file_query_settable_attributes:
  * @file: input #GFile
@@ -22025,6 +23274,7 @@
  */
 
 
+/* gio/gfile.c:4256 */
 /**
  * g_file_query_writable_namespaces:
  * @file: input #GFile
@@ -22046,6 +23296,7 @@
  */
 
 
+/* gio/gfile.c:1543 */
 /**
  * g_file_read: (virtual read_fn)
  * @file: #GFile to read
@@ -22069,6 +23320,7 @@
  */
 
 
+/* gio/gfile.c:1963 */
 /**
  * g_file_read_async:
  * @file: input #GFile
@@ -22091,6 +23343,7 @@
  */
 
 
+/* gio/gfile.c:2002 */
 /**
  * g_file_read_finish:
  * @file: input #GFile
@@ -22105,6 +23358,7 @@
  */
 
 
+/* gio/gfile.c:1703 */
 /**
  * g_file_replace:
  * @file: input #GFile
@@ -22163,6 +23417,7 @@
  */
 
 
+/* gio/gfile.c:2175 */
 /**
  * g_file_replace_async:
  * @file: input #GFile
@@ -22190,6 +23445,7 @@
  */
 
 
+/* gio/gfile.c:7065 */
 /**
  * g_file_replace_contents:
  * @file: input #GFile
@@ -22225,6 +23481,7 @@
  */
 
 
+/* gio/gfile.c:7262 */
 /**
  * g_file_replace_contents_async:
  * @file: input #GFile
@@ -22254,6 +23511,7 @@
  */
 
 
+/* gio/gfile.c:7323 */
 /**
  * g_file_replace_contents_finish:
  * @file: input #GFile
@@ -22271,6 +23529,7 @@
  */
 
 
+/* gio/gfile.c:2225 */
 /**
  * g_file_replace_finish:
  * @file: input #GFile
@@ -22285,6 +23544,7 @@
  */
 
 
+/* gio/gfile.c:1908 */
 /**
  * g_file_replace_readwrite:
  * @file: a #GFile
@@ -22313,6 +23573,7 @@
  */
 
 
+/* gio/gfile.c:2402 */
 /**
  * g_file_replace_readwrite_async:
  * @file: input #GFile
@@ -22343,6 +23604,7 @@
  */
 
 
+/* gio/gfile.c:2455 */
 /**
  * g_file_replace_readwrite_finish:
  * @file: input #GFile
@@ -22358,6 +23620,7 @@
  */
 
 
+/* gio/gfile.c:882 */
 /**
  * g_file_resolve_relative_path:
  * @file: input #GFile
@@ -22373,6 +23636,7 @@
  */
 
 
+/* gio/gfile.c:4311 */
 /**
  * g_file_set_attribute:
  * @file: input #GFile
@@ -22398,6 +23662,7 @@
  */
 
 
+/* gio/gfile.c:4561 */
 /**
  * g_file_set_attribute_byte_string:
  * @file: input #GFile
@@ -22421,6 +23686,7 @@
  */
 
 
+/* gio/gfile.c:4628 */
 /**
  * g_file_set_attribute_int32:
  * @file: input #GFile
@@ -22443,6 +23709,7 @@
  */
 
 
+/* gio/gfile.c:4694 */
 /**
  * g_file_set_attribute_int64:
  * @file: input #GFile
@@ -22464,6 +23731,7 @@
  */
 
 
+/* gio/gfile.c:4529 */
 /**
  * g_file_set_attribute_string:
  * @file: input #GFile
@@ -22485,6 +23753,7 @@
  */
 
 
+/* gio/gfile.c:4595 */
 /**
  * g_file_set_attribute_uint32:
  * @file: input #GFile
@@ -22507,6 +23776,7 @@
  */
 
 
+/* gio/gfile.c:4661 */
 /**
  * g_file_set_attribute_uint64:
  * @file: input #GFile
@@ -22529,6 +23799,7 @@
  */
 
 
+/* gio/gfile.c:4455 */
 /**
  * g_file_set_attributes_async:
  * @file: input #GFile
@@ -22552,6 +23823,7 @@
  */
 
 
+/* gio/gfile.c:4500 */
 /**
  * g_file_set_attributes_finish:
  * @file: input #GFile
@@ -22565,6 +23837,7 @@
  */
 
 
+/* gio/gfile.c:4364 */
 /**
  * g_file_set_attributes_from_info:
  * @file: input #GFile
@@ -22591,6 +23864,7 @@
  */
 
 
+/* gio/gfile.c:4070 */
 /**
  * g_file_set_display_name:
  * @file: input #GFile
@@ -22621,6 +23895,7 @@
  */
 
 
+/* gio/gfile.c:4126 */
 /**
  * g_file_set_display_name_async:
  * @file: input #GFile
@@ -22644,6 +23919,7 @@
  */
 
 
+/* gio/gfile.c:4169 */
 /**
  * g_file_set_display_name_finish:
  * @file: input #GFile
@@ -22658,6 +23934,7 @@
  */
 
 
+/* gio/gfile.c:7646 */
 /**
  * g_file_start_mountable:
  * @file: input #GFile
@@ -22683,6 +23960,7 @@
  */
 
 
+/* gio/gfile.c:7700 */
 /**
  * g_file_start_mountable_finish:
  * @file: input #GFile
@@ -22700,6 +23978,7 @@
  */
 
 
+/* gio/gfile.c:7735 */
 /**
  * g_file_stop_mountable:
  * @file: input #GFile
@@ -22726,6 +24005,7 @@
  */
 
 
+/* gio/gfile.c:7790 */
 /**
  * g_file_stop_mountable_finish:
  * @file: input #GFile
@@ -22743,6 +24023,7 @@
  */
 
 
+/* gio/gfile.c:7907 */
 /**
  * g_file_supports_thread_contexts:
  * @file: a #GFile
@@ -22758,6 +24039,7 @@
  */
 
 
+/* gio/gfile.c:3964 */
 /**
  * g_file_trash: (virtual trash)
  * @file: #GFile to send to trash
@@ -22778,6 +24060,7 @@
  */
 
 
+/* gio/gfile.c:4008 */
 /**
  * g_file_trash_async: (virtual trash_async)
  * @file: input #GFile
@@ -22795,6 +24078,7 @@
  */
 
 
+/* gio/gfile.c:4043 */
 /**
  * g_file_trash_finish: (virtual trash_finish)
  * @file: input #GFile
@@ -22809,6 +24093,7 @@
  */
 
 
+/* gio/gfile.c:4814 */
 /**
  * g_file_unmount_mountable:
  * @file: input #GFile
@@ -22833,6 +24118,7 @@
  */
 
 
+/* gio/gfile.c:4865 */
 /**
  * g_file_unmount_mountable_finish:
  * @file: input #GFile
@@ -22851,6 +24137,7 @@
  */
 
 
+/* gio/gfile.c:4901 */
 /**
  * g_file_unmount_mountable_with_operation:
  * @file: input #GFile
@@ -22877,6 +24164,7 @@
  */
 
 
+/* gio/gfile.c:4963 */
 /**
  * g_file_unmount_mountable_with_operation_finish:
  * @file: input #GFile
@@ -22895,6 +24183,7 @@
  */
 
 
+/* gio/gfilenamecompleter.c:402 */
 /**
  * g_filename_completer_get_completion_suffix:
  * @completer: the filename completer.
@@ -22908,6 +24197,7 @@
  */
 
 
+/* gio/gfilenamecompleter.c:456 */
 /**
  * g_filename_completer_get_completions:
  * @completer: the filename completer.
@@ -22920,6 +24210,7 @@
  */
 
 
+/* gio/gfilenamecompleter.c:119 */
 /**
  * g_filename_completer_new:
  *
@@ -22929,6 +24220,7 @@
  */
 
 
+/* gio/gfilenamecompleter.c:497 */
 /**
  * g_filename_completer_set_dirs_only:
  * @completer: the filename completer.
@@ -22939,6 +24231,7 @@
  */
 
 
+/* gio/gfilterinputstream.c:188 */
 /**
  * g_filter_input_stream_get_base_stream:
  * @stream: a #GFilterInputStream.
@@ -22949,6 +24242,7 @@
  */
 
 
+/* gio/gfilterinputstream.c:204 */
 /**
  * g_filter_input_stream_get_close_base_stream:
  * @stream: a #GFilterInputStream.
@@ -22960,6 +24254,7 @@
  */
 
 
+/* gio/gfilterinputstream.c:225 */
 /**
  * g_filter_input_stream_set_close_base_stream:
  * @stream: a #GFilterInputStream.
@@ -22969,6 +24264,7 @@
  */
 
 
+/* gio/gfilteroutputstream.c:192 */
 /**
  * g_filter_output_stream_get_base_stream:
  * @stream: a #GFilterOutputStream.
@@ -22979,6 +24275,7 @@
  */
 
 
+/* gio/gfilteroutputstream.c:208 */
 /**
  * g_filter_output_stream_get_close_base_stream:
  * @stream: a #GFilterOutputStream.
@@ -22990,6 +24287,7 @@
  */
 
 
+/* gio/gfilteroutputstream.c:229 */
 /**
  * g_filter_output_stream_set_close_base_stream:
  * @stream: a #GFilterOutputStream.
@@ -22999,6 +24297,7 @@
  */
 
 
+/* gio/gicon.c:558 */
 /**
  * g_icon_deserialize:
  * @value: a #GVariant created with g_icon_serialize()
@@ -23010,6 +24309,7 @@
  */
 
 
+/* gio/gicon.c:108 */
 /**
  * g_icon_equal:
  * @icon1: (allow-none): pointer to the first #GIcon.
@@ -23021,6 +24321,7 @@
  */
 
 
+/* gio/gicon.c:86 */
 /**
  * g_icon_hash: (virtual hash)
  * @icon: #gconstpointer to an icon object.
@@ -23032,6 +24333,7 @@
  */
 
 
+/* gio/gicon.c:424 */
 /**
  * g_icon_new_for_string:
  * @str: A string obtained via g_icon_to_string().
@@ -23050,6 +24352,7 @@
  */
 
 
+/* gio/gicon.c:645 */
 /**
  * g_icon_serialize:
  * @icon: a #GIcon
@@ -23065,6 +24368,7 @@
  */
 
 
+/* gio/gicon.c:186 */
 /**
  * g_icon_to_string: (virtual to_tokens)
  * @icon: a #GIcon.
@@ -23097,6 +24401,7 @@
  */
 
 
+/* gio/ginetaddress.c:867 */
 /**
  * g_inet_address_equal:
  * @address: A #GInetAddress.
@@ -23109,6 +24414,7 @@
  */
 
 
+/* gio/ginetaddress.c:609 */
 /**
  * g_inet_address_get_family:
  * @address: a #GInetAddress
@@ -23120,6 +24426,7 @@
  */
 
 
+/* gio/ginetaddress.c:627 */
 /**
  * g_inet_address_get_is_any:
  * @address: a #GInetAddress
@@ -23131,6 +24438,7 @@
  */
 
 
+/* gio/ginetaddress.c:678 */
 /**
  * g_inet_address_get_is_link_local:
  * @address: a #GInetAddress
@@ -23144,6 +24452,7 @@
  */
 
 
+/* gio/ginetaddress.c:652 */
 /**
  * g_inet_address_get_is_loopback:
  * @address: a #GInetAddress
@@ -23155,6 +24464,7 @@
  */
 
 
+/* gio/ginetaddress.c:762 */
 /**
  * g_inet_address_get_is_mc_global:
  * @address: a #GInetAddress
@@ -23166,6 +24476,7 @@
  */
 
 
+/* gio/ginetaddress.c:783 */
 /**
  * g_inet_address_get_is_mc_link_local:
  * @address: a #GInetAddress
@@ -23177,6 +24488,7 @@
  */
 
 
+/* gio/ginetaddress.c:804 */
 /**
  * g_inet_address_get_is_mc_node_local:
  * @address: a #GInetAddress
@@ -23188,6 +24500,7 @@
  */
 
 
+/* gio/ginetaddress.c:825 */
 /**
  * g_inet_address_get_is_mc_org_local:
  * @address: a #GInetAddress
@@ -23199,6 +24512,7 @@
  */
 
 
+/* gio/ginetaddress.c:846 */
 /**
  * g_inet_address_get_is_mc_site_local:
  * @address: a #GInetAddress
@@ -23210,6 +24524,7 @@
  */
 
 
+/* gio/ginetaddress.c:737 */
 /**
  * g_inet_address_get_is_multicast:
  * @address: a #GInetAddress
@@ -23221,6 +24536,7 @@
  */
 
 
+/* gio/ginetaddress.c:706 */
 /**
  * g_inet_address_get_is_site_local:
  * @address: a #GInetAddress
@@ -23235,6 +24551,7 @@
  */
 
 
+/* gio/ginetaddress.c:590 */
 /**
  * g_inet_address_get_native_size:
  * @address: a #GInetAddress
@@ -23247,6 +24564,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:454 */
 /**
  * g_inet_address_mask_equal:
  * @mask: a #GInetAddressMask
@@ -23259,6 +24577,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:374 */
 /**
  * g_inet_address_mask_get_address:
  * @mask: a #GInetAddressMask
@@ -23270,6 +24589,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:356 */
 /**
  * g_inet_address_mask_get_family:
  * @mask: a #GInetAddressMask
@@ -23281,6 +24601,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:392 */
 /**
  * g_inet_address_mask_get_length:
  * @mask: a #GInetAddressMask
@@ -23292,6 +24613,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:410 */
 /**
  * g_inet_address_mask_matches:
  * @mask: a #GInetAddressMask
@@ -23305,6 +24627,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:243 */
 /**
  * g_inet_address_mask_new:
  * @addr: a #GInetAddress
@@ -23319,6 +24642,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:267 */
 /**
  * g_inet_address_mask_new_from_string:
  * @mask_string: an IP address or address/length string
@@ -23335,6 +24659,7 @@
  */
 
 
+/* gio/ginetaddressmask.c:328 */
 /**
  * g_inet_address_mask_to_string:
  * @mask: a #GInetAddressMask
@@ -23346,6 +24671,7 @@
  */
 
 
+/* gio/ginetaddress.c:489 */
 /**
  * g_inet_address_new_any:
  * @family: the address family
@@ -23359,6 +24685,7 @@
  */
 
 
+/* gio/ginetaddress.c:438 */
 /**
  * g_inet_address_new_from_bytes:
  * @bytes: (array) (element-type guint8): raw address data
@@ -23373,6 +24700,7 @@
  */
 
 
+/* gio/ginetaddress.c:373 */
 /**
  * g_inet_address_new_from_string:
  * @string: a string representation of an IP address
@@ -23385,6 +24713,7 @@
  */
 
 
+/* gio/ginetaddress.c:463 */
 /**
  * g_inet_address_new_loopback:
  * @family: the address family
@@ -23397,6 +24726,7 @@
  */
 
 
+/* gio/ginetaddress.c:570 */
 /**
  * g_inet_address_to_bytes: (skip)
  * @address: a #GInetAddress
@@ -23410,6 +24740,7 @@
  */
 
 
+/* gio/ginetaddress.c:517 */
 /**
  * g_inet_address_to_string:
  * @address: a #GInetAddress
@@ -23422,6 +24753,7 @@
  */
 
 
+/* gio/ginetsocketaddress.c:332 */
 /**
  * g_inet_socket_address_get_address:
  * @address: a #GInetSocketAddress
@@ -23434,6 +24766,7 @@
  */
 
 
+/* gio/ginetsocketaddress.c:370 */
 /**
  * g_inet_socket_address_get_flowinfo:
  * @address: a %G_SOCKET_FAMILY_IPV6 #GInetSocketAddress
@@ -23446,6 +24779,7 @@
  */
 
 
+/* gio/ginetsocketaddress.c:351 */
 /**
  * g_inet_socket_address_get_port:
  * @address: a #GInetSocketAddress
@@ -23457,6 +24791,7 @@
  */
 
 
+/* gio/ginetsocketaddress.c:390 */
 /**
  * g_inet_socket_address_get_scope_id:
  * @address: a %G_SOCKET_FAMILY_IPV6 #GInetAddress
@@ -23469,6 +24804,7 @@
  */
 
 
+/* gio/ginetsocketaddress.c:311 */
 /**
  * g_inet_socket_address_new:
  * @address: a #GInetAddress
@@ -23481,6 +24817,7 @@
  */
 
 
+/* gio/ginitable.c:68 */
 /**
  * g_initable_init:
  * @initable: a #GInitable.
@@ -23518,6 +24855,7 @@
  */
 
 
+/* gio/ginitable.c:118 */
 /**
  * g_initable_new:
  * @object_type: a #GType supporting #GInitable.
@@ -23539,6 +24877,7 @@
  */
 
 
+/* gio/ginitable.c:197 */
 /**
  * g_initable_new_valist:
  * @object_type: a #GType supporting #GInitable.
@@ -23559,6 +24898,7 @@
  */
 
 
+/* gio/ginitable.c:157 */
 /**
  * g_initable_newv:
  * @object_type: a #GType supporting #GInitable.
@@ -23578,6 +24918,7 @@
  */
 
 
+/* gio/ginputstream.c:1045 */
 /**
  * g_input_stream_async_read_is_via_threads:
  * @stream: input stream
@@ -23588,6 +24929,7 @@
  */
 
 
+/* gio/ginputstream.c:1031 */
 /**
  * g_input_stream_clear_pending:
  * @stream: input stream
@@ -23596,6 +24938,7 @@
  */
 
 
+/* gio/ginputstream.c:443 */
 /**
  * g_input_stream_close:
  * @stream: A #GInputStream.
@@ -23630,6 +24973,7 @@
  */
 
 
+/* gio/ginputstream.c:873 */
 /**
  * g_input_stream_close_async:
  * @stream: A #GInputStream.
@@ -23652,6 +24996,7 @@
  */
 
 
+/* gio/ginputstream.c:931 */
 /**
  * g_input_stream_close_finish:
  * @stream: a #GInputStream.
@@ -23665,6 +25010,7 @@
  */
 
 
+/* gio/ginputstream.c:977 */
 /**
  * g_input_stream_has_pending:
  * @stream: input stream.
@@ -23675,6 +25021,7 @@
  */
 
 
+/* gio/ginputstream.c:961 */
 /**
  * g_input_stream_is_closed:
  * @stream: input stream.
@@ -23685,6 +25032,7 @@
  */
 
 
+/* gio/ginputstream.c:126 */
 /**
  * g_input_stream_read:
  * @stream: a #GInputStream.
@@ -23717,6 +25065,7 @@
  */
 
 
+/* gio/ginputstream.c:204 */
 /**
  * g_input_stream_read_all:
  * @stream: a #GInputStream.
@@ -23745,6 +25094,7 @@
  */
 
 
+/* gio/ginputstream.c:538 */
 /**
  * g_input_stream_read_async:
  * @stream: A #GInputStream.
@@ -23783,6 +25133,7 @@
  */
 
 
+/* gio/ginputstream.c:267 */
 /**
  * g_input_stream_read_bytes:
  * @stream: a #GInputStream.
@@ -23819,6 +25170,7 @@
  */
 
 
+/* gio/ginputstream.c:687 */
 /**
  * g_input_stream_read_bytes_async:
  * @stream: A #GInputStream.
@@ -23852,6 +25204,7 @@
  */
 
 
+/* gio/ginputstream.c:738 */
 /**
  * g_input_stream_read_bytes_finish:
  * @stream: a #GInputStream.
@@ -23865,6 +25218,7 @@
  */
 
 
+/* gio/ginputstream.c:625 */
 /**
  * g_input_stream_read_finish:
  * @stream: a #GInputStream.
@@ -23878,6 +25232,7 @@
  */
 
 
+/* gio/ginputstream.c:993 */
 /**
  * g_input_stream_set_pending:
  * @stream: input stream
@@ -23892,6 +25247,7 @@
  */
 
 
+/* gio/ginputstream.c:326 */
 /**
  * g_input_stream_skip:
  * @stream: a #GInputStream.
@@ -23918,6 +25274,7 @@
  */
 
 
+/* gio/ginputstream.c:760 */
 /**
  * g_input_stream_skip_async:
  * @stream: A #GInputStream.
@@ -23954,6 +25311,7 @@
  */
 
 
+/* gio/ginputstream.c:843 */
 /**
  * g_input_stream_skip_finish:
  * @stream: a #GInputStream.
@@ -23967,6 +25325,7 @@
  */
 
 
+/* gio/gioerror.c:45 */
 /**
  * g_io_error_from_errno:
  * @err_no: Error number as defined in errno.h.
@@ -23977,6 +25336,7 @@
  */
 
 
+/* gio/gioerror.c:230 */
 /**
  * g_io_error_from_win32_error:
  * @error_code: Windows error number.
@@ -23990,6 +25350,7 @@
  */
 
 
+/* gio/gioerror.c:36 */
 /**
  * g_io_error_quark:
  *
@@ -23999,6 +25360,7 @@
  */
 
 
+/* gio/giomodule.c:1363 */
 /**
  * g_io_extension_get_name:
  * @extension: a #GIOExtension
@@ -24012,6 +25374,7 @@
  */
 
 
+/* gio/giomodule.c:1380 */
 /**
  * g_io_extension_get_priority:
  * @extension: a #GIOExtension
@@ -24022,6 +25385,7 @@
  */
 
 
+/* gio/giomodule.c:1349 */
 /**
  * g_io_extension_get_type:
  * @extension: a #GIOExtension
@@ -24032,6 +25396,7 @@
  */
 
 
+/* gio/giomodule.c:1226 */
 /**
  * g_io_extension_point_get_extension_by_name:
  * @extension_point: a #GIOExtensionPoint
@@ -24044,6 +25409,7 @@
  */
 
 
+/* gio/giomodule.c:1208 */
 /**
  * g_io_extension_point_get_extensions:
  * @extension_point: a #GIOExtensionPoint
@@ -24057,6 +25423,7 @@
  */
 
 
+/* gio/giomodule.c:1172 */
 /**
  * g_io_extension_point_get_required_type:
  * @extension_point: a #GIOExtensionPoint
@@ -24068,6 +25435,7 @@
  */
 
 
+/* gio/giomodule.c:1270 */
 /**
  * g_io_extension_point_implement:
  * @extension_point_name: the name of the extension point
@@ -24085,6 +25453,7 @@
  */
 
 
+/* gio/giomodule.c:1132 */
 /**
  * g_io_extension_point_lookup:
  * @name: the name of the extension point
@@ -24096,6 +25465,7 @@
  */
 
 
+/* gio/giomodule.c:1094 */
 /**
  * g_io_extension_point_register:
  * @name: The name of the extension point
@@ -24107,6 +25477,7 @@
  */
 
 
+/* gio/giomodule.c:1157 */
 /**
  * g_io_extension_point_set_required_type:
  * @extension_point: a #GIOExtensionPoint
@@ -24117,6 +25488,7 @@
  */
 
 
+/* gio/giomodule.c:1334 */
 /**
  * g_io_extension_ref_class:
  * @extension: a #GIOExtension
@@ -24128,6 +25500,7 @@
  */
 
 
+/* gio/giomodule.c:327 */
 /**
  * g_io_module_new:
  * @filename: filename of the shared library module.
@@ -24140,6 +25513,7 @@
  */
 
 
+/* gio/giomodule.c:176 */
 /**
  * g_io_module_scope_block:
  * @scope: a module loading scope
@@ -24153,6 +25527,7 @@
  */
 
 
+/* gio/giomodule.c:159 */
 /**
  * g_io_module_scope_free:
  * @scope: a module loading scope
@@ -24163,6 +25538,7 @@
  */
 
 
+/* gio/giomodule.c:135 */
 /**
  * g_io_module_scope_new:
  * @flags: flags for the new scope
@@ -24179,6 +25555,7 @@
  */
 
 
+/* gio/giomodule.c:608 */
 /**
  * g_io_modules_load_all_in_directory:
  * @dirname: pathname for a directory containing modules to load.
@@ -24198,6 +25575,7 @@
  */
 
 
+/* gio/giomodule.c:543 */
 /**
  * g_io_modules_load_all_in_directory_with_scope:
  * @dirname: pathname for a directory containing modules to load.
@@ -24219,6 +25597,7 @@
  */
 
 
+/* gio/giomodule.c:519 */
 /**
  * g_io_modules_scan_all_in_directory:
  * @dirname: pathname for a directory containing modules to scan.
@@ -24239,6 +25618,7 @@
  */
 
 
+/* gio/giomodule.c:377 */
 /**
  * g_io_modules_scan_all_in_directory_with_scope:
  * @dirname: pathname for a directory containing modules to scan.
@@ -24260,6 +25640,7 @@
  */
 
 
+/* gio/gioscheduler.c:151 */
 /**
  * g_io_scheduler_cancel_all_jobs:
  *
@@ -24274,6 +25655,7 @@
  */
 
 
+/* gio/gioscheduler.c:225 */
 /**
  * g_io_scheduler_job_send_to_mainloop:
  * @job: a #GIOSchedulerJob
@@ -24290,6 +25672,7 @@
  */
 
 
+/* gio/gioscheduler.c:279 */
 /**
  * g_io_scheduler_job_send_to_mainloop_async:
  * @job: a #GIOSchedulerJob
@@ -24311,6 +25694,7 @@
  */
 
 
+/* gio/gioscheduler.c:97 */
 /**
  * g_io_scheduler_push_job:
  * @job_func: a #GIOSchedulerJobFunc.
@@ -24333,6 +25717,7 @@
  */
 
 
+/* gio/giostream.c:298 */
 /**
  * g_io_stream_clear_pending:
  * @stream: a #GIOStream
@@ -24343,6 +25728,7 @@
  */
 
 
+/* gio/giostream.c:335 */
 /**
  * g_io_stream_close:
  * @stream: a #GIOStream
@@ -24388,6 +25774,7 @@
  */
 
 
+/* gio/giostream.c:427 */
 /**
  * g_io_stream_close_async:
  * @stream: a #GIOStream
@@ -24411,6 +25798,7 @@
  */
 
 
+/* gio/giostream.c:486 */
 /**
  * g_io_stream_close_finish:
  * @stream: a #GIOStream
@@ -24425,6 +25813,7 @@
  */
 
 
+/* gio/giostream.c:192 */
 /**
  * g_io_stream_get_input_stream:
  * @stream: a #GIOStream
@@ -24438,6 +25827,7 @@
  */
 
 
+/* gio/giostream.c:216 */
 /**
  * g_io_stream_get_output_stream:
  * @stream: a #GIOStream
@@ -24451,6 +25841,7 @@
  */
 
 
+/* gio/giostream.c:239 */
 /**
  * g_io_stream_has_pending:
  * @stream: a #GIOStream
@@ -24462,6 +25853,7 @@
  */
 
 
+/* gio/giostream.c:174 */
 /**
  * g_io_stream_is_closed:
  * @stream: a #GIOStream
@@ -24473,6 +25865,7 @@
  */
 
 
+/* gio/giostream.c:257 */
 /**
  * g_io_stream_set_pending:
  * @stream: a #GIOStream
@@ -24488,6 +25881,7 @@
  */
 
 
+/* gio/giostream.c:725 */
 /**
  * g_io_stream_splice_async:
  * @stream1: a #GIOStream.
@@ -24510,6 +25904,7 @@
  */
 
 
+/* gio/giostream.c:802 */
 /**
  * g_io_stream_splice_finish:
  * @result: a #GAsyncResult.
@@ -24523,6 +25918,7 @@
  */
 
 
+/* gio/gkeyfilesettingsbackend.c:568 */
 /**
  * g_keyfile_settings_backend_new:
  * @filename: the filename of the keyfile
@@ -24579,6 +25975,7 @@
  */
 
 
+/* gio/gloadableicon.c:61 */
 /**
  * g_loadable_icon_load:
  * @icon: a #GLoadableIcon.
@@ -24596,6 +25993,7 @@
  */
 
 
+/* gio/gloadableicon.c:92 */
 /**
  * g_loadable_icon_load_async:
  * @icon: a #GLoadableIcon.
@@ -24611,6 +26009,7 @@
  */
 
 
+/* gio/gloadableicon.c:121 */
 /**
  * g_loadable_icon_load_finish:
  * @icon: a #GLoadableIcon.
@@ -24626,6 +26025,7 @@
  */
 
 
+/* gio/glocalvfs.c:67 */
 /**
  * g_local_vfs_new:
  *
@@ -24635,6 +26035,7 @@
  */
 
 
+/* gio/gmemoryinputstream.c:266 */
 /**
  * g_memory_input_stream_add_bytes:
  * @stream: a #GMemoryInputStream
@@ -24646,6 +26047,7 @@
  */
 
 
+/* gio/gmemoryinputstream.c:236 */
 /**
  * g_memory_input_stream_add_data:
  * @stream: a #GMemoryInputStream
@@ -24657,6 +26059,7 @@
  */
 
 
+/* gio/gmemoryinputstream.c:170 */
 /**
  * g_memory_input_stream_new:
  *
@@ -24666,6 +26069,7 @@
  */
 
 
+/* gio/gmemoryinputstream.c:212 */
 /**
  * g_memory_input_stream_new_from_bytes:
  * @bytes: a #GBytes
@@ -24677,6 +26081,7 @@
  */
 
 
+/* gio/gmemoryinputstream.c:187 */
 /**
  * g_memory_input_stream_new_from_data:
  * @data: (array length=len) (element-type guint8) (transfer full): input data
@@ -24689,6 +26094,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:395 */
 /**
  * g_memory_output_stream_get_data:
  * @ostream: a #GMemoryOutputStream
@@ -24702,6 +26108,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:440 */
 /**
  * g_memory_output_stream_get_data_size:
  * @ostream: a #GMemoryOutputStream
@@ -24715,6 +26122,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:414 */
 /**
  * g_memory_output_stream_get_size:
  * @ostream: a #GMemoryOutputStream
@@ -24735,6 +26143,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:333 */
 /**
  * g_memory_output_stream_new: (skip)
  * @data: (allow-none): pointer to a chunk of memory to use, or %NULL
@@ -24767,6 +26176,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:381 */
 /**
  * g_memory_output_stream_new_resizable:
  *
@@ -24777,6 +26187,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:489 */
 /**
  * g_memory_output_stream_steal_as_bytes:
  * @ostream: a #GMemoryOutputStream
@@ -24789,6 +26200,7 @@
  */
 
 
+/* gio/gmemoryoutputstream.c:460 */
 /**
  * g_memory_output_stream_steal_data:
  * @ostream: a #GMemoryOutputStream
@@ -24805,6 +26217,7 @@
  */
 
 
+/* gio/gmemorysettingsbackend.c:177 */
 /**
  * g_memory_settings_backend_new:
  *
@@ -24819,6 +26232,7 @@
  */
 
 
+/* gio/gmenu.c:299 */
 /**
  * g_menu_append:
  * @menu: a #GMenu
@@ -24833,6 +26247,7 @@
  */
 
 
+/* gio/gmenu.c:195 */
 /**
  * g_menu_append_item:
  * @menu: a #GMenu
@@ -24846,6 +26261,7 @@
  */
 
 
+/* gio/gmenu.c:366 */
 /**
  * g_menu_append_section:
  * @menu: a #GMenu
@@ -24860,6 +26276,7 @@
  */
 
 
+/* gio/gmenu.c:432 */
 /**
  * g_menu_append_submenu:
  * @menu: a #GMenu
@@ -24874,6 +26291,7 @@
  */
 
 
+/* gio/gmenumodel.c:798 */
 /**
  * g_menu_attribute_iter_get_name:
  * @iter: a #GMenuAttributeIter
@@ -24888,6 +26306,7 @@
  */
 
 
+/* gio/gmenumodel.c:718 */
 /**
  * g_menu_attribute_iter_get_next:
  * @iter: a #GMenuAttributeIter
@@ -24916,6 +26335,7 @@
  */
 
 
+/* gio/gmenumodel.c:819 */
 /**
  * g_menu_attribute_iter_get_value:
  * @iter: a #GMenuAttributeIter
@@ -24929,6 +26349,7 @@
  */
 
 
+/* gio/gmenumodel.c:774 */
 /**
  * g_menu_attribute_iter_next:
  * @iter: a #GMenuAttributeIter
@@ -24948,6 +26369,7 @@
  */
 
 
+/* gio/gmenu.c:213 */
 /**
  * g_menu_freeze:
  * @menu: a #GMenu
@@ -24965,6 +26387,7 @@
  */
 
 
+/* gio/gmenu.c:253 */
 /**
  * g_menu_insert:
  * @menu: a #GMenu
@@ -24980,6 +26403,7 @@
  */
 
 
+/* gio/gmenu.c:130 */
 /**
  * g_menu_insert_item:
  * @menu: a #GMenu
@@ -25008,6 +26432,7 @@
  */
 
 
+/* gio/gmenu.c:319 */
 /**
  * g_menu_insert_section:
  * @menu: a #GMenu
@@ -25023,6 +26448,7 @@
  */
 
 
+/* gio/gmenu.c:386 */
 /**
  * g_menu_insert_submenu:
  * @menu: a #GMenu
@@ -25038,6 +26464,7 @@
  */
 
 
+/* gio/gmenu.c:812 */
 /**
  * g_menu_item_get_attribute:
  * @menu_item: a #GMenuItem
@@ -25061,6 +26488,7 @@
  */
 
 
+/* gio/gmenu.c:773 */
 /**
  * g_menu_item_get_attribute_value:
  * @menu_item: a #GMenuItem
@@ -25078,6 +26506,7 @@
  */
 
 
+/* gio/gmenu.c:862 */
 /**
  * g_menu_item_get_link:
  * @menu_item: a #GMenuItem
@@ -25090,6 +26519,7 @@
  */
 
 
+/* gio/gmenu.c:1114 */
 /**
  * g_menu_item_new:
  * @label: (allow-none): the section label, or %NULL
@@ -25109,6 +26539,7 @@
  */
 
 
+/* gio/gmenu.c:1267 */
 /**
  * g_menu_item_new_from_model:
  * @model: a #GMenuModel
@@ -25125,6 +26556,7 @@
  */
 
 
+/* gio/gmenu.c:1179 */
 /**
  * g_menu_item_new_section:
  * @label: (allow-none): the section label, or %NULL
@@ -25198,6 +26630,7 @@
  */
 
 
+/* gio/gmenu.c:1149 */
 /**
  * g_menu_item_new_submenu:
  * @label: (allow-none): the section label, or %NULL
@@ -25213,6 +26646,7 @@
  */
 
 
+/* gio/gmenu.c:1027 */
 /**
  * g_menu_item_set_action_and_target:
  * @menu_item: a #GMenuItem
@@ -25244,6 +26678,7 @@
  */
 
 
+/* gio/gmenu.c:961 */
 /**
  * g_menu_item_set_action_and_target_value:
  * @menu_item: a #GMenuItem
@@ -25291,6 +26726,7 @@
  */
 
 
+/* gio/gmenu.c:688 */
 /**
  * g_menu_item_set_attribute:
  * @menu_item: a #GMenuItem
@@ -25320,6 +26756,7 @@
  */
 
 
+/* gio/gmenu.c:643 */
 /**
  * g_menu_item_set_attribute_value:
  * @menu_item: a #GMenuItem
@@ -25350,6 +26787,7 @@
  */
 
 
+/* gio/gmenu.c:1078 */
 /**
  * g_menu_item_set_detailed_action:
  * @menu_item: a #GMenuItem
@@ -25371,6 +26809,7 @@
  */
 
 
+/* gio/gmenu.c:1354 */
 /**
  * g_menu_item_set_icon:
  * @menu_item: a #GMenuItem
@@ -25393,6 +26832,7 @@
  */
 
 
+/* gio/gmenu.c:891 */
 /**
  * g_menu_item_set_label:
  * @menu_item: a #GMenuItem
@@ -25407,6 +26847,7 @@
  */
 
 
+/* gio/gmenu.c:737 */
 /**
  * g_menu_item_set_link:
  * @menu_item: a #GMenuItem
@@ -25428,6 +26869,7 @@
  */
 
 
+/* gio/gmenu.c:939 */
 /**
  * g_menu_item_set_section:
  * @menu_item: a #GMenuItem
@@ -25445,6 +26887,7 @@
  */
 
 
+/* gio/gmenu.c:917 */
 /**
  * g_menu_item_set_submenu:
  * @menu_item: a #GMenuItem
@@ -25462,6 +26905,7 @@
  */
 
 
+/* gio/gmenumodel.c:953 */
 /**
  * g_menu_link_iter_get_name:
  * @iter: a #GMenuLinkIter
@@ -25475,6 +26919,7 @@
  */
 
 
+/* gio/gmenumodel.c:874 */
 /**
  * g_menu_link_iter_get_next:
  * @iter: a #GMenuLinkIter
@@ -25501,6 +26946,7 @@
  */
 
 
+/* gio/gmenumodel.c:973 */
 /**
  * g_menu_link_iter_get_value:
  * @iter: a #GMenuLinkIter
@@ -25514,6 +26960,7 @@
  */
 
 
+/* gio/gmenumodel.c:930 */
 /**
  * g_menu_link_iter_next:
  * @iter: a #GMenuLinkIter
@@ -25532,6 +26979,7 @@
  */
 
 
+/* gio/gmenumodel.c:569 */
 /**
  * g_menu_model_get_item_attribute:
  * @model: a #GMenuModel
@@ -25563,6 +27011,7 @@
  */
 
 
+/* gio/gmenumodel.c:535 */
 /**
  * g_menu_model_get_item_attribute_value:
  * @model: a #GMenuModel
@@ -25588,6 +27037,7 @@
  */
 
 
+/* gio/gmenumodel.c:650 */
 /**
  * g_menu_model_get_item_link:
  * @model: a #GMenuModel
@@ -25605,6 +27055,7 @@
  */
 
 
+/* gio/gmenumodel.c:496 */
 /**
  * g_menu_model_get_n_items:
  * @model: a #GMenuModel
@@ -25616,6 +27067,7 @@
  */
 
 
+/* gio/gmenumodel.c:475 */
 /**
  * g_menu_model_is_mutable:
  * @model: a #GMenuModel
@@ -25631,6 +27083,7 @@
  */
 
 
+/* gio/gmenumodel.c:675 */
 /**
  * g_menu_model_items_changed:
  * @model: a #GMenuModel
@@ -25658,6 +27111,7 @@
  */
 
 
+/* gio/gmenumodel.c:513 */
 /**
  * g_menu_model_iterate_item_attributes:
  * @model: a #GMenuModel
@@ -25673,6 +27127,7 @@
  */
 
 
+/* gio/gmenumodel.c:628 */
 /**
  * g_menu_model_iterate_item_links:
  * @model: a #GMenuModel
@@ -25688,6 +27143,7 @@
  */
 
 
+/* gio/gmenu.c:236 */
 /**
  * g_menu_new:
  *
@@ -25700,6 +27156,7 @@
  */
 
 
+/* gio/gmenu.c:279 */
 /**
  * g_menu_prepend:
  * @menu: a #GMenu
@@ -25714,6 +27171,7 @@
  */
 
 
+/* gio/gmenu.c:177 */
 /**
  * g_menu_prepend_item:
  * @menu: a #GMenu
@@ -25727,6 +27185,7 @@
  */
 
 
+/* gio/gmenu.c:346 */
 /**
  * g_menu_prepend_section:
  * @menu: a #GMenu
@@ -25741,6 +27200,7 @@
  */
 
 
+/* gio/gmenu.c:412 */
 /**
  * g_menu_prepend_submenu:
  * @menu: a #GMenu
@@ -25755,6 +27215,7 @@
  */
 
 
+/* gio/gmenu.c:461 */
 /**
  * g_menu_remove:
  * @menu: a #GMenu
@@ -25775,6 +27236,7 @@
  */
 
 
+/* gio/gmenu.c:491 */
 /**
  * g_menu_remove_all:
  * @menu: a #GMenu
@@ -25785,6 +27247,7 @@
  */
 
 
+/* gio/gmount.c:340 */
 /**
  * g_mount_can_eject:
  * @mount: a #GMount.
@@ -25795,6 +27258,7 @@
  */
 
 
+/* gio/gmount.c:320 */
 /**
  * g_mount_can_unmount:
  * @mount: a #GMount.
@@ -25805,6 +27269,7 @@
  */
 
 
+/* gio/gmount.c:436 */
 /**
  * g_mount_eject:
  * @mount: a #GMount.
@@ -25821,6 +27286,7 @@
  */
 
 
+/* gio/gmount.c:478 */
 /**
  * g_mount_eject_finish:
  * @mount: a #GMount.
@@ -25836,6 +27302,7 @@
  */
 
 
+/* gio/gmount.c:596 */
 /**
  * g_mount_eject_with_operation:
  * @mount: a #GMount.
@@ -25854,6 +27321,7 @@
  */
 
 
+/* gio/gmount.c:644 */
 /**
  * g_mount_eject_with_operation_finish:
  * @mount: a #GMount.
@@ -25869,6 +27337,7 @@
  */
 
 
+/* gio/gmount.c:142 */
 /**
  * g_mount_get_default_location:
  * @mount: a #GMount.
@@ -25883,6 +27352,7 @@
  */
 
 
+/* gio/gmount.c:295 */
 /**
  * g_mount_get_drive:
  * @mount: a #GMount.
@@ -25898,6 +27368,7 @@
  */
 
 
+/* gio/gmount.c:195 */
 /**
  * g_mount_get_icon:
  * @mount: a #GMount.
@@ -25910,6 +27381,7 @@
  */
 
 
+/* gio/gmount.c:173 */
 /**
  * g_mount_get_name:
  * @mount: a #GMount.
@@ -25922,6 +27394,7 @@
  */
 
 
+/* gio/gmount.c:120 */
 /**
  * g_mount_get_root:
  * @mount: a #GMount.
@@ -25934,6 +27407,7 @@
  */
 
 
+/* gio/gmount.c:1031 */
 /**
  * g_mount_get_sort_key:
  * @mount: A #GMount.
@@ -25945,6 +27419,7 @@
  */
 
 
+/* gio/gmount.c:218 */
 /**
  * g_mount_get_symbolic_icon:
  * @mount: a #GMount.
@@ -25958,6 +27433,7 @@
  */
 
 
+/* gio/gmount.c:248 */
 /**
  * g_mount_get_uuid:
  * @mount: a #GMount.
@@ -25973,6 +27449,7 @@
  */
 
 
+/* gio/gmount.c:273 */
 /**
  * g_mount_get_volume:
  * @mount: a #GMount.
@@ -25985,6 +27462,7 @@
  */
 
 
+/* gio/gmount.c:760 */
 /**
  * g_mount_guess_content_type:
  * @mount: a #GMount
@@ -26009,6 +27487,7 @@
  */
 
 
+/* gio/gmount.c:810 */
 /**
  * g_mount_guess_content_type_finish:
  * @mount: a #GMount
@@ -26028,6 +27507,7 @@
  */
 
 
+/* gio/gmount.c:847 */
 /**
  * g_mount_guess_content_type_sync:
  * @mount: a #GMount
@@ -26052,6 +27532,7 @@
  */
 
 
+/* gio/gmount.c:933 */
 /**
  * g_mount_is_shadowed:
  * @mount: A #GMount.
@@ -26085,6 +27566,7 @@
  */
 
 
+/* gio/gmountoperation.c:595 */
 /**
  * g_mount_operation_get_anonymous:
  * @op: a #GMountOperation.
@@ -26096,6 +27578,7 @@
  */
 
 
+/* gio/gmountoperation.c:704 */
 /**
  * g_mount_operation_get_choice:
  * @op: a #GMountOperation.
@@ -26107,6 +27590,7 @@
  */
 
 
+/* gio/gmountoperation.c:633 */
 /**
  * g_mount_operation_get_domain:
  * @op: a #GMountOperation.
@@ -26117,6 +27601,7 @@
  */
 
 
+/* gio/gmountoperation.c:562 */
 /**
  * g_mount_operation_get_password:
  * @op: a #GMountOperation.
@@ -26127,6 +27612,7 @@
  */
 
 
+/* gio/gmountoperation.c:665 */
 /**
  * g_mount_operation_get_password_save:
  * @op: a #GMountOperation.
@@ -26137,6 +27623,7 @@
  */
 
 
+/* gio/gmountoperation.c:530 */
 /**
  * g_mount_operation_get_username:
  * @op: a #GMountOperation.
@@ -26147,6 +27634,7 @@
  */
 
 
+/* gio/gmountoperation.c:517 */
 /**
  * g_mount_operation_new:
  *
@@ -26156,6 +27644,7 @@
  */
 
 
+/* gio/gmountoperation.c:741 */
 /**
  * g_mount_operation_reply:
  * @op: a #GMountOperation
@@ -26165,6 +27654,7 @@
  */
 
 
+/* gio/gmountoperation.c:611 */
 /**
  * g_mount_operation_set_anonymous:
  * @op: a #GMountOperation.
@@ -26174,6 +27664,7 @@
  */
 
 
+/* gio/gmountoperation.c:720 */
 /**
  * g_mount_operation_set_choice:
  * @op: a #GMountOperation.
@@ -26183,6 +27674,7 @@
  */
 
 
+/* gio/gmountoperation.c:648 */
 /**
  * g_mount_operation_set_domain:
  * @op: a #GMountOperation.
@@ -26192,6 +27684,7 @@
  */
 
 
+/* gio/gmountoperation.c:577 */
 /**
  * g_mount_operation_set_password:
  * @op: a #GMountOperation.
@@ -26201,6 +27694,7 @@
  */
 
 
+/* gio/gmountoperation.c:681 */
 /**
  * g_mount_operation_set_password_save:
  * @op: a #GMountOperation.
@@ -26210,6 +27704,7 @@
  */
 
 
+/* gio/gmountoperation.c:545 */
 /**
  * g_mount_operation_set_username:
  * @op: a #GMountOperation.
@@ -26219,6 +27714,7 @@
  */
 
 
+/* gio/gmount.c:680 */
 /**
  * g_mount_remount:
  * @mount: a #GMount.
@@ -26241,6 +27737,7 @@
  */
 
 
+/* gio/gmount.c:729 */
 /**
  * g_mount_remount_finish:
  * @mount: a #GMount.
@@ -26255,6 +27752,7 @@
  */
 
 
+/* gio/gmount.c:981 */
 /**
  * g_mount_shadow:
  * @mount: A #GMount.
@@ -26268,6 +27766,7 @@
  */
 
 
+/* gio/gmount.c:360 */
 /**
  * g_mount_unmount:
  * @mount: a #GMount.
@@ -26284,6 +27783,7 @@
  */
 
 
+/* gio/gmount.c:402 */
 /**
  * g_mount_unmount_finish:
  * @mount: a #GMount.
@@ -26299,6 +27799,7 @@
  */
 
 
+/* gio/gmount.c:511 */
 /**
  * g_mount_unmount_with_operation:
  * @mount: a #GMount.
@@ -26317,6 +27818,7 @@
  */
 
 
+/* gio/gmount.c:559 */
 /**
  * g_mount_unmount_with_operation_finish:
  * @mount: a #GMount.
@@ -26332,6 +27834,7 @@
  */
 
 
+/* gio/gmount.c:1005 */
 /**
  * g_mount_unshadow:
  * @mount: A #GMount.
@@ -26345,6 +27848,7 @@
  */
 
 
+/* gio/gnetworkaddress.c:777 */
 /**
  * g_network_address_get_hostname:
  * @addr: a #GNetworkAddress
@@ -26357,6 +27861,7 @@
  */
 
 
+/* gio/gnetworkaddress.c:796 */
 /**
  * g_network_address_get_port:
  * @addr: a #GNetworkAddress
@@ -26368,6 +27873,7 @@
  */
 
 
+/* gio/gnetworkaddress.c:814 */
 /**
  * g_network_address_get_scheme:
  * @addr: a #GNetworkAddress
@@ -26379,6 +27885,7 @@
  */
 
 
+/* gio/gnetworkaddress.c:277 */
 /**
  * g_network_address_new:
  * @hostname: the hostname
@@ -26392,6 +27899,7 @@
  */
 
 
+/* gio/gnetworkaddress.c:299 */
 /**
  * g_network_address_parse:
  * @host_and_port: the hostname and optionally a port
@@ -26425,6 +27933,7 @@
  */
 
 
+/* gio/gnetworkaddress.c:725 */
 /**
  * g_network_address_parse_uri:
  * @uri: the hostname and optionally a port
@@ -26443,6 +27952,7 @@
  */
 
 
+/* gio/gnetworkmonitorbase.c:399 */
 /**
  * g_network_monitor_base_add_network:
  * @monitor: the #GNetworkMonitorBase
@@ -26454,6 +27964,7 @@
  */
 
 
+/* gio/gnetworkmonitorbase.c:446 */
 /**
  * g_network_monitor_base_remove_network:
  * @monitor: the #GNetworkMonitorBase
@@ -26465,6 +27976,7 @@
  */
 
 
+/* gio/gnetworkmonitorbase.c:488 */
 /**
  * g_network_monitor_base_set_networks:
  * @monitor: the #GNetworkMonitorBase
@@ -26476,6 +27988,7 @@
  */
 
 
+/* gio/gnetworkmonitor.c:103 */
 /**
  * g_network_monitor_can_reach:
  * @monitor: a #GNetworkMonitor
@@ -26506,6 +28019,7 @@
  */
 
 
+/* gio/gnetworkmonitor.c:162 */
 /**
  * g_network_monitor_can_reach_async:
  * @monitor: a #GNetworkMonitor
@@ -26527,6 +28041,7 @@
  */
 
 
+/* gio/gnetworkmonitor.c:204 */
 /**
  * g_network_monitor_can_reach_finish:
  * @monitor: a #GNetworkMonitor
@@ -26540,6 +28055,7 @@
  */
 
 
+/* gio/gnetworkmonitor.c:64 */
 /**
  * g_network_monitor_get_default:
  *
@@ -26550,6 +28066,7 @@
  */
 
 
+/* gio/gnetworkmonitor.c:81 */
 /**
  * g_network_monitor_get_network_available:
  * @monitor: the #GNetworkMonitor
@@ -26564,6 +28081,7 @@
  */
 
 
+/* gio/gnetworkservice.c:298 */
 /**
  * g_network_service_get_domain:
  * @srv: a #GNetworkService
@@ -26576,6 +28094,7 @@
  */
 
 
+/* gio/gnetworkservice.c:280 */
 /**
  * g_network_service_get_protocol:
  * @srv: a #GNetworkService
@@ -26587,6 +28106,7 @@
  */
 
 
+/* gio/gnetworkservice.c:317 */
 /**
  * g_network_service_get_scheme:
  * @srv: a #GNetworkService
@@ -26599,6 +28119,7 @@
  */
 
 
+/* gio/gnetworkservice.c:262 */
 /**
  * g_network_service_get_service:
  * @srv: a #GNetworkService
@@ -26610,6 +28131,7 @@
  */
 
 
+/* gio/gnetworkservice.c:236 */
 /**
  * g_network_service_new:
  * @service: the service type to look up (eg, "ldap")
@@ -26625,6 +28147,7 @@
  */
 
 
+/* gio/gnetworkservice.c:339 */
 /**
  * g_network_service_set_scheme:
  * @srv: a #GNetworkService
@@ -26637,6 +28160,7 @@
  */
 
 
+/* gio/gnetworking.c:53 */
 /**
  * g_networking_init:
  *
@@ -26649,6 +28173,7 @@
  */
 
 
+/* gio/gnullsettingsbackend.c:122 */
 /**
  * g_null_settings_backend_new:
  *
@@ -26662,6 +28187,7 @@
  */
 
 
+/* gio/goutputstream.c:1396 */
 /**
  * g_output_stream_async_write_is_via_threads:
  * @stream: a #GOutputStream.
@@ -26672,6 +28198,7 @@
  */
 
 
+/* gio/goutputstream.c:1382 */
 /**
  * g_output_stream_clear_pending:
  * @stream: output stream
@@ -26680,6 +28207,7 @@
  */
 
 
+/* gio/goutputstream.c:563 */
 /**
  * g_output_stream_close:
  * @stream: A #GOutputStream.
@@ -26720,6 +28248,7 @@
  */
 
 
+/* gio/goutputstream.c:1161 */
 /**
  * g_output_stream_close_async:
  * @stream: A #GOutputStream.
@@ -26741,6 +28270,7 @@
  */
 
 
+/* gio/goutputstream.c:1264 */
 /**
  * g_output_stream_close_finish:
  * @stream: a #GOutputStream.
@@ -26754,6 +28284,7 @@
  */
 
 
+/* gio/goutputstream.c:332 */
 /**
  * g_output_stream_flush:
  * @stream: a #GOutputStream.
@@ -26774,6 +28305,7 @@
  */
 
 
+/* gio/goutputstream.c:1003 */
 /**
  * g_output_stream_flush_async:
  * @stream: a #GOutputStream.
@@ -26792,6 +28324,7 @@
  */
 
 
+/* gio/goutputstream.c:1056 */
 /**
  * g_output_stream_flush_finish:
  * @stream: a #GOutputStream.
@@ -26805,6 +28338,7 @@
  */
 
 
+/* gio/goutputstream.c:1327 */
 /**
  * g_output_stream_has_pending:
  * @stream: a #GOutputStream.
@@ -26815,6 +28349,7 @@
  */
 
 
+/* gio/goutputstream.c:1290 */
 /**
  * g_output_stream_is_closed:
  * @stream: a #GOutputStream.
@@ -26825,6 +28360,7 @@
  */
 
 
+/* gio/goutputstream.c:1306 */
 /**
  * g_output_stream_is_closing:
  * @stream: a #GOutputStream.
@@ -26839,6 +28375,7 @@
  */
 
 
+/* gio/goutputstream.c:1343 */
 /**
  * g_output_stream_set_pending:
  * @stream: a #GOutputStream.
@@ -26853,6 +28390,7 @@
  */
 
 
+/* gio/goutputstream.c:382 */
 /**
  * g_output_stream_splice:
  * @stream: a #GOutputStream.
@@ -26872,6 +28410,7 @@
  */
 
 
+/* gio/goutputstream.c:885 */
 /**
  * g_output_stream_splice_async:
  * @stream: a #GOutputStream.
@@ -26892,6 +28431,7 @@
  */
 
 
+/* gio/goutputstream.c:946 */
 /**
  * g_output_stream_splice_finish:
  * @stream: a #GOutputStream.
@@ -26908,6 +28448,7 @@
  */
 
 
+/* gio/goutputstream.c:149 */
 /**
  * g_output_stream_write: (virtual write_fn)
  * @stream: a #GOutputStream.
@@ -26941,6 +28482,7 @@
  */
 
 
+/* gio/goutputstream.c:230 */
 /**
  * g_output_stream_write_all:
  * @stream: a #GOutputStream.
@@ -26968,6 +28510,7 @@
  */
 
 
+/* gio/goutputstream.c:651 */
 /**
  * g_output_stream_write_async:
  * @stream: A #GOutputStream.
@@ -27011,6 +28554,7 @@
  */
 
 
+/* gio/goutputstream.c:293 */
 /**
  * g_output_stream_write_bytes:
  * @stream: a #GOutputStream.
@@ -27035,6 +28579,7 @@
  */
 
 
+/* gio/goutputstream.c:785 */
 /**
  * g_output_stream_write_bytes_async:
  * @stream: A #GOutputStream.
@@ -27061,6 +28606,7 @@
  */
 
 
+/* gio/goutputstream.c:835 */
 /**
  * g_output_stream_write_bytes_finish:
  * @stream: a #GOutputStream.
@@ -27074,6 +28620,7 @@
  */
 
 
+/* gio/goutputstream.c:741 */
 /**
  * g_output_stream_write_finish:
  * @stream: a #GOutputStream.
@@ -27087,6 +28634,7 @@
  */
 
 
+/* gio/gpermission.c:79 */
 /**
  * g_permission_acquire:
  * @permission: a #GPermission instance
@@ -27114,6 +28662,7 @@
  */
 
 
+/* gio/gpermission.c:114 */
 /**
  * g_permission_acquire_async:
  * @permission: a #GPermission instance
@@ -27130,6 +28679,7 @@
  */
 
 
+/* gio/gpermission.c:138 */
 /**
  * g_permission_acquire_finish:
  * @permission: a #GPermission instance
@@ -27147,6 +28697,7 @@
  */
 
 
+/* gio/gpermission.c:247 */
 /**
  * g_permission_get_allowed:
  * @permission: a #GPermission instance
@@ -27160,6 +28711,7 @@
  */
 
 
+/* gio/gpermission.c:265 */
 /**
  * g_permission_get_can_acquire:
  * @permission: a #GPermission instance
@@ -27173,6 +28725,7 @@
  */
 
 
+/* gio/gpermission.c:283 */
 /**
  * g_permission_get_can_release:
  * @permission: a #GPermission instance
@@ -27186,6 +28739,7 @@
  */
 
 
+/* gio/gpermission.c:301 */
 /**
  * g_permission_impl_update:
  * @permission: a #GPermission instance
@@ -27203,6 +28757,7 @@
  */
 
 
+/* gio/gpermission.c:163 */
 /**
  * g_permission_release:
  * @permission: a #GPermission instance
@@ -27230,6 +28785,7 @@
  */
 
 
+/* gio/gpermission.c:198 */
 /**
  * g_permission_release_async:
  * @permission: a #GPermission instance
@@ -27246,6 +28802,7 @@
  */
 
 
+/* gio/gpermission.c:222 */
 /**
  * g_permission_release_finish:
  * @permission: a #GPermission instance
@@ -27263,6 +28820,7 @@
  */
 
 
+/* gio/gpollfilemonitor.c:197 */
 /**
  * g_poll_file_monitor_new:
  * @file: a #GFile.
@@ -27273,6 +28831,7 @@
  */
 
 
+/* gio/gpollableinputstream.c:64 */
 /**
  * g_pollable_input_stream_can_poll:
  * @stream: a #GPollableInputStream.
@@ -27290,6 +28849,7 @@
  */
 
 
+/* gio/gpollableinputstream.c:116 */
 /**
  * g_pollable_input_stream_create_source:
  * @stream: a #GPollableInputStream.
@@ -27309,6 +28869,7 @@
  */
 
 
+/* gio/gpollableinputstream.c:88 */
 /**
  * g_pollable_input_stream_is_readable:
  * @stream: a #GPollableInputStream.
@@ -27330,6 +28891,7 @@
  */
 
 
+/* gio/gpollableinputstream.c:161 */
 /**
  * g_pollable_input_stream_read_nonblocking: (virtual read_nonblocking)
  * @stream: a #GPollableInputStream
@@ -27356,6 +28918,7 @@
  */
 
 
+/* gio/gpollableoutputstream.c:65 */
 /**
  * g_pollable_output_stream_can_poll:
  * @stream: a #GPollableOutputStream.
@@ -27373,6 +28936,7 @@
  */
 
 
+/* gio/gpollableoutputstream.c:117 */
 /**
  * g_pollable_output_stream_create_source:
  * @stream: a #GPollableOutputStream.
@@ -27392,6 +28956,7 @@
  */
 
 
+/* gio/gpollableoutputstream.c:89 */
 /**
  * g_pollable_output_stream_is_writable:
  * @stream: a #GPollableOutputStream.
@@ -27413,6 +28978,7 @@
  */
 
 
+/* gio/gpollableoutputstream.c:162 */
 /**
  * g_pollable_output_stream_write_nonblocking: (virtual write_nonblocking)
  * @stream: a #GPollableOutputStream
@@ -27439,6 +29005,7 @@
  */
 
 
+/* gio/gpollableutils.c:96 */
 /**
  * g_pollable_source_new:
  * @pollable_stream: the stream associated with the new source
@@ -27454,6 +29021,7 @@
  */
 
 
+/* gio/gpollableutils.c:127 */
 /**
  * g_pollable_source_new_full:
  * @pollable_stream: (type GObject): the stream associated with the
@@ -27471,6 +29039,7 @@
  */
 
 
+/* gio/gpollableutils.c:171 */
 /**
  * g_pollable_stream_read:
  * @stream: a #GInputStream
@@ -27495,6 +29064,7 @@
  */
 
 
+/* gio/gpollableutils.c:216 */
 /**
  * g_pollable_stream_write:
  * @stream: a #GOutputStream.
@@ -27521,6 +29091,7 @@
  */
 
 
+/* gio/gpollableutils.c:263 */
 /**
  * g_pollable_stream_write_all:
  * @stream: a #GOutputStream.
@@ -27557,6 +29128,7 @@
  */
 
 
+/* gio/gpropertyaction.c:522 */
 /**
  * g_property_action_new:
  * @name: the name of the action to create
@@ -27577,6 +29149,7 @@
  */
 
 
+/* gio/gproxyaddress.c:363 */
 /**
  * g_proxy_address_get_destination_hostname:
  * @proxy: a #GProxyAddress
@@ -27590,6 +29163,7 @@
  */
 
 
+/* gio/gproxyaddress.c:381 */
 /**
  * g_proxy_address_get_destination_port:
  * @proxy: a #GProxyAddress
@@ -27603,6 +29177,7 @@
  */
 
 
+/* gio/gproxyaddress.c:346 */
 /**
  * g_proxy_address_get_destination_protocol:
  * @proxy: a #GProxyAddress
@@ -27615,6 +29190,7 @@
  */
 
 
+/* gio/gproxyaddress.c:415 */
 /**
  * g_proxy_address_get_password:
  * @proxy: a #GProxyAddress
@@ -27626,6 +29202,7 @@
  */
 
 
+/* gio/gproxyaddress.c:330 */
 /**
  * g_proxy_address_get_protocol:
  * @proxy: a #GProxyAddress
@@ -27637,6 +29214,7 @@
  */
 
 
+/* gio/gproxyaddress.c:432 */
 /**
  * g_proxy_address_get_uri:
  * @proxy: a #GProxyAddress
@@ -27648,6 +29226,7 @@
  */
 
 
+/* gio/gproxyaddress.c:399 */
 /**
  * g_proxy_address_get_username:
  * @proxy: a #GProxyAddress
@@ -27659,6 +29238,7 @@
  */
 
 
+/* gio/gproxyaddress.c:286 */
 /**
  * g_proxy_address_new:
  * @inetaddr: The proxy server #GInetAddress.
@@ -27683,6 +29263,7 @@
  */
 
 
+/* gio/gproxy.c:83 */
 /**
  * g_proxy_connect:
  * @proxy: a #GProxy
@@ -27703,6 +29284,7 @@
  */
 
 
+/* gio/gproxy.c:122 */
 /**
  * g_proxy_connect_async:
  * @proxy: a #GProxy
@@ -27718,6 +29300,7 @@
  */
 
 
+/* gio/gproxy.c:157 */
 /**
  * g_proxy_connect_finish:
  * @proxy: a #GProxy
@@ -27731,6 +29314,7 @@
  */
 
 
+/* gio/gproxy.c:52 */
 /**
  * g_proxy_get_default_for_protocol:
  * @protocol: the proxy protocol name (e.g. http, socks, etc)
@@ -27744,6 +29328,7 @@
  */
 
 
+/* gio/gproxyresolver.c:53 */
 /**
  * g_proxy_resolver_get_default:
  *
@@ -27754,6 +29339,7 @@
  */
 
 
+/* gio/gproxyresolver.c:70 */
 /**
  * g_proxy_resolver_is_supported:
  * @resolver: a #GProxyResolver
@@ -27767,6 +29353,7 @@
  */
 
 
+/* gio/gproxyresolver.c:94 */
 /**
  * g_proxy_resolver_lookup:
  * @resolver: a #GProxyResolver
@@ -27797,6 +29384,7 @@
  */
 
 
+/* gio/gproxyresolver.c:139 */
 /**
  * g_proxy_resolver_lookup_async:
  * @resolver: a #GProxyResolver
@@ -27812,6 +29400,7 @@
  */
 
 
+/* gio/gproxyresolver.c:169 */
 /**
  * g_proxy_resolver_lookup_finish:
  * @resolver: a #GProxyResolver
@@ -27829,6 +29418,7 @@
  */
 
 
+/* gio/gproxy.c:183 */
 /**
  * g_proxy_supports_hostname:
  * @proxy: a #GProxy
@@ -27846,6 +29436,7 @@
  */
 
 
+/* gio/gremoteactiongroup.c:80 */
 /**
  * g_remote_action_group_activate_action_full:
  * @remote: a #GDBusActionGroup
@@ -27867,6 +29458,7 @@
  */
 
 
+/* gio/gremoteactiongroup.c:109 */
 /**
  * g_remote_action_group_change_action_state_full:
  * @remote: a #GRemoteActionGroup
@@ -27888,6 +29480,7 @@
  */
 
 
+/* gio/gresolver.c:868 */
 /**
  * g_resolver_error_quark:
  *
@@ -27898,6 +29491,7 @@
  */
 
 
+/* gio/gresolver.c:454 */
 /**
  * g_resolver_free_addresses: (skip)
  * @addresses: a #GList of #GInetAddress
@@ -27911,6 +29505,7 @@
  */
 
 
+/* gio/gresolver.c:727 */
 /**
  * g_resolver_free_targets: (skip)
  * @targets: a #GList of #GSrvTarget
@@ -27924,6 +29519,7 @@
  */
 
 
+/* gio/gresolver.c:190 */
 /**
  * g_resolver_get_default:
  *
@@ -27936,6 +29532,7 @@
  */
 
 
+/* gio/gresolver.c:475 */
 /**
  * g_resolver_lookup_by_address:
  * @resolver: a #GResolver
@@ -27959,6 +29556,7 @@
  */
 
 
+/* gio/gresolver.c:511 */
 /**
  * g_resolver_lookup_by_address_async:
  * @resolver: a #GResolver
@@ -27975,6 +29573,7 @@
  */
 
 
+/* gio/gresolver.c:540 */
 /**
  * g_resolver_lookup_by_address_finish:
  * @resolver: a #GResolver
@@ -27994,6 +29593,7 @@
  */
 
 
+/* gio/gresolver.c:289 */
 /**
  * g_resolver_lookup_by_name:
  * @resolver: a #GResolver
@@ -28033,6 +29633,7 @@
  */
 
 
+/* gio/gresolver.c:358 */
 /**
  * g_resolver_lookup_by_name_async:
  * @resolver: a #GResolver
@@ -28050,6 +29651,7 @@
  */
 
 
+/* gio/gresolver.c:410 */
 /**
  * g_resolver_lookup_by_name_finish:
  * @resolver: a #GResolver
@@ -28070,6 +29672,7 @@
  */
 
 
+/* gio/gresolver.c:748 */
 /**
  * g_resolver_lookup_records:
  * @resolver: a #GResolver
@@ -28096,6 +29699,7 @@
  */
 
 
+/* gio/gresolver.c:792 */
 /**
  * g_resolver_lookup_records_async:
  * @resolver: a #GResolver
@@ -28114,6 +29718,7 @@
  */
 
 
+/* gio/gresolver.c:824 */
 /**
  * g_resolver_lookup_records_finish:
  * @resolver: a #GResolver
@@ -28135,6 +29740,7 @@
  */
 
 
+/* gio/gresolver.c:588 */
 /**
  * g_resolver_lookup_service:
  * @resolver: a #GResolver
@@ -28174,6 +29780,7 @@
  */
 
 
+/* gio/gresolver.c:652 */
 /**
  * g_resolver_lookup_service_async:
  * @resolver: a #GResolver
@@ -28194,6 +29801,7 @@
  */
 
 
+/* gio/gresolver.c:695 */
 /**
  * g_resolver_lookup_service_finish:
  * @resolver: a #GResolver
@@ -28213,6 +29821,7 @@
  */
 
 
+/* gio/gresolver.c:210 */
 /**
  * g_resolver_set_default:
  * @resolver: the new default #GResolver
@@ -28231,6 +29840,7 @@
  */
 
 
+/* gio/gresource.c:509 */
 /**
  * g_resource_enumerate_children:
  * @resource: A #GResource
@@ -28249,6 +29859,7 @@
  */
 
 
+/* gio/gresource.c:132 */
 /**
  * g_resource_error_quark:
  *
@@ -28259,6 +29870,7 @@
  */
 
 
+/* gio/gresource.c:478 */
 /**
  * g_resource_get_info:
  * @resource: A #GResource
@@ -28280,6 +29892,7 @@
  */
 
 
+/* gio/gresource.c:236 */
 /**
  * g_resource_load:
  * @filename: (type filename): the path of a filename to load, in the GLib filename encoding
@@ -28296,6 +29909,7 @@
  */
 
 
+/* gio/gresource.c:381 */
 /**
  * g_resource_lookup_data:
  * @resource: A #GResource
@@ -28324,6 +29938,7 @@
  */
 
 
+/* gio/gresource.c:200 */
 /**
  * g_resource_new_from_data:
  * @data: A #GBytes
@@ -28341,6 +29956,7 @@
  */
 
 
+/* gio/gresource.c:331 */
 /**
  * g_resource_open_stream:
  * @resource: A #GResource
@@ -28359,6 +29975,7 @@
  */
 
 
+/* gio/gresource.c:143 */
 /**
  * g_resource_ref:
  * @resource: A #GResource
@@ -28371,6 +29988,7 @@
  */
 
 
+/* gio/gresource.c:161 */
 /**
  * g_resource_unref:
  * @resource: A #GResource
@@ -28384,6 +30002,7 @@
  */
 
 
+/* gio/gresource.c:754 */
 /**
  * g_resources_enumerate_children:
  * @path: A pathname inside the resource
@@ -28402,6 +30021,7 @@
  */
 
 
+/* gio/gresource.c:831 */
 /**
  * g_resources_get_info:
  * @path: A pathname inside the resource
@@ -28422,6 +30042,7 @@
  */
 
 
+/* gio/gresource.c:685 */
 /**
  * g_resources_lookup_data:
  * @path: A pathname inside the resource
@@ -28449,6 +30070,7 @@
  */
 
 
+/* gio/gresource.c:625 */
 /**
  * g_resources_open_stream:
  * @path: A pathname inside the resource
@@ -28467,6 +30089,7 @@
  */
 
 
+/* gio/gresource.c:591 */
 /**
  * g_resources_register:
  * @resource: A #GResource
@@ -28479,6 +30102,7 @@
  */
 
 
+/* gio/gresource.c:609 */
 /**
  * g_resources_unregister:
  * @resource: A #GResource
@@ -28489,6 +30113,7 @@
  */
 
 
+/* gio/gseekable.c:67 */
 /**
  * g_seekable_can_seek:
  * @seekable: a #GSeekable.
@@ -28499,6 +30124,7 @@
  */
 
 
+/* gio/gseekable.c:122 */
 /**
  * g_seekable_can_truncate:
  * @seekable: a #GSeekable.
@@ -28509,6 +30135,7 @@
  */
 
 
+/* gio/gseekable.c:87 */
 /**
  * g_seekable_seek:
  * @seekable: a #GSeekable.
@@ -28530,6 +30157,7 @@
  */
 
 
+/* gio/gseekable.c:47 */
 /**
  * g_seekable_tell:
  * @seekable: a #GSeekable.
@@ -28540,6 +30168,7 @@
  */
 
 
+/* gio/gseekable.c:142 */
 /**
  * g_seekable_truncate: (virtual truncate_fn)
  * @seekable: a #GSeekable.
@@ -28562,6 +30191,7 @@
  */
 
 
+/* gio/gsettings.c:1911 */
 /**
  * g_settings_apply:
  * @settings: a #GSettings instance
@@ -28573,6 +30203,7 @@
  */
 
 
+/* gio/gsettingsbackend.c:361 */
 /**
  * g_settings_backend_changed:
  * @backend: a #GSettingsBackend implementation
@@ -28606,6 +30237,7 @@
  */
 
 
+/* gio/gsettingsbackend.c:662 */
 /**
  * g_settings_backend_changed_tree:
  * @backend: a #GSettingsBackend implementation
@@ -28620,6 +30252,7 @@
  */
 
 
+/* gio/gsettingsbackend.c:615 */
 /**
  * g_settings_backend_flatten_tree:
  * @tree: a #GTree containing the changes
@@ -28641,6 +30274,7 @@
  */
 
 
+/* gio/gsettingsbackend.c:963 */
 /**
  * g_settings_backend_get_default:
  *
@@ -28655,6 +30289,7 @@
  */
 
 
+/* gio/gsettingsbackend.c:406 */
 /**
  * g_settings_backend_keys_changed:
  * @backend: a #GSettingsBackend implementation
@@ -28688,6 +30323,7 @@
  */
 
 
+/* gio/gsettingsbackend.c:458 */
 /**
  * g_settings_backend_path_changed:
  * @backend: a #GSettingsBackend implementation
@@ -28720,6 +30356,7 @@
  */
 
 
+/* gio/gsettingsbackend.c:527 */
 /**
  * g_settings_backend_path_writable_changed:
  * @backend: a #GSettingsBackend implementation
@@ -28735,6 +30372,7 @@
  */
 
 
+/* gio/gsettingsbackend.c:502 */
 /**
  * g_settings_backend_writable_changed:
  * @backend: a #GSettingsBackend implementation
@@ -28749,6 +30387,7 @@
  */
 
 
+/* gio/gsettings.c:2493 */
 /**
  * g_settings_bind:
  * @settings: a #GSettings object
@@ -28782,6 +30421,7 @@
  */
 
 
+/* gio/gsettings.c:2547 */
 /**
  * g_settings_bind_with_mapping: (skip)
  * @settings: a #GSettings object
@@ -28811,6 +30451,7 @@
  */
 
 
+/* gio/gsettings.c:2763 */
 /**
  * g_settings_bind_writable:
  * @settings: a #GSettings object
@@ -28842,6 +30483,7 @@
  */
 
 
+/* gio/gsettings.c:3075 */
 /**
  * g_settings_create_action:
  * @settings: a #GSettings
@@ -28867,6 +30509,7 @@
  */
 
 
+/* gio/gsettings.c:1878 */
 /**
  * g_settings_delay:
  * @settings: a #GSettings object
@@ -28879,6 +30522,7 @@
  */
 
 
+/* gio/gsettings.c:1374 */
 /**
  * g_settings_get:
  * @settings: a #GSettings object
@@ -28899,6 +30543,7 @@
  */
 
 
+/* gio/gsettings.c:1757 */
 /**
  * g_settings_get_boolean:
  * @settings: a #GSettings object
@@ -28916,6 +30561,7 @@
  */
 
 
+/* gio/gsettings.c:2047 */
 /**
  * g_settings_get_child:
  * @settings: a #GSettings object
@@ -28933,6 +30579,7 @@
  */
 
 
+/* gio/gsettings.c:1701 */
 /**
  * g_settings_get_double:
  * @settings: a #GSettings object
@@ -28950,6 +30597,7 @@
  */
 
 
+/* gio/gsettings.c:1088 */
 /**
  * g_settings_get_enum:
  * @settings: a #GSettings object
@@ -28973,6 +30621,7 @@
  */
 
 
+/* gio/gsettings.c:1201 */
 /**
  * g_settings_get_flags:
  * @settings: a #GSettings object
@@ -28996,6 +30645,7 @@
  */
 
 
+/* gio/gsettings.c:1955 */
 /**
  * g_settings_get_has_unapplied:
  * @settings: a #GSettings object
@@ -29008,6 +30658,7 @@
  */
 
 
+/* gio/gsettings.c:1587 */
 /**
  * g_settings_get_int:
  * @settings: a #GSettings object
@@ -29025,6 +30676,7 @@
  */
 
 
+/* gio/gsettings.c:1447 */
 /**
  * g_settings_get_mapped:
  * @settings: a #GSettings object
@@ -29065,6 +30717,7 @@
  */
 
 
+/* gio/gsettings.c:2183 */
 /**
  * g_settings_get_range:
  * @settings: a #GSettings
@@ -29118,6 +30771,7 @@
  */
 
 
+/* gio/gsettings.c:1531 */
 /**
  * g_settings_get_string:
  * @settings: a #GSettings object
@@ -29135,6 +30789,7 @@
  */
 
 
+/* gio/gsettings.c:1813 */
 /**
  * g_settings_get_strv:
  * @settings: a #GSettings object
@@ -29152,6 +30807,7 @@
  */
 
 
+/* gio/gsettings.c:1643 */
 /**
  * g_settings_get_uint:
  * @settings: a #GSettings object
@@ -29170,6 +30826,7 @@
  */
 
 
+/* gio/gsettings.c:1050 */
 /**
  * g_settings_get_value:
  * @settings: a #GSettings object
@@ -29185,6 +30842,7 @@
  */
 
 
+/* gio/gsettings.c:2020 */
 /**
  * g_settings_is_writable:
  * @settings: a #GSettings object
@@ -29197,6 +30855,7 @@
  */
 
 
+/* gio/gsettings.c:2129 */
 /**
  * g_settings_list_children:
  * @settings: a #GSettings object
@@ -29225,6 +30884,7 @@
  */
 
 
+/* gio/gsettings.c:2092 */
 /**
  * g_settings_list_keys:
  * @settings: a #GSettings object
@@ -29242,6 +30902,7 @@
  */
 
 
+/* gio/gsettingsschema.c:549 */
 /**
  * g_settings_list_relocatable_schemas:
  *
@@ -29261,6 +30922,7 @@
  */
 
 
+/* gio/gsettingsschema.c:523 */
 /**
  * g_settings_list_schemas:
  *
@@ -29280,6 +30942,7 @@
  */
 
 
+/* gio/gsettings.c:843 */
 /**
  * g_settings_new:
  * @schema_id: the id of the schema
@@ -29297,6 +30960,7 @@
  */
 
 
+/* gio/gsettings.c:964 */
 /**
  * g_settings_new_full:
  * @schema: a #GSettingsSchema
@@ -29332,6 +30996,7 @@
  */
 
 
+/* gio/gsettings.c:901 */
 /**
  * g_settings_new_with_backend:
  * @schema_id: the id of the schema
@@ -29351,6 +31016,7 @@
  */
 
 
+/* gio/gsettings.c:932 */
 /**
  * g_settings_new_with_backend_and_path:
  * @schema_id: the id of the schema
@@ -29368,6 +31034,7 @@
  */
 
 
+/* gio/gsettings.c:869 */
 /**
  * g_settings_new_with_path:
  * @schema_id: the id of the schema
@@ -29388,6 +31055,7 @@
  */
 
 
+/* gio/gsettings.c:2266 */
 /**
  * g_settings_range_check:
  * @settings: a #GSettings
@@ -29409,6 +31077,7 @@
  */
 
 
+/* gio/gsettings.c:1977 */
 /**
  * g_settings_reset:
  * @settings: a #GSettings object
@@ -29422,6 +31091,7 @@
  */
 
 
+/* gio/gsettings.c:1932 */
 /**
  * g_settings_revert:
  * @settings: a #GSettings instance
@@ -29435,6 +31105,7 @@
  */
 
 
+/* gio/gsettingsschema.c:768 */
 /**
  * g_settings_schema_get_id:
  * @schema: a #GSettingsSchema
@@ -29445,6 +31116,7 @@
  */
 
 
+/* gio/gsettingsschema.c:648 */
 /**
  * g_settings_schema_get_path:
  * @schema: a #GSettingsSchema
@@ -29464,6 +31136,7 @@
  */
 
 
+/* gio/gsettingsschema.c:575 */
 /**
  * g_settings_schema_ref:
  * @schema: a #GSettingsSchema
@@ -29475,6 +31148,7 @@
  */
 
 
+/* gio/gsettingsschema.c:357 */
 /**
  * g_settings_schema_source_get_default:
  *
@@ -29498,6 +31172,7 @@
  */
 
 
+/* gio/gsettingsschema.c:387 */
 /**
  * g_settings_schema_source_lookup:
  * @source: a #GSettingsSchemaSource
@@ -29520,6 +31195,7 @@
  */
 
 
+/* gio/gsettingsschema.c:242 */
 /**
  * g_settings_schema_source_new_from_directory:
  * @directory: the filename of a directory
@@ -29562,6 +31238,7 @@
  */
 
 
+/* gio/gsettingsschema.c:200 */
 /**
  * g_settings_schema_source_ref:
  * @source: a #GSettingsSchemaSource
@@ -29573,6 +31250,7 @@
  */
 
 
+/* gio/gsettingsschema.c:218 */
 /**
  * g_settings_schema_source_unref:
  * @source: a #GSettingsSchemaSource
@@ -29583,6 +31261,7 @@
  */
 
 
+/* gio/gsettingsschema.c:593 */
 /**
  * g_settings_schema_unref:
  * @schema: a #GSettingsSchema
@@ -29593,6 +31272,7 @@
  */
 
 
+/* gio/gsettings.c:1410 */
 /**
  * g_settings_set:
  * @settings: a #GSettings object
@@ -29615,6 +31295,7 @@
  */
 
 
+/* gio/gsettings.c:1787 */
 /**
  * g_settings_set_boolean:
  * @settings: a #GSettings object
@@ -29634,6 +31315,7 @@
  */
 
 
+/* gio/gsettings.c:1731 */
 /**
  * g_settings_set_double:
  * @settings: a #GSettings object
@@ -29653,6 +31335,7 @@
  */
 
 
+/* gio/gsettings.c:1146 */
 /**
  * g_settings_set_enum:
  * @settings: a #GSettings object
@@ -29674,6 +31357,7 @@
  */
 
 
+/* gio/gsettings.c:1259 */
 /**
  * g_settings_set_flags:
  * @settings: a #GSettings object
@@ -29696,6 +31380,7 @@
  */
 
 
+/* gio/gsettings.c:1617 */
 /**
  * g_settings_set_int:
  * @settings: a #GSettings object
@@ -29715,6 +31400,7 @@
  */
 
 
+/* gio/gsettings.c:1561 */
 /**
  * g_settings_set_string:
  * @settings: a #GSettings object
@@ -29734,6 +31420,7 @@
  */
 
 
+/* gio/gsettings.c:1843 */
 /**
  * g_settings_set_strv:
  * @settings: a #GSettings object
@@ -29754,6 +31441,7 @@
  */
 
 
+/* gio/gsettings.c:1674 */
 /**
  * g_settings_set_uint:
  * @settings: a #GSettings object
@@ -29774,6 +31462,7 @@
  */
 
 
+/* gio/gsettings.c:1315 */
 /**
  * g_settings_set_value:
  * @settings: a #GSettings object
@@ -29794,6 +31483,7 @@
  */
 
 
+/* gio/gsettings.c:1999 */
 /**
  * g_settings_sync:
  *
@@ -29811,6 +31501,7 @@
  */
 
 
+/* gio/gsettings.c:2839 */
 /**
  * g_settings_unbind:
  * @object: the object
@@ -29826,6 +31517,7 @@
  */
 
 
+/* gio/gsimpleactiongroup.c:372 */
 /**
  * g_simple_action_group_add_entries:
  * @simple: a #GSimpleActionGroup
@@ -29842,6 +31534,7 @@
  */
 
 
+/* gio/gsimpleactiongroup.c:324 */
 /**
  * g_simple_action_group_insert:
  * @simple: a #GSimpleActionGroup
@@ -29859,6 +31552,7 @@
  */
 
 
+/* gio/gsimpleactiongroup.c:300 */
 /**
  * g_simple_action_group_lookup:
  * @simple: a #GSimpleActionGroup
@@ -29874,6 +31568,7 @@
  */
 
 
+/* gio/gsimpleactiongroup.c:285 */
 /**
  * g_simple_action_group_new:
  *
@@ -29884,6 +31579,7 @@
  */
 
 
+/* gio/gsimpleactiongroup.c:349 */
 /**
  * g_simple_action_group_remove:
  * @simple: a #GSimpleActionGroup
@@ -29898,6 +31594,7 @@
  */
 
 
+/* gio/gsimpleaction.c:506 */
 /**
  * g_simple_action_new:
  * @name: the name of the action
@@ -29912,6 +31609,7 @@
  */
 
 
+/* gio/gsimpleaction.c:529 */
 /**
  * g_simple_action_new_stateful:
  * @name: the name of the action
@@ -29930,6 +31628,7 @@
  */
 
 
+/* gio/gsimpleaction.c:477 */
 /**
  * g_simple_action_set_enabled:
  * @simple: a #GSimpleAction
@@ -29947,6 +31646,7 @@
  */
 
 
+/* gio/gsimpleaction.c:133 */
 /**
  * g_simple_action_set_state:
  * @simple: a #GSimpleAction
@@ -29967,6 +31667,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:970 */
 /**
  * g_simple_async_report_error_in_idle: (skip)
  * @object: (allow-none): a #GObject, or %NULL.
@@ -29983,6 +31684,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:1011 */
 /**
  * g_simple_async_report_gerror_in_idle:
  * @object: (allow-none): a #GObject, or %NULL
@@ -29996,6 +31698,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:1041 */
 /**
  * g_simple_async_report_take_gerror_in_idle: (skip)
  * @object: (allow-none): a #GObject, or %NULL
@@ -30011,6 +31714,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:742 */
 /**
  * g_simple_async_result_complete:
  * @simple: a #GSimpleAsyncResult.
@@ -30025,6 +31729,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:794 */
 /**
  * g_simple_async_result_complete_in_idle:
  * @simple: a #GSimpleAsyncResult.
@@ -30039,6 +31744,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:627 */
 /**
  * g_simple_async_result_get_op_res_gboolean:
  * @simple: a #GSimpleAsyncResult.
@@ -30050,6 +31756,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:564 */
 /**
  * g_simple_async_result_get_op_res_gpointer: (skip)
  * @simple: a #GSimpleAsyncResult.
@@ -30060,6 +31767,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:596 */
 /**
  * g_simple_async_result_get_op_res_gssize:
  * @simple: a #GSimpleAsyncResult.
@@ -30070,6 +31778,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:496 */
 /**
  * g_simple_async_result_get_source_tag: (skip)
  * @simple: a #GSimpleAsyncResult.
@@ -30080,6 +31789,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:921 */
 /**
  * g_simple_async_result_is_valid:
  * @result: the #GAsyncResult passed to the _finish function.
@@ -30104,6 +31814,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:303 */
 /**
  * g_simple_async_result_new:
  * @source_object: (allow-none): a #GObject, or %NULL.
@@ -30126,6 +31837,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:406 */
 /**
  * g_simple_async_result_new_error:
  * @source_object: (allow-none): a #GObject, or %NULL.
@@ -30142,6 +31854,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:345 */
 /**
  * g_simple_async_result_new_from_error:
  * @source_object: (allow-none): a #GObject, or %NULL.
@@ -30155,6 +31868,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:374 */
 /**
  * g_simple_async_result_new_take_error: (skip)
  * @source_object: (allow-none): a #GObject, or %NULL
@@ -30170,6 +31884,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:511 */
 /**
  * g_simple_async_result_propagate_error:
  * @simple: a #GSimpleAsyncResult.
@@ -30186,6 +31901,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:885 */
 /**
  * g_simple_async_result_run_in_thread: (skip)
  * @simple: a #GSimpleAsyncResult.
@@ -30202,6 +31918,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:1073 */
 /**
  * g_simple_async_result_set_check_cancellable:
  * @simple: a #GSimpleAsyncResult
@@ -30227,6 +31944,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:714 */
 /**
  * g_simple_async_result_set_error: (skip)
  * @simple: a #GSimpleAsyncResult.
@@ -30239,6 +31957,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:686 */
 /**
  * g_simple_async_result_set_error_va: (skip)
  * @simple: a #GSimpleAsyncResult.
@@ -30252,6 +31971,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:643 */
 /**
  * g_simple_async_result_set_from_error:
  * @simple: a #GSimpleAsyncResult.
@@ -30261,6 +31981,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:477 */
 /**
  * g_simple_async_result_set_handle_cancellation:
  * @simple: a #GSimpleAsyncResult.
@@ -30274,6 +31995,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:611 */
 /**
  * g_simple_async_result_set_op_res_gboolean:
  * @simple: a #GSimpleAsyncResult.
@@ -30283,6 +32005,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:544 */
 /**
  * g_simple_async_result_set_op_res_gpointer: (skip)
  * @simple: a #GSimpleAsyncResult.
@@ -30293,6 +32016,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:579 */
 /**
  * g_simple_async_result_set_op_res_gssize:
  * @simple: a #GSimpleAsyncResult.
@@ -30303,6 +32027,7 @@
  */
 
 
+/* gio/gsimpleasyncresult.c:663 */
 /**
  * g_simple_async_result_take_error: (skip)
  * @simple: a #GSimpleAsyncResult
@@ -30315,6 +32040,7 @@
  */
 
 
+/* gio/gsimplepermission.c:66 */
 /**
  * g_simple_permission_new:
  * @allowed: %TRUE if the action is allowed
@@ -30327,6 +32053,7 @@
  */
 
 
+/* gio/gsimpleproxyresolver.c:500 */
 /**
  * g_simple_proxy_resolver_new:
  * @default_proxy: (allow-none): the default proxy to use, eg
@@ -30344,6 +32071,7 @@
  */
 
 
+/* gio/gsimpleproxyresolver.c:526 */
 /**
  * g_simple_proxy_resolver_set_default_proxy:
  * @resolver: a #GSimpleProxyResolver
@@ -30362,6 +32090,7 @@
  */
 
 
+/* gio/gsimpleproxyresolver.c:553 */
 /**
  * g_simple_proxy_resolver_set_ignore_hosts:
  * @resolver: a #GSimpleProxyResolver
@@ -30377,6 +32106,7 @@
  */
 
 
+/* gio/gsimpleproxyresolver.c:578 */
 /**
  * g_simple_proxy_resolver_set_uri_proxy:
  * @resolver: a #GSimpleProxyResolver
@@ -30397,6 +32127,7 @@
  */
 
 
+/* gio/gsocket.c:2202 */
 /**
  * g_socket_accept:
  * @socket: a #GSocket.
@@ -30420,6 +32151,7 @@
  */
 
 
+/* gio/gsocketaddressenumerator.c:50 */
 /**
  * g_socket_address_enumerator_next:
  * @enumerator: a #GSocketAddressEnumerator
@@ -30446,6 +32178,7 @@
  */
 
 
+/* gio/gsocketaddressenumerator.c:113 */
 /**
  * g_socket_address_enumerator_next_async:
  * @enumerator: a #GSocketAddressEnumerator
@@ -30460,6 +32193,7 @@
  */
 
 
+/* gio/gsocketaddressenumerator.c:150 */
 /**
  * g_socket_address_enumerator_next_finish:
  * @enumerator: a #GSocketAddressEnumerator
@@ -30477,6 +32211,7 @@
  */
 
 
+/* gio/gsocketaddress.c:76 */
 /**
  * g_socket_address_get_family:
  * @address: a #GSocketAddress
@@ -30488,6 +32223,7 @@
  */
 
 
+/* gio/gsocketaddress.c:141 */
 /**
  * g_socket_address_get_native_size:
  * @address: a #GSocketAddress
@@ -30502,6 +32238,7 @@
  */
 
 
+/* gio/gsocketaddress.c:194 */
 /**
  * g_socket_address_new_from_native:
  * @native: a pointer to a <type>struct sockaddr</type>
@@ -30516,6 +32253,7 @@
  */
 
 
+/* gio/gsocketaddress.c:162 */
 /**
  * g_socket_address_to_native:
  * @address: a #GSocketAddress
@@ -30538,6 +32276,7 @@
  */
 
 
+/* gio/gsocket.c:1844 */
 /**
  * g_socket_bind:
  * @socket: a #GSocket.
@@ -30574,6 +32313,7 @@
  */
 
 
+/* gio/gsocket.c:2409 */
 /**
  * g_socket_check_connect_result:
  * @socket: a #GSocket
@@ -30588,6 +32328,7 @@
  */
 
 
+/* gio/gsocketclient.c:1927 */
 /**
  * g_socket_client_add_application_proxy:
  * @client: a #GSocketClient
@@ -30615,6 +32356,7 @@
  */
 
 
+/* gio/gsocketclient.c:978 */
 /**
  * g_socket_client_connect:
  * @client: a #GSocketClient.
@@ -30646,6 +32388,7 @@
  */
 
 
+/* gio/gsocketclient.c:1667 */
 /**
  * g_socket_client_connect_async:
  * @client: a #GSocketClient
@@ -30664,6 +32407,7 @@
  */
 
 
+/* gio/gsocketclient.c:1841 */
 /**
  * g_socket_client_connect_finish:
  * @client: a #GSocketClient.
@@ -30678,6 +32422,7 @@
  */
 
 
+/* gio/gsocketclient.c:1201 */
 /**
  * g_socket_client_connect_to_host:
  * @client: a #GSocketClient
@@ -30722,6 +32467,7 @@
  */
 
 
+/* gio/gsocketclient.c:1718 */
 /**
  * g_socket_client_connect_to_host_async:
  * @client: a #GSocketClient
@@ -30741,6 +32487,7 @@
  */
 
 
+/* gio/gsocketclient.c:1864 */
 /**
  * g_socket_client_connect_to_host_finish:
  * @client: a #GSocketClient.
@@ -30755,6 +32502,7 @@
  */
 
 
+/* gio/gsocketclient.c:1265 */
 /**
  * g_socket_client_connect_to_service:
  * @client: a #GSocketConnection
@@ -30782,6 +32530,7 @@
  */
 
 
+/* gio/gsocketclient.c:1764 */
 /**
  * g_socket_client_connect_to_service_async:
  * @client: a #GSocketClient
@@ -30798,6 +32547,7 @@
  */
 
 
+/* gio/gsocketclient.c:1885 */
 /**
  * g_socket_client_connect_to_service_finish:
  * @client: a #GSocketClient.
@@ -30812,6 +32562,7 @@
  */
 
 
+/* gio/gsocketclient.c:1308 */
 /**
  * g_socket_client_connect_to_uri:
  * @client: a #GSocketClient
@@ -30847,6 +32598,7 @@
  */
 
 
+/* gio/gsocketclient.c:1795 */
 /**
  * g_socket_client_connect_to_uri_async:
  * @client: a #GSocketClient
@@ -30866,6 +32618,7 @@
  */
 
 
+/* gio/gsocketclient.c:1906 */
 /**
  * g_socket_client_connect_to_uri_finish:
  * @client: a #GSocketClient.
@@ -30880,6 +32633,7 @@
  */
 
 
+/* gio/gsocketclient.c:564 */
 /**
  * g_socket_client_get_enable_proxy:
  * @client: a #GSocketClient.
@@ -30891,6 +32645,7 @@
  */
 
 
+/* gio/gsocketclient.c:341 */
 /**
  * g_socket_client_get_family:
  * @client: a #GSocketClient.
@@ -30904,6 +32659,7 @@
  */
 
 
+/* gio/gsocketclient.c:472 */
 /**
  * g_socket_client_get_local_address:
  * @client: a #GSocketClient.
@@ -30917,6 +32673,7 @@
  */
 
 
+/* gio/gsocketclient.c:429 */
 /**
  * g_socket_client_get_protocol:
  * @client: a #GSocketClient
@@ -30930,6 +32687,7 @@
  */
 
 
+/* gio/gsocketclient.c:699 */
 /**
  * g_socket_client_get_proxy_resolver:
  * @client: a #GSocketClient.
@@ -30944,6 +32702,7 @@
  */
 
 
+/* gio/gsocketclient.c:386 */
 /**
  * g_socket_client_get_socket_type:
  * @client: a #GSocketClient.
@@ -30957,6 +32716,7 @@
  */
 
 
+/* gio/gsocketclient.c:520 */
 /**
  * g_socket_client_get_timeout:
  * @client: a #GSocketClient
@@ -30970,6 +32730,7 @@
  */
 
 
+/* gio/gsocketclient.c:606 */
 /**
  * g_socket_client_get_tls:
  * @client: a #GSocketClient.
@@ -30982,6 +32743,7 @@
  */
 
 
+/* gio/gsocketclient.c:661 */
 /**
  * g_socket_client_get_tls_validation_flags:
  * @client: a #GSocketClient.
@@ -30994,6 +32756,7 @@
  */
 
 
+/* gio/gsocketclient.c:210 */
 /**
  * g_socket_client_new:
  *
@@ -31005,6 +32768,7 @@
  */
 
 
+/* gio/gsocketclient.c:580 */
 /**
  * g_socket_client_set_enable_proxy:
  * @client: a #GSocketClient.
@@ -31021,6 +32785,7 @@
  */
 
 
+/* gio/gsocketclient.c:359 */
 /**
  * g_socket_client_set_family:
  * @client: a #GSocketClient.
@@ -31039,6 +32804,7 @@
  */
 
 
+/* gio/gsocketclient.c:490 */
 /**
  * g_socket_client_set_local_address:
  * @client: a #GSocketClient.
@@ -31056,6 +32822,7 @@
  */
 
 
+/* gio/gsocketclient.c:447 */
 /**
  * g_socket_client_set_protocol:
  * @client: a #GSocketClient.
@@ -31072,6 +32839,7 @@
  */
 
 
+/* gio/gsocketclient.c:721 */
 /**
  * g_socket_client_set_proxy_resolver:
  * @client: a #GSocketClient.
@@ -31090,6 +32858,7 @@
  */
 
 
+/* gio/gsocketclient.c:404 */
 /**
  * g_socket_client_set_socket_type:
  * @client: a #GSocketClient.
@@ -31106,6 +32875,7 @@
  */
 
 
+/* gio/gsocketclient.c:539 */
 /**
  * g_socket_client_set_timeout:
  * @client: a #GSocketClient.
@@ -31122,6 +32892,7 @@
  */
 
 
+/* gio/gsocketclient.c:623 */
 /**
  * g_socket_client_set_tls:
  * @client: a #GSocketClient.
@@ -31150,6 +32921,7 @@
  */
 
 
+/* gio/gsocketclient.c:678 */
 /**
  * g_socket_client_set_tls_validation_flags:
  * @client: a #GSocketClient.
@@ -31162,6 +32934,7 @@
  */
 
 
+/* gio/gsocket.c:2923 */
 /**
  * g_socket_close:
  * @socket: a #GSocket
@@ -31202,6 +32975,7 @@
  */
 
 
+/* gio/gsocket.c:3432 */
 /**
  * g_socket_condition_check:
  * @socket: a #GSocket
@@ -31230,6 +33004,7 @@
  */
 
 
+/* gio/gsocket.c:3530 */
 /**
  * g_socket_condition_timed_wait:
  * @socket: a #GSocket
@@ -31260,6 +33035,7 @@
  */
 
 
+/* gio/gsocket.c:3496 */
 /**
  * g_socket_condition_wait:
  * @socket: a #GSocket
@@ -31283,6 +33059,7 @@
  */
 
 
+/* gio/gsocket.c:2313 */
 /**
  * g_socket_connect:
  * @socket: a #GSocket.
@@ -31312,6 +33089,7 @@
  */
 
 
+/* gio/gsocketconnectable.c:102 */
 /**
  * g_socket_connectable_enumerate:
  * @connectable: a #GSocketConnectable
@@ -31323,6 +33101,7 @@
  */
 
 
+/* gio/gsocketconnectable.c:124 */
 /**
  * g_socket_connectable_proxy_enumerate:
  * @connectable: a #GSocketConnectable
@@ -31340,6 +33119,7 @@
  */
 
 
+/* gio/gsocketconnection.c:133 */
 /**
  * g_socket_connection_connect:
  * @connection: a #GSocketConnection
@@ -31354,6 +33134,7 @@
  */
 
 
+/* gio/gsocketconnection.c:163 */
 /**
  * g_socket_connection_connect_async:
  * @connection: a #GSocketConnection
@@ -31373,6 +33154,7 @@
  */
 
 
+/* gio/gsocketconnection.c:239 */
 /**
  * g_socket_connection_connect_finish:
  * @connection: a #GSocketConnection
@@ -31386,6 +33168,7 @@
  */
 
 
+/* gio/gsocketconnection.c:633 */
 /**
  * g_socket_connection_factory_create_connection:
  * @socket: a #GSocket
@@ -31398,6 +33181,7 @@
  */
 
 
+/* gio/gsocketconnection.c:588 */
 /**
  * g_socket_connection_factory_lookup_type:
  * @family: a #GSocketFamily
@@ -31414,6 +33198,7 @@
  */
 
 
+/* gio/gsocketconnection.c:535 */
 /**
  * g_socket_connection_factory_register_type:
  * @g_type: a #GType, inheriting from %G_TYPE_SOCKET_CONNECTION
@@ -31430,6 +33215,7 @@
  */
 
 
+/* gio/gsocketconnection.c:282 */
 /**
  * g_socket_connection_get_local_address:
  * @connection: a #GSocketConnection
@@ -31443,6 +33229,7 @@
  */
 
 
+/* gio/gsocketconnection.c:301 */
 /**
  * g_socket_connection_get_remote_address:
  * @connection: a #GSocketConnection
@@ -31456,6 +33243,7 @@
  */
 
 
+/* gio/gsocketconnection.c:262 */
 /**
  * g_socket_connection_get_socket:
  * @connection: a #GSocketConnection
@@ -31469,6 +33257,7 @@
  */
 
 
+/* gio/gsocketconnection.c:116 */
 /**
  * g_socket_connection_is_connected:
  * @connection: a #GSocketConnection
@@ -31481,6 +33270,7 @@
  */
 
 
+/* gio/gsocketcontrolmessage.c:151 */
 /**
  * g_socket_control_message_deserialize:
  * @level: a socket level
@@ -31501,6 +33291,7 @@
  */
 
 
+/* gio/gsocketcontrolmessage.c:79 */
 /**
  * g_socket_control_message_get_level:
  * @message: a #GSocketControlMessage
@@ -31513,6 +33304,7 @@
  */
 
 
+/* gio/gsocketcontrolmessage.c:98 */
 /**
  * g_socket_control_message_get_msg_type:
  * @message: a #GSocketControlMessage
@@ -31525,6 +33317,7 @@
  */
 
 
+/* gio/gsocketcontrolmessage.c:60 */
 /**
  * g_socket_control_message_get_size:
  * @message: a #GSocketControlMessage
@@ -31537,6 +33330,7 @@
  */
 
 
+/* gio/gsocketcontrolmessage.c:117 */
 /**
  * g_socket_control_message_serialize:
  * @message: a #GSocketControlMessage
@@ -31553,6 +33347,7 @@
  */
 
 
+/* gio/gsocket.c:3392 */
 /**
  * g_socket_create_source: (skip)
  * @socket: a #GSocket
@@ -31584,6 +33379,7 @@
  */
 
 
+/* gio/gsocket.c:2455 */
 /**
  * g_socket_get_available_bytes:
  * @socket: a #GSocket
@@ -31607,6 +33403,7 @@
  */
 
 
+/* gio/gsocket.c:1110 */
 /**
  * g_socket_get_blocking:
  * @socket: a #GSocket.
@@ -31619,6 +33416,7 @@
  */
 
 
+/* gio/gsocket.c:1388 */
 /**
  * g_socket_get_broadcast:
  * @socket: a #GSocket.
@@ -31632,6 +33430,7 @@
  */
 
 
+/* gio/gsocket.c:4417 */
 /**
  * g_socket_get_credentials:
  * @socket: a #GSocket.
@@ -31656,6 +33455,7 @@
  */
 
 
+/* gio/gsocket.c:1627 */
 /**
  * g_socket_get_family:
  * @socket: a #GSocket.
@@ -31667,6 +33467,7 @@
  */
 
 
+/* gio/gsocket.c:1682 */
 /**
  * g_socket_get_fd:
  * @socket: a #GSocket.
@@ -31682,6 +33483,7 @@
  */
 
 
+/* gio/gsocket.c:1176 */
 /**
  * g_socket_get_keepalive:
  * @socket: a #GSocket.
@@ -31694,6 +33496,7 @@
  */
 
 
+/* gio/gsocket.c:1195 */
 /**
  * g_socket_get_listen_backlog:
  * @socket: a #GSocket.
@@ -31706,6 +33509,7 @@
  */
 
 
+/* gio/gsocket.c:1704 */
 /**
  * g_socket_get_local_address:
  * @socket: a #GSocket.
@@ -31721,6 +33525,7 @@
  */
 
 
+/* gio/gsocket.c:1451 */
 /**
  * g_socket_get_multicast_loopback:
  * @socket: a #GSocket.
@@ -31734,6 +33539,7 @@
  */
 
 
+/* gio/gsocket.c:1541 */
 /**
  * g_socket_get_multicast_ttl:
  * @socket: a #GSocket.
@@ -31746,6 +33552,7 @@
  */
 
 
+/* gio/gsocket.c:4509 */
 /**
  * g_socket_get_option:
  * @socket: a #GSocket
@@ -31777,6 +33584,7 @@
  */
 
 
+/* gio/gsocket.c:1663 */
 /**
  * g_socket_get_protocol:
  * @socket: a #GSocket.
@@ -31789,6 +33597,7 @@
  */
 
 
+/* gio/gsocket.c:1738 */
 /**
  * g_socket_get_remote_address:
  * @socket: a #GSocket.
@@ -31803,6 +33612,7 @@
  */
 
 
+/* gio/gsocket.c:1645 */
 /**
  * g_socket_get_socket_type:
  * @socket: a #GSocket.
@@ -31814,6 +33624,7 @@
  */
 
 
+/* gio/gsocket.c:1243 */
 /**
  * g_socket_get_timeout:
  * @socket: a #GSocket.
@@ -31826,6 +33637,7 @@
  */
 
 
+/* gio/gsocket.c:1303 */
 /**
  * g_socket_get_ttl:
  * @socket: a #GSocket.
@@ -31838,6 +33650,7 @@
  */
 
 
+/* gio/gsocket.c:3010 */
 /**
  * g_socket_is_closed:
  * @socket: a #GSocket
@@ -31849,6 +33662,7 @@
  */
 
 
+/* gio/gsocket.c:1784 */
 /**
  * g_socket_is_connected:
  * @socket: a #GSocket.
@@ -31861,6 +33675,7 @@
  */
 
 
+/* gio/gsocket.c:2092 */
 /**
  * g_socket_join_multicast_group:
  * @socket: a #GSocket.
@@ -31886,6 +33701,7 @@
  */
 
 
+/* gio/gsocket.c:2126 */
 /**
  * g_socket_leave_multicast_group:
  * @socket: a #GSocket.
@@ -31906,6 +33722,7 @@
  */
 
 
+/* gio/gsocket.c:1803 */
 /**
  * g_socket_listen:
  * @socket: a #GSocket.
@@ -31925,6 +33742,7 @@
  */
 
 
+/* gio/gsocketlistener.c:635 */
 /**
  * g_socket_listener_accept:
  * @listener: a #GSocketListener
@@ -31949,6 +33767,7 @@
  */
 
 
+/* gio/gsocketlistener.c:780 */
 /**
  * g_socket_listener_accept_async:
  * @listener: a #GSocketListener
@@ -31966,6 +33785,7 @@
  */
 
 
+/* gio/gsocketlistener.c:807 */
 /**
  * g_socket_listener_accept_finish:
  * @listener: a #GSocketListener
@@ -31981,6 +33801,7 @@
  */
 
 
+/* gio/gsocketlistener.c:558 */
 /**
  * g_socket_listener_accept_socket:
  * @listener: a #GSocketListener
@@ -32008,6 +33829,7 @@
  */
 
 
+/* gio/gsocketlistener.c:709 */
 /**
  * g_socket_listener_accept_socket_async:
  * @listener: a #GSocketListener
@@ -32025,6 +33847,7 @@
  */
 
 
+/* gio/gsocketlistener.c:751 */
 /**
  * g_socket_listener_accept_socket_finish:
  * @listener: a #GSocketListener
@@ -32040,6 +33863,7 @@
  */
 
 
+/* gio/gsocketlistener.c:246 */
 /**
  * g_socket_listener_add_address:
  * @listener: a #GSocketListener
@@ -32075,6 +33899,7 @@
  */
 
 
+/* gio/gsocketlistener.c:899 */
 /**
  * g_socket_listener_add_any_inet_port:
  * @listener: a #GSocketListener
@@ -32098,6 +33923,7 @@
  */
 
 
+/* gio/gsocketlistener.c:339 */
 /**
  * g_socket_listener_add_inet_port:
  * @listener: a #GSocketListener
@@ -32119,6 +33945,7 @@
  */
 
 
+/* gio/gsocketlistener.c:194 */
 /**
  * g_socket_listener_add_socket:
  * @listener: a #GSocketListener
@@ -32140,6 +33967,7 @@
  */
 
 
+/* gio/gsocketlistener.c:872 */
 /**
  * g_socket_listener_close:
  * @listener: a #GSocketListener
@@ -32150,6 +33978,7 @@
  */
 
 
+/* gio/gsocketlistener.c:163 */
 /**
  * g_socket_listener_new:
  *
@@ -32162,6 +33991,7 @@
  */
 
 
+/* gio/gsocketlistener.c:842 */
 /**
  * g_socket_listener_set_backlog:
  * @listener: a #GSocketListener
@@ -32175,6 +34005,7 @@
  */
 
 
+/* gio/gsocket.c:1011 */
 /**
  * g_socket_new:
  * @family: the socket family to use, e.g. %G_SOCKET_FAMILY_IPV4.
@@ -32202,6 +34033,7 @@
  */
 
 
+/* gio/gsocket.c:1051 */
 /**
  * g_socket_new_from_fd:
  * @fd: a native socket file descriptor.
@@ -32221,6 +34053,7 @@
  */
 
 
+/* gio/gsocket.c:2504 */
 /**
  * g_socket_receive:
  * @socket: a #GSocket
@@ -32260,6 +34093,7 @@
  */
 
 
+/* gio/gsocket.c:2633 */
 /**
  * g_socket_receive_from:
  * @socket: a #GSocket
@@ -32285,6 +34119,7 @@
  */
 
 
+/* gio/gsocket.c:4042 */
 /**
  * g_socket_receive_message:
  * @socket: a #GSocket
@@ -32364,6 +34199,7 @@
  */
 
 
+/* gio/gsocket.c:2554 */
 /**
  * g_socket_receive_with_blocking:
  * @socket: a #GSocket
@@ -32384,6 +34220,7 @@
  */
 
 
+/* gio/gsocket.c:2688 */
 /**
  * g_socket_send:
  * @socket: a #GSocket
@@ -32414,6 +34251,7 @@
  */
 
 
+/* gio/gsocket.c:3688 */
 /**
  * g_socket_send_message:
  * @socket: a #GSocket
@@ -32471,6 +34309,7 @@
  */
 
 
+/* gio/gsocket.c:2808 */
 /**
  * g_socket_send_to:
  * @socket: a #GSocket
@@ -32493,6 +34332,7 @@
  */
 
 
+/* gio/gsocket.c:2729 */
 /**
  * g_socket_send_with_blocking:
  * @socket: a #GSocket
@@ -32513,6 +34353,7 @@
  */
 
 
+/* gio/gsocketservice.c:143 */
 /**
  * g_socket_service_is_active:
  * @service: a #GSocketService
@@ -32527,6 +34368,7 @@
  */
 
 
+/* gio/gsocketservice.c:312 */
 /**
  * g_socket_service_new:
  *
@@ -32539,6 +34381,7 @@
  */
 
 
+/* gio/gsocketservice.c:167 */
 /**
  * g_socket_service_start:
  * @service: a #GSocketService
@@ -32553,6 +34396,7 @@
  */
 
 
+/* gio/gsocketservice.c:197 */
 /**
  * g_socket_service_stop:
  * @service: a #GSocketService
@@ -32567,6 +34411,7 @@
  */
 
 
+/* gio/gsocket.c:1079 */
 /**
  * g_socket_set_blocking:
  * @socket: a #GSocket.
@@ -32585,6 +34430,7 @@
  */
 
 
+/* gio/gsocket.c:1419 */
 /**
  * g_socket_set_broadcast:
  * @socket: a #GSocket.
@@ -32598,6 +34444,7 @@
  */
 
 
+/* gio/gsocket.c:1129 */
 /**
  * g_socket_set_keepalive:
  * @socket: a #GSocket.
@@ -32623,6 +34470,7 @@
  */
 
 
+/* gio/gsocket.c:1214 */
 /**
  * g_socket_set_listen_backlog:
  * @socket: a #GSocket.
@@ -32640,6 +34488,7 @@
  */
 
 
+/* gio/gsocket.c:1494 */
 /**
  * g_socket_set_multicast_loopback:
  * @socket: a #GSocket.
@@ -32654,6 +34503,7 @@
  */
 
 
+/* gio/gsocket.c:1583 */
 /**
  * g_socket_set_multicast_ttl:
  * @socket: a #GSocket.
@@ -32667,6 +34517,7 @@
  */
 
 
+/* gio/gsocket.c:4578 */
 /**
  * g_socket_set_option:
  * @socket: a #GSocket
@@ -32694,6 +34545,7 @@
  */
 
 
+/* gio/gsocket.c:1262 */
 /**
  * g_socket_set_timeout:
  * @socket: a #GSocket.
@@ -32724,6 +34576,7 @@
  */
 
 
+/* gio/gsocket.c:1345 */
 /**
  * g_socket_set_ttl:
  * @socket: a #GSocket.
@@ -32736,6 +34589,7 @@
  */
 
 
+/* gio/gsocket.c:2851 */
 /**
  * g_socket_shutdown:
  * @socket: a #GSocket
@@ -32762,6 +34616,7 @@
  */
 
 
+/* gio/gsocket.c:2155 */
 /**
  * g_socket_speaks_ipv4:
  * @socket: a #GSocket
@@ -32781,6 +34636,7 @@
  */
 
 
+/* gio/gsrvtarget.c:103 */
 /**
  * g_srv_target_copy:
  * @target: a #GSrvTarget
@@ -32792,6 +34648,7 @@
  */
 
 
+/* gio/gsrvtarget.c:120 */
 /**
  * g_srv_target_free:
  * @target: a #GSrvTarget
@@ -32802,6 +34659,7 @@
  */
 
 
+/* gio/gsrvtarget.c:135 */
 /**
  * g_srv_target_get_hostname:
  * @target: a #GSrvTarget
@@ -32816,6 +34674,7 @@
  */
 
 
+/* gio/gsrvtarget.c:154 */
 /**
  * g_srv_target_get_port:
  * @target: a #GSrvTarget
@@ -32827,6 +34686,7 @@
  */
 
 
+/* gio/gsrvtarget.c:170 */
 /**
  * g_srv_target_get_priority:
  * @target: a #GSrvTarget
@@ -32840,6 +34700,7 @@
  */
 
 
+/* gio/gsrvtarget.c:188 */
 /**
  * g_srv_target_get_weight:
  * @target: a #GSrvTarget
@@ -32853,6 +34714,7 @@
  */
 
 
+/* gio/gsrvtarget.c:224 */
 /**
  * g_srv_target_list_sort: (skip)
  * @targets: a #GList of #GSrvTarget
@@ -32864,6 +34726,7 @@
  */
 
 
+/* gio/gsrvtarget.c:71 */
 /**
  * g_srv_target_new:
  * @hostname: the host that the service is running on
@@ -32881,6 +34744,7 @@
  */
 
 
+/* gio/gresource.c:976 */
 /**
  * g_static_resource_fini:
  * @static_resource: pointer to a static #GStaticResource
@@ -32895,6 +34759,7 @@
  */
 
 
+/* gio/gresource.c:1008 */
 /**
  * g_static_resource_get_resource:
  * @static_resource: pointer to a static #GStaticResource
@@ -32910,6 +34775,7 @@
  */
 
 
+/* gio/gresource.c:950 */
 /**
  * g_static_resource_init:
  * @static_resource: pointer to a static #GStaticResource
@@ -32925,6 +34791,7 @@
  */
 
 
+/* gio/gtask.c:1402 */
 /**
  * g_task_attach_source:
  * @task: a #GTask
@@ -32944,6 +34811,7 @@
  */
 
 
+/* gio/gtask.c:1041 */
 /**
  * g_task_get_cancellable:
  * @task: a #GTask
@@ -32955,6 +34823,7 @@
  */
 
 
+/* gio/gtask.c:1057 */
 /**
  * g_task_get_check_cancellable:
  * @task: the #GTask
@@ -32966,6 +34835,7 @@
  */
 
 
+/* gio/gtask.c:1019 */
 /**
  * g_task_get_context:
  * @task: a #GTask
@@ -32983,6 +34853,7 @@
  */
 
 
+/* gio/gtask.c:1003 */
 /**
  * g_task_get_priority:
  * @task: a #GTask
@@ -32994,6 +34865,7 @@
  */
 
 
+/* gio/gtask.c:1072 */
 /**
  * g_task_get_return_on_cancel:
  * @task: the #GTask
@@ -33005,6 +34877,7 @@
  */
 
 
+/* gio/gtask.c:959 */
 /**
  * g_task_get_source_object:
  * @task: a #GTask
@@ -33017,6 +34890,7 @@
  */
 
 
+/* gio/gtask.c:1087 */
 /**
  * g_task_get_source_tag:
  * @task: a #GTask
@@ -33028,6 +34902,7 @@
  */
 
 
+/* gio/gtask.c:987 */
 /**
  * g_task_get_task_data:
  * @task: a #GTask
@@ -33039,6 +34914,7 @@
  */
 
 
+/* gio/gtask.c:1725 */
 /**
  * g_task_had_error:
  * @task: a #GTask.
@@ -33050,6 +34926,7 @@
  */
 
 
+/* gio/gtask.c:1747 */
 /**
  * g_task_is_valid:
  * @result: (type Gio.AsyncResult): A #GAsyncResult
@@ -33066,6 +34943,7 @@
  */
 
 
+/* gio/gtask.c:655 */
 /**
  * g_task_new:
  * @source_object: (allow-none) (type GObject): the #GObject that owns
@@ -33097,6 +34975,7 @@
  */
 
 
+/* gio/gtask.c:1595 */
 /**
  * g_task_propagate_boolean:
  * @task: a #GTask.
@@ -33115,6 +34994,7 @@
  */
 
 
+/* gio/gtask.c:1543 */
 /**
  * g_task_propagate_int:
  * @task: a #GTask.
@@ -33133,6 +35013,7 @@
  */
 
 
+/* gio/gtask.c:1489 */
 /**
  * g_task_propagate_pointer:
  * @task: a #GTask
@@ -33152,6 +35033,7 @@
  */
 
 
+/* gio/gtask.c:708 */
 /**
  * g_task_report_error:
  * @source_object: (allow-none) (type GObject): the #GObject that owns
@@ -33174,6 +35056,7 @@
  */
 
 
+/* gio/gtask.c:743 */
 /**
  * g_task_report_new_error:
  * @source_object: (allow-none) (type GObject): the #GObject that owns
@@ -33200,6 +35083,7 @@
  */
 
 
+/* gio/gtask.c:1573 */
 /**
  * g_task_return_boolean:
  * @task: a #GTask.
@@ -33213,6 +35097,7 @@
  */
 
 
+/* gio/gtask.c:1625 */
 /**
  * g_task_return_error:
  * @task: a #GTask.
@@ -33234,6 +35119,7 @@
  */
 
 
+/* gio/gtask.c:1690 */
 /**
  * g_task_return_error_if_cancelled:
  * @task: a #GTask
@@ -33248,6 +35134,7 @@
  */
 
 
+/* gio/gtask.c:1521 */
 /**
  * g_task_return_int:
  * @task: a #GTask.
@@ -33261,6 +35148,7 @@
  */
 
 
+/* gio/gtask.c:1656 */
 /**
  * g_task_return_new_error:
  * @task: a #GTask.
@@ -33280,6 +35168,7 @@
  */
 
 
+/* gio/gtask.c:1448 */
 /**
  * g_task_return_pointer:
  * @task: a #GTask
@@ -33310,6 +35199,7 @@
  */
 
 
+/* gio/gtask.c:1330 */
 /**
  * g_task_run_in_thread:
  * @task: a #GTask
@@ -33326,6 +35216,7 @@
  */
 
 
+/* gio/gtask.c:1367 */
 /**
  * g_task_run_in_thread_sync:
  * @task: a #GTask
@@ -33345,6 +35236,7 @@
  */
 
 
+/* gio/gtask.c:833 */
 /**
  * g_task_set_check_cancellable:
  * @task: the #GTask
@@ -33370,6 +35262,7 @@
  */
 
 
+/* gio/gtask.c:810 */
 /**
  * g_task_set_priority:
  * @task: the #GTask
@@ -33388,6 +35281,7 @@
  */
 
 
+/* gio/gtask.c:867 */
 /**
  * g_task_set_return_on_cancel:
  * @task: the #GTask
@@ -33430,6 +35324,7 @@
  */
 
 
+/* gio/gtask.c:938 */
 /**
  * g_task_set_source_tag:
  * @task: the #GTask
@@ -33446,6 +35341,7 @@
  */
 
 
+/* gio/gtask.c:788 */
 /**
  * g_task_set_task_data:
  * @task: the #GTask
@@ -33458,6 +35354,7 @@
  */
 
 
+/* gio/gtcpconnection.c:315 */
 /**
  * g_tcp_connection_get_graceful_disconnect:
  * @connection: a #GTcpConnection
@@ -33470,6 +35367,7 @@
  */
 
 
+/* gio/gtcpconnection.c:286 */
 /**
  * g_tcp_connection_set_graceful_disconnect:
  * @connection: a #GTcpConnection
@@ -33489,6 +35387,7 @@
  */
 
 
+/* gio/gtcpwrapperconnection.c:180 */
 /**
  * g_tcp_wrapper_connection_get_base_io_stream:
  * @conn: a #GTcpWrapperConnection
@@ -33499,6 +35398,7 @@
  */
 
 
+/* gio/gtcpwrapperconnection.c:153 */
 /**
  * g_tcp_wrapper_connection_new:
  * @base_io_stream: the #GIOStream to wrap
@@ -33511,6 +35411,7 @@
  */
 
 
+/* gio/gtestdbus.c:721 */
 /**
  * g_test_dbus_add_service_dir:
  * @self: a #GTestDBus
@@ -33521,6 +35422,7 @@
  */
 
 
+/* gio/gtestdbus.c:786 */
 /**
  * g_test_dbus_down:
  * @self: a #GTestDBus
@@ -33533,6 +35435,7 @@
  */
 
 
+/* gio/gtestdbus.c:703 */
 /**
  * g_test_dbus_get_bus_address:
  * @self: a #GTestDBus
@@ -33545,6 +35448,7 @@
  */
 
 
+/* gio/gtestdbus.c:687 */
 /**
  * g_test_dbus_get_flags:
  * @self: a #GTestDBus
@@ -33555,6 +35459,7 @@
  */
 
 
+/* gio/gtestdbus.c:671 */
 /**
  * g_test_dbus_new:
  * @flags: a #GTestDBusFlags
@@ -33565,6 +35470,7 @@
  */
 
 
+/* gio/gtestdbus.c:766 */
 /**
  * g_test_dbus_stop:
  * @self: a #GTestDBus
@@ -33578,6 +35484,7 @@
  */
 
 
+/* gio/gtestdbus.c:818 */
 /**
  * g_test_dbus_unset:
  *
@@ -33590,6 +35497,7 @@
  */
 
 
+/* gio/gtestdbus.c:739 */
 /**
  * g_test_dbus_up:
  * @self: a #GTestDBus
@@ -33605,6 +35513,7 @@
  */
 
 
+/* gio/gthemedicon.c:385 */
 /**
  * g_themed_icon_append_name:
  * @icon: a #GThemedIcon
@@ -33619,6 +35528,7 @@
  */
 
 
+/* gio/gthemedicon.c:370 */
 /**
  * g_themed_icon_get_names:
  * @icon: a #GThemedIcon.
@@ -33629,6 +35539,7 @@
  */
 
 
+/* gio/gthemedicon.c:283 */
 /**
  * g_themed_icon_new:
  * @iconname: a string containing an icon name.
@@ -33639,6 +35550,7 @@
  */
 
 
+/* gio/gthemedicon.c:299 */
 /**
  * g_themed_icon_new_from_names:
  * @iconnames: (array length=len): an array of strings containing icon names.
@@ -33651,6 +35563,7 @@
  */
 
 
+/* gio/gthemedicon.c:339 */
 /**
  * g_themed_icon_new_with_default_fallbacks:
  * @iconname: a string containing an icon name
@@ -33675,6 +35588,7 @@
  */
 
 
+/* gio/gthemedicon.c:414 */
 /**
  * g_themed_icon_prepend_name:
  * @icon: a #GThemedIcon
@@ -33691,6 +35605,7 @@
  */
 
 
+/* gio/gthreadedsocketservice.c:248 */
 /**
  * g_threaded_socket_service_new:
  * @max_threads: the maximal number of threads to execute concurrently
@@ -33704,6 +35619,7 @@
  */
 
 
+/* gio/gtlsbackend.c:145 */
 /**
  * g_tls_backend_get_certificate_type:
  * @backend: the #GTlsBackend
@@ -33716,6 +35632,7 @@
  */
 
 
+/* gio/gtlsbackend.c:162 */
 /**
  * g_tls_backend_get_client_connection_type:
  * @backend: the #GTlsBackend
@@ -33728,6 +35645,7 @@
  */
 
 
+/* gio/gtlsbackend.c:84 */
 /**
  * g_tls_backend_get_default:
  *
@@ -33738,6 +35656,7 @@
  */
 
 
+/* gio/gtlsbackend.c:122 */
 /**
  * g_tls_backend_get_default_database:
  * @backend: the #GTlsBackend
@@ -33750,6 +35669,7 @@
  */
 
 
+/* gio/gtlsbackend.c:196 */
 /**
  * g_tls_backend_get_file_database_type:
  * @backend: the #GTlsBackend
@@ -33761,6 +35681,7 @@
  */
 
 
+/* gio/gtlsbackend.c:179 */
 /**
  * g_tls_backend_get_server_connection_type:
  * @backend: the #GTlsBackend
@@ -33773,6 +35694,7 @@
  */
 
 
+/* gio/gtlsbackend.c:100 */
 /**
  * g_tls_backend_supports_tls:
  * @backend: the #GTlsBackend
@@ -33785,6 +35707,7 @@
  */
 
 
+/* gio/gtlscertificate.c:501 */
 /**
  * g_tls_certificate_get_issuer:
  * @cert: a #GTlsCertificate
@@ -33798,6 +35721,7 @@
  */
 
 
+/* gio/gtlscertificate.c:563 */
 /**
  * g_tls_certificate_is_same:
  * @cert_one: first certificate to compare
@@ -33814,6 +35738,7 @@
  */
 
 
+/* gio/gtlscertificate.c:445 */
 /**
  * g_tls_certificate_list_new_from_file:
  * @file: file containing PEM-encoded certificates to import
@@ -33832,6 +35757,7 @@
  */
 
 
+/* gio/gtlscertificate.c:362 */
 /**
  * g_tls_certificate_new_from_file:
  * @file: file containing a PEM-encoded certificate to import
@@ -33847,6 +35773,7 @@
  */
 
 
+/* gio/gtlscertificate.c:392 */
 /**
  * g_tls_certificate_new_from_files:
  * @cert_file: file containing a PEM-encoded certificate to import
@@ -33863,6 +35790,7 @@
  */
 
 
+/* gio/gtlscertificate.c:309 */
 /**
  * g_tls_certificate_new_from_pem:
  * @data: PEM-encoded certificate data
@@ -33883,6 +35811,7 @@
  */
 
 
+/* gio/gtlscertificate.c:525 */
 /**
  * g_tls_certificate_verify:
  * @cert: a #GTlsCertificate
@@ -33914,6 +35843,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:310 */
 /**
  * g_tls_client_connection_get_accepted_cas:
  * @conn: the #GTlsClientConnection
@@ -33933,6 +35863,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:219 */
 /**
  * g_tls_client_connection_get_server_identity:
  * @conn: the #GTlsClientConnection
@@ -33946,6 +35877,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:265 */
 /**
  * g_tls_client_connection_get_use_ssl3:
  * @conn: the #GTlsClientConnection
@@ -33959,6 +35891,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:178 */
 /**
  * g_tls_client_connection_get_validation_flags:
  * @conn: the #GTlsClientConnection
@@ -33970,6 +35903,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:146 */
 /**
  * g_tls_client_connection_new:
  * @base_io_stream: the #GIOStream to wrap
@@ -33986,6 +35920,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:244 */
 /**
  * g_tls_client_connection_set_server_identity:
  * @conn: the #GTlsClientConnection
@@ -34000,6 +35935,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:288 */
 /**
  * g_tls_client_connection_set_use_ssl3:
  * @conn: the #GTlsClientConnection
@@ -34015,6 +35951,7 @@
  */
 
 
+/* gio/gtlsclientconnection.c:199 */
 /**
  * g_tls_client_connection_set_validation_flags:
  * @conn: the #GTlsClientConnection
@@ -34028,6 +35965,7 @@
  */
 
 
+/* gio/gtlsconnection.c:836 */
 /**
  * g_tls_connection_emit_accept_certificate:
  * @conn: a #GTlsConnection
@@ -34043,6 +35981,7 @@
  */
 
 
+/* gio/gtlsconnection.c:472 */
 /**
  * g_tls_connection_get_certificate:
  * @conn: a #GTlsConnection
@@ -34055,6 +35994,7 @@
  */
 
 
+/* gio/gtlsconnection.c:410 */
 /**
  * g_tls_connection_get_database:
  * @conn: a #GTlsConnection
@@ -34067,6 +36007,7 @@
  */
 
 
+/* gio/gtlsconnection.c:521 */
 /**
  * g_tls_connection_get_interaction:
  * @conn: a connection
@@ -34080,6 +36021,7 @@
  */
 
 
+/* gio/gtlsconnection.c:547 */
 /**
  * g_tls_connection_get_peer_certificate:
  * @conn: a #GTlsConnection
@@ -34093,6 +36035,7 @@
  */
 
 
+/* gio/gtlsconnection.c:573 */
 /**
  * g_tls_connection_get_peer_certificate_errors:
  * @conn: a #GTlsConnection
@@ -34106,6 +36049,7 @@
  */
 
 
+/* gio/gtlsconnection.c:706 */
 /**
  * g_tls_connection_get_rehandshake_mode:
  * @conn: a #GTlsConnection
@@ -34118,6 +36062,7 @@
  */
 
 
+/* gio/gtlsconnection.c:641 */
 /**
  * g_tls_connection_get_require_close_notify:
  * @conn: a #GTlsConnection
@@ -34132,6 +36077,7 @@
  */
 
 
+/* gio/gtlsconnection.c:358 */
 /**
  * g_tls_connection_get_use_system_certdb:
  * @conn: a #GTlsConnection
@@ -34144,6 +36090,7 @@
  */
 
 
+/* gio/gtlsconnection.c:730 */
 /**
  * g_tls_connection_handshake:
  * @conn: a #GTlsConnection
@@ -34178,6 +36125,7 @@
  */
 
 
+/* gio/gtlsconnection.c:773 */
 /**
  * g_tls_connection_handshake_async:
  * @conn: a #GTlsConnection
@@ -34194,6 +36142,7 @@
  */
 
 
+/* gio/gtlsconnection.c:801 */
 /**
  * g_tls_connection_handshake_finish:
  * @conn: a #GTlsConnection
@@ -34209,6 +36158,7 @@
  */
 
 
+/* gio/gtlsconnection.c:436 */
 /**
  * g_tls_connection_set_certificate:
  * @conn: a #GTlsConnection
@@ -34237,6 +36187,7 @@
  */
 
 
+/* gio/gtlsconnection.c:382 */
 /**
  * g_tls_connection_set_database:
  * @conn: a #GTlsConnection
@@ -34255,6 +36206,7 @@
  */
 
 
+/* gio/gtlsconnection.c:497 */
 /**
  * g_tls_connection_set_interaction:
  * @conn: a connection
@@ -34271,6 +36223,7 @@
  */
 
 
+/* gio/gtlsconnection.c:667 */
 /**
  * g_tls_connection_set_rehandshake_mode:
  * @conn: a #GTlsConnection
@@ -34301,6 +36254,7 @@
  */
 
 
+/* gio/gtlsconnection.c:596 */
 /**
  * g_tls_connection_set_require_close_notify:
  * @conn: a #GTlsConnection
@@ -34337,6 +36291,7 @@
  */
 
 
+/* gio/gtlsconnection.c:332 */
 /**
  * g_tls_connection_set_use_system_certdb:
  * @conn: a #GTlsConnection
@@ -34354,6 +36309,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:559 */
 /**
  * g_tls_database_create_certificate_handle:
  * @self: a #GTlsDatabase
@@ -34373,6 +36329,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:587 */
 /**
  * g_tls_database_lookup_certificate_for_handle:
  * @self: a #GTlsDatabase
@@ -34401,6 +36358,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:637 */
 /**
  * g_tls_database_lookup_certificate_for_handle_async:
  * @self: a #GTlsDatabase
@@ -34418,6 +36376,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:675 */
 /**
  * g_tls_database_lookup_certificate_for_handle_finish:
  * @self: a #GTlsDatabase
@@ -34436,6 +36395,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:706 */
 /**
  * g_tls_database_lookup_certificate_issuer:
  * @self: a #GTlsDatabase
@@ -34460,6 +36420,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:751 */
 /**
  * g_tls_database_lookup_certificate_issuer_async:
  * @self: a #GTlsDatabase
@@ -34477,6 +36438,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:790 */
 /**
  * g_tls_database_lookup_certificate_issuer_finish:
  * @self: a #GTlsDatabase
@@ -34492,6 +36454,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:818 */
 /**
  * g_tls_database_lookup_certificates_issued_by:
  * @self: a #GTlsDatabase
@@ -34512,6 +36475,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:859 */
 /**
  * g_tls_database_lookup_certificates_issued_by_async:
  * @self: a #GTlsDatabase
@@ -34533,6 +36497,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:902 */
 /**
  * g_tls_database_lookup_certificates_issued_by_finish:
  * @self: a #GTlsDatabase
@@ -34548,6 +36513,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:406 */
 /**
  * g_tls_database_verify_chain:
  * @self: a #GTlsDatabase
@@ -34590,6 +36556,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:482 */
 /**
  * g_tls_database_verify_chain_async:
  * @self: a #GTlsDatabase
@@ -34610,6 +36577,7 @@
  */
 
 
+/* gio/gtlsdatabase.c:531 */
 /**
  * g_tls_database_verify_chain_finish:
  * @self: a #GTlsDatabase
@@ -34625,6 +36593,7 @@
  */
 
 
+/* gio/gtlsconnection.c:825 */
 /**
  * g_tls_error_quark:
  *
@@ -34635,6 +36604,7 @@
  */
 
 
+/* gio/gtlsfiledatabase.c:77 */
 /**
  * g_tls_file_database_new:
  * @anchors: filename of anchor certificate authorities.
@@ -34651,6 +36621,7 @@
  */
 
 
+/* gio/gtlsinteraction.c:390 */
 /**
  * g_tls_interaction_ask_password:
  * @interaction: a #GTlsInteraction object
@@ -34677,6 +36648,7 @@
  */
 
 
+/* gio/gtlsinteraction.c:434 */
 /**
  * g_tls_interaction_ask_password_async:
  * @interaction: a #GTlsInteraction object
@@ -34705,6 +36677,7 @@
  */
 
 
+/* gio/gtlsinteraction.c:490 */
 /**
  * g_tls_interaction_ask_password_finish:
  * @interaction: a #GTlsInteraction object
@@ -34726,6 +36699,7 @@
  */
 
 
+/* gio/gtlsinteraction.c:281 */
 /**
  * g_tls_interaction_invoke_ask_password:
  * @interaction: a #GTlsInteraction object
@@ -34758,6 +36732,7 @@
  */
 
 
+/* gio/gtlspassword.c:363 */
 /**
  * g_tls_password_get_description:
  * @password: a #GTlsPassword object
@@ -34769,6 +36744,7 @@
  */
 
 
+/* gio/gtlspassword.c:326 */
 /**
  * g_tls_password_get_flags:
  * @password: a #GTlsPassword object
@@ -34780,6 +36756,7 @@
  */
 
 
+/* gio/gtlspassword.c:243 */
 /**
  * g_tls_password_get_value:
  * @password: a #GTlsPassword object
@@ -34796,6 +36773,7 @@
  */
 
 
+/* gio/gtlspassword.c:404 */
 /**
  * g_tls_password_get_warning:
  * @password: a #GTlsPassword object
@@ -34809,6 +36787,7 @@
  */
 
 
+/* gio/gtlspassword.c:224 */
 /**
  * g_tls_password_new:
  * @flags: the password flags
@@ -34820,6 +36799,7 @@
  */
 
 
+/* gio/gtlspassword.c:380 */
 /**
  * g_tls_password_set_description:
  * @password: a #GTlsPassword object
@@ -34831,6 +36811,7 @@
  */
 
 
+/* gio/gtlspassword.c:343 */
 /**
  * g_tls_password_set_flags:
  * @password: a #GTlsPassword object
@@ -34842,6 +36823,7 @@
  */
 
 
+/* gio/gtlspassword.c:266 */
 /**
  * g_tls_password_set_value:
  * @password: a #GTlsPassword object
@@ -34860,6 +36842,7 @@
  */
 
 
+/* gio/gtlspassword.c:295 */
 /**
  * g_tls_password_set_value_full: (virtual set_value)
  * @password: a #GTlsPassword object
@@ -34881,6 +36864,7 @@
  */
 
 
+/* gio/gtlspassword.c:427 */
 /**
  * g_tls_password_set_warning:
  * @password: a #GTlsPassword object
@@ -34894,6 +36878,7 @@
  */
 
 
+/* gio/gtlsserverconnection.c:67 */
 /**
  * g_tls_server_connection_new:
  * @base_io_stream: the #GIOStream to wrap
@@ -34909,6 +36894,7 @@
  */
 
 
+/* gio/gunixconnection.c:432 */
 /**
  * g_unix_connection_receive_credentials:
  * @connection: A #GUnixConnection.
@@ -34932,6 +36918,7 @@
  */
 
 
+/* gio/gunixconnection.c:640 */
 /**
  * g_unix_connection_receive_credentials_async:
  * @connection: A #GUnixConnection.
@@ -34951,6 +36938,7 @@
  */
 
 
+/* gio/gunixconnection.c:670 */
 /**
  * g_unix_connection_receive_credentials_finish:
  * @connection: A #GUnixConnection.
@@ -34966,6 +36954,7 @@
  */
 
 
+/* gio/gunixconnection.c:112 */
 /**
  * g_unix_connection_receive_fd:
  * @connection: a #GUnixConnection
@@ -34985,6 +36974,7 @@
  */
 
 
+/* gio/gunixconnection.c:281 */
 /**
  * g_unix_connection_send_credentials:
  * @connection: A #GUnixConnection.
@@ -35008,6 +36998,7 @@
  */
 
 
+/* gio/gunixconnection.c:379 */
 /**
  * g_unix_connection_send_credentials_async:
  * @connection: A #GUnixConnection.
@@ -35027,6 +37018,7 @@
  */
 
 
+/* gio/gunixconnection.c:409 */
 /**
  * g_unix_connection_send_credentials_finish:
  * @connection: A #GUnixConnection.
@@ -35041,6 +37033,7 @@
  */
 
 
+/* gio/gunixconnection.c:57 */
 /**
  * g_unix_connection_send_fd:
  * @connection: a #GUnixConnection
@@ -35061,6 +37054,7 @@
  */
 
 
+/* gio/gunixcredentialsmessage.c:327 */
 /**
  * g_unix_credentials_message_get_credentials:
  * @message: A #GUnixCredentialsMessage.
@@ -35072,6 +37066,7 @@
  */
 
 
+/* gio/gunixcredentialsmessage.c:269 */
 /**
  * g_unix_credentials_message_is_supported:
  *
@@ -35082,6 +37077,7 @@
  */
 
 
+/* gio/gunixcredentialsmessage.c:290 */
 /**
  * g_unix_credentials_message_new:
  *
@@ -35092,6 +37088,7 @@
  */
 
 
+/* gio/gunixcredentialsmessage.c:307 */
 /**
  * g_unix_credentials_message_new_with_credentials:
  * @credentials: A #GCredentials object.
@@ -35103,6 +37100,7 @@
  */
 
 
+/* gio/gunixfdlist.c:293 */
 /**
  * g_unix_fd_list_append:
  * @list: a #GUnixFDList
@@ -35128,6 +37126,7 @@
  */
 
 
+/* gio/gunixfdlist.c:340 */
 /**
  * g_unix_fd_list_get:
  * @list: a #GUnixFDList
@@ -35152,6 +37151,7 @@
  */
 
 
+/* gio/gunixfdlist.c:375 */
 /**
  * g_unix_fd_list_get_length:
  * @list: a #GUnixFDList
@@ -35164,6 +37164,7 @@
  */
 
 
+/* gio/gunixfdlist.c:138 */
 /**
  * g_unix_fd_list_new:
  *
@@ -35174,6 +37175,7 @@
  */
 
 
+/* gio/gunixfdlist.c:153 */
 /**
  * g_unix_fd_list_new_from_array:
  * @fds: (array length=n_fds): the initial list of file descriptors
@@ -35193,6 +37195,7 @@
  */
 
 
+/* gio/gunixfdlist.c:248 */
 /**
  * g_unix_fd_list_peek_fds:
  * @list: a #GUnixFDList
@@ -35219,6 +37222,7 @@
  */
 
 
+/* gio/gunixfdlist.c:192 */
 /**
  * g_unix_fd_list_steal_fds:
  * @list: a #GUnixFDList
@@ -35250,6 +37254,7 @@
  */
 
 
+/* gio/gunixfdmessage.c:292 */
 /**
  * g_unix_fd_message_append_fd:
  * @message: a #GUnixFDMessage
@@ -35270,6 +37275,7 @@
  */
 
 
+/* gio/gunixfdmessage.c:152 */
 /**
  * g_unix_fd_message_get_fd_list:
  * @message: a #GUnixFDMessage
@@ -35283,6 +37289,7 @@
  */
 
 
+/* gio/gunixfdmessage.c:220 */
 /**
  * g_unix_fd_message_new:
  *
@@ -35294,6 +37301,7 @@
  */
 
 
+/* gio/gunixfdmessage.c:236 */
 /**
  * g_unix_fd_message_new_with_fd_list:
  * @fd_list: a #GUnixFDList
@@ -35305,6 +37313,7 @@
  */
 
 
+/* gio/gunixfdmessage.c:254 */
 /**
  * g_unix_fd_message_steal_fds:
  * @message: a #GUnixFDMessage
@@ -35335,6 +37344,7 @@
  */
 
 
+/* gio/gunixinputstream.c:299 */
 /**
  * g_unix_input_stream_get_close_fd:
  * @stream: a #GUnixInputStream
@@ -35347,6 +37357,7 @@
  */
 
 
+/* gio/gunixinputstream.c:318 */
 /**
  * g_unix_input_stream_get_fd:
  * @stream: a #GUnixInputStream
@@ -35358,6 +37369,7 @@
  */
 
 
+/* gio/gunixinputstream.c:247 */
 /**
  * g_unix_input_stream_new:
  * @fd: a UNIX file descriptor
@@ -35372,6 +37384,7 @@
  */
 
 
+/* gio/gunixinputstream.c:275 */
 /**
  * g_unix_input_stream_set_close_fd:
  * @stream: a #GUnixInputStream
@@ -35384,6 +37397,7 @@
  */
 
 
+/* gio/gunixmounts.c:223 */
 /**
  * g_unix_is_mount_path_system_internal:
  * @mount_path: a mount path, e.g. <filename>/media/disk</filename>
@@ -35399,6 +37413,7 @@
  */
 
 
+/* gio/gunixmounts.c:1170 */
 /**
  * g_unix_mount_at: (skip)
  * @mount_path: path for a possible unix mount.
@@ -35412,6 +37427,7 @@
  */
 
 
+/* gio/gunixmounts.c:1504 */
 /**
  * g_unix_mount_compare:
  * @mount1: first #GUnixMountEntry to compare.
@@ -35424,6 +37440,7 @@
  */
 
 
+/* gio/gunixmounts.c:1469 */
 /**
  * g_unix_mount_free:
  * @mount_entry: a #GUnixMountEntry.
@@ -35432,6 +37449,7 @@
  */
 
 
+/* gio/gunixmounts.c:1557 */
 /**
  * g_unix_mount_get_device_path:
  * @mount_entry: a #GUnixMount.
@@ -35442,6 +37460,7 @@
  */
 
 
+/* gio/gunixmounts.c:1573 */
 /**
  * g_unix_mount_get_fs_type:
  * @mount_entry: a #GUnixMount.
@@ -35452,6 +37471,7 @@
  */
 
 
+/* gio/gunixmounts.c:1541 */
 /**
  * g_unix_mount_get_mount_path:
  * @mount_entry: input #GUnixMountEntry to get the mount path for.
@@ -35462,6 +37482,7 @@
  */
 
 
+/* gio/gunixmounts.c:2075 */
 /**
  * g_unix_mount_guess_can_eject:
  * @mount_entry: a #GUnixMountEntry
@@ -35472,6 +37493,7 @@
  */
 
 
+/* gio/gunixmounts.c:1992 */
 /**
  * g_unix_mount_guess_icon:
  * @mount_entry: a #GUnixMountEntry
@@ -35482,6 +37504,7 @@
  */
 
 
+/* gio/gunixmounts.c:1969 */
 /**
  * g_unix_mount_guess_name:
  * @mount_entry: a #GUnixMountEntry
@@ -35494,6 +37517,7 @@
  */
 
 
+/* gio/gunixmounts.c:2096 */
 /**
  * g_unix_mount_guess_should_display:
  * @mount_entry: a #GUnixMountEntry
@@ -35504,6 +37528,7 @@
  */
 
 
+/* gio/gunixmounts.c:2006 */
 /**
  * g_unix_mount_guess_symbolic_icon:
  * @mount_entry: a #GUnixMountEntry
@@ -35515,6 +37540,7 @@
  */
 
 
+/* gio/gunixmounts.c:1589 */
 /**
  * g_unix_mount_is_readonly:
  * @mount_entry: a #GUnixMount.
@@ -35525,6 +37551,7 @@
  */
 
 
+/* gio/gunixmounts.c:1605 */
 /**
  * g_unix_mount_is_system_internal:
  * @mount_entry: a #GUnixMount.
@@ -35535,6 +37562,7 @@
  */
 
 
+/* gio/gunixmounts.c:1447 */
 /**
  * g_unix_mount_monitor_new:
  *
@@ -35547,6 +37575,7 @@
  */
 
 
+/* gio/gunixmounts.c:1423 */
 /**
  * g_unix_mount_monitor_set_rate_limit:
  * @mount_monitor: a #GUnixMountMonitor
@@ -35560,6 +37589,7 @@
  */
 
 
+/* gio/gunixmounts.c:1621 */
 /**
  * g_unix_mount_point_compare:
  * @mount1: a #GUnixMount.
@@ -35572,6 +37602,7 @@
  */
 
 
+/* gio/gunixmounts.c:1486 */
 /**
  * g_unix_mount_point_free:
  * @mount_point: unix mount point to free.
@@ -35580,6 +37611,7 @@
  */
 
 
+/* gio/gunixmounts.c:1686 */
 /**
  * g_unix_mount_point_get_device_path:
  * @mount_point: a #GUnixMountPoint.
@@ -35590,6 +37622,7 @@
  */
 
 
+/* gio/gunixmounts.c:1702 */
 /**
  * g_unix_mount_point_get_fs_type:
  * @mount_point: a #GUnixMountPoint.
@@ -35600,6 +37633,7 @@
  */
 
 
+/* gio/gunixmounts.c:1670 */
 /**
  * g_unix_mount_point_get_mount_path:
  * @mount_point: a #GUnixMountPoint.
@@ -35610,6 +37644,7 @@
  */
 
 
+/* gio/gunixmounts.c:1718 */
 /**
  * g_unix_mount_point_get_options:
  * @mount_point: a #GUnixMountPoint.
@@ -35621,6 +37656,7 @@
  */
 
 
+/* gio/gunixmounts.c:2172 */
 /**
  * g_unix_mount_point_guess_can_eject:
  * @mount_point: a #GUnixMountPoint
@@ -35631,6 +37667,7 @@
  */
 
 
+/* gio/gunixmounts.c:2045 */
 /**
  * g_unix_mount_point_guess_icon:
  * @mount_point: a #GUnixMountPoint
@@ -35641,6 +37678,7 @@
  */
 
 
+/* gio/gunixmounts.c:2022 */
 /**
  * g_unix_mount_point_guess_name:
  * @mount_point: a #GUnixMountPoint
@@ -35653,6 +37691,7 @@
  */
 
 
+/* gio/gunixmounts.c:2059 */
 /**
  * g_unix_mount_point_guess_symbolic_icon:
  * @mount_point: a #GUnixMountPoint
@@ -35664,6 +37703,7 @@
  */
 
 
+/* gio/gunixmounts.c:1768 */
 /**
  * g_unix_mount_point_is_loopback:
  * @mount_point: a #GUnixMountPoint.
@@ -35674,6 +37714,7 @@
  */
 
 
+/* gio/gunixmounts.c:1736 */
 /**
  * g_unix_mount_point_is_readonly:
  * @mount_point: a #GUnixMountPoint.
@@ -35684,6 +37725,7 @@
  */
 
 
+/* gio/gunixmounts.c:1752 */
 /**
  * g_unix_mount_point_is_user_mountable:
  * @mount_point: a #GUnixMountPoint.
@@ -35694,6 +37736,7 @@
  */
 
 
+/* gio/gunixmounts.c:1240 */
 /**
  * g_unix_mount_points_changed_since:
  * @time: guint64 to contain a timestamp.
@@ -35704,6 +37747,7 @@
  */
 
 
+/* gio/gunixmounts.c:1205 */
 /**
  * g_unix_mount_points_get: (skip)
  * @time_read: (out) (allow-none): guint64 to contain a timestamp.
@@ -35718,6 +37762,7 @@
  */
 
 
+/* gio/gunixmounts.c:1226 */
 /**
  * g_unix_mounts_changed_since:
  * @time: guint64 to contain a timestamp.
@@ -35728,6 +37773,7 @@
  */
 
 
+/* gio/gunixmounts.c:1149 */
 /**
  * g_unix_mounts_get: (skip)
  * @time_read: (out) (allow-none): guint64 to contain a timestamp, or %NULL
@@ -35742,6 +37788,7 @@
  */
 
 
+/* gio/gunixoutputstream.c:284 */
 /**
  * g_unix_output_stream_get_close_fd:
  * @stream: a #GUnixOutputStream
@@ -35754,6 +37801,7 @@
  */
 
 
+/* gio/gunixoutputstream.c:303 */
 /**
  * g_unix_output_stream_get_fd:
  * @stream: a #GUnixOutputStream
@@ -35765,6 +37813,7 @@
  */
 
 
+/* gio/gunixoutputstream.c:232 */
 /**
  * g_unix_output_stream_new:
  * @fd: a UNIX file descriptor
@@ -35779,6 +37828,7 @@
  */
 
 
+/* gio/gunixoutputstream.c:260 */
 /**
  * g_unix_output_stream_set_close_fd:
  * @stream: a #GUnixOutputStream
@@ -35791,6 +37841,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:496 */
 /**
  * g_unix_socket_address_abstract_names_supported:
  *
@@ -35801,6 +37852,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:461 */
 /**
  * g_unix_socket_address_get_address_type:
  * @address: a #GInetSocketAddress
@@ -35812,6 +37864,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:477 */
 /**
  * g_unix_socket_address_get_is_abstract:
  * @address: a #GInetSocketAddress
@@ -35824,6 +37877,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:422 */
 /**
  * g_unix_socket_address_get_path:
  * @address: a #GInetSocketAddress
@@ -35840,6 +37894,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:443 */
 /**
  * g_unix_socket_address_get_path_len:
  * @address: a #GInetSocketAddress
@@ -35853,6 +37908,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:314 */
 /**
  * g_unix_socket_address_new:
  * @path: the socket path
@@ -35867,6 +37923,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:336 */
 /**
  * g_unix_socket_address_new_abstract:
  * @path: (array length=path_len) (element-type gchar): the abstract name
@@ -35880,6 +37937,7 @@
  */
 
 
+/* gio/gunixsocketaddress.c:356 */
 /**
  * g_unix_socket_address_new_with_type:
  * @path: (array length=path_len) (element-type gchar): the name
@@ -35920,6 +37978,7 @@
  */
 
 
+/* gio/gvfs.c:187 */
 /**
  * g_vfs_get_default:
  *
@@ -35929,6 +37988,7 @@
  */
 
 
+/* gio/gvfs.c:76 */
 /**
  * g_vfs_get_file_for_path:
  * @vfs: a #GVfs.
@@ -35941,6 +38001,7 @@
  */
 
 
+/* gio/gvfs.c:100 */
 /**
  * g_vfs_get_file_for_uri:
  * @vfs: a#GVfs.
@@ -35957,6 +38018,7 @@
  */
 
 
+/* gio/gvfs.c:204 */
 /**
  * g_vfs_get_local:
  *
@@ -35966,6 +38028,7 @@
  */
 
 
+/* gio/gvfs.c:136 */
 /**
  * g_vfs_get_supported_uri_schemes:
  * @vfs: a #GVfs.
@@ -35978,6 +38041,7 @@
  */
 
 
+/* gio/gvfs.c:54 */
 /**
  * g_vfs_is_active:
  * @vfs: a #GVfs.
@@ -35989,6 +38053,7 @@
  */
 
 
+/* gio/gvfs.c:158 */
 /**
  * g_vfs_parse_name:
  * @vfs: a #GVfs.
@@ -36003,6 +38068,7 @@
  */
 
 
+/* gio/gvolume.c:284 */
 /**
  * g_volume_can_eject:
  * @volume: a #GVolume.
@@ -36013,6 +38079,7 @@
  */
 
 
+/* gio/gvolume.c:261 */
 /**
  * g_volume_can_mount:
  * @volume: a #GVolume.
@@ -36023,6 +38090,7 @@
  */
 
 
+/* gio/gvolume.c:407 */
 /**
  * g_volume_eject:
  * @volume: a #GVolume.
@@ -36039,6 +38107,7 @@
  */
 
 
+/* gio/gvolume.c:446 */
 /**
  * g_volume_eject_finish:
  * @volume: pointer to a #GVolume.
@@ -36053,6 +38122,7 @@
  */
 
 
+/* gio/gvolume.c:478 */
 /**
  * g_volume_eject_with_operation:
  * @volume: a #GVolume.
@@ -36071,6 +38141,7 @@
  */
 
 
+/* gio/gvolume.c:526 */
 /**
  * g_volume_eject_with_operation_finish:
  * @volume: a #GVolume.
@@ -36086,6 +38157,7 @@
  */
 
 
+/* gio/gvolume.c:592 */
 /**
  * g_volume_enumerate_identifiers:
  * @volume: a #GVolume
@@ -36099,6 +38171,7 @@
  */
 
 
+/* gio/gvolume.c:617 */
 /**
  * g_volume_get_activation_root:
  * @volume: a #GVolume
@@ -36139,6 +38212,7 @@
  */
 
 
+/* gio/gvolume.c:216 */
 /**
  * g_volume_get_drive:
  * @volume: a #GVolume.
@@ -36151,6 +38225,7 @@
  */
 
 
+/* gio/gvolume.c:138 */
 /**
  * g_volume_get_icon:
  * @volume: a #GVolume.
@@ -36163,6 +38238,7 @@
  */
 
 
+/* gio/gvolume.c:562 */
 /**
  * g_volume_get_identifier:
  * @volume: a #GVolume
@@ -36178,6 +38254,7 @@
  */
 
 
+/* gio/gvolume.c:238 */
 /**
  * g_volume_get_mount:
  * @volume: a #GVolume.
@@ -36190,6 +38267,7 @@
  */
 
 
+/* gio/gvolume.c:117 */
 /**
  * g_volume_get_name:
  * @volume: a #GVolume.
@@ -36201,6 +38279,7 @@
  */
 
 
+/* gio/gvolume.c:670 */
 /**
  * g_volume_get_sort_key:
  * @volume: A #GVolume.
@@ -36212,6 +38291,7 @@
  */
 
 
+/* gio/gvolume.c:160 */
 /**
  * g_volume_get_symbolic_icon:
  * @volume: a #GVolume.
@@ -36225,6 +38305,7 @@
  */
 
 
+/* gio/gvolume.c:191 */
 /**
  * g_volume_get_uuid:
  * @volume: a #GVolume.
@@ -36240,6 +38321,7 @@
  */
 
 
+/* gio/gunionvolumemonitor.c:615 */
 /**
  * g_volume_monitor_adopt_orphan_mount:
  * @mount: a #GMount object to find a parent for
@@ -36283,6 +38365,7 @@
  */
 
 
+/* gio/gunionvolumemonitor.c:553 */
 /**
  * g_volume_monitor_get:
  *
@@ -36293,6 +38376,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:276 */
 /**
  * g_volume_monitor_get_connected_drives:
  * @volume_monitor: a #GVolumeMonitor.
@@ -36306,6 +38390,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:369 */
 /**
  * g_volume_monitor_get_mount_for_uuid:
  * @volume_monitor: a #GVolumeMonitor.
@@ -36318,6 +38403,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:322 */
 /**
  * g_volume_monitor_get_mounts:
  * @volume_monitor: a #GVolumeMonitor.
@@ -36331,6 +38417,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:345 */
 /**
  * g_volume_monitor_get_volume_for_uuid:
  * @volume_monitor: a #GVolumeMonitor.
@@ -36343,6 +38430,7 @@
  */
 
 
+/* gio/gvolumemonitor.c:299 */
 /**
  * g_volume_monitor_get_volumes:
  * @volume_monitor: a #GVolumeMonitor.
@@ -36356,6 +38444,7 @@
  */
 
 
+/* gio/gvolume.c:331 */
 /**
  * g_volume_mount: (virtual mount_fn)
  * @volume: a #GVolume.
@@ -36371,6 +38460,7 @@
  */
 
 
+/* gio/gvolume.c:372 */
 /**
  * g_volume_mount_finish:
  * @volume: a #GVolume
@@ -36389,6 +38479,7 @@
  */
 
 
+/* gio/gvolume.c:307 */
 /**
  * g_volume_should_automount:
  * @volume: a #GVolume
@@ -36399,6 +38490,7 @@
  */
 
 
+/* gio/gwin32inputstream.c:235 */
 /**
  * g_win32_input_stream_get_close_handle:
  * @stream: a #GWin32InputStream
@@ -36411,6 +38503,7 @@
  */
 
 
+/* gio/gwin32inputstream.c:254 */
 /**
  * g_win32_input_stream_get_handle:
  * @stream: a #GWin32InputStream
@@ -36422,6 +38515,7 @@
  */
 
 
+/* gio/gwin32inputstream.c:180 */
 /**
  * g_win32_input_stream_new:
  * @handle: a Win32 file handle
@@ -36439,6 +38533,7 @@
  */
 
 
+/* gio/gwin32inputstream.c:211 */
 /**
  * g_win32_input_stream_set_close_handle:
  * @stream: a #GWin32InputStream
@@ -36451,6 +38546,7 @@
  */
 
 
+/* gio/gwin32outputstream.c:236 */
 /**
  * g_win32_output_stream_get_close_handle:
  * @stream: a #GWin32OutputStream
@@ -36463,6 +38559,7 @@
  */
 
 
+/* gio/gwin32outputstream.c:255 */
 /**
  * g_win32_output_stream_get_handle:
  * @stream: a #GWin32OutputStream
@@ -36474,6 +38571,7 @@
  */
 
 
+/* gio/gwin32outputstream.c:182 */
 /**
  * g_win32_output_stream_new:
  * @handle: a Win32 file handle
@@ -36489,6 +38587,7 @@
  */
 
 
+/* gio/gwin32outputstream.c:212 */
 /**
  * g_win32_output_stream_set_close_handle:
  * @stream: a #GWin32OutputStream
@@ -36501,6 +38600,7 @@
  */
 
 
+/* gio/gzlibcompressor.c:295 */
 /**
  * g_zlib_compressor_get_file_info:
  * @compressor: a #GZlibCompressor
@@ -36512,6 +38612,7 @@
  */
 
 
+/* gio/gzlibcompressor.c:270 */
 /**
  * g_zlib_compressor_new:
  * @format: The format to use for the compressed data
@@ -36524,6 +38625,7 @@
  */
 
 
+/* gio/gzlibcompressor.c:313 */
 /**
  * g_zlib_compressor_set_file_info:
  * @compressor: a #GZlibCompressor
@@ -36542,6 +38644,7 @@
  */
 
 
+/* gio/gzlibdecompressor.c:277 */
 /**
  * g_zlib_decompressor_get_file_info:
  * @decompressor: a #GZlibDecompressor
@@ -36557,6 +38660,7 @@
  */
 
 
+/* gio/gzlibdecompressor.c:255 */
 /**
  * g_zlib_decompressor_new:
  * @format: The format to use for the compressed data
@@ -36568,6 +38672,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3430 */
 /**
  * get_all_desktop_entries_for_mime_type:
  * @mime_type: a mime type.
@@ -36585,6 +38690,7 @@
  */
 
 
+/* gio/gdesktopappinfo.c:3396 */
 /**
  * mime_info_cache_reload:
  * @dir: directory path which needs reloading.
