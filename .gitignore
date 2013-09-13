@@ -143,3 +143,10 @@ docs/giscanner/_build/*
 tests/scanner/Regress-1.0-C
 tests/scanner/Regress-1.0-Gjs
 tests/scanner/Regress-1.0-Python
+
+#dieterv's stuff
+.settings
+.project
+.pydevproject
+.coverage
+htmlcov

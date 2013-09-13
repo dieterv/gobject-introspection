@@ -1085,13 +1085,13 @@ class GtkDocCommentBlockParser(object):
         comment_blocks = {}
 
         for (comment, filename, lineno) in comments:
-            try:
-                comment_block = self.parse_comment_block(comment, filename, lineno)
-            except Exception:
-                error('unrecoverable parse error, please file a GObject-Introspection bug'
-                      'report including the complete comment block at the indicated location.',
-                      Position(filename, lineno))
-                continue
+#            try:
+            comment_block = self.parse_comment_block(comment, filename, lineno)
+#            except Exception:
+#                error('unrecoverable parse error, please file a GObject-Introspection bug'
+#                      'report including the complete comment block at the indicated location.',
+#                      Position(filename, lineno))
+#                continue
 
             if comment_block is not None:
                 # Note: previous versions of this parser did not check if an identifier was
