@@ -211,12 +211,10 @@ ANN_SKIP = 'skip'
 ANN_TRANSFER = 'transfer'
 ANN_TYPE = 'type'
 ANN_UNREF_FUNC = 'unref-func'
-ANN_VFUNC = 'virtual'
 ANN_VALUE = 'value'
+ANN_VFUNC = 'virtual'
 
-GI_ANNS = [ANN_NULLABLE,
-           ANN_OPTIONAL,
-           ANN_ARRAY,
+GI_ANNS = [ANN_ARRAY,
            ANN_ATTRIBUTES,
            ANN_CLOSURE,
            ANN_CONSTRUCTOR,
@@ -227,6 +225,8 @@ GI_ANNS = [ANN_NULLABLE,
            ANN_IN,
            ANN_INOUT,
            ANN_METHOD,
+           ANN_NULLABLE,
+           ANN_OPTIONAL,
            ANN_OUT,
            ANN_REF_FUNC,
            ANN_RENAME_TO,
@@ -236,8 +236,8 @@ GI_ANNS = [ANN_NULLABLE,
            ANN_TRANSFER,
            ANN_TYPE,
            ANN_UNREF_FUNC,
-           ANN_VFUNC,
-           ANN_VALUE]
+           ANN_VALUE,
+           ANN_VFUNC]
 
 #   2) Deprecated GObject-Introspection annotations
 ANN_ALLOW_NONE = 'allow-none'
@@ -960,8 +960,8 @@ class GtkDocParameter(GtkDocAnnotatable):
     __slots__ = ('name', 'description')
 
     valid_annotations = (ANN_ALLOW_NONE, ANN_ARRAY, ANN_ATTRIBUTES, ANN_CLOSURE, ANN_DESTROY,
-                         ANN_ELEMENT_TYPE, ANN_IN, ANN_INOUT, ANN_OUT, ANN_SCOPE, ANN_SKIP,
-                         ANN_TRANSFER, ANN_TYPE, ANN_OPTIONAL, ANN_NULLABLE)
+                         ANN_ELEMENT_TYPE, ANN_IN, ANN_INOUT, ANN_NULLABLE, ANN_OPTIONAL, ANN_OUT,
+                         ANN_SCOPE, ANN_SKIP, ANN_TRANSFER, ANN_TYPE)
 
     def __init__(self, name, position=None):
         GtkDocAnnotatable.__init__(self, position)
@@ -983,8 +983,8 @@ class GtkDocTag(GtkDocAnnotatable):
 
     __slots__ = ('name', 'value', 'description')
 
-    valid_annotations = (ANN_ALLOW_NONE, ANN_ARRAY, ANN_ATTRIBUTES, ANN_ELEMENT_TYPE, ANN_SKIP,
-                         ANN_TRANSFER, ANN_TYPE, ANN_NULLABLE, ANN_OPTIONAL)
+    valid_annotations = (ANN_ALLOW_NONE, ANN_ARRAY, ANN_ATTRIBUTES, ANN_ELEMENT_TYPE, ANN_NULLABLE,
+                         ANN_OPTIONAL, ANN_SKIP, ANN_TRANSFER, ANN_TYPE)
 
     def __init__(self, name, position=None):
         GtkDocAnnotatable.__init__(self, position)
