@@ -5,7 +5,7 @@
 <test>
   <input>/**
  * test_parameter_missing_colon:
- * @param1: (allow-none) first parameter
+ * @param1: (nullable) first parameter
  *
  * Forgotten colon above will result in a warning.
  **/</input>
@@ -19,7 +19,7 @@
           <name>param1</name>
           <annotations>
             <annotation>
-              <name>allow-none</name>
+              <name>nullable</name>
             </annotation>
           </annotations>
           <description>first parameter</description>
@@ -28,14 +28,14 @@
       <description>Forgotten colon above will result in a warning.</description>
     </docblock>
     <messages>
-      <message>3: Warning: Test: missing ":" at column 25:
- * @param1: (allow-none) first parameter
-                        ^</message>
+      <message>3: Warning: Test: missing ":" at column 23:
+ * @param1: (nullable) first parameter
+                      ^</message>
     </messages>
   </parser>
   <output>/**
  * test_parameter_missing_colon:
- * @param1: (allow-none): first parameter
+ * @param1: (nullable): first parameter
  *
  * Forgotten colon above will result in a warning.
  */</output>
@@ -121,7 +121,7 @@
 <test>
   <input>/**
  * test_multiline_annotations_on_parameter:
- * @param1: (allow-none)
+ * @param1: (nullable)
  * (transfer full): first parameter
  *
  * Annotations spanning multiple lines are not valid
@@ -136,7 +136,7 @@
           <name>param1</name>
           <annotations>
             <annotation>
-              <name>allow-none</name>
+              <name>nullable</name>
             </annotation>
           </annotations>
           <description>
@@ -153,7 +153,7 @@
   </parser>
   <output>/**
  * test_multiline_annotations_on_parameter:
- * @param1: (allow-none):
+ * @param1: (nullable):
  * (transfer full): first parameter
  *
  * Annotations spanning multiple lines are not valid
@@ -163,7 +163,7 @@
 <test>
   <input>/**
  * test_multiline_annotations_on_parameter:
- * @param1: (allow-none): first parameter having a second line which looks
+ * @param1: (nullable): first parameter having a second line which looks
  * (like an annotation), but isn't. This should not result in a warning.
  *
  * Annotations spanning multiple lines are not valid
@@ -178,7 +178,7 @@
           <name>param1</name>
           <annotations>
             <annotation>
-              <name>allow-none</name>
+              <name>nullable</name>
             </annotation>
           </annotations>
           <description>first parameter having a second line which looks
@@ -190,7 +190,7 @@
   </parser>
   <output>/**
  * test_multiline_annotations_on_parameter:
- * @param1: (allow-none): first parameter having a second line which looks
+ * @param1: (nullable): first parameter having a second line which looks
  * (like an annotation), but isn't. This should not result in a warning.
  *
  * Annotations spanning multiple lines are not valid

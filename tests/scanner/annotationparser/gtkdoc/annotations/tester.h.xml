@@ -27,6 +27,11 @@
       </parameters>
       <description>small struct</description>
     </docblock>
+    <messages>
+      <message>3: Warning: Test: "allow-none" annotation has been deprecated, please use "nullable" or "optional" as appropriate:
+ * @that: (allow-none): eventualy points to something
+          ^</message>
+    </messages>
   </parser>
   <output>/**
  * GtkdocAnnotation:

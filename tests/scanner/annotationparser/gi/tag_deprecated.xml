@@ -61,7 +61,7 @@
  *
  * Tags (except Returns:) don't have annotations
  *
- * Deprecated: (allow-none): 2.24
+ * Deprecated: (nullable): 2.24
  **/</input>
   <parser>
     <docblock>

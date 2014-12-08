@@ -112,7 +112,7 @@
  *
  * Tags (except Returns:) don't have annotations
  *
- * Stability: (allow-none): Private
+ * Stability: (nullable): Private
  **/</input>
   <parser>
     <docblock>

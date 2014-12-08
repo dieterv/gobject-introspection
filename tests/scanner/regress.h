@@ -743,7 +743,7 @@ typedef struct _RegressTestObjClass     RegressTestObjClass;
 
 /**
  * RegressTestObj:
- * @bare: (allow-none):
+ * @bare: (nullable):
  */
 struct _RegressTestObj
 {
@@ -773,7 +773,7 @@ struct _RegressTestObjClass
 
   /**
    * RegressTestObjClass::allow_none_vfunc:
-   * @two: (allow-none): Another object
+   * @two: (nullable): Another object
    */
   void (*allow_none_vfunc) (RegressTestObj *obj, RegressTestObj *two);
 

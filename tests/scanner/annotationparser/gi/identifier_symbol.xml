@@ -381,7 +381,7 @@
   <input>/**
  * test_multiline_annotations_on_identifier: (skip)
  * (foreign)
- * @param1: (allow-none) (transfer full): first parameter
+ * @param1: (nullable) (transfer full): first parameter
  *
  * Annotations spanning multiple lines are not valid
  **/</input>
@@ -400,7 +400,7 @@
           <name>param1</name>
           <annotations>
             <annotation>
-              <name>allow-none</name>
+              <name>nullable</name>
             </annotation>
             <annotation>
               <name>transfer</name>
@@ -425,7 +425,7 @@ Annotations spanning multiple lines are not valid</description>
   </parser>
   <output>/**
  * test_multiline_annotations_on_identifier: (skip)
- * @param1: (allow-none) (transfer full): first parameter
+ * @param1: (nullable) (transfer full): first parameter
  *
  * (foreign)
  * Annotations spanning multiple lines are not valid

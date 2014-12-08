@@ -8,7 +8,7 @@
  *
  * Forgotten colon below will result in a warning.
  *
- * Returns: (allow-none) return value
+ * Returns: (nullable) return value
  **/</input>
   <parser>
     <docblock>
@@ -21,7 +21,7 @@
           <name>returns</name>
           <annotations>
             <annotation>
-              <name>allow-none</name>
+              <name>nullable</name>
             </annotation>
           </annotations>
           <description>return value</description>
@@ -29,9 +29,9 @@
       </tags>
     </docblock>
     <messages>
-      <message>6: Warning: Test: missing ":" at column 25:
- * Returns: (allow-none) return value
-                        ^</message>
+      <message>6: Warning: Test: missing ":" at column 23:
+ * Returns: (nullable) return value
+                      ^</message>
     </messages>
   </parser>
   <output>/**
@@ -39,7 +39,7 @@
  *
  * Forgotten colon below will result in a warning.
  *
- * Returns: (allow-none): return value
+ * Returns: (nullable): return value
  */</output>
 </test>
 
@@ -171,7 +171,7 @@ Moo: anything</description>
  *
  * Annotations spanning multiple lines are not valid
  *
- * Returns: (allow-none)
+ * Returns: (nullable)
  * (transfer full): something
  **/</input>
   <parser>
@@ -185,7 +185,7 @@ Moo: anything</description>
           <name>returns</name>
           <annotations>
             <annotation>
-              <name>allow-none</name>
+              <name>nullable</name>
             </annotation>
           </annotations>
           <description>
@@ -204,7 +204,7 @@ Moo: anything</description>
  *
  * Annotations spanning multiple lines are not valid
  *
- * Returns: (allow-none):
+ * Returns: (nullable):
  * (transfer full): something
  */</output>
 </test>
@@ -215,7 +215,7 @@ Moo: anything</description>
  *
  * Annotations spanning multiple lines are not valid
  *
- * Returns: (allow-none): Returns tag having a second line which looks
+ * Returns: (nullable): Returns tag having a second line which looks
  * (like an annotation), but isn't. This should not result in a warning.
  **/</input>
   <parser>
@@ -229,7 +229,7 @@ Moo: anything</description>
           <name>returns</name>
           <annotations>
             <annotation>
-              <name>allow-none</name>
+              <name>nullable</name>
             </annotation>
           </annotations>
           <description>Returns tag having a second line which looks
@@ -243,7 +243,7 @@ Moo: anything</description>
  *
  * Annotations spanning multiple lines are not valid
  *
- * Returns: (allow-none): Returns tag having a second line which looks
+ * Returns: (nullable): Returns tag having a second line which looks
  * (like an annotation), but isn't. This should not result in a warning.
  */</output>
 </test>

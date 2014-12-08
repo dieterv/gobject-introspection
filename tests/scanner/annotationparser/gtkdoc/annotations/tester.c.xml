@@ -144,6 +144,14 @@
         </tag>
       </tags>
     </docblock>
+    <messages>
+      <message>4: Warning: Test: "allow-none" annotation has been deprecated, please use "nullable" or "optional" as appropriate:
+ * @label: (allow-none): an optional string, which is used in ways too
+           ^</message>
+      <message>9: Warning: Test: "allow-none" annotation has been deprecated, please use "nullable" or "optional" as appropriate:
+ * Returns: (transfer full) (allow-none): Returns stuff which you have to
+                            ^</message>
+    </messages>
   </parser>
   <output>/**
  * annotation_allow_none:

@@ -1146,8 +1146,8 @@ gi_marshalling_tests_utf8_full_inout (gchar **utf8)
 
 /**
  * gi_marshalling_tests_init_function:
- * @n_args: (inout) (allow-none): number of args
- * @argv: (inout) (array length=n_args) (allow-none): args
+ * @n_args: (inout) (nullable): number of args
+ * @argv: (inout) (array length=n_args) (optional): args
  *
  * This is like gtk_init().
  */
@@ -4145,7 +4145,7 @@ static void
 /**
  * gi_marshalling_tests_object_vfunc_with_callback: (virtual vfunc_with_callback)
  * @callback: (scope call) (closure callback_data):
- * @callback_data: (allow-none):
+ * @callback_data: (nullable):
  */
 void
 gi_marshalling_tests_object_vfunc_with_callback (GIMarshallingTestsObject *
@@ -4384,7 +4384,7 @@ glong
 /**
  * gi_marshalling_tests_callback_owned_boxed:
  * @callback: (scope call) (closure callback_data):
- * @callback_data: (allow-none):
+ * @callback_data: (nullable):
  */
 glong
 gi_marshalling_tests_callback_owned_boxed (GIMarshallingTestsCallbackOwnedBoxed callback,
@@ -4824,8 +4824,8 @@ gi_marshalling_tests_int_return_out (gint *int_)
 * gi_marshalling_tests_int_two_in_utf8_two_in_with_allow_none:
 * @a: (in): Must be 1
 * @b: (in): Must be 2
-* @c: (in) (allow-none): Must be "3" or NULL
-* @d: (in) (allow-none): Must be "4" or NULL
+* @c: (in) (nullable): Must be "3" or NULL
+* @d: (in) (nullable): Must be "4" or NULL
 */
 void
 gi_marshalling_tests_int_two_in_utf8_two_in_with_allow_none (gint a, gint b, const gchar *c, const gchar *d)
@@ -4841,7 +4841,7 @@ gi_marshalling_tests_int_two_in_utf8_two_in_with_allow_none (gint a, gint b, con
 /**
 * gi_marshalling_tests_int_one_in_utf8_two_in_one_allows_none:
 * @a: (in): Must be 1
-* @b: (in) (allow-none): Must be "2" or NULL
+* @b: (in) (nullable): Must be "2" or NULL
 * @c: (in): Must be "3"
 */
 void
@@ -4857,8 +4857,8 @@ gi_marshalling_tests_int_one_in_utf8_two_in_one_allows_none (gint a, const gchar
  * gi_marshalling_tests_array_in_utf8_two_in:
  * @ints: (array length=length):
  * @length:
- * @a: (in) (allow-none): Must be "1" or NULL
- * @b: (in) (allow-none): Must be "2" or NULL
+ * @a: (in) (nullable): Must be "1" or NULL
+ * @b: (in) (nullable): Must be "2" or NULL
  */
 void
 gi_marshalling_tests_array_in_utf8_two_in (const gint *ints, gint length, const gchar *a, const gchar *b)
@@ -4878,9 +4878,9 @@ gi_marshalling_tests_array_in_utf8_two_in (const gint *ints, gint length, const 
 /**
  * gi_marshalling_tests_array_in_utf8_two_in_out_of_order:
  * @length:
- * @a: (in) (allow-none): Must be "1" or NULL
+ * @a: (in) (nullable): Must be "1" or NULL
  * @ints: (array length=length):
- * @b: (in) (allow-none): Must be "2" or NULL
+ * @b: (in) (nullable): Must be "2" or NULL
  */
 void
 gi_marshalling_tests_array_in_utf8_two_in_out_of_order (gint length, const gchar *a, const gint *ints, const gchar *b)
@@ -4921,8 +4921,8 @@ gi_marshalling_tests_gerror_array_in (gint *in_ints, GError **error)
 
 /**
  * gi_marshalling_tests_gerror_out:
- * @error: (out) (allow-none) (transfer full): location for the GError.
- * @debug: (out) (allow-none) (transfer full): location for the debug message
+ * @error: (out) (optional) (transfer full): location for the GError.
+ * @debug: (out) (optional) (transfer full): location for the debug message
  *
  * Inspired by gst_message_parse_error.
  */
@@ -4941,8 +4941,8 @@ gi_marshalling_tests_gerror_out (GError **error, gchar **debug)
 
 /**
  * gi_marshalling_tests_gerror_out_transfer_none:
- * @err: (out) (allow-none) (transfer none): location for the GError.
- * @debug: (out) (allow-none) (transfer none): location for the debug message
+ * @err: (out) (optional) (transfer none): location for the GError.
+ * @debug: (out) (optional) (transfer none): location for the debug message
  *
  * A variant of gi_marshalling_tests_gerror_out() which returns data the caller
  * must not free.

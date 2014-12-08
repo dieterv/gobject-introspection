@@ -48,6 +48,14 @@
         </tag>
       </tags>
     </docblock>
+    <messages>
+      <message>4: Warning: Test: "allow-none" annotation has been deprecated, please use "nullable" or "optional" as appropriate:
+ * @inoutarg: (inout) (allow-none): This is an argument test
+                      ^</message>
+      <message>8: Warning: Test: "allow-none" annotation has been deprecated, please use "nullable" or "optional" as appropriate:
+ * Return value: (allow-none): an int
+                 ^</message>
+    </messages>
   </parser>
   <output>/**
  * annotation_object_inout:

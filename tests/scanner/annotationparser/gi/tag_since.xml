@@ -117,7 +117,7 @@
  *
  * Tags (except Returns:) don't have annotations
  *
- * Since: (allow-none): 2.24
+ * Since: (nullable): 2.24
  **/</input>
   <parser>
     <docblock>

@@ -221,7 +221,7 @@ regress_test_closure_one_arg (GClosure *closure, int arg)
 /**
  * regress_test_closure_variant:
  * @closure: GClosure which takes one GVariant and returns a GVariant
- * @arg: (allow-none) (transfer none): a GVariant passed as argument to @closure
+ * @arg: (nullable) (transfer none): a GVariant passed as argument to @closure
  *
  * Return value: (transfer full): the return value of @closure
  */
@@ -569,7 +569,7 @@ regress_test_utf8_out_nonconst_return (char **out)
 
 /**
  * regress_test_utf8_null_in:
- * @in: (allow-none):
+ * @in: (nullable):
  */
 void
 regress_test_utf8_null_in (char *in)
@@ -579,7 +579,7 @@ regress_test_utf8_null_in (char *in)
 
 /**
  * regress_test_utf8_null_out:
- * @char_out: (allow-none) (out):
+ * @char_out: (optional) (out):
  */
 void regress_test_utf8_null_out (char **char_out)
 {
@@ -886,7 +886,7 @@ regress_test_array_int_none_out(int *len)
 
 /**
  * regress_test_array_int_null_in:
- * @arr: (array length=len) (allow-none):
+ * @arr: (array length=len) (nullable):
  * @len: length
  */
 void
@@ -897,7 +897,7 @@ regress_test_array_int_null_in (int *arr, int len)
 
 /**
  * regress_test_array_int_null_out:
- * @arr: (out) (array length=len) (allow-none):
+ * @arr: (out) (array length=len) (optional):
  * @len: (out) : length
  */
 void
@@ -1011,7 +1011,7 @@ regress_test_glist_nothing_in2 (GList *in)
 
 /**
  * regress_test_glist_null_in:
- * @in: (element-type utf8) (allow-none):
+ * @in: (element-type utf8) (nullable):
  */
 void
 regress_test_glist_null_in (GSList *in)
@@ -1021,7 +1021,7 @@ regress_test_glist_null_in (GSList *in)
 
 /**
  * regress_test_glist_null_out:
- * @out_list: (out) (element-type utf8) (allow-none):
+ * @out_list: (out) (element-type utf8) (optional):
  */
 void
 regress_test_glist_null_out (GSList **out_list)
@@ -1132,7 +1132,7 @@ regress_test_gslist_nothing_in2 (GSList *in)
 
 /**
  * regress_test_gslist_null_in:
- * @in: (element-type utf8) (allow-none):
+ * @in: (element-type utf8) (nullable):
  */
 void
 regress_test_gslist_null_in (GSList *in)
@@ -1142,7 +1142,7 @@ regress_test_gslist_null_in (GSList *in)
 
 /**
  * regress_test_gslist_null_out:
- * @out_list: (out) (element-type utf8) (allow-none):
+ * @out_list: (out) (element-type utf8) (optional):
  */
 void
 regress_test_gslist_null_out (GSList **out_list)
@@ -1194,7 +1194,7 @@ regress_test_table_ghash_const (void)
 /**
  * regress_test_ghash_null_return:
  *
- * Return value: (element-type utf8 utf8) (transfer none) (allow-none):
+ * Return value: (element-type utf8 utf8) (transfer none):
  */
 const GHashTable *
 regress_test_ghash_null_return (void)
@@ -1373,7 +1373,7 @@ assert_test_table_ghash (const GHashTable *in)
 
 /**
  * regress_test_ghash_null_in:
- * @in: (element-type utf8 utf8) (allow-none):
+ * @in: (element-type utf8 utf8) (nullable):
  */
 void
 regress_test_ghash_null_in (const GHashTable *in)
@@ -1383,7 +1383,7 @@ regress_test_ghash_null_in (const GHashTable *in)
 
 /**
  * regress_test_ghash_null_out:
- * @out: (element-type utf8 utf8) (allow-none) (out):
+ * @out: (element-type utf8 utf8) (optional) (out):
  */
 void
 regress_test_ghash_null_out (const GHashTable **out)
@@ -2260,7 +2260,7 @@ regress_test_obj_class_init (RegressTestObjClass *klass)
   /**
    * RegressTestObj::sig-with-array-len-prop:
    * @self: an object
-   * @arr: (array length=len) (element-type uint) (allow-none): numbers, or %NULL
+   * @arr: (array length=len) (element-type uint) (nullable): numbers, or %NULL
    * @len: length of @arr, or 0
    *
    * This test signal similar to GSettings::change-event
@@ -2639,7 +2639,7 @@ regress_test_obj_new_from_file (const char *x, GError **error)
 
 /**
  * regress_test_obj_set_bare:
- * @bare: (allow-none):
+ * @bare: (nullable):
  */
 void
 regress_test_obj_set_bare (RegressTestObj *obj, GObject *bare)
@@ -2965,7 +2965,7 @@ regress_test_obj_do_matrix (RegressTestObj *obj, const char *somestr)
 
 /**
  * regress_func_obj_null_in:
- * @obj: (allow-none): A #RegressTestObj
+ * @obj: (nullable): A #RegressTestObj
  */
 void
 regress_func_obj_null_in (RegressTestObj *obj)
@@ -2974,7 +2974,7 @@ regress_func_obj_null_in (RegressTestObj *obj)
 
 /**
  * regress_test_obj_null_out:
- * @obj: (allow-none) (out): A #RegressTestObj
+ * @obj: (out) (optional): A #RegressTestObj
  */
 void
 regress_test_obj_null_out (RegressTestObj **obj)
@@ -3334,7 +3334,7 @@ regress_test_fundamental_sub_object_new (const char * data)
 
 /**
  * regress_test_callback:
- * @callback: (scope call) (allow-none):
+ * @callback: (scope call) (nullable):
  *
  **/
 int
@@ -3347,7 +3347,7 @@ regress_test_callback (RegressTestCallback callback)
 
 /**
  * regress_test_multi_callback:
- * @callback: (scope call) (allow-none):
+ * @callback: (scope call) (nullable):
  *
  **/
 int
@@ -3412,7 +3412,7 @@ regress_test_array_inout_callback (RegressTestCallbackArrayInOut callback)
 
 /**
  * regress_test_simple_callback:
- * @callback: (scope call) (allow-none):
+ * @callback: (scope call) (nullable):
  *
  **/
 void
@@ -3562,7 +3562,7 @@ regress_test_async_ready_callback (GAsyncReadyCallback callback)
 
 /**
  * regress_test_obj_instance_method_callback:
- * @callback: (scope call) (allow-none):
+ * @callback: (scope call) (nullable):
  *
  **/
 void
@@ -3574,7 +3574,7 @@ regress_test_obj_instance_method_callback (RegressTestObj *obj, RegressTestCallb
 
 /**
  * regress_test_obj_static_method_callback:
- * @callback: (scope call) (allow-none):
+ * @callback: (scope call) (nullable):
  *
  **/
 void

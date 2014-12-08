@@ -189,7 +189,6 @@ ANN_RPAR = ')'
 # GObject-Introspection annotations
 #   1) Supported annotations
 #      Note: when adding new annotations, GTK-Doc project's gtkdoc-mkdb needs to be modified too!
-ANN_ALLOW_NONE = 'allow-none'
 ANN_ARRAY = 'array'
 ANN_ATTRIBUTES = 'attributes'
 ANN_CLOSURE = 'closure'
@@ -215,8 +214,7 @@ ANN_UNREF_FUNC = 'unref-func'
 ANN_VFUNC = 'virtual'
 ANN_VALUE = 'value'
 
-GI_ANNS = [ANN_ALLOW_NONE,
-           ANN_NULLABLE,
+GI_ANNS = [ANN_NULLABLE,
            ANN_OPTIONAL,
            ANN_ARRAY,
            ANN_ATTRIBUTES,
@@ -242,10 +240,12 @@ GI_ANNS = [ANN_ALLOW_NONE,
            ANN_VALUE]
 
 #   2) Deprecated GObject-Introspection annotations
+ANN_ALLOW_NONE = 'allow-none'
 ANN_ATTRIBUTE = 'attribute'
 ANN_INOUT_ALT = 'in-out'
 
-DEPRECATED_GI_ANNS = [ANN_ATTRIBUTE,
+DEPRECATED_GI_ANNS = [ANN_ALLOW_NONE,
+                      ANN_ATTRIBUTE,
                       ANN_INOUT_ALT]
 
 ALL_ANNOTATIONS = GI_ANNS + DEPRECATED_GI_ANNS
@@ -1784,32 +1784,38 @@ class GtkDocCommentBlockParser(object):
         ann_name = parts[0].lower()
         ann_options = parts[1] if len(parts) == 2 else None
 
-        if ann_name == ANN_INOUT_ALT:
+        if ann_name in DEPRECATED_GI_ANNS:
             marker = ' ' * (column) + '^'
-            warn('"%s" annotation has been deprecated, please use "%s" instead:\n%s\n%s' %
-                 (ANN_INOUT_ALT, ANN_INOUT, line, marker),
-                 position)
+            if ann_name == ANN_INOUT_ALT:
+                warn('"%s" annotation has been deprecated, please use "%s" instead:\n%s\n%s' %
+                     (ANN_INOUT_ALT, ANN_INOUT, line, marker),
+                     position)
 
-            ann_name = ANN_INOUT
-        elif ann_name == ANN_ATTRIBUTE:
-            marker = ' ' * (column) + '^'
-            warn('"%s" annotation has been deprecated, please use "%s" instead:\n%s\n%s' %
-                 (ANN_ATTRIBUTE, ANN_ATTRIBUTES, line, marker),
-                 position)
+                ann_name = ANN_INOUT
+            elif ann_name == ANN_ATTRIBUTE:
+                warn('"%s" annotation has been deprecated, please use "%s" instead:\n%s\n%s' %
+                     (ANN_ATTRIBUTE, ANN_ATTRIBUTES, line, marker),
+                     position)
 
-            ann_name = ANN_ATTRIBUTES
-            ann_options = self._parse_annotation_options_list(position, column, line, ann_options)
-            n_options = len(ann_options)
-            if n_options == 1:
-                ann_options = ann_options[0]
-            elif n_options == 2:
-                ann_options = '%s=%s' % (ann_options[0], ann_options[1])
-            else:
-                marker = ' ' * (column) + '^'
-                error('malformed "(attribute)" annotation will be ignored:\n%s\n%s' %
-                      (line, marker),
-                      position)
-                return None, None
+                ann_name = ANN_ATTRIBUTES
+                ann_options = self._parse_annotation_options_list(position, column,
+                                                                  line, ann_options)
+                n_options = len(ann_options)
+                if n_options == 1:
+                    ann_options = ann_options[0]
+                elif n_options == 2:
+                    ann_options = '%s=%s' % (ann_options[0], ann_options[1])
+                else:
+                    marker = ' ' * (column) + '^'
+                    error('malformed "(attribute)" annotation will be ignored:\n%s\n%s' %
+                          (line, marker),
+                          position)
+                    return None, None
+            elif ann_name == ANN_ALLOW_NONE:
+                warn('"%s" annotation has been deprecated, please use "%s" or "%s" '
+                     'as appropriate:\n%s\n%s' %
+                     (ANN_ALLOW_NONE, ANN_NULLABLE, ANN_OPTIONAL, line, marker),
+                     position)
 
         column += len(ann_name) + 2
 

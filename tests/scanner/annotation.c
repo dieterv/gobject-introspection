@@ -275,7 +275,7 @@ regress_annotation_object_inout2 (RegressAnnotationObject *object, int *inoutarg
 /**
  * regress_annotation_object_inout3:
  * @object: a #GObject
- * @inoutarg: (inout) (allow-none): This is an argument test
+ * @inoutarg: (inout) (nullable): This is an argument test
  *
  * This is a 3th test for out arguments
  *
@@ -563,7 +563,7 @@ regress_annotation_object_set_data3 (RegressAnnotationObject *object,
 /**
  * regress_annotation_object_allow_none:
  * @object: a #GObject
- * @somearg: (allow-none):
+ * @somearg: (nullable):
  *
  * Returns: (transfer none): %NULL always
  **/
