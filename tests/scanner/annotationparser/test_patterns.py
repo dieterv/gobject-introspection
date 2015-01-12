@@ -930,9 +930,8 @@ globals().update(_all_tests)
 # Hook function for Python test loader.
 def load_tests(loader, tests, pattern):
     suite = unittest.TestSuite()
-    # add standard tests from module
-    suite.addTests(tests)
 
+    _all_tests = create_test_cases()
     for name, test_case in _all_tests.items():
         tests = loader.loadTestsFromTestCase(test_case)
         suite.addTests(tests)
