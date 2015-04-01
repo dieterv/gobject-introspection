@@ -23,6 +23,7 @@ import sys
 import tempfile
 import shutil
 import subprocess
+import time
 from xml.etree.cElementTree import parse
 
 from . import ast
@@ -171,7 +172,14 @@ blob containing data gleaned from GObject's primitive introspection."""
             return parse(out_path)
         finally:
             if not utils.have_debug_flag('save-temps'):
-                shutil.rmtree(self._binary.tmpdir)
+                def rmtree_onerror(func, path, exinfo):
+                    time.sleep(1)
+                    try:
+                        func(path)
+                    except:
+                        raise
+
+                shutil.rmtree(self._binary.tmpdir, False, rmtree_onerror)
 
     # Parser
 
