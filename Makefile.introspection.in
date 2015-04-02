@@ -131,6 +131,28 @@ $(if $(or $(findstring --header-only,$($(_gir_name)_SCANNERFLAGS)),
 # Only dependencies we know are actually filenames goes into _FILES, make
 # sure these are built before running the scanner. Libraries and programs
 # needs to be added manually.
+#ifdef OS_WIN32
+$(1): $$($(_gir_name)_FILES)
+	@ $(MKDIR_P) $(dir $(1))
+	@ echo $$^ > $(1).files
+	$(_gir_silent_scanner_prefix) $(_gir_default_scanner_env) $(INTROSPECTION_SCANNER_ENV) $(INTROSPECTION_SCANNER) $(_gir_silent_scanner_opts) \
+	$(INTROSPECTION_SCANNER_ARGS) \
+	  --namespace=$(_gir_namespace) \
+	  --nsversion=$(_gir_version) \
+	  $(_gir_libtool) \
+	  $(_gir_packages) \
+	  $(_gir_includes) \
+	  $(_gir_export_packages) \
+	  $(_gir_program) \
+	  $(_gir_libraries) \
+	  $($(_gir_name)_SCANNERFLAGS) \
+	  --cflags-begin \
+	  $($(_gir_name)_CFLAGS) \
+	  --cflags-end \
+	  $($(_gir_name)_LDFLAGS) \
+	  --args-file=$(1).files \
+	  --output $(1)
+#else
 $(1): $$($(_gir_name)_FILES)
 	@ $(MKDIR_P) $(dir $(1))
 	$(_gir_silent_scanner_prefix) $(_gir_default_scanner_env) $(INTROSPECTION_SCANNER_ENV) $(INTROSPECTION_SCANNER) $(_gir_silent_scanner_opts) \
@@ -150,6 +172,7 @@ $(1): $$($(_gir_name)_FILES)
 	  $($(_gir_name)_LDFLAGS) \
 	  $$^ \
 	  --output $(1)
+#endif
 endef
 
 $(foreach gir,$(INTROSPECTION_GIRS),$(eval $(call introspection-scanner,$(gir))))

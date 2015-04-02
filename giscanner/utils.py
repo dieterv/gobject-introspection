@@ -212,6 +212,35 @@ def which(program):
     return None
 
 
+def splitargs(args):
+    """"
+    Split args on space character, unless the space is inside double quotes.
+    """
+
+    splitargs = []
+    tmparg = ''
+    quotes = False
+
+    for char in args:
+        if char == '"':
+            if quotes:
+                quotes = False
+            else:
+                quotes = True
+
+        if char == ' ' and not quotes:
+            if tmparg != '':  # Prevent empty arguments, keeps things tidy
+                splitargs.append(tmparg)
+                tmparg = ''
+        else:
+            tmparg += char
+
+    if tmparg != '':  # Don't forget to append the last argument
+        splitargs.append(tmparg)
+
+    return splitargs
+
+
 def makedirs(name, mode=0o777, exist_ok=False):
     """Super-mkdir; create a leaf directory and all intermediate ones.  Works like
     mkdir, except that any intermediate path segment (not just the rightmost)

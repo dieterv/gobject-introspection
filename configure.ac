@@ -347,6 +347,11 @@ fi
 
 AC_SUBST(EXTRA_LINK_FLAGS)
 
+MAKEFILE_INTROSPECTION='$(top_builddir)/Makefile.introspection'
+INCLUDE_MAKEFILE_INTROSPECTION='include $(top_builddir)/Makefile.introspection'
+AC_SUBST([makefile_introspection], [${MAKEFILE_INTROSPECTION}])
+AC_SUBST([include_makefile_introspection], [${INCLUDE_MAKEFILE_INTROSPECTION}])
+
 AC_CONFIG_FILES([
 Makefile
 tests/Makefile

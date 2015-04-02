@@ -1,7 +1,8 @@
 NULL ?=
 
 include $(top_srcdir)/common.mk
-include $(top_srcdir)/Makefile.introspection
+include $(top_srcdir)/Makefile.introspection.mk
+@include_makefile_introspection@
 
 SUBDIRS = . annotationparser
 

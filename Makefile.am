@@ -15,7 +15,8 @@ EXTRA_PROGRAMS =
 TESTS =
 
 include common.mk
-include Makefile.introspection
+include Makefile.introspection.mk
+@include_makefile_introspection@
 
 include Makefile-cmph.am
 include Makefile-girepository.am
@@ -46,14 +47,20 @@ m4_DATA = m4/introspection.m4
 
 makedir = $(datadir)/gobject-introspection-1.0
 dist_make_DATA = Makefile.introspection
+CLEANFILES += $(top_builddir)/Makefile.introspection
+## Make will end up regenerating Makefile.introspection when it is cleaned
+## so there is no way to truly satisfy distclean.
+distcleancheck_listfiles = $(top_builddir)/Makefile.introspection
 
 EXTRA_DIST += 			\
 	COPYING.LGPL		\
 	COPYING.GPL		\
 	CONTRIBUTORS		\
+	Makefile.introspection.in	\
 	$(pkgconfig_DATA)	\
 	$(man_MANS)		\
 	$(m4_DATA)		\
+	build/preprocessor.py	\
 	misc/pep8.py		\
 	misc/pyflakes.py	\
 	misc/update-glib-annotations.py	\

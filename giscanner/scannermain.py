@@ -86,10 +86,18 @@ def get_preprocessor_option_group(parser):
 
 
 def get_windows_option_group(parser):
-    group = optparse.OptionGroup(parser, "Machine Dependent Options")
-    group.add_option("-m", help="some machine dependent option",
-                     action="append", dest='m_option',
-                     default=[])
+    group = optparse.OptionGroup(parser, "Windows Support Options")
+    group.add_option("", "--args-file",
+                     action="store", dest="args_file", default=None,
+                     help="""File holding real arguments for this process. This option is
+used to work around the 8192 character command line length limit imposed by CMD.EXE when
+building various packages' (notably GTK+) introspection support under MSYS/MinGW""")
+
+    msystemenv = os.environ.get('MSYSTEM')
+    if msystemenv and msystemenv.startswith('MINGW'):
+        group.add_option("-m", help="some machine dependent option",
+                         action="append", dest='m_option',
+                         default=[])
 
     return group
 
@@ -204,8 +212,7 @@ match the namespace prefix.""")
     group = get_preprocessor_option_group(parser)
     parser.add_option_group(group)
 
-    msystemenv = os.environ.get('MSYSTEM')
-    if msystemenv and msystemenv.startswith('MINGW'):
+    if os.name == 'nt':
         group = get_windows_option_group(parser)
         parser.add_option_group(group)
 
@@ -478,6 +485,15 @@ def write_output(data, options):
 def scanner_main(args):
     parser = _get_option_parser()
     (options, args) = parser.parse_args(args)
+
+    if os.name == 'nt' and options.args_file:
+        # Read real arguments from file
+        f = open(options.args_file, "rb")
+        files = f.read().strip()
+        f.close()
+
+        files = utils.splitargs(files)
+        args.extend(files)
 
     if options.passthrough_gir:
         passthrough_gir(options.passthrough_gir, sys.stdout)
