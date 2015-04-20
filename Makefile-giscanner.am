@@ -113,7 +113,7 @@ _giscanner_la_CFLAGS = \
 _giscanner_la_LIBADD = libgiscanner.la $(GOBJECT_LIBS)
 
 _giscanner_la_LDFLAGS = \
-	-module -avoid-version -export-symbols-regex init_giscanner
+	-no-undefined -module -avoid-version -export-symbols-regex init_giscanner
 
 if OS_WIN32
 # Windows requires Python extension modules to be explicitly
@@ -124,7 +124,6 @@ _giscanner_la_LIBADD += \
 	$(PYTHON_LIBS)
 
 _giscanner_la_LDFLAGS += \
-	-no-undefined \
 	-shrext ".pyd"
 endif
 

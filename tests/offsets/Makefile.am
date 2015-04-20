@@ -19,7 +19,7 @@ liboffsets_la_SOURCES = \
 	offsets.c
 liboffsets_la_CPPFLAGS = $(GIREPO_CFLAGS) $(GI_HIDDEN_VISIBILITY_CFLAGS) -I$(top_srcdir)/tests
 # dummy rpath to get built dynamically (huh?)
-liboffsets_la_LDFLAGS = -avoid-version -rpath $(libdir)
+liboffsets_la_LDFLAGS = -avoid-version -no-undefined -rpath $(libdir)
 
 Offsets-1.0.gir: liboffsets.la offsets.h
 Offsets_1_0_gir_INCLUDES = GObject-2.0

@@ -26,7 +26,7 @@ AM_CPPFLAGS = -I$(top_srcdir)/girepository
 AM_CFLAGS = $(GIO_CFLAGS) $(GOBJECT_CFLAGS) $(GTHREAD_CFLAGS) $(GI_HIDDEN_VISIBILITY_CFLAGS) $(GI_SCANNER_CFLAGS)
 # -rpath needed to force libtool to build a shared library for a check_LTLIBRARIES
 # target. See http://lists.gnu.org/archive/html/automake/2005-10/msg00107.html
-AM_LDFLAGS = -rpath /unused -avoid-version
+AM_LDFLAGS = -rpath /unused -avoid-version -no-undefined
 LIBS = $(GOBJECT_LIBS) $(GTHREAD_LIBS)
 
 libsletter_la_SOURCES = $(srcdir)/sletter.c $(srcdir)/sletter.h
@@ -67,11 +67,6 @@ if HAVE_CAIRO
 libregress_la_CFLAGS += $(CAIRO_CFLAGS)
 endif
 libregress_la_LDFLAGS = $(AM_LDFLAGS)
-
-
-if OS_WIN32
-AM_LDFLAGS += -no-undefined
-endif
 
 # .gir --[scanner]-> .typelib
 GIRS =
