@@ -1444,7 +1444,12 @@ uses a C sugar return type.</doc>
         </parameters>
       </method>
       <method name="is_it_time_yet"
+#ifdef OS_WIN32 and TIME_T_IS_64BIT
+              c:identifier="regress_foo_object_is_it_time_yet"
+              introspectable="0">
+#else
               c:identifier="regress_foo_object_is_it_time_yet">
+#endif
         <return-value transfer-ownership="none">
           <type name="none" c:type="void"/>
         </return-value>
@@ -1453,7 +1458,11 @@ uses a C sugar return type.</doc>
             <type name="FooObject" c:type="RegressFooObject*"/>
           </instance-parameter>
           <parameter name="time" transfer-ownership="none">
+#ifdef OS_WIN32 and TIME_T_IS_64BIT
+            <type name="long long" c:type="time_t"/>
+#else
             <type name="glong" c:type="time_t"/>
+#endif
           </parameter>
         </parameters>
       </method>
@@ -6290,13 +6299,27 @@ https://bugzilla.gnome.org/show_bug.cgi?id=685399</doc>
         </parameter>
       </parameters>
     </function>
+#ifdef OS_WIN32 and TIME_T_IS_64BIT
+    <function name="test_timet"
+              c:identifier="regress_test_timet"
+              introspectable="0">
+#else
     <function name="test_timet" c:identifier="regress_test_timet">
+#endif
       <return-value transfer-ownership="none">
+#ifdef OS_WIN32 and TIME_T_IS_64BIT
+        <type name="long long" c:type="time_t"/>
+#else
         <type name="glong" c:type="time_t"/>
+#endif
       </return-value>
       <parameters>
         <parameter name="in" transfer-ownership="none">
+#ifdef OS_WIN32 and TIME_T_IS_64BIT
+          <type name="long long" c:type="time_t"/>
+#else
           <type name="glong" c:type="time_t"/>
+#endif
         </parameter>
       </parameters>
     </function>

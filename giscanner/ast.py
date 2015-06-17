@@ -19,6 +19,8 @@
 # Boston, MA 02111-1307, USA.
 #
 
+import os
+import sys
 import copy
 from itertools import chain
 
@@ -311,8 +313,14 @@ type_names['FILE*'] = TYPE_ANY
 # methods are added under #ifdefs inside GLib itself.  We could just (skip)
 # the relevant methods, but on the other hand, since these types are just
 # integers it's easy enough to expand them.
+is_64bits = sys.maxsize > 2 ** 32
+if os.name == 'nt' and is_64bits:
+    # 64 bit Windows uses LLP64
+    type_names['time_t'] = TYPE_LONG_LONG
+else:
+    # the rest uses LP64
+    type_names['time_t'] = TYPE_LONG
 type_names['size_t'] = type_names['gsize']
-type_names['time_t'] = TYPE_LONG
 type_names['off_t'] = type_names['gsize']
 type_names['pid_t'] = TYPE_INT
 type_names['uid_t'] = TYPE_UINT

@@ -213,6 +213,9 @@ AC_CHECK_SIZEOF(char)
 AC_CHECK_SIZEOF(short)
 AC_CHECK_SIZEOF(int)
 AC_CHECK_SIZEOF(long)
+AC_CHECK_SIZEOF([time_t])
+AM_CONDITIONAL(TIME_T_IS_32BIT, [test "x$ac_cv_sizeof_time_t" = "x4"])
+AM_CONDITIONAL(TIME_T_IS_64BIT, [test "x$ac_cv_sizeof_time_t" = "x8"])
 
 PKG_CHECK_MODULES(GIREPO, [glib-2.0 >= 2.24.0 gobject-2.0 gmodule-2.0 gio-2.0])
 

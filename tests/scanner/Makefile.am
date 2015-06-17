@@ -68,8 +68,21 @@ libregress_la_CFLAGS += $(CAIRO_CFLAGS)
 endif
 libregress_la_LDFLAGS = $(AM_LDFLAGS)
 
-%-expected.gir: %-expected.gir.in Makefile
-	sed -e s,[@]SHLIB_SUFFIX[@],$(SHLIB_SUFFIX), < $(srcdir)/$*-expected.gir.in > $(builddir)/$*-expected.gir.tmp && mv $(builddir)/$*-expected.gir.tmp $(builddir)/$@
+expected_ppflags :=
+if TIME_T_IS_64BIT
+expected_ppflags += -D TIME_T_IS_64BIT
+endif
+if OS_WIN32
+expected_ppflags += -D OS_WIN32
+endif
+
+%-expected.gir: %-expected.gir.in $(top_srcdir)/build/preprocessor.py Makefile
+	sed -e s,[@]SHLIB_SUFFIX[@],$(SHLIB_SUFFIX), < $(srcdir)/$*-expected.gir.in > $(builddir)/$*-expected.gir.tmp
+	$(PYTHON) "$(top_srcdir)/build/preprocessor.py" \
+		$(expected_ppflags) \
+		--line-endings=lf \
+		--output="$(builddir)/$@" \
+		"$(builddir)/$*-expected.gir.tmp"
 
 # .gir --[scanner]-> .typelib
 GIRS =
