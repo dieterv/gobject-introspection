@@ -11,7 +11,7 @@ and/or use gtk-doc annotations.  -->
   <c:include name="gettype.h"/>
   <namespace name="GetType"
              version="1.0"
-             shared-library="libgettype.so"
+             shared-library="libgettype.@SHLIB_SUFFIX@"
              c:identifier-prefixes="GetType"
              c:symbol-prefixes="gettype">
     <class name="Object"

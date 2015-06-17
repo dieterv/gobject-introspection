@@ -95,6 +95,7 @@ if test "x$SHLIB_SUFFIX" = x; then
   AC_MSG_ERROR(Cannot determine shared library suffix from libtool)
 fi
 AC_DEFINE_UNQUOTED([SHLIB_SUFFIX], "$SHLIB_SUFFIX", [Define to the platform's shared library suffix])
+AC_SUBST(SHLIB_SUFFIX)
 
 # Copied from dbus configure.in
 #### find the actual value for $prefix that we'll end up with

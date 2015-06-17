@@ -11,7 +11,7 @@ and/or use gtk-doc annotations.  -->
   <c:include name="utility.h"/>
   <namespace name="Utility"
              version="1.0"
-             shared-library="libutility.so"
+             shared-library="libutility.@SHLIB_SUFFIX@"
              c:identifier-prefixes="Utility"
              c:symbol-prefixes="utility">
     <alias name="Glyph" c:type="UtilityGlyph">

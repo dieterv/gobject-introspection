@@ -12,7 +12,7 @@ and/or use gtk-doc annotations.  -->
   <c:include name="regress.h"/>
   <namespace name="Regress"
              version="1.0"
-             shared-library="libregress.so"
+             shared-library="libregress.@SHLIB_SUFFIX@"
              c:identifier-prefixes="Regress"
              c:symbol-prefixes="regress">
     <alias name="AliasedTestBoxed" c:type="RegressAliasedTestBoxed">

@@ -11,8 +11,18 @@ case $targetname in
 *.gir)
     len=${#targetname}
     limit=$(expr $len - 4)
-    diff -u -U 10 ${srcdir}/${targetname:0:${limit}}-expected.gir ${builddir}/${targetname}
-    exit $?
+    expectedname=${targetname:0:${limit}}-expected.gir
+
+    if [[ -e "${srcdir}/${expectedname}" ]]; then
+        diff -u -U 10 ${srcdir}/${expectedname} ${builddir}/${targetname}
+        exit $?
+    elif [[ -e "${builddir}/${expectedname}" ]]; then
+        diff -u -U 10 ${builddir}/${expectedname} ${builddir}/${targetname}
+        exit $?
+    else
+        echo \"${expectedname}\" not found in \"${srcdir}\" or \"${builddir}\" >&2
+        exit 1
+    fi
     ;;
 *.typelib)
     # Do nothing for typelibs, this just ensures they build as part of the tests
